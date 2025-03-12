@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "NatureGuardian"
 include(":app")
- 
+include(":backend")
