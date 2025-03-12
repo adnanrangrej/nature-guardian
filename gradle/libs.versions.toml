@@ -4,6 +4,7 @@ awsLambdaJavaCore = "1.2.3"
 converterGson = "2.11.0"
 dotenvKotlin = "6.5.1"
 dynamodbJvm = "1.4.38"
+firebaseBom = "33.10.0"
 gson = "2.12.1"
 kotlin = "2.1.10"
 coreKtx = "1.15.0"
@@ -16,6 +17,7 @@ composeBom = "2025.02.00"
 jetbrainsKotlinJvm = "2.1.10"
 retrofit = "2.11.0"
 johnrengelmanshadow = "8.1.1"
+gmsGoogleservices = "4.4.2"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -23,6 +25,8 @@ aws-lambda-java-core = { module = "com.amazonaws:aws-lambda-java-core", version.
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 dotenv-kotlin = { module = "io.github.cdimascio:dotenv-kotlin", version.ref = "dotenvKotlin" }
 dynamodb-jvm = { module = "aws.sdk.kotlin:dynamodb-jvm", version.ref = "dynamodbJvm" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
@@ -45,5 +49,5 @@ android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
-johnrengelman-shadow = { id = "com.github.johnrengelman.shadow", version.ref = "johnrengelmanshadow"}
-
+johnrengelman-shadow = { id = "com.github.johnrengelman.shadow", version.ref = "johnrengelmanshadow" }
+gms-google-services = { id = "com.google.gms.google-services", version.ref = "gmsGoogleservices" }
