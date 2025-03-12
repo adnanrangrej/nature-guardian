@@ -6,6 +6,9 @@ dotenvKotlin = "6.5.1"
 dynamodbJvm = "1.4.38"
 firebaseBom = "33.10.0"
 gson = "2.12.1"
+hiltAndroid = "2.55"
+hiltAndroidCompiler = "2.55"
+hiltNavigationCompose = "1.2.0"
 kotlin = "2.1.10"
 coreKtx = "1.15.0"
 junit = "4.13.2"
@@ -19,9 +22,12 @@ retrofit = "2.11.0"
 johnrengelmanshadow = "8.1.1"
 gmsGoogleservices = "4.4.2"
 firebaseMessaging = "24.1.0"
+daggerHiltAndroid = "2.55"
+ksp = "2.1.10-1.0.29"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
 aws-lambda-java-core = { module = "com.amazonaws:aws-lambda-java-core", version.ref = "awsLambdaJavaCore" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 dotenv-kotlin = { module = "io.github.cdimascio:dotenv-kotlin", version.ref = "dotenvKotlin" }
@@ -29,6 +35,8 @@ dynamodb-jvm = { module = "aws.sdk.kotlin:dynamodb-jvm", version.ref = "dynamodb
 firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -53,3 +61,5 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 johnrengelman-shadow = { id = "com.github.johnrengelman.shadow", version.ref = "johnrengelmanshadow" }
 gms-google-services = { id = "com.google.gms.google-services", version.ref = "gmsGoogleservices" }
+dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "daggerHiltAndroid"}
+devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}

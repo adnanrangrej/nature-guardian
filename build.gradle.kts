@@ -5,4 +5,6 @@ plugins {
     alias(libs.plugins.kotlin.compose) apply false
     alias(libs.plugins.jetbrains.kotlin.jvm) apply false
     alias(libs.plugins.gms.google.services) apply false
+    alias(libs.plugins.dagger.hilt.android) apply false
+    alias(libs.plugins.devtools.ksp) apply false
 }
