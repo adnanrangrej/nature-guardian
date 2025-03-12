@@ -8,6 +8,7 @@ import com.amazonaws.services.lambda.runtime.RequestHandler
 import com.github.adnanrangrej.backend.deviceregistration.model.TokenRequest
 import com.github.adnanrangrej.backend.deviceregistration.model.TokenResponse
 import com.github.adnanrangrej.backend.getPlatformApplicationArn
+import com.github.adnanrangrej.backend.getRegion
 import com.github.adnanrangrej.backend.getSnsTopicArn
 import com.google.gson.Gson
 import kotlinx.coroutines.runBlocking
@@ -17,6 +18,8 @@ class DeviceRegistration : RequestHandler<Any, TokenResponse> {
     private val platformApplicationArn = getPlatformApplicationArn()
 
     private val snsTopicArn = getSnsTopicArn()
+
+    private val region = getRegion()
 
     // Gson Object to parse input.
     private val gson = Gson()
@@ -46,7 +49,7 @@ class DeviceRegistration : RequestHandler<Any, TokenResponse> {
                 return@runBlocking TokenResponse(success = false, message = "Token is empty")
             }
 
-            SnsClient { region = "us-east-1" }.use { sns ->
+            SnsClient { region = this@DeviceRegistration.region }.use { sns ->
                 try {
 
                     // create device endpoint arn (identity of device) using device token
