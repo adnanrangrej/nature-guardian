@@ -67,6 +67,9 @@ dependencies {
     ksp(libs.hilt.android.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
 
+    // to load dotenv file
+    implementation(libs.dotenv.kotlin)
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
