@@ -43,6 +43,7 @@ class NewsNotifier : RequestHandler<Any, String> {
 
     private val service: NewsService = retrofit.create(NewsService::class.java)
 
+
     override fun handleRequest(input: Any, context: Context): String {
         return runBlocking {
             withContext(Dispatchers.IO) {
@@ -79,7 +80,15 @@ class NewsNotifier : RequestHandler<Any, String> {
                 var newTimestamp = lastPublishedAt ?: ""
                 articles.forEach { article ->
                     storeArticle(article)
-                    publishNotification("New conservation news: ${article.title} - Check out: ${article.url}")
+
+                    val jsonPayload = """
+    {
+      "default": "{\"title\": \"${article.title}\", \"body\": \"${article.description}\", \"url\": \"${article.url}\"}",
+      "GCM": "{\"notification\": {\"title\": \"${article.title}\", \"body\": \"${article.description}\", \"click_action\": \"OPEN_MAIN_ACTIVITY\"}}"
+    }
+""".trimIndent()
+
+                    publishNotification(jsonPayload)
                 }
                 newTimestamp = articles[0].publishedAt
 
