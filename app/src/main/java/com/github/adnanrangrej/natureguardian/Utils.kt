@@ -1,7 +1,16 @@
 package com.github.adnanrangrej.natureguardian
 
-import io.github.cdimascio.dotenv.Dotenv
+import io.github.cdimascio.dotenv.dotenv
 
-fun getBackendBaseUrl(): String {
-    return Dotenv.load()["BACKEND_BASE_URL"] ?: throw Exception("Backend api base url is missing.")
+
+object Utils {
+    val dotenv = dotenv {
+        directory = "/assets"
+        filename = "env"
+    }
+
+    fun getBackendBaseUrl(): String {
+        return dotenv["BACKEND_BASE_URL"] ?: throw Exception("Backend base URL is missing")
+    }
 }
+

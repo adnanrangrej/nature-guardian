@@ -1,6 +1,6 @@
 package com.github.adnanrangrej.natureguardian.notification.di
 
-import com.github.adnanrangrej.natureguardian.getBackendBaseUrl
+import com.github.adnanrangrej.natureguardian.Utils.getBackendBaseUrl
 import com.github.adnanrangrej.natureguardian.notification.network.BackendApiService
 import dagger.Module
 import dagger.Provides
