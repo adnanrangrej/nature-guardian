@@ -70,6 +70,9 @@ dependencies {
     // to load dotenv file
     implementation(libs.dotenv.kotlin)
 
+    // Gson
+    implementation(libs.gson)
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

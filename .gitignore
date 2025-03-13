@@ -19,3 +19,4 @@ google-services.json
 GoogleService-Info.plist
 
 .env
+env
