@@ -10,11 +10,13 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import javax.inject.Inject
+import javax.inject.Named
 
 @AndroidEntryPoint
 class NatureGuardianFCMService : FirebaseMessagingService() {
 
     @Inject
+    @Named("backend")
     lateinit var backendApiService: BackendApiService
 
     override fun onNewToken(token: String) {

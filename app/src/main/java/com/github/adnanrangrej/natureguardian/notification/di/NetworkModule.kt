@@ -8,6 +8,7 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import javax.inject.Named
 import javax.inject.Singleton
 
 @Module
@@ -16,6 +17,7 @@ object NetworkModule {
 
     @Provides
     @Singleton
+    @Named("backend")
     fun provideRetrofit(): Retrofit {
         return Retrofit.Builder()
             .baseUrl(getBackendBaseUrl())
@@ -25,7 +27,8 @@ object NetworkModule {
 
     @Provides
     @Singleton
-    fun provideBackendApiService(retrofit: Retrofit): BackendApiService {
+    @Named("backend")
+    fun provideBackendApiService(@Named("backend") retrofit: Retrofit): BackendApiService {
         return retrofit.create(BackendApiService::class.java)
     }
 }
