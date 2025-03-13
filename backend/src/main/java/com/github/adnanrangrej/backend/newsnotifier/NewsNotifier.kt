@@ -14,9 +14,12 @@ import com.github.adnanrangrej.backend.getRegion
 import com.github.adnanrangrej.backend.getSnsTopicArn
 import com.github.adnanrangrej.backend.newsnotifier.api.NewsService
 import com.github.adnanrangrej.backend.newsnotifier.model.Article
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withContext
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.io.IOException
 import java.time.Instant
 import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoUnit
@@ -42,53 +45,55 @@ class NewsNotifier : RequestHandler<Any, String> {
 
     override fun handleRequest(input: Any, context: Context): String {
         return runBlocking {
-            val logger = context.logger
+            withContext(Dispatchers.IO) {
+                val logger = context.logger
 
-            logger.log("NewsNotifer Lambda Triggered!!\n")
-            // Fetch lastPublishedAt from DB
-            val lastPublishedAt = getLastPublishedAt()
-            logger.log("Fetched lastPublishedAt from DynamoDB table: $lastPublishedAt\n")
+                logger.log("NewsNotifer Lambda Triggered!!\n")
+                // Fetch lastPublishedAt from DB
+                val lastPublishedAt = getLastPublishedAt()
+                logger.log("Fetched lastPublishedAt from DynamoDB table: $lastPublishedAt\n")
 
-            // Ensure we have a valid timestamp. If null, use a default value.
-            val parsedInstant = if (lastPublishedAt != null) {
-                Instant.parse(lastPublishedAt)
-            } else {
-                Instant.now().minus(1, ChronoUnit.DAYS)
+                // Ensure we have a valid timestamp. If null, use a default value.
+                val parsedInstant = if (lastPublishedAt != null) {
+                    Instant.parse(lastPublishedAt)
+                } else {
+                    Instant.now().minus(1, ChronoUnit.DAYS)
+                }
+
+                //add 1 sec
+                val newInstant = parsedInstant.plus(1, ChronoUnit.SECONDS)
+
+                val formattedTimestamp = DateTimeFormatter.ISO_INSTANT.format(newInstant)
+                logger.log("from publishedAt timestamp date: $formattedTimestamp\n")
+
+                // Fetch latest articles using the lastPublishedAt as a filter.
+                val articles = fetchLatestNews(formattedTimestamp)
+                logger.log("Fetched ${articles.size} articles from API\n")
+
+                if (articles.isEmpty()) {
+                    logger.log("No new articles found.\n")
+                    return@withContext "No new articles."
+                }
+
+                // Track the newest timestamp found among the new articles.
+                var newTimestamp = lastPublishedAt ?: ""
+                articles.forEach { article ->
+                    storeArticle(article)
+                    publishNotification("New conservation news: ${article.title} - Check out: ${article.url}")
+                }
+                newTimestamp = articles[0].publishedAt
+
+                // If a newer article is found, update the metadata and send a notification.
+                if (newTimestamp != lastPublishedAt && newTimestamp.isNotEmpty()) {
+                    updateLastPublishedAt(newTimestamp)
+                    logger.log("Updated lastPublishedAt to $newTimestamp\n")
+                } else {
+                    logger.log("No update to lastPublishedAt needed.\n")
+                }
+
+                logger.log("NewsNotifierLambda completed.\n")
+                return@withContext "Processed ${articles.size} articles."
             }
-
-            //add 1 sec
-            val newInstant = parsedInstant.plus(1, ChronoUnit.SECONDS)
-
-            val formattedTimestamp = DateTimeFormatter.ISO_INSTANT.format(newInstant)
-            logger.log("from publishedAt timestamp date: $formattedTimestamp\n")
-
-            // Fetch latest articles using the lastPublishedAt as a filter.
-            val articles = fetchLatestNews(formattedTimestamp)
-            logger.log("Fetched ${articles.size} articles from API\n")
-
-            if (articles.isEmpty()) {
-                logger.log("No new articles found.\n")
-                return@runBlocking "No new articles."
-            }
-
-            // Track the newest timestamp found among the new articles.
-            var newTimestamp = lastPublishedAt ?: ""
-            articles.forEach { article ->
-                storeArticle(article)
-                publishNotification("New conservation news: ${article.title} - Check out: ${article.url}")
-            }
-            newTimestamp = articles[0].publishedAt
-
-            // If a newer article is found, update the metadata and send a notification.
-            if (newTimestamp != lastPublishedAt && newTimestamp.isNotEmpty()) {
-                updateLastPublishedAt(newTimestamp)
-                logger.log("Updated lastPublishedAt to $newTimestamp\n")
-            } else {
-                logger.log("No update to lastPublishedAt needed.\n")
-            }
-
-            logger.log("NewsNotifierLambda completed.\n")
-            return@runBlocking "Processed ${articles.size} articles."
         }
     }
 
@@ -162,19 +167,21 @@ class NewsNotifier : RequestHandler<Any, String> {
     }
 
     // Fetch the latest news from Gnews API using retrofit service
-    private fun fetchLatestNews(lastPublishedAt: String?): List<Article> {
+    private suspend fun fetchLatestNews(lastPublishedAt: String?): List<Article> {
         val query = "biodiversity OR conservation"
-        val token = apiKey
 
-        val call = service.getNews(
-            query = query,
-            from = lastPublishedAt,
-            apiKey = token
-        )
-        val response = call.execute()
-        return if (response.isSuccessful) {
-            response.body()?.articles ?: emptyList()
-        } else {
+        return try {
+            val response = service.getNews(
+                query = query,
+                from = lastPublishedAt,
+                apiKey = apiKey
+            )
+            response.articles
+        } catch (e: IOException) {
+            println("Network error while fetching news: ${e.message}")
+            emptyList()
+        } catch (e: Exception) {
+            println("Unexpected error: ${e.localizedMessage}")
             emptyList()
         }
     }
