@@ -183,6 +183,7 @@ fun NatureGuardianTheme(
         MaterialTheme(
             colorScheme = finalColorScheme,
             typography = AppTypography,
+            shapes = AppShapes,
             content = content
         )
     }
