@@ -10,6 +10,7 @@ import com.amazonaws.services.lambda.runtime.Context
 import com.amazonaws.services.lambda.runtime.RequestHandler
 import com.github.adnanrangrej.backend.getApiKey
 import com.github.adnanrangrej.backend.getNewsArticlesTableName
+import com.github.adnanrangrej.backend.getNewsMetaDataTableName
 import com.github.adnanrangrej.backend.getRegion
 import com.github.adnanrangrej.backend.getSnsTopicArn
 import com.github.adnanrangrej.backend.newsnotifier.api.NewsService
@@ -27,6 +28,8 @@ import java.time.temporal.ChronoUnit
 class NewsNotifier : RequestHandler<Any, String> {
 
     private val newsArticleTableName = getNewsArticlesTableName()
+
+    private val newsMetaDataTableName = getNewsMetaDataTableName()
 
     // News API key
     private val apiKey = getApiKey()
@@ -112,7 +115,7 @@ class NewsNotifier : RequestHandler<Any, String> {
 
         val request = GetItemRequest {
             this.key = key
-            tableName = newsArticleTableName
+            tableName = newsMetaDataTableName
         }
         val result = DynamoDbClient { region = this@NewsNotifier.region }.use { ddb ->
             ddb.getItem(request)
@@ -127,7 +130,7 @@ class NewsNotifier : RequestHandler<Any, String> {
             "timestamp" to AttributeValue.S(newTimeStamp)
         )
         val request = PutItemRequest {
-            tableName = newsArticleTableName
+            tableName = newsMetaDataTableName
             this.item = item
         }
         DynamoDbClient { region = this@NewsNotifier.region }.use { ddb ->
@@ -138,13 +141,13 @@ class NewsNotifier : RequestHandler<Any, String> {
     // Put new articles in DynamoDB table
     private suspend fun storeArticle(article: Article) {
         val item = mapOf(
-            "id" to AttributeValue.S(article.url),
+            "id" to AttributeValue.S("News"),
+            "publishedAt" to AttributeValue.S(article.publishedAt),
             "title" to AttributeValue.S(article.title),
             "description" to AttributeValue.S(article.description),
             "content" to AttributeValue.S(article.content),
             "url" to AttributeValue.S(article.url),
             "image" to AttributeValue.S(article.image),
-            "publishedAt" to AttributeValue.S(article.publishedAt),
             "sourceName" to AttributeValue.S(article.source.name),
             "sourceUrl" to AttributeValue.S(article.source.url)
         )

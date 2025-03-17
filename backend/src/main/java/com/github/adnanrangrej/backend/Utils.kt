@@ -21,5 +21,9 @@ fun getPlatformApplicationArn(): String {
 }
 
 fun getNewsArticlesTableName(): String {
-    return System.getenv("DYNAMODB_NEWSARTICLES_TABLE_NAME") ?: Dotenv.load()["DYNAMODB_NEWSARTICLES_TABLE_NAME"] ?: throw Exception("Table name is missing")
+    return System.getenv("DYNAMODB_NEWSARTICLES_TABLE_NAME") ?: Dotenv.load()["DYNAMODB_NEWSARTICLES_TABLE_NAME"] ?: throw Exception("News Articles Table name is missing")
+}
+
+fun getNewsMetaDataTableName(): String {
+    return System.getenv("DYNAMODB_NEWMETADATA_TABLE_NAME") ?: Dotenv.load()["DYNAMODB_NEWMETADATA_TABLE_NAME"] ?: throw Exception("News Meta Data Table name is missing")
 }

@@ -11,7 +11,6 @@ interface NewsService {
         @Query("country") country: String = "in",
         @Query("from") from: String?,
         @Query("sortby") sortBy: String = "publishedAt",
-        @Query("max") max: Int = 10,
         @Query("apikey") apiKey: String
     ): NewsApiResponse
 }
