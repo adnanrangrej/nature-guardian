@@ -12,6 +12,7 @@ import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
+import androidx.core.graphics.drawable.IconCompat
 import coil3.ImageLoader
 import coil3.request.ImageRequest
 import coil3.request.SuccessResult
@@ -41,10 +42,11 @@ class NotificationRepositoryImpl(
             title,
             body,
             pendingIntent,
-            largeIcon,
+            R.drawable.notification_large_icon,
             channelId,
-            R.mipmap.ic_launcher,
-            R.color.brand_color
+            R.drawable.ic_notification,
+            R.color.brand_color,
+            largeIcon
         )
 
         // Create notification channel for Android O and above
@@ -97,22 +99,24 @@ class NotificationRepositoryImpl(
         title: String,
         body: String,
         pendingIntent: PendingIntent,
-        largeIcon: Bitmap?,
+        @DrawableRes largeIcon: Int,
         channelId: String,
         @DrawableRes smallIcon: Int,
-        @ColorRes brandColor: Int
+        @ColorRes brandColor: Int,
+        largeIconBitmap: Bitmap? = null
     ): NotificationCompat.Builder {
+        val icon = IconCompat.createWithResource(context, largeIcon).toIcon(context)
         return NotificationCompat.Builder(context, channelId)
             .setSmallIcon(smallIcon)
-            .setLargeIcon(largeIcon)
+            .setLargeIcon(icon)
             .setContentTitle(title)
             .setColor(context.getColor(brandColor))
             .setContentText(body)
             .setColorized(true)
             .setStyle(
                 NotificationCompat.BigPictureStyle()
-                    .bigPicture(largeIcon)
-                    .bigLargeIcon(largeIcon)
+                    .bigPicture(largeIconBitmap)
+                    .bigLargeIcon(largeIconBitmap)
             )
             .setPriority(NotificationCompat.PRIORITY_HIGH)
             .setContentIntent(pendingIntent)
