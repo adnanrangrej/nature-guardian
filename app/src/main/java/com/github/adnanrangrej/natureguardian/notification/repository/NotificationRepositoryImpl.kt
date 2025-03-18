@@ -16,7 +16,7 @@ import coil3.ImageLoader
 import coil3.request.ImageRequest
 import coil3.request.SuccessResult
 import coil3.toBitmap
-import com.github.adnanrangrej.natureguardian.MainActivity
+import com.github.adnanrangrej.natureguardian.NatureGuardianActivity
 import com.github.adnanrangrej.natureguardian.R
 import com.github.adnanrangrej.natureguardian.notification.model.DefaultPayload
 import com.github.adnanrangrej.natureguardian.notification.model.OuterPayload
@@ -136,7 +136,7 @@ class NotificationRepositoryImpl(
 
     private fun createPendingIntent(): PendingIntent {
         // Create intent to launch our app when notification is tapped
-        val intent = Intent(context, MainActivity::class.java).apply {
+        val intent = Intent(context, NatureGuardianActivity::class.java).apply {
             flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
         }
 
