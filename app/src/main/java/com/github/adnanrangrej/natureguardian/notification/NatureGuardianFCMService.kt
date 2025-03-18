@@ -50,7 +50,7 @@ class NatureGuardianFCMService : FirebaseMessagingService() {
                 defaultPayload?.let { payload ->
                     Log.d("NatureGuardianFCMService", "Parsed Title: ${payload.title}")
                     Log.d("NatureGuardianFCMService", "Parsed Body: ${payload.body}")
-                    Log.d("NatureGuardianFCMService", "Parsed URL: ${payload.url}")
+                    Log.d("NatureGuardianFCMService", "Parsed URL: ${payload.publishedAt}")
                     Log.d("NatureGuardianFCMService", "Parsed Image URL: ${payload.imgUrl}")
 
                     // Load Image and Show a notification

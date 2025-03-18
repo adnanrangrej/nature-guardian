@@ -86,7 +86,7 @@ class NewsNotifier : RequestHandler<Any, String> {
 
                     val jsonPayload = """
     {
-      "default": "{\"title\": \"${article.title}\", \"body\": \"${article.description}\", \"imgUrl\": \"${article.image}\", \"url\": \"${article.url}\"}",
+      "default": "{\"title\": \"${article.title}\", \"body\": \"${article.description}\", \"imgUrl\": \"${article.image}\", \"publishedAt\": \"${article.publishedAt}\"}",
       "GCM": "{\"notification\": {\"title\": \"${article.title}\", \"body\": \"${article.description}\", \"click_action\": \"OPEN_MAIN_ACTIVITY\"}}"
     }
 """.trimIndent()

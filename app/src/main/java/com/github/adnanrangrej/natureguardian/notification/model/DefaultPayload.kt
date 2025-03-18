@@ -5,5 +5,5 @@ data class DefaultPayload(
     val title: String,
     val body: String,
     val imgUrl: String,
-    val url: String? = null
+    val publishedAt: String
 )
