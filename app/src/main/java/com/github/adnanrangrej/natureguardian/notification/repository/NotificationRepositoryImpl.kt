@@ -18,9 +18,12 @@ import coil3.request.SuccessResult
 import coil3.toBitmap
 import com.github.adnanrangrej.natureguardian.MainActivity
 import com.github.adnanrangrej.natureguardian.R
+import com.github.adnanrangrej.natureguardian.notification.model.DefaultPayload
+import com.github.adnanrangrej.natureguardian.notification.model.OuterPayload
 import com.github.adnanrangrej.natureguardian.notification.model.TokenRequest
 import com.github.adnanrangrej.natureguardian.notification.model.TokenResponse
 import com.github.adnanrangrej.natureguardian.notification.network.BackendApiService
+import com.google.gson.Gson
 
 class NotificationRepositoryImpl(
     private val context: Context,
@@ -50,10 +53,10 @@ class NotificationRepositoryImpl(
             val channel = createNotificationChannel(channelId, channelName, channelDescription)
             notificationManager?.createNotificationChannel(channel)
         }
-        Log.d("NatureGuardianFCMService", "Notification created")
+        Log.d("NotificationRepository", "Notification created")
 
         notificationManager?.notify(notificationId, notification.build())
-        Log.d("NatureGuardianFCMService", "Displaying Notification")
+        Log.d("NotificationRepository", "Displaying Notification")
     }
 
     override suspend fun registerDevice(tokenRequest: TokenRequest): TokenResponse {
@@ -77,6 +80,17 @@ class NotificationRepositoryImpl(
         } else {
             null
         }
+    }
+
+    override fun parseNotificationData(jsonString: String): DefaultPayload? {
+        return try {
+            val outerPayload = Gson().fromJson(jsonString, OuterPayload::class.java)
+            Gson().fromJson(outerPayload.default, DefaultPayload::class.java)
+        } catch (e: Exception) {
+            Log.e("NotificationRepository", "Error parsing JSON: ${e.message}")
+            throw e
+        }
+
     }
 
     private fun createNotification(
