@@ -4,5 +4,6 @@ package com.github.adnanrangrej.natureguardian.notification.model
 data class DefaultPayload(
     val title: String,
     val body: String,
+    val imgUrl: String,
     val url: String? = null
 )
