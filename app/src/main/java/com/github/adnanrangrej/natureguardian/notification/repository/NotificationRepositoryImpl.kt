@@ -12,7 +12,6 @@ import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
-import androidx.core.graphics.drawable.IconCompat
 import coil3.ImageLoader
 import coil3.request.ImageRequest
 import coil3.request.SuccessResult
@@ -42,7 +41,6 @@ class NotificationRepositoryImpl(
             title,
             body,
             pendingIntent,
-            R.drawable.notification_large_icon,
             channelId,
             R.drawable.ic_notification,
             R.color.brand_color,
@@ -99,16 +97,14 @@ class NotificationRepositoryImpl(
         title: String,
         body: String,
         pendingIntent: PendingIntent,
-        @DrawableRes largeIcon: Int,
         channelId: String,
         @DrawableRes smallIcon: Int,
         @ColorRes brandColor: Int,
         largeIconBitmap: Bitmap? = null
     ): NotificationCompat.Builder {
-        val icon = IconCompat.createWithResource(context, largeIcon).toIcon(context)
         return NotificationCompat.Builder(context, channelId)
             .setSmallIcon(smallIcon)
-            .setLargeIcon(icon)
+            .setLargeIcon(largeIconBitmap)
             .setContentTitle(title)
             .setColor(context.getColor(brandColor))
             .setContentText(body)
