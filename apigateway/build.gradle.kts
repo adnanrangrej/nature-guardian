@@ -25,13 +25,6 @@ dependencies {
     // aws dynamodb
     implementation(libs.dynamodb.jvm)
 
-    // aws sns
-    implementation(libs.sns.jvm)
-
     // Gson
     implementation(libs.gson)
-
-    // retrofit
-    implementation(libs.retrofit)
-    implementation(libs.converter.gson)
 }

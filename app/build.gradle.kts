@@ -41,7 +41,10 @@ android {
         compose = true
     }
 }
-
+repositories {
+    google()       // For Android dependencies
+    mavenCentral() // General dependencies
+}
 dependencies {
 
     implementation(libs.androidx.core.ktx)
