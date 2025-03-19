@@ -19,6 +19,7 @@ lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.10.1"
 composeBom = "2025.03.00"
 jetbrainsKotlinJvm = "2.1.10"
+materialIconsExtended = "1.7.8"
 navigationCompose = "2.8.9"
 retrofit = "2.11.0"
 johnrengelmanshadow = "8.1.1"
@@ -30,6 +31,7 @@ ksp = "2.1.10-1.0.29"
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 aws-lambda-java-core = { module = "com.amazonaws:aws-lambda-java-core", version.ref = "awsLambdaJavaCore" }
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
