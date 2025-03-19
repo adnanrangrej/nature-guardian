@@ -1,7 +1,7 @@
 package com.github.adnanrangrej.natureguardian.di
 
 import android.content.Context
-import com.github.adnanrangrej.natureguardian.data.remote.api.BackendApiService
+import com.github.adnanrangrej.natureguardian.data.remote.api.notification.BackendApiService
 import com.github.adnanrangrej.natureguardian.data.repository.NotificationRepositoryImpl
 import com.github.adnanrangrej.natureguardian.domain.repository.NotificationRepository
 import dagger.Module

@@ -18,7 +18,7 @@ import coil3.request.SuccessResult
 import coil3.toBitmap
 import com.github.adnanrangrej.natureguardian.NatureGuardianActivity
 import com.github.adnanrangrej.natureguardian.R
-import com.github.adnanrangrej.natureguardian.data.remote.api.BackendApiService
+import com.github.adnanrangrej.natureguardian.data.remote.api.notification.BackendApiService
 import com.github.adnanrangrej.natureguardian.domain.model.notification.DefaultPayload
 import com.github.adnanrangrej.natureguardian.domain.model.notification.OuterPayload
 import com.github.adnanrangrej.natureguardian.domain.model.notification.TokenRequest

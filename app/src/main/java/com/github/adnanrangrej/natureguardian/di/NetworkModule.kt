@@ -1,7 +1,7 @@
 package com.github.adnanrangrej.natureguardian.di
 
 import com.github.adnanrangrej.natureguardian.Utils.getBackendBaseUrl
-import com.github.adnanrangrej.natureguardian.data.remote.api.BackendApiService
+import com.github.adnanrangrej.natureguardian.data.remote.api.notification.BackendApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
