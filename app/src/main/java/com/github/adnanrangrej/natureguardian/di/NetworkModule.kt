@@ -1,6 +1,7 @@
 package com.github.adnanrangrej.natureguardian.di
 
 import com.github.adnanrangrej.natureguardian.Utils.getBackendBaseUrl
+import com.github.adnanrangrej.natureguardian.data.remote.api.news.NewsApiService
 import com.github.adnanrangrej.natureguardian.data.remote.api.notification.BackendApiService
 import dagger.Module
 import dagger.Provides
@@ -30,5 +31,12 @@ object NetworkModule {
     @Named("backend")
     fun provideBackendApiService(@Named("backend") retrofit: Retrofit): BackendApiService {
         return retrofit.create(BackendApiService::class.java)
+    }
+
+    @Provides
+    @Singleton
+    @Named("news")
+    fun provideNewsApiService(@Named("backend") retrofit: Retrofit): NewsApiService {
+        return retrofit.create(NewsApiService::class.java)
     }
 }
