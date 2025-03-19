@@ -1,4 +1,4 @@
-package com.github.adnanrangrej.natureguardian.notification.model
+package com.github.adnanrangrej.natureguardian.domain.model.notification
 
 // Represents the notification data stored in the "default" field.
 data class DefaultPayload(

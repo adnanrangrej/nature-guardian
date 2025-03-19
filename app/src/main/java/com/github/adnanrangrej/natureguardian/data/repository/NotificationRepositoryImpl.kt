@@ -1,4 +1,4 @@
-package com.github.adnanrangrej.natureguardian.notification.repository
+package com.github.adnanrangrej.natureguardian.data.repository
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -18,11 +18,12 @@ import coil3.request.SuccessResult
 import coil3.toBitmap
 import com.github.adnanrangrej.natureguardian.NatureGuardianActivity
 import com.github.adnanrangrej.natureguardian.R
-import com.github.adnanrangrej.natureguardian.notification.model.DefaultPayload
-import com.github.adnanrangrej.natureguardian.notification.model.OuterPayload
-import com.github.adnanrangrej.natureguardian.notification.model.TokenRequest
-import com.github.adnanrangrej.natureguardian.notification.model.TokenResponse
-import com.github.adnanrangrej.natureguardian.notification.network.BackendApiService
+import com.github.adnanrangrej.natureguardian.data.remote.api.BackendApiService
+import com.github.adnanrangrej.natureguardian.domain.model.notification.DefaultPayload
+import com.github.adnanrangrej.natureguardian.domain.model.notification.OuterPayload
+import com.github.adnanrangrej.natureguardian.domain.model.notification.TokenRequest
+import com.github.adnanrangrej.natureguardian.domain.model.notification.TokenResponse
+import com.github.adnanrangrej.natureguardian.domain.repository.NotificationRepository
 import com.google.gson.Gson
 
 class NotificationRepositoryImpl(

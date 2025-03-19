@@ -1,4 +1,4 @@
-package com.github.adnanrangrej.natureguardian.notification.model
+package com.github.adnanrangrej.natureguardian.domain.model.notification
 
 // Represents the outer SNS payload structure.
 data class OuterPayload(

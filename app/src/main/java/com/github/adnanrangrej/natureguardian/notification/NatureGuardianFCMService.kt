@@ -1,8 +1,11 @@
 package com.github.adnanrangrej.natureguardian.notification
 
 import android.util.Log
-import com.github.adnanrangrej.natureguardian.notification.model.TokenRequest
-import com.github.adnanrangrej.natureguardian.notification.repository.NotificationRepository
+import com.github.adnanrangrej.natureguardian.domain.model.notification.TokenRequest
+import com.github.adnanrangrej.natureguardian.domain.usecase.notification.LoadBitmapFromUrlUseCase
+import com.github.adnanrangrej.natureguardian.domain.usecase.notification.ParseNotificationDataUseCase
+import com.github.adnanrangrej.natureguardian.domain.usecase.notification.RegisterDeviceUseCase
+import com.github.adnanrangrej.natureguardian.domain.usecase.notification.ShowNotificationUseCase
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 import dagger.hilt.android.AndroidEntryPoint
@@ -19,7 +22,16 @@ class NatureGuardianFCMService : FirebaseMessagingService() {
     private val serviceScope = CoroutineScope(Dispatchers.IO + serviceJob)
 
     @Inject
-    lateinit var notificationRepository: NotificationRepository
+    lateinit var registerDeviceUseCase: RegisterDeviceUseCase
+
+    @Inject
+    lateinit var loadBitmapFromUrlUseCase: LoadBitmapFromUrlUseCase
+
+    @Inject
+    lateinit var parseNotificationDataUseCase: ParseNotificationDataUseCase
+
+    @Inject
+    lateinit var showNotificationUseCase: ShowNotificationUseCase
 
     override fun onNewToken(token: String) {
         super.onNewToken(token)
@@ -29,7 +41,7 @@ class NatureGuardianFCMService : FirebaseMessagingService() {
         // send token to backend to register the device with sns
         serviceScope.launch {
             try {
-                val response = notificationRepository.registerDevice(tokenRequest)
+                val response = registerDeviceUseCase(tokenRequest)
                 Log.d("NatureGuardianFCMService", "Response: ${response.message}")
             } catch (e: Exception) {
                 Log.e("NatureGuardianFCMService", "Error registering device: ${e.message}")
@@ -46,7 +58,7 @@ class NatureGuardianFCMService : FirebaseMessagingService() {
         val outerJsonString = remoteMessage.data["default"]
         if (outerJsonString != null) {
             try {
-                val defaultPayload = notificationRepository.parseNotificationData(outerJsonString)
+                val defaultPayload = parseNotificationDataUseCase(outerJsonString)
                 defaultPayload?.let { payload ->
                     Log.d("NatureGuardianFCMService", "Parsed Title: ${payload.title}")
                     Log.d("NatureGuardianFCMService", "Parsed Body: ${payload.body}")
@@ -56,7 +68,7 @@ class NatureGuardianFCMService : FirebaseMessagingService() {
                     // Load Image and Show a notification
                     serviceScope.launch {
                         // Load the image from the URL
-                        val bitmap = notificationRepository.loadBitmapFromUrl(payload.imgUrl)
+                        val bitmap = loadBitmapFromUrlUseCase(payload.imgUrl)
                         if (bitmap != null) {
                             Log.d("NatureGuardianFCMService", "Image Loaded Successfully!")
                         } else {
@@ -64,7 +76,7 @@ class NatureGuardianFCMService : FirebaseMessagingService() {
                         }
 
                         // Show notification
-                        notificationRepository.showNotification(
+                        showNotificationUseCase(
                             payload.title,
                             payload.body,
                             bitmap

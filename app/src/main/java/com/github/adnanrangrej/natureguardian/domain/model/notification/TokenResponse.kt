@@ -1,4 +1,4 @@
-package com.github.adnanrangrej.natureguardian.notification.model
+package com.github.adnanrangrej.natureguardian.domain.model.notification
 
 // This response we will receive from api
 data class TokenResponse(

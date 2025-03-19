@@ -1,9 +1,9 @@
-package com.github.adnanrangrej.natureguardian.notification.repository
+package com.github.adnanrangrej.natureguardian.domain.repository
 
 import android.graphics.Bitmap
-import com.github.adnanrangrej.natureguardian.notification.model.DefaultPayload
-import com.github.adnanrangrej.natureguardian.notification.model.TokenRequest
-import com.github.adnanrangrej.natureguardian.notification.model.TokenResponse
+import com.github.adnanrangrej.natureguardian.domain.model.notification.DefaultPayload
+import com.github.adnanrangrej.natureguardian.domain.model.notification.TokenRequest
+import com.github.adnanrangrej.natureguardian.domain.model.notification.TokenResponse
 
 interface NotificationRepository {
 

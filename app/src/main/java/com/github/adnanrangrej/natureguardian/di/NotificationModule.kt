@@ -1,9 +1,9 @@
-package com.github.adnanrangrej.natureguardian.notification.di
+package com.github.adnanrangrej.natureguardian.di
 
 import android.content.Context
-import com.github.adnanrangrej.natureguardian.notification.network.BackendApiService
-import com.github.adnanrangrej.natureguardian.notification.repository.NotificationRepository
-import com.github.adnanrangrej.natureguardian.notification.repository.NotificationRepositoryImpl
+import com.github.adnanrangrej.natureguardian.data.remote.api.BackendApiService
+import com.github.adnanrangrej.natureguardian.data.repository.NotificationRepositoryImpl
+import com.github.adnanrangrej.natureguardian.domain.repository.NotificationRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
