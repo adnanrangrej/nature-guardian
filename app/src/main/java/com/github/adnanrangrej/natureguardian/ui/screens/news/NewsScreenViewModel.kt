@@ -51,7 +51,7 @@ class NewsScreenViewModel @Inject constructor(
 
         _uiState.update { currentState ->
             if (currentState is NewsScreenUiState.Success) {
-                currentState.copy(isLoadingMore = true)
+                currentState.copy(isLoadingMore = true, loadMoreError = false)
             } else {
                 currentState
             }

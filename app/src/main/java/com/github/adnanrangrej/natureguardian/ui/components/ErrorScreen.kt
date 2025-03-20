@@ -30,13 +30,12 @@ fun ErrorScreen(
             contentDescription = ""
         )
         Text(
-            text = stringResource(R.string.error_loading_image),
+            text = stringResource(R.string.error_loading_news),
             modifier = Modifier.padding(16.dp),
             color = MaterialTheme.colorScheme.error
         )
         Button(onClick = retryAction) {
             Text(text = stringResource(R.string.retry))
         }
-
     }
 }

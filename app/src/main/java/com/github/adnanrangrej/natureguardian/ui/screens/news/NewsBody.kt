@@ -5,7 +5,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.github.adnanrangrej.natureguardian.ui.components.ErrorScreen
-import com.github.adnanrangrej.natureguardian.ui.components.Loading
 
 @Composable
 fun NewsBody(
@@ -33,7 +32,7 @@ fun NewsBody(
         }
 
         is NewsScreenUiState.Loading -> {
-            Loading(modifier = modifier)
+            NewsItemListShimmer(modifier = modifier)
         }
     }
 }

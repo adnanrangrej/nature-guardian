@@ -2,23 +2,24 @@ package com.github.adnanrangrej.natureguardian.ui.screens.news
 
 import android.util.Log
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
-import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.snapshotFlow
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.PreviewScreenSizes
 import androidx.compose.ui.unit.dp
 import com.github.adnanrangrej.natureguardian.R
 import com.github.adnanrangrej.natureguardian.domain.model.news.NewsItem
-import com.github.adnanrangrej.natureguardian.ui.components.Loading
 import com.github.adnanrangrej.natureguardian.ui.theme.NatureGuardianTheme
 
 @Composable
@@ -41,31 +42,41 @@ fun NewsItemList(
         }
         item {
             if (isLoadingMore) {
-                Log.d("NewsItemList", "Showing Loading..")
-                Loading(Modifier.fillMaxWidth())
+                NewsItemCardShimmer()
             }
             if (loadMoreError) {
-                Log.d("NewsItemList", "Showing Error..")
-                Text(
-                    text = stringResource(R.string.error_loading_image),
-                    color = MaterialTheme.colorScheme.error,
-                    modifier = Modifier.fillMaxWidth()
-                )
+                Box(modifier = Modifier.fillMaxWidth()) {
+                    Button(
+                        modifier = Modifier.align(Alignment.Center),
+                        onClick = fetchMoreNews
+                    ) {
+                        Text(text = stringResource(R.string.retry))
+                    }
+                }
             }
         }
     }
     LaunchedEffect(listState) {
         snapshotFlow { listState.layoutInfo.visibleItemsInfo.lastOrNull()?.index }.collect { lastVisibleItemIndex ->
-                val totalItemsCount = listState.layoutInfo.totalItemsCount
-                Log.d(
-                    "NewsItemList",
-                    "lastVisibleItemIndex: $lastVisibleItemIndex, totalItemsCount: $totalItemsCount"
-                )
-                if (lastVisibleItemIndex != null && lastVisibleItemIndex >= totalItemsCount - 4) {
-                    Log.d("NewsItemList", "Fetching more news...")
-                    fetchMoreNews()
-                }
+            val totalItemsCount = listState.layoutInfo.totalItemsCount
+            Log.d(
+                "NewsItemList",
+                "lastVisibleItemIndex: $lastVisibleItemIndex, totalItemsCount: $totalItemsCount"
+            )
+            if (lastVisibleItemIndex != null && lastVisibleItemIndex >= totalItemsCount - 4) {
+                Log.d("NewsItemList", "Fetching more news...")
+                fetchMoreNews()
             }
+        }
+    }
+}
+
+@Composable
+fun NewsItemListShimmer(modifier: Modifier = Modifier) {
+    LazyColumn(modifier = modifier) {
+        items(10) {
+            NewsItemCardShimmer()
+        }
     }
 }
 

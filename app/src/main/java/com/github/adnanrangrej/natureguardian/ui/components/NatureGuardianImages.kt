@@ -1,6 +1,7 @@
 package com.github.adnanrangrej.natureguardian.ui.components
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
@@ -50,7 +51,7 @@ fun NatureGuardianImages(
         }
 
         is AsyncImagePainter.State.Loading -> {
-            Loading(modifier)
+            Box(modifier = modifier.shimmerEffect())
         }
 
         is AsyncImagePainter.State.Success -> {
