@@ -12,7 +12,7 @@ import androidx.compose.runtime.getValue
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavHostController
 import com.github.adnanrangrej.natureguardian.ui.navigation.destination.BottomNavItem
-import com.github.adnanrangrej.natureguardian.ui.navigation.destination.Screen
+import com.github.adnanrangrej.natureguardian.ui.navigation.destination.NatureGuardianScreen
 
 @Composable
 fun NatureGuardianBottomNavBar(
@@ -22,19 +22,19 @@ fun NatureGuardianBottomNavBar(
     val currentRoute = backStackEntry?.destination?.route
 
 
-    val items = listOf<BottomNavItem>(
+    val items = listOf(
         BottomNavItem(
-            screen = Screen.SpeciesScreen,
+            natureGuardianScreen = NatureGuardianScreen.SpeciesList,
             icon = Icons.Default.Home,
             label = "Species"
         ),
         BottomNavItem(
-            screen = Screen.NewsScreen,
+            natureGuardianScreen = NatureGuardianScreen.NewsList,
             icon = Icons.AutoMirrored.Default.List,
             label = "News"
         ),
         BottomNavItem(
-            screen = Screen.ProfileScreen,
+            natureGuardianScreen = NatureGuardianScreen.Profile,
             icon = Icons.Default.Person,
             label = "Profile"
         ),
@@ -43,9 +43,9 @@ fun NatureGuardianBottomNavBar(
     NavigationBar {
         items.forEach { item ->
             NavigationBarItem(
-                selected = item.screen.route == currentRoute,
+                selected = item.natureGuardianScreen.route == currentRoute,
                 onClick = {
-                    navController.navigate(item.screen.route)
+                    navController.navigate(item.natureGuardianScreen.route)
                 },
                 icon = {
                     Icon(
