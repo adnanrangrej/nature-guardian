@@ -8,7 +8,6 @@ import android.util.Log
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.github.adnanrangrej.natureguardian.ui.theme.NatureGuardianTheme
@@ -18,8 +17,6 @@ import dagger.hilt.android.AndroidEntryPoint
 class NatureGuardianActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-
         // Request permission for notifications on launch
         requestNotificationPermission()
 

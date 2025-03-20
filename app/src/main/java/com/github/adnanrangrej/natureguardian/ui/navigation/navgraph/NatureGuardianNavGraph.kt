@@ -7,6 +7,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.github.adnanrangrej.natureguardian.ui.navigation.destination.Screen
+import com.github.adnanrangrej.natureguardian.ui.screens.news.NewsScreen
 
 @Composable
 fun NatureGuardianNavGraph(
@@ -25,14 +26,14 @@ fun NatureGuardianNavGraph(
         }
 
         composable(route = Screen.NewsScreen.route) {
-            Text(text = "News Screen")
+            NewsScreen(
+                title = Screen.NewsScreen.title,
+                navigateToNewsDetail = {  }
+            )
         }
 
         composable(route = Screen.ProfileScreen.route) {
             Text(text = "Profile Screen")
         }
-
-
     }
-
 }
