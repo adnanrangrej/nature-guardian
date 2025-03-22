@@ -5,6 +5,6 @@ import com.github.adnanrangrej.natureguardian.domain.repository.NotificationRepo
 import javax.inject.Inject
 
 class ShowNotificationUseCase @Inject constructor(private val notificationRepository: NotificationRepository) {
-    operator fun invoke(title: String, body: String, largeIcon: Bitmap?) =
-        notificationRepository.showNotification(title, body, largeIcon)
+    operator fun invoke(title: String, body: String, largeIcon: Bitmap?, timestamp: String) =
+        notificationRepository.showNotification(title, body, largeIcon, timestamp)
 }

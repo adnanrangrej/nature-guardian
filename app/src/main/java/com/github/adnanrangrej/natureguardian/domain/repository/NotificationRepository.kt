@@ -7,7 +7,7 @@ import com.github.adnanrangrej.natureguardian.domain.model.notification.TokenRes
 
 interface NotificationRepository {
 
-    fun showNotification(title: String, body: String, largeIcon: Bitmap?)
+    fun showNotification(title: String, body: String, largeIcon: Bitmap?, timestamp: String)
 
     suspend fun registerDevice(tokenRequest: TokenRequest): TokenResponse
 

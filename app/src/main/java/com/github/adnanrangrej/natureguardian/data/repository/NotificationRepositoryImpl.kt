@@ -12,6 +12,7 @@ import androidx.annotation.ColorRes
 import androidx.annotation.DrawableRes
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
+import androidx.core.net.toUri
 import coil3.ImageLoader
 import coil3.request.ImageRequest
 import coil3.request.SuccessResult
@@ -34,9 +35,14 @@ class NotificationRepositoryImpl(
     private val apiService: BackendApiService
 ) : NotificationRepository {
 
-    override fun showNotification(title: String, body: String, largeIcon: Bitmap?) {
+    override fun showNotification(
+        title: String,
+        body: String,
+        largeIcon: Bitmap?,
+        timestamp: String
+    ) {
         val notificationId = System.currentTimeMillis().toInt()
-        val pendingIntent = createPendingIntent()
+        val pendingIntent = createPendingIntent(timestamp)
         // Create the Notification
         val notification = createNotification(
             title,
@@ -135,10 +141,11 @@ class NotificationRepositoryImpl(
         return channel
     }
 
-    private fun createPendingIntent(): PendingIntent {
-        // Create intent to launch our app when notification is tapped
+    private fun createPendingIntent(timestamp: String): PendingIntent {
+        val uri = "natureguardian://news/$timestamp".toUri()
         val intent = Intent(context, NatureGuardianActivity::class.java).apply {
-            flags = Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            data = uri
         }
 
         val pendingIntent = PendingIntent.getActivity(

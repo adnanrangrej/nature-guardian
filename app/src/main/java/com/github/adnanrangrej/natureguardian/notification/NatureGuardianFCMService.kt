@@ -79,7 +79,8 @@ class NatureGuardianFCMService : FirebaseMessagingService() {
                         showNotificationUseCase(
                             payload.title,
                             payload.body,
-                            bitmap
+                            bitmap,
+                            payload.publishedAt
                         )
                     }
                 }

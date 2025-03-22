@@ -1,5 +1,6 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.news.newsdetail
 
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
@@ -11,7 +12,7 @@ fun NewsDetailScreen(
 ) {
     val uiState = viewModel.uiState.collectAsState()
     NewsDetailBody(
-        modifier = Modifier,
+        modifier = Modifier.fillMaxSize(),
         uiState = uiState.value,
         onRetryClicked = viewModel::loadNewsItem
     )

@@ -1,7 +1,6 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.news.newsdetail
 
 import android.content.Intent
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -16,7 +15,6 @@ import androidx.core.net.toUri
 import com.github.adnanrangrej.natureguardian.R
 import com.github.adnanrangrej.natureguardian.domain.model.news.NewsItem
 import com.github.adnanrangrej.natureguardian.ui.components.ErrorScreen
-import com.github.adnanrangrej.natureguardian.ui.screens.news.newslist.NewsItemListShimmer
 import com.github.adnanrangrej.natureguardian.ui.theme.NatureGuardianTheme
 
 @Composable
@@ -26,14 +24,18 @@ fun NewsDetailBody(
     onRetryClicked: () -> Unit
 ) {
     val context = LocalContext.current
-    Column(
-        modifier = modifier,
-        verticalArrangement = Arrangement.SpaceBetween
-    ) {
-        when (uiState){
-            is NewsDetailsUiState.Error -> { ErrorScreen(retryAction = onRetryClicked) }
-            is NewsDetailsUiState.Loading -> { NewsItemListShimmer(modifier = Modifier) }
-            is NewsDetailsUiState.Success -> {
+
+    when (uiState) {
+        is NewsDetailsUiState.Error -> {
+            ErrorScreen(modifier = modifier, retryAction = onRetryClicked)
+        }
+
+        is NewsDetailsUiState.Loading -> {
+            NewsDetailCardShimmer(modifier = modifier)
+        }
+
+        is NewsDetailsUiState.Success -> {
+            Column(modifier = modifier) {
                 NewsDetailCard(
                     newsItem = uiState.newsItem,
                     modifier = Modifier.weight(1f)
@@ -54,9 +56,10 @@ fun NewsDetailBody(
                 }
             }
         }
-
     }
+
 }
+
 
 @Preview(showBackground = true)
 @Composable

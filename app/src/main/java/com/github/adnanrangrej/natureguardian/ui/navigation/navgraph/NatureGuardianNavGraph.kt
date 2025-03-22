@@ -11,6 +11,7 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import androidx.navigation.navDeepLink
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianBottomNavBar
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianTopAppBar
 import com.github.adnanrangrej.natureguardian.ui.navigation.destination.NatureGuardianScreen
@@ -76,7 +77,9 @@ fun NatureGuardianNavGraph(
                     navArgument("timestamp") {
                         type = NavType.StringType
                     }
-                )) {
+                ),
+                deepLinks = listOf(navDeepLink { uriPattern = "natureguardian://news/{timestamp}" })
+            ) {
                 NewsDetailScreen()
             }
 
