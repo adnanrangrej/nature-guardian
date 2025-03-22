@@ -1,4 +1,4 @@
-package com.github.adnanrangrej.natureguardian.ui.screens.news
+package com.github.adnanrangrej.natureguardian.ui.screens.news.newslist
 
 import com.github.adnanrangrej.natureguardian.domain.model.news.NewsResponse
 

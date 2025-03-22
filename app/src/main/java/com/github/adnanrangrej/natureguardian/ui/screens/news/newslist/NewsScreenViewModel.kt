@@ -1,4 +1,4 @@
-package com.github.adnanrangrej.natureguardian.ui.screens.news
+package com.github.adnanrangrej.natureguardian.ui.screens.news.newslist
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -17,7 +17,7 @@ import javax.inject.Inject
 @HiltViewModel
 class NewsScreenViewModel @Inject constructor(
     private val getAllNewsUseCase: GetAllNewsUseCase,
-    private val getAllNewsNextPageUseCase: GetAllNewsNextPageUseCase,
+    private val getAllNewsNextPageUseCase: GetAllNewsNextPageUseCase
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<NewsScreenUiState>(NewsScreenUiState.Loading)

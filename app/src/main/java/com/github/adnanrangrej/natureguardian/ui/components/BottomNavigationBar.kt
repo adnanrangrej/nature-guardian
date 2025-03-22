@@ -45,7 +45,9 @@ fun NatureGuardianBottomNavBar(
             NavigationBarItem(
                 selected = item.natureGuardianScreen.route == currentRoute,
                 onClick = {
-                    navController.navigate(item.natureGuardianScreen.route)
+                    if (item.natureGuardianScreen.route != currentRoute){
+                        navController.navigate(item.natureGuardianScreen.route)
+                    }
                 },
                 icon = {
                     Icon(

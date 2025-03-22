@@ -7,12 +7,15 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavHostController
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import androidx.navigation.navArgument
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianBottomNavBar
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianTopAppBar
 import com.github.adnanrangrej.natureguardian.ui.navigation.destination.NatureGuardianScreen
-import com.github.adnanrangrej.natureguardian.ui.screens.news.NewsScreen
+import com.github.adnanrangrej.natureguardian.ui.screens.news.newsdetail.NewsDetailScreen
+import com.github.adnanrangrej.natureguardian.ui.screens.news.newslist.NewsScreen
 import com.github.adnanrangrej.natureguardian.ui.screens.profile.ProfileScreen
 import com.github.adnanrangrej.natureguardian.ui.screens.species.SpeciesScreen
 
@@ -28,9 +31,9 @@ fun NatureGuardianNavGraph(
         currentRoute?.startsWith("species/") == true -> NatureGuardianScreen.SpeciesDetail
         currentRoute?.startsWith("news/") == true -> NatureGuardianScreen.NewsDetail
         currentRoute?.startsWith("map/") == true -> NatureGuardianScreen.Map
-        currentRoute == "species" -> NatureGuardianScreen.SpeciesList
-        currentRoute == "news" -> NatureGuardianScreen.NewsList
-        currentRoute == "profile" -> NatureGuardianScreen.Profile
+        currentRoute == NatureGuardianScreen.SpeciesList.route -> NatureGuardianScreen.SpeciesList
+        currentRoute == NatureGuardianScreen.NewsList.route -> NatureGuardianScreen.NewsList
+        currentRoute == NatureGuardianScreen.Profile.route -> NatureGuardianScreen.Profile
         else -> null
     }
 
@@ -40,7 +43,8 @@ fun NatureGuardianNavGraph(
             if (currentScreen?.showTopBar == true) {
                 NatureGuardianTopAppBar(
                     title = currentScreen.title,
-                    canNavigate = navController.previousBackStackEntry != null
+                    canNavigate = currentScreen.canNavigateBack,
+                    navigateUp = { navController.navigateUp() }
                 )
             }
 
@@ -62,7 +66,18 @@ fun NatureGuardianNavGraph(
             }
 
             composable(route = NatureGuardianScreen.NewsList.route) {
-                NewsScreen(navigateToNewsDetail = { })
+                NewsScreen(navigateToNewsDetail = { timestamp ->
+                    navController.navigate(NatureGuardianScreen.NewsDetail.createRoute(timestamp))
+                })
+            }
+
+            composable(
+                route = NatureGuardianScreen.NewsDetail.route, arguments = listOf(
+                    navArgument("timestamp") {
+                        type = NavType.StringType
+                    }
+                )) {
+                NewsDetailScreen()
             }
 
             composable(route = NatureGuardianScreen.Profile.route) {

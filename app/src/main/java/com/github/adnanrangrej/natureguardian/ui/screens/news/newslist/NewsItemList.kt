@@ -1,4 +1,4 @@
-package com.github.adnanrangrej.natureguardian.ui.screens.news
+package com.github.adnanrangrej.natureguardian.ui.screens.news.newslist
 
 import android.util.Log
 import androidx.compose.foundation.clickable

@@ -1,4 +1,4 @@
-package com.github.adnanrangrej.natureguardian.ui.screens.news
+package com.github.adnanrangrej.natureguardian.ui.screens.news.newslist
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable
