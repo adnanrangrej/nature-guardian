@@ -1,5 +1,6 @@
 package com.github.adnanrangrej.natureguardian.ui.components
 
+import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,7 +19,8 @@ import com.github.adnanrangrej.natureguardian.R
 @Composable
 fun ErrorScreen(
     retryAction: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    @StringRes errorMessage: Int
 ) {
     Column(
         modifier = modifier,
@@ -30,7 +32,7 @@ fun ErrorScreen(
             contentDescription = ""
         )
         Text(
-            text = stringResource(R.string.error_loading_news),
+            text = stringResource(errorMessage),
             modifier = Modifier.padding(16.dp),
             color = MaterialTheme.colorScheme.error
         )

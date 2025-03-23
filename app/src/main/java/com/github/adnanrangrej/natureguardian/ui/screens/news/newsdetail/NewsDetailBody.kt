@@ -27,7 +27,7 @@ fun NewsDetailBody(
 
     when (uiState) {
         is NewsDetailsUiState.Error -> {
-            ErrorScreen(modifier = modifier, retryAction = onRetryClicked)
+            ErrorScreen(modifier = modifier, retryAction = onRetryClicked, errorMessage = R.string.error_loading_news)
         }
 
         is NewsDetailsUiState.Loading -> {
