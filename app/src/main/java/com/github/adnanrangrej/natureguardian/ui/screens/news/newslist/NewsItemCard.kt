@@ -41,9 +41,9 @@ fun NewsItemCard(
     Card(
         modifier = modifier
             .fillMaxWidth(),
-        shape = NewsCardShape, // RoundedCornerShape(8.dp) from Shape.kt
+        shape = NewsCardShape,
         colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surface // #F8FFF0 (light) or #101410 (dark)
+            containerColor = MaterialTheme.colorScheme.surface
         ),
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
@@ -69,8 +69,8 @@ fun NewsItemCard(
                 // Title
                 Text(
                     text = newsItem.title,
-                    style = typography.titleMedium, // Montserrat SemiBold, 16.sp
-                    color = MaterialTheme.colorScheme.onSurface, // #191D17 (light) or #E0E6D8 (dark)
+                    style = typography.titleMedium,
+                    color = MaterialTheme.colorScheme.onSurface,
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis
                 )
@@ -83,8 +83,8 @@ fun NewsItemCard(
                 ) {
                     Text(
                         text = newsItem.sourceName,
-                        style = typography.labelMedium, // Montserrat Medium, 12.sp
-                        color = ExtendedTheme.colors.accentLeaf, // #8BC34A (bright leaf green)
+                        style = typography.labelMedium,
+                        color = ExtendedTheme.colors.accentLeaf,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis
                     )
@@ -94,7 +94,7 @@ fun NewsItemCard(
                     Icon(
                         imageVector = Icons.Default.AccessTime,
                         contentDescription = "Published At",
-                        tint = MaterialTheme.colorScheme.onSurfaceVariant, // #42493F (light) or #C2C8BB (dark)
+                        tint = MaterialTheme.colorScheme.onSurfaceVariant,
                         modifier = Modifier.size(16.dp)
                     )
 
@@ -102,7 +102,7 @@ fun NewsItemCard(
 
                     Text(
                         text = formatDate(newsItem.publishedAt),
-                        style = typography.labelMedium, // Montserrat Medium, 12.sp
+                        style = typography.labelMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis
@@ -114,7 +114,7 @@ fun NewsItemCard(
                     Spacer(modifier = Modifier.height(8.dp))
                     Text(
                         text = newsItem.description,
-                        style = typography.bodyMedium, // Montserrat Normal, 14.sp
+                        style = typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurface,
                         maxLines = 2,
                         overflow = TextOverflow.Ellipsis
