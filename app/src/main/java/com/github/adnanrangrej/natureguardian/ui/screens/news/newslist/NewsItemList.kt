@@ -3,12 +3,16 @@ package com.github.adnanrangrej.natureguardian.ui.screens.news.newslist
 import android.util.Log
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.Button
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -45,13 +49,28 @@ fun NewsItemList(
                 NewsItemCardShimmer()
             }
             if (loadMoreError) {
-                Box(modifier = Modifier.fillMaxWidth()) {
-                    Button(
-                        modifier = Modifier.align(Alignment.Center),
-                        onClick = fetchMoreNews
+                Box(
+                    modifier = Modifier
+                        .padding(16.dp)
+                        .size(100.dp)
+                        .fillMaxWidth()
+                ) {
+                    Column(
+                        modifier = Modifier.align(Alignment.Center)
                     ) {
-                        Text(text = stringResource(R.string.retry))
+                        Text(
+                            text = stringResource(id = R.string.error_loading_more_news),
+                            color = MaterialTheme.colorScheme.error,
+                            modifier = Modifier.align(Alignment.CenterHorizontally)
+                        )
+                        Button(
+                            onClick = { fetchMoreNews() },
+                            modifier = Modifier.align(Alignment.CenterHorizontally)
+                        ) {
+                            Text(text = stringResource(id = R.string.retry))
+                        }
                     }
+
                 }
             }
         }
