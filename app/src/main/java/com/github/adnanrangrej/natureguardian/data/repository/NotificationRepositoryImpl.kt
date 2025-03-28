@@ -116,7 +116,7 @@ class NotificationRepositoryImpl(
             .setStyle(
                 NotificationCompat.BigPictureStyle()
                     .bigPicture(largeIconBitmap)
-                    .bigLargeIcon(largeIconBitmap)
+                    .bigLargeIcon(null as Bitmap?)
             )
             .setPriority(NotificationCompat.PRIORITY_HIGH)
             .setContentIntent(pendingIntent)
