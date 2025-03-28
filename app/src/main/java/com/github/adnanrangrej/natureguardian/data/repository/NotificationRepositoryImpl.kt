@@ -9,7 +9,6 @@ import android.graphics.Bitmap
 import android.os.Build
 import android.util.Log
 import androidx.annotation.ColorRes
-import androidx.annotation.DrawableRes
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.core.net.toUri
@@ -49,7 +48,6 @@ class NotificationRepositoryImpl(
             body,
             pendingIntent,
             channelId,
-            R.drawable.ic_notification,
             R.color.brand_color,
             largeIcon
         )
@@ -105,12 +103,11 @@ class NotificationRepositoryImpl(
         body: String,
         pendingIntent: PendingIntent,
         channelId: String,
-        @DrawableRes smallIcon: Int,
         @ColorRes brandColor: Int,
         largeIconBitmap: Bitmap? = null
     ): NotificationCompat.Builder {
         return NotificationCompat.Builder(context, channelId)
-            .setSmallIcon(smallIcon)
+            .setSmallIcon(R.drawable.ic_notification)
             .setLargeIcon(largeIconBitmap)
             .setContentTitle(title)
             .setColor(context.getColor(brandColor))
