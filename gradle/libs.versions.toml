@@ -5,7 +5,7 @@ coilCompose = "3.1.0"
 converterGson = "2.11.0"
 dotenvKotlin = "6.5.1"
 dynamodbJvm = "1.4.46"
-firebaseBom = "33.11.0"
+firebaseBom = "33.12.0"
 gson = "2.12.1"
 hiltAndroid = "2.56"
 hiltAndroidCompiler = "2.56"
@@ -27,12 +27,16 @@ gmsGoogleservices = "4.4.2"
 firebaseMessaging = "24.1.1"
 daggerHiltAndroid = "2.55"
 ksp = "2.1.10-1.0.29"
+roomRuntime = "2.6.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
 androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 aws-lambda-java-core = { module = "com.amazonaws:aws-lambda-java-core", version.ref = "awsLambdaJavaCore" }
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
 coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coilCompose" }
