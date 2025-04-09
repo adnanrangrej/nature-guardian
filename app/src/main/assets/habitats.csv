@@ -1,0 +1,721 @@
+assessmentId,internalTaxonId,scientificName,code,name,majorImportance,season,suitability
+1419729,175221,Syzygium rama-varmae,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+1419729,175221,Syzygium rama-varmae,1.8,Forest - Subtropical/Tropical Swamp,Yes,Resident,Suitable
+1810810,186162,Raorchestes jayarami,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+1810810,186162,Raorchestes jayarami,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+48886614,48886608,Minervarya sengupti,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+48886614,48886608,Minervarya sengupti,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+48886614,48886608,Minervarya sengupti,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+48899453,48874314,Nyctibatrachus deveni,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+48899453,48874314,Nyctibatrachus deveni,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+48899453,48874314,Nyctibatrachus deveni,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+54035787,48874474,Nyctibatrachus acanthodermis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+54035787,48874474,Nyctibatrachus acanthodermis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+54035787,48874474,Nyctibatrachus acanthodermis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+54035787,48874474,Nyctibatrachus acanthodermis,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+54035787,48874474,Nyctibatrachus acanthodermis,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+54149121,48874286,Nyctibatrachus gavi,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+54149121,48874286,Nyctibatrachus gavi,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+54149121,48874286,Nyctibatrachus gavi,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+54149121,48874286,Nyctibatrachus gavi,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+54149239,48874266,Nyctibatrachus grandis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+54149239,48874266,Nyctibatrachus grandis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+54149239,48874266,Nyctibatrachus grandis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+54149411,48874250,Nyctibatrachus indraneili,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+54149411,48874250,Nyctibatrachus indraneili,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+54149566,48874225,Nyctibatrachus jog,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+54149566,48874225,Nyctibatrachus jog,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+54149566,48874225,Nyctibatrachus jog,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",Yes,Resident,Suitable
+54149566,48874225,Nyctibatrachus jog,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+54149735,48874189,Nyctibatrachus pillaii,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+54149735,48874189,Nyctibatrachus pillaii,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+54149741,48874217,Nyctibatrachus periyar,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+54149741,48874217,Nyctibatrachus periyar,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+54149741,48874217,Nyctibatrachus periyar,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+54149741,48874217,Nyctibatrachus periyar,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+54459738,48873111,Nyctibatrachus vrijeuni,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+54459738,48873111,Nyctibatrachus vrijeuni,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+54459738,48873111,Nyctibatrachus vrijeuni,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+54459738,48873111,Nyctibatrachus vrijeuni,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+54459738,48873111,Nyctibatrachus vrijeuni,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+56110474,48872923,Megophrys megacephala,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+56110474,48872923,Megophrys megacephala,5.2,Wetlands (inland) - Seasonal/Intermittent/Irregular Rivers/Streams/Creeks,Yes,Resident,Suitable
+62020480,177756483,Phoebe bootanica,1.4,Forest - Temperate,,,Suitable
+62020480,177756483,Phoebe bootanica,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+63853189,208598052,Amolops monticola,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+63853189,208598052,Amolops monticola,1.4,Forest - Temperate,Yes,Resident,Suitable
+73787000,73786986,Raorchestes aureus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73787322,73787038,Raorchestes blandus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73787384,73787369,Raorchestes echinatus,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+73788625,73788607,Hylarana flavescens,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73788625,73788607,Hylarana flavescens,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73788625,73788607,Hylarana flavescens,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73788770,73788764,Hylarana urbis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73788770,73788764,Hylarana urbis,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+73788770,73788764,Hylarana urbis,14.5,Artificial/Terrestrial - Urban Areas,,Resident,Marginal
+73788770,73788764,Hylarana urbis,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+73788770,73788764,Hylarana urbis,14.1,Artificial/Terrestrial - Arable Land,,Resident,Marginal
+73788787,73788782,Hylarana caesari,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73788787,73788782,Hylarana caesari,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73788787,73788782,Hylarana caesari,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73788842,73788833,Hylarana magna,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73788842,73788833,Hylarana magna,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73788842,73788833,Hylarana magna,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73788842,73788833,Hylarana magna,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+73959496,73959431,Micrixalus kurichiyari,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73959496,73959431,Micrixalus kurichiyari,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73960024,73960020,Micrixalus niluvasei,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73960024,73960020,Micrixalus niluvasei,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73960044,73960040,Micrixalus sairandhri,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73960044,73960040,Micrixalus sairandhri,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73962058,73961281,Micrixalus spelunca,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73962058,73961281,Micrixalus spelunca,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73963701,73963691,Micrixalus uttaraghati,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73963701,73963691,Micrixalus uttaraghati,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73964543,73964539,Micrixalus adonis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73964543,73964539,Micrixalus adonis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73964543,73964539,Micrixalus adonis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73965406,73965400,Micrixalus mallani,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73965406,73965400,Micrixalus mallani,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73965523,73965533,Micrixalus nudis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73965523,73965533,Micrixalus nudis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73967869,73967847,Micrixalus sali,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73967869,73967847,Micrixalus sali,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73967869,73967847,Micrixalus sali,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73967908,73967876,Micrixalus frigidus,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),No,Resident,Suitable
+73967908,73967876,Micrixalus frigidus,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73967908,73967876,Micrixalus frigidus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73967921,73967915,Micrixalus nigraventris,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73967921,73967915,Micrixalus nigraventris,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73971896,73971314,Micrixalus specca,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73971896,73971314,Micrixalus specca,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73971902,73972049,Micrixalus fuscus,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+73971902,73972049,Micrixalus fuscus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+73971902,73972049,Micrixalus fuscus,1.8,Forest - Subtropical/Tropical Swamp,Yes,Resident,Suitable
+73972656,73972645,Micrixalus herrei,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+73972656,73972645,Micrixalus herrei,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+86896338,191004,Minervarya chilapata,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+86896338,191004,Minervarya chilapata,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+86896338,191004,Minervarya chilapata,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,Resident,Suitable
+86897335,189814,Raorchestes resplendens,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+87721492,87739329,Raorchestes flaviventris,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+87721492,87739329,Raorchestes flaviventris,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+87739274,87739247,Ghatixalus magnus,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+87739274,87739247,Ghatixalus magnus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+87739274,87739247,Ghatixalus magnus,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+112691249,112690948,Nyctibatrachus athirappillyensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+112691249,112690948,Nyctibatrachus athirappillyensis,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+112691249,112690948,Nyctibatrachus athirappillyensis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+112691361,112691330,Nyctibatrachus pulivijayani,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+112691361,112691330,Nyctibatrachus pulivijayani,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+112691514,112691501,Nyctibatrachus sabarimalai,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+112691514,112691501,Nyctibatrachus sabarimalai,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+112691564,112691545,Nyctibatrachus webilla,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+112691564,112691545,Nyctibatrachus webilla,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+112691564,112691545,Nyctibatrachus webilla,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+115932944,36652,Aglaia malabarica,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+119040796,31199,Syzygium occidentale,1.6,Forest - Subtropical/Tropical Moist Lowland,No,Resident,Suitable
+119040796,31199,Syzygium occidentale,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+119040966,38821,Syzygium parameswaranii,1.9,Forest - Subtropical/Tropical Moist Montane,No,Resident,Suitable
+119044958,31170,Vateria macrocarpa,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+119243088,119243084,Indirana paramakri,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+119243088,119243084,Indirana paramakri,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+119243088,119243084,Indirana paramakri,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+119243088,119243084,Indirana paramakri,14.4,Artificial/Terrestrial - Rural Gardens,,Resident,Suitable
+119243088,119243084,Indirana paramakri,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+119243164,119243159,Indirana tysoni,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+119243164,119243159,Indirana tysoni,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+119243164,119243159,Indirana tysoni,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+119243178,119243173,Indirana yadera,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+119243178,119243173,Indirana yadera,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+119243178,119243173,Indirana yadera,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+119243178,119243173,Indirana yadera,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+119243178,119243173,Indirana yadera,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+138500009,31220,Actinodaphne bourneae,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+138502123,33497,Litsea leiantha,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+138508872,62565,Actinodaphne campanulata,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+138508872,62565,Actinodaphne campanulata,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+145297168,144052276,Beilschmiedia aborensis,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+145297198,144053300,Beilschmiedia andamanensis,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+145297273,144056383,Beilschmiedia brandisii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+145297963,145290519,Beilschmiedia sikkimensis,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+145297963,145290519,Beilschmiedia sikkimensis,1.5,Forest - Subtropical/Tropical Dry,,,Suitable
+145415813,145301615,Cinnamomum bhaskarii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+145415823,145301728,Cinnamomum bishnupadae,1.4,Forest - Temperate,,,Suitable
+145415833,145301965,Cinnamomum blandfordii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+145415833,145301965,Cinnamomum blandfordii,1.5,Forest - Subtropical/Tropical Dry,,,Suitable
+145416111,145310645,Cinnamomum kingdon-wardii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+145416166,145311979,Cinnamomum lohitensis,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+145416471,145344026,Cinnamomum sanjappae,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+145416576,145404323,Cinnamomum suvrae,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+147294060,37611,Euphorbia vajravelui,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+147294060,37611,Euphorbia vajravelui,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,,,Suitable
+149680186,149680126,Mysticellus franki,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+149680186,149680126,Mysticellus franki,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+149682627,149682598,Leptobrachella lateralis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+149682627,149682598,Leptobrachella lateralis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+149682627,149682598,Leptobrachella lateralis,5.2,Wetlands (inland) - Seasonal/Intermittent/Irregular Rivers/Streams/Creeks,Yes,Resident,Suitable
+149812631,31200,Syzygium palghatense,1.9,Forest - Subtropical/Tropical Moist Montane,No,Resident,Suitable
+149813923,32866,Syzygium bourdillonii,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+150087543,150087536,Megophrys flavipunctata,5.2,Wetlands (inland) - Seasonal/Intermittent/Irregular Rivers/Streams/Creeks,No,Resident,Suitable
+150087543,150087536,Megophrys flavipunctata,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+150087783,150087712,Megophrys himalayana,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+150087783,150087712,Megophrys himalayana,5.2,Wetlands (inland) - Seasonal/Intermittent/Irregular Rivers/Streams/Creeks,Yes,Resident,Suitable
+150087885,150087877,Megophrys oreocrypta,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+150087885,150087877,Megophrys oreocrypta,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+150087902,150087897,Megophrys periosa,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+150087902,150087897,Megophrys periosa,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+150087902,150087897,Megophrys periosa,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+150088664,150088659,Microhyla laterite,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+150088664,150088659,Microhyla laterite,15.8,Artificial/Aquatic - Seasonally Flooded Agricultural Land,,Resident,Marginal
+150088664,150088659,Microhyla laterite,14.5,Artificial/Terrestrial - Urban Areas,,Resident,Marginal
+153622583,152958245,Litsea membranifolia,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+153622868,153115088,Litsea oleoides,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+153622903,153116010,Litsea assamica,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+153622908,153116061,Litsea mishmiensis,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+156580466,209668480,Hylarana aurantiaca,5.2,Wetlands (inland) - Seasonal/Intermittent/Irregular Rivers/Streams/Creeks,Yes,Resident,Suitable
+156580466,209668480,Hylarana aurantiaca,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+156580466,209668480,Hylarana aurantiaca,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",Yes,Resident,Suitable
+156580466,209668480,Hylarana aurantiaca,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+156580466,209668480,Hylarana aurantiaca,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+156580466,209668480,Hylarana aurantiaca,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+156580466,209668480,Hylarana aurantiaca,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+156580466,209668480,Hylarana aurantiaca,1.8,Forest - Subtropical/Tropical Swamp,Yes,Resident,Suitable
+157563361,157146680,Actinodaphne andamanica,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+157563506,157150683,Actinodaphne longipes,1.4,Forest - Temperate,,,Suitable
+158892410,158847184,Vitex wimberleyi,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+159443752,159074166,Cryptocarya andamanica,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+159443782,159079094,Cryptocarya balakrishnanii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+159443812,159079733,Cryptocarya burkillii,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+159443837,159080036,Cryptocarya cavei,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+159443877,159080601,Cryptocarya dekae,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+159443962,159103471,Cryptocarya insularis,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+159444007,159104035,Cryptocarya lawsonii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+159444007,159104035,Cryptocarya lawsonii,1.5,Forest - Subtropical/Tropical Dry,,,Suitable
+159444152,159121187,Cryptocarya simonsii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+166095955,54478,Ghatophryne ornata,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166095955,54478,Ghatophryne ornata,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166095955,54478,Ghatophryne ornata,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166096204,54584,Duttaphrynus beddomii,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166096204,54584,Duttaphrynus beddomii,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166096204,54584,Duttaphrynus beddomii,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+166096349,54593,Duttaphrynus brevirostris,14.5,Artificial/Terrestrial - Urban Areas,,Resident,Suitable
+166096349,54593,Duttaphrynus brevirostris,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+166096349,54593,Duttaphrynus brevirostris,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),,Resident,Suitable
+166096562,54684,Beduka koynayensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166096562,54684,Beduka koynayensis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166096562,54684,Beduka koynayensis,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable
+166098755,58203,Amolops chakrataensis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166098755,58203,Amolops chakrataensis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166099369,58273,Minervarya keralensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166099369,58273,Minervarya keralensis,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+166099369,58273,Minervarya keralensis,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",Yes,Resident,Suitable
+166099369,58273,Minervarya keralensis,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+166099369,58273,Minervarya keralensis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166100666,197660098,Indirana beddomii,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166100666,197660098,Indirana beddomii,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166100666,197660098,Indirana beddomii,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166101287,58312,Walkerana leptodactyla,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166101287,58312,Walkerana leptodactyla,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166101476,58314,Walkerana phrynoderma,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),,Resident,Marginal
+166101476,58314,Walkerana phrynoderma,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166101476,58314,Walkerana phrynoderma,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+166102173,58377,Micrixalus elegans,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166102173,58377,Micrixalus elegans,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166102173,58377,Micrixalus elegans,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166102249,58379,Micrixalus gadgili,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166102249,58379,Micrixalus gadgili,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166102249,58379,Micrixalus gadgili,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166102352,58383,Micrixalus phyllophilus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166102352,58383,Micrixalus phyllophilus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166102352,58383,Micrixalus phyllophilus,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166102352,58383,Micrixalus phyllophilus,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,,Resident,Suitable
+166102455,58385,Micrixalus silvaticus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166102455,58385,Micrixalus silvaticus,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166102455,58385,Micrixalus silvaticus,14.3,Artificial/Terrestrial - Plantations,Yes,Resident,Suitable
+166102542,58387,Micrixalus thampii,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166102542,58387,Micrixalus thampii,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166102719,58395,Nyctibatrachus aliciae,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),No,Resident,Suitable
+166102719,58395,Nyctibatrachus aliciae,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166102719,58395,Nyctibatrachus aliciae,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166102719,58395,Nyctibatrachus aliciae,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",Yes,Resident,Suitable
+166102930,58399,Nyctibatrachus karnatakaensis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166102930,58399,Nyctibatrachus karnatakaensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166103114,58401,Nyctibatrachus major,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166103114,58401,Nyctibatrachus major,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166103114,58401,Nyctibatrachus major,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166103114,58401,Nyctibatrachus major,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",Yes,Resident,Suitable
+166103238,58402,Nyctibatrachus minor,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166103238,58402,Nyctibatrachus minor,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166103238,58402,Nyctibatrachus minor,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166103339,58403,Nyctibatrachus sanctipalustris,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166103339,58403,Nyctibatrachus sanctipalustris,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166103339,58403,Nyctibatrachus sanctipalustris,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166103339,58403,Nyctibatrachus sanctipalustris,1.8,Forest - Subtropical/Tropical Swamp,Yes,Resident,Suitable
+166103461,58404,Nyctibatrachus sylvaticus,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166103461,58404,Nyctibatrachus sylvaticus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166103461,58404,Nyctibatrachus sylvaticus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166104490,58571,Ingerana charlesdarwini,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166104490,58571,Ingerana charlesdarwini,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),Yes,Breeding Season,Suitable
+166105738,58788,Chirixalus dudhwaensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166105738,58788,Chirixalus dudhwaensis,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,,Resident,Marginal
+166105738,58788,Chirixalus dudhwaensis,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+166105738,58788,Chirixalus dudhwaensis,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",Yes,Resident,Suitable
+166105738,58788,Chirixalus dudhwaensis,3.6,Shrubland - Subtropical/Tropical Moist,Yes,Resident,Suitable
+166106548,58829,Raorchestes chalazodes,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166106548,58829,Raorchestes chalazodes,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166106955,58847,Raorchestes glandulosus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166106955,58847,Raorchestes glandulosus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166106955,58847,Raorchestes glandulosus,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+166106955,58847,Raorchestes glandulosus,14.4,Artificial/Terrestrial - Rural Gardens,,Resident,Suitable
+166107068,58849,Raorchestes griet,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166107068,58849,Raorchestes griet,14.6,Artificial/Terrestrial - Subtropical/Tropical Heavily Degraded Former Forest,,Resident,Marginal
+166107068,58849,Raorchestes griet,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+166107068,58849,Raorchestes griet,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166107469,58876,Philautus namdaphaensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166107469,58876,Philautus namdaphaensis,3.6,Shrubland - Subtropical/Tropical Moist,Yes,Resident,Suitable
+166107469,58876,Philautus namdaphaensis,1.8,Forest - Subtropical/Tropical Swamp,Yes,Resident,Suitable
+166107945,58903,Raorchestes signatus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166107945,58903,Raorchestes signatus,14.6,Artificial/Terrestrial - Subtropical/Tropical Heavily Degraded Former Forest,,Resident,Suitable
+166107945,58903,Raorchestes signatus,14.1,Artificial/Terrestrial - Arable Land,,Resident,Suitable
+166107945,58903,Raorchestes signatus,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+166107945,58903,Raorchestes signatus,14.4,Artificial/Terrestrial - Rural Gardens,,Resident,Suitable
+166108604,58926,Raorchestes tinniens,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+166108604,58926,Raorchestes tinniens,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166108604,58926,Raorchestes tinniens,14.6,Artificial/Terrestrial - Subtropical/Tropical Heavily Degraded Former Forest,,Resident,Marginal
+166108604,58926,Raorchestes tinniens,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+166108604,58926,Raorchestes tinniens,14.4,Artificial/Terrestrial - Rural Gardens,,Resident,Marginal
+166108743,58927,Raorchestes travancoricus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166108743,58927,Raorchestes travancoricus,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+166108743,58927,Raorchestes travancoricus,3.6,Shrubland - Subtropical/Tropical Moist,Yes,Resident,Suitable
+166108743,58927,Raorchestes travancoricus,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+166109531,58983,Rhacophorus calcadensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166109531,58983,Rhacophorus calcadensis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166109531,58983,Rhacophorus calcadensis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166109531,58983,Rhacophorus calcadensis,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+166109531,58983,Rhacophorus calcadensis,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+166109981,59027,Ghatixalus variabilis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166109981,59027,Ghatixalus variabilis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166109981,59027,Ghatixalus variabilis,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+166109981,59027,Ghatixalus variabilis,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+166111992,61850,Uperodon assamensis,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+166111992,61850,Uperodon assamensis,14.1,Artificial/Terrestrial - Arable Land,,Resident,Unknown
+166111992,61850,Uperodon assamensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166111992,61850,Uperodon assamensis,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,Resident,Suitable
+166112244,61885,Raorchestes nerostagona,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166112244,61885,Raorchestes nerostagona,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166112666,135879,Megophrys zunhebotoensis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166112666,135879,Megophrys zunhebotoensis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166112666,135879,Megophrys zunhebotoensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166113102,136045,Nyctibatrachus minimus,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166113102,136045,Nyctibatrachus minimus,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",Yes,Resident,Suitable
+166113102,136045,Nyctibatrachus minimus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166113102,136045,Nyctibatrachus minimus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166113102,136045,Nyctibatrachus minimus,14.6,Artificial/Terrestrial - Subtropical/Tropical Heavily Degraded Former Forest,,Resident,Marginal
+166113212,136049,Minervarya nicobariensis,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+166113212,136049,Minervarya nicobariensis,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",Yes,Resident,Suitable
+166113212,136049,Minervarya nicobariensis,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,Resident,Suitable
+166113212,136049,Minervarya nicobariensis,1.6,Forest - Subtropical/Tropical Moist Lowland,No,Resident,Suitable
+166113999,158638,Amolops assamensis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166113999,158638,Amolops assamensis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166113999,158638,Amolops assamensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166114332,173018,Nyctibatrachus dattatreyaensis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166114332,173018,Nyctibatrachus dattatreyaensis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166114332,173018,Nyctibatrachus dattatreyaensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166114872,186160,Raorchestes chotta,14.3,Artificial/Terrestrial - Plantations,Yes,Resident,Suitable
+166114872,186160,Raorchestes chotta,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166115005,186161,Raorchestes coonoorensis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166115005,186161,Raorchestes coonoorensis,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+166115130,186163,Raorchestes kaikatti,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166115130,186163,Raorchestes kaikatti,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166115426,186165,Raorchestes marki,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166115426,186165,Raorchestes marki,14.3,Artificial/Terrestrial - Plantations,Yes,Resident,Suitable
+166115575,186166,Raorchestes sushili,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166115729,187830,Raorchestes chromasynchysi,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+166115729,187830,Raorchestes chromasynchysi,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166115729,187830,Raorchestes chromasynchysi,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166115894,189700,Beduka amboli,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+166115894,189700,Beduka amboli,1.5,Forest - Subtropical/Tropical Dry,Yes,Resident,Suitable
+166115894,189700,Beduka amboli,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable
+166116623,78521208,Nyctibatrachus kumbara,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166116623,78521208,Nyctibatrachus kumbara,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166116648,79080668,Megophrys oropedion,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166116648,79080668,Megophrys oropedion,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166116653,79095367,Mercurana myristicapalustris,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166116653,79095367,Mercurana myristicapalustris,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166116653,79095367,Mercurana myristicapalustris,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",Yes,Resident,Suitable
+166116673,79719834,Beddomixalus bijui,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166116688,88368304,Megophrys vegrandis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166116688,88368304,Megophrys vegrandis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166116708,88378128,Nyctibatrachus anamallaiensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166116708,88378128,Nyctibatrachus anamallaiensis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166116708,88378128,Nyctibatrachus anamallaiensis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166116708,88378128,Nyctibatrachus anamallaiensis,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+166116708,88378128,Nyctibatrachus anamallaiensis,16,Introduced vegetation,,Resident,Suitable
+166116733,89183211,Indirana salelkari,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166116733,89183211,Indirana salelkari,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166116733,89183211,Indirana salelkari,14.1,Artificial/Terrestrial - Arable Land,,Resident,Unknown
+166116920,121370882,Minervarya manoharani,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166116920,121370882,Minervarya manoharani,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+166116920,121370882,Minervarya manoharani,14.3,Artificial/Terrestrial - Plantations,,Resident,Suitable
+166116971,165414176,Minervarya goemchi,14.1,Artificial/Terrestrial - Arable Land,,Resident,Suitable
+166116971,165414176,Minervarya goemchi,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+166116971,165414176,Minervarya goemchi,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166116971,165414176,Minervarya goemchi,15.8,Artificial/Aquatic - Seasonally Flooded Agricultural Land,,Resident,Suitable
+166116971,165414176,Minervarya goemchi,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable
+166156075,88369128,Micrixalus kottigeharensis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166156075,88369128,Micrixalus kottigeharensis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166156075,88369128,Micrixalus kottigeharensis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166156380,88378424,Nyctibatrachus beddomii,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+166156380,88378424,Nyctibatrachus beddomii,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166156380,88378424,Nyctibatrachus beddomii,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+166156541,88378891,Nyctibatrachus deccanensis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+166156541,88378891,Nyctibatrachus deccanensis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+169588922,31169,Hopea jacobi,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Unknown
+169589096,33018,Hopea glabra,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+169589143,33022,Hopea racophloea,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+169589185,33023,Hopea utilis,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+172607067,172587745,Dehaasia assamica,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+172913103,172738069,Lindera andamanica,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+175597951,175597058,Machilus kingii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+175655465,175655434,Cryptocoryne sivadasanii,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+175746105,175615495,Phoebe angustifolia,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+175746105,175615495,Phoebe angustifolia,1.8,Forest - Subtropical/Tropical Swamp,,,Suitable
+176691123,31275,Sloanea tomentosa,1.9,Forest - Subtropical/Tropical Moist Montane,,Resident,Suitable
+176691123,31275,Sloanea tomentosa,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+176691179,176680211,Antidesma khasianum,1.9,Forest - Subtropical/Tropical Moist Montane,,Resident,Suitable
+176691179,176680211,Antidesma khasianum,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+176861755,176856760,Ormosia robusta,1.9,Forest - Subtropical/Tropical Moist Montane,,Resident,Suitable
+176861755,176856760,Ormosia robusta,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+176861795,176857958,Syzygium khasianum,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+176861795,176857958,Syzygium khasianum,1.6,Forest - Subtropical/Tropical Moist Lowland,No,Resident,Suitable
+177969102,177962982,Dipcadi goaense,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,Resident,Suitable
+177969102,177962982,Dipcadi goaense,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable
+181389582,181140345,Megophrys awuh,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+181389582,181140345,Megophrys awuh,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+181391525,181141076,Megophrys dzukou,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+181391525,181141076,Megophrys dzukou,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+181391525,181141076,Megophrys dzukou,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+181516499,181473105,Blythophryne beryet,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+181893398,181140883,Megophrys numhbumaeng,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),,Resident,Suitable
+181893398,181140883,Megophrys numhbumaeng,1.9,Forest - Subtropical/Tropical Moist Montane,,Resident,Suitable
+181893398,181140883,Megophrys numhbumaeng,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+186884436,186884431,Pecteilis triflora,1.5,Forest - Subtropical/Tropical Dry,Yes,Resident,Suitable
+186885121,184539455,Crepidium aphyllum,1.4,Forest - Temperate,Yes,Resident,Suitable
+186885121,184539455,Crepidium aphyllum,1.5,Forest - Subtropical/Tropical Dry,Yes,Resident,Suitable
+186885369,186884507,Peristylus sahanii,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+186885384,186884978,Eulophia obtusa,4.5,Grassland - Subtropical/Tropical Dry,Yes,Resident,Suitable
+186885384,186884978,Eulophia obtusa,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,Resident,Suitable
+186885394,186885185,Habenaria sahyadrica,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+188972478,186301014,Oberonia bopannae,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+191546963,191546628,Adelocaryum lambertianum,4.7,Grassland - Subtropical/Tropical High Altitude,No,Resident,Suitable
+191546963,191546628,Adelocaryum lambertianum,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable
+191547198,191547129,Adelocaryum malabaricum,2.2,Savanna - Moist,Yes,Resident,Suitable
+191547198,191547129,Adelocaryum malabaricum,3.6,Shrubland - Subtropical/Tropical Moist,Yes,Resident,Suitable
+191547198,191547129,Adelocaryum malabaricum,3.7,Shrubland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+191547198,191547129,Adelocaryum malabaricum,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+191547198,191547129,Adelocaryum malabaricum,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable
+191681934,191681904,Distimake rhyncorhiza,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable
+197729585,168904,Cryptocoryne cognata,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+197729797,175218,Cryptocoryne consobrina,5.2,Wetlands (inland) - Seasonal/Intermittent/Irregular Rivers/Streams/Creeks,Yes,Resident,Suitable
+197729797,175218,Cryptocoryne consobrina,15.9,"Artificial/Aquatic - Canals and Drainage Channels, Ditches",Yes,Resident,Suitable
+197729797,175218,Cryptocoryne consobrina,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+197729797,175218,Cryptocoryne consobrina,15.1,Artificial/Aquatic - Water Storage Areas (over 8ha),Yes,Resident,Suitable
+197945974,197945955,Raorchestes keirasabinae,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+201031154,33645,Dialium travancoricum,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+201031235,33647,Prioria pinnata,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+201031315,38758,Aporosa bourdillonii,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+201031398,201031081,Syzygium periyarense,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+202740876,202532388,Brownlowia elata,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+209009666,208974595,Ochna gamblei,6,"Rocky areas (eg. inland cliffs, mountain peaks)",No,Resident,Suitable
+209009666,208974595,Ochna gamblei,13.3,Marine Coastal/Supratidal - Coastal Sand Dunes,No,Resident,Suitable
+210023247,210010463,Syzygium calophyllifolium,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+210023277,210013452,Ficus beddomei,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+210023282,210013545,Ficus costata,1.6,Forest - Subtropical/Tropical Moist Lowland,No,Resident,Suitable
+210023287,210013949,Ficus dalhousiae,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+215199554,215199522,Lepidagathis clavata,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable
+218986656,22679330,Syrmaticus humiae,3.4,Shrubland - Temperate,No,Non-Breeding Season,Suitable
+218986656,22679330,Syrmaticus humiae,3.5,Shrubland - Subtropical/Tropical Dry,No,Non-Breeding Season,Suitable
+218986656,22679330,Syrmaticus humiae,1.4,Forest - Temperate,Yes,Resident,Suitable
+218986656,22679330,Syrmaticus humiae,1.5,Forest - Subtropical/Tropical Dry,Yes,Resident,Suitable
+222292347,222291660,Syzygium sasidharanii,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+222292384,222291715,Syzygium agastyamalayanum,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+222292498,222292291,Syzygium ponmudianum,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+223447603,31181,Buchanania barberi,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+224811039,22729465,Spilornis klossi,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+225970391,225970375,Madhuca balakrishnanii,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+230038665,22695494,Accipiter butleri,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+230253271,82031633,Sousa plumbea,9.1,Marine Neritic - Pelagic,Yes,Resident,Suitable
+230253271,82031633,Sousa plumbea,9.2,Marine Neritic - Subtidal Rock and Rocky Reefs,Yes,Resident,Suitable
+230253271,82031633,Sousa plumbea,12.7,Marine Intertidal - Mangrove Submerged Roots,Yes,Resident,Suitable
+230253271,82031633,Sousa plumbea,9.3,Marine Neritic - Subtidal Loose Rock/pebble/gravel,Yes,Resident,Suitable
+230253271,82031633,Sousa plumbea,9.4,Marine Neritic - Subtidal Sandy,Yes,Resident,Suitable
+230253271,82031633,Sousa plumbea,9.5,Marine Neritic - Subtidal Sandy-Mud,Yes,Resident,Suitable
+230253271,82031633,Sousa plumbea,9.6,Marine Neritic - Subtidal Muddy,Yes,Resident,Suitable
+230253271,82031633,Sousa plumbea,9.8,Marine Neritic - Coral Reef,Yes,Resident,Suitable
+230253271,82031633,Sousa plumbea,9.9,Marine Neritic - Seagrass (Submerged),Yes,Resident,Suitable
+230253271,82031633,Sousa plumbea,9.10,Marine Neritic - Estuaries,Yes,Resident,Suitable
+231194805,33007,Dipterocarpus alatus,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+239579839,239579056,Medinilla anamalaiana,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+241500854,22681585,Mulleripicus pulverulentus,1.9,Forest - Subtropical/Tropical Moist Montane,No,Resident,Suitable
+241500854,22681585,Mulleripicus pulverulentus,2.2,Savanna - Moist,No,Resident,Suitable
+241500854,22681585,Mulleripicus pulverulentus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+241500854,22681585,Mulleripicus pulverulentus,1.7,Forest - Subtropical/Tropical Mangrove Vegetation Above High Tide Level,No,Resident,Suitable
+241500854,22681585,Mulleripicus pulverulentus,1.8,Forest - Subtropical/Tropical Swamp,Yes,Resident,Suitable
+247654386,4615,Chelonia mydas,13.3,Marine Coastal/Supratidal - Coastal Sand Dunes,,,Suitable
+247654386,4615,Chelonia mydas,9.7,Marine Neritic - Macroalgal/Kelp,,,Suitable
+247654386,4615,Chelonia mydas,9.9,Marine Neritic - Seagrass (Submerged),,,Suitable
+247654386,4615,Chelonia mydas,10.1,Marine Oceanic - Epipelagic (0-200m),,,Suitable
+247654386,4615,Chelonia mydas,12.2,"Marine Intertidal - Sandy Shoreline and/or Beaches, Sand Bars, Spits, Etc",,,Suitable
+61985350,61985348,Podophyllum hexandrum,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+61985350,61985348,Podophyllum hexandrum,1.4,Forest - Temperate,,,Suitable
+61987625,61987623,Canarium euphyllum,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+115932401,253632034,Syzygium stocksii,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+115932401,253632034,Syzygium stocksii,1.8,Forest - Subtropical/Tropical Swamp,Yes,Resident,Suitable
+117645817,33642,Elaeocarpus recurvatus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+129336875,129335824,Palaquium polyanthum,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+153622783,153112765,Litsea coelestis,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+153622783,153112765,Litsea coelestis,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+156940901,155993997,Syzygium avene,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+172581635,172580995,Alseodaphnopsis petiolaris,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+172581635,172580995,Alseodaphnopsis petiolaris,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+173472237,31185,Cynometra bourdillonii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+177944173,177944137,Premna debiana,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+179054978,179054974,Dasymaschalon longiflorum,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+179207816,179207814,Goniothalamus thwaitesii,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+185287991,176848640,Alphonsea zeylanica,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+187022622,187022603,Murdannia assamica,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,,Resident,Suitable
+187022673,187022663,Murdannia brownii,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable
+187022673,187022663,Murdannia brownii,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+187024275,187024265,Murdannia saddlepeakensis,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,,Suitable
+187024275,187024265,Murdannia saddlepeakensis,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,,Suitable
+187025974,187025460,Murdannia sanjappae,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+191547574,191547570,Amorphophallus smithsonianus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+202740770,202483877,Semecarpus kurzii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+202740785,202483996,Semecarpus prainii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+202740790,202484066,Semecarpus subpanduriformis,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+202740976,202536352,Grewia nagensium,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+202741202,202732050,Pterospermum aceroides,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+206909976,206837366,Glochidion andamanicum,1.5,Forest - Subtropical/Tropical Dry,,,Suitable
+210023175,38036,Syzygium caryophyllatum,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+211814001,211716588,Garcinia succifolia,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+213399586,213352738,Chionanthus sumatranus,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+218992481,200533196,Meyna pubescens,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+220912087,220761693,Lepisanthes andamanica,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+224134652,224100285,Planchonella longipetiolata,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+224134657,224088253,Gymnocladus burmanicus,1.5,Forest - Subtropical/Tropical Dry,,,Suitable
+224134682,224106293,Tarenna helferi,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+224134682,224106293,Tarenna helferi,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,,,Suitable
+224134732,224101293,Syzygium praetermissum,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+224134792,224085585,Dillenia mansonii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+224134827,224071631,Allophylus subfalcatus,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+224134837,224101709,Syzygium venustum,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+226499542,226499453,Elaeocarpus weibelii,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+228009889,228007161,Wrightia indica,1.5,Forest - Subtropical/Tropical Dry,Yes,Resident,Suitable
+228009899,228007388,Croton gibsonianus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+239579829,239578615,Strobilanthes kunthiana,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+239579834,239578975,Impatiens parasitica,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+239856209,239855551,Ixora agasthyamalayana,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+247298014,247297998,Coleus idukkianus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+247298014,247297998,Coleus idukkianus,1.5,Forest - Subtropical/Tropical Dry,Yes,Resident,Suitable
+247298014,247297998,Coleus idukkianus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+254095929,254095810,Ceropegia evansii,1.5,Forest - Subtropical/Tropical Dry,Yes,Resident,Suitable
+254095929,254095810,Ceropegia evansii,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+254095961,254095865,Ceropegia mohanramii,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable
+254576956,15954,Panthera pardus,2.1,Savanna - Dry,Yes,,Suitable
+254576956,15954,Panthera pardus,1.4,Forest - Temperate,Yes,,Suitable
+254576956,15954,Panthera pardus,1.5,Forest - Subtropical/Tropical Dry,Yes,,Suitable
+254576956,15954,Panthera pardus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,,Suitable
+254576956,15954,Panthera pardus,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,,Suitable
+254576956,15954,Panthera pardus,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,,Suitable
+254576956,15954,Panthera pardus,3.5,Shrubland - Subtropical/Tropical Dry,Yes,,Suitable
+254576956,15954,Panthera pardus,4.4,Grassland - Temperate,Yes,,Suitable
+254576956,15954,Panthera pardus,3.4,Shrubland - Temperate,Yes,,Suitable
+254576956,15954,Panthera pardus,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,,Suitable
+254576956,15954,Panthera pardus,4.5,Grassland - Subtropical/Tropical Dry,Yes,,Suitable
+254576956,15954,Panthera pardus,3.8,Shrubland - Mediterranean-type Shrubby Vegetation,Yes,,Suitable
+254576956,15954,Panthera pardus,3.6,Shrubland - Subtropical/Tropical Moist,Yes,,Suitable
+254576956,15954,Panthera pardus,1.8,Forest - Subtropical/Tropical Swamp,,,Marginal
+254576956,15954,Panthera pardus,8.1,Desert - Hot,Yes,,Suitable
+254576956,15954,Panthera pardus,2.2,Savanna - Moist,Yes,,Suitable
+254576956,15954,Panthera pardus,3.7,Shrubland - Subtropical/Tropical High Altitude,Yes,,Suitable
+254576956,15954,Panthera pardus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,,Suitable
+254576956,15954,Panthera pardus,1.7,Forest - Subtropical/Tropical Mangrove Vegetation Above High Tide Level,,,Marginal
+254576956,15954,Panthera pardus,8.2,Desert - Temperate,Yes,,Suitable
+259025524,219,Acinonyx jubatus,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,,Suitable
+259025524,219,Acinonyx jubatus,14.2,Artificial/Terrestrial - Pastureland,Yes,Resident,Suitable
+259025524,219,Acinonyx jubatus,2.1,Savanna - Dry,Yes,Resident,Suitable
+259025524,219,Acinonyx jubatus,3.5,Shrubland - Subtropical/Tropical Dry,Yes,Resident,Suitable
+259025524,219,Acinonyx jubatus,4.5,Grassland - Subtropical/Tropical Dry,Yes,Resident,Suitable
+259025524,219,Acinonyx jubatus,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,Resident,Suitable
+259025524,219,Acinonyx jubatus,5.13,Wetlands (inland) - Permanent Inland Deltas,Yes,Resident,Suitable
+259025524,219,Acinonyx jubatus,8.1,Desert - Hot,Yes,Resident,Suitable
+259025524,219,Acinonyx jubatus,8.2,Desert - Temperate,Yes,Resident,Suitable
+259025524,219,Acinonyx jubatus,8.3,Desert - Cold,Yes,Resident,Suitable
+61780186,61780183,Lagerstroemia hypoleuca,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+61987933,61987931,Mesua ferrea,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+62038698,62038695,Citrus indica,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+115932548,31219,Myristica malabarica,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+115932548,31219,Myristica malabarica,1.8,Forest - Subtropical/Tropical Swamp,Yes,Resident,Suitable
+117894247,117894243,Canarium strictum,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+117894247,117894243,Canarium strictum,1.9,Forest - Subtropical/Tropical Moist Montane,,Resident,Suitable
+119048739,119048736,Viburnum hebanthum,1.9,Forest - Subtropical/Tropical Moist Montane,,Resident,Suitable
+119048739,119048736,Viburnum hebanthum,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+150219899,150213910,Alseodaphne owdenii,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+150219899,150213910,Alseodaphne owdenii,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+150219924,150215092,Lindera melastomacea,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+150219924,150215092,Lindera melastomacea,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+159054357,159051467,Callicarpa moldenkeana,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+169055603,33608,Atuna travancorica,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+169056351,169056310,Calophyllum austroindicum,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+169056351,169056310,Calophyllum austroindicum,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+169056798,169056377,Calophyllum pascalianum,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+169056985,169056981,Capparis rheedei,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+169589635,169578317,Reinwardtiodendron anamalaiense,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+177944419,177944393,Premna milleflora,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+180593985,22693431,Calidris ferruginea,15.1,Artificial/Aquatic - Water Storage Areas (over 8ha),No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,13.4,Marine Coastal/Supratidal - Coastal Brackish/Saline Lagoons/Marine Lakes,No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,12.4,Marine Intertidal - Mud Flats and Salt Flats,Yes,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,15.4,Artificial/Aquatic - Salt Exploitation Sites,No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,9.10,Marine Neritic - Estuaries,No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,12.1,Marine Intertidal - Rocky Shoreline,No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,15.7,Artificial/Aquatic - Irrigated Land (includes irrigation channels),No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,15.8,Artificial/Aquatic - Seasonally Flooded Agricultural Land,No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,4.1,Grassland - Tundra,Yes,Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,5.5,Wetlands (inland) - Permanent Freshwater Lakes (over 8ha),No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,12.3,Marine Intertidal - Shingle and/or Pebble Shoreline and/or Beaches,No,Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,5.6,Wetlands (inland) - Seasonal/Intermittent Freshwater Lakes (over 8ha),No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,9.8.5,Inter-Reef Soft Substrate,No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,5.10,Wetlands (inland) - Tundra Wetlands (incl. pools and temporary waters from snowmelt),Yes,Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,12.2,"Marine Intertidal - Sandy Shoreline and/or Beaches, Sand Bars, Spits, Etc",No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,5.14,"Wetlands (inland) - Permanent Saline, Brackish or Alkaline Lakes",No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,9.8.3,Foreslope (Outer Reef Slope),No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,9.8.4,Lagoon,No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,9.8.1,Outer Reef Channel,No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,12.3,Marine Intertidal - Shingle and/or Pebble Shoreline and/or Beaches,No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,9.8.6,Inter-Reef Rubble Substrate,No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,12.6,Marine Intertidal - Tidepools,No,Non-Breeding Season,Suitable
+180593985,22693431,Calidris ferruginea,9.8.2,Back Slope,No,Non-Breeding Season,Suitable
+201031094,31187,Humboldtia bourdillonii,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+201031378,201030934,Humboldtia brunonis,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+210018953,210014331,Pandanus palakkadensis,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+210023075,30891,Syzygium neesianum,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+218880247,22679012,Perdicula manipurensis,3.4,Shrubland - Temperate,No,Resident,Suitable
+218880247,22679012,Perdicula manipurensis,4.4,Grassland - Temperate,Yes,Resident,Suitable
+218880247,22679012,Perdicula manipurensis,5.5,Wetlands (inland) - Permanent Freshwater Lakes (over 8ha),No,Resident,Suitable
+218880247,22679012,Perdicula manipurensis,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),No,Resident,Suitable
+223484923,22693225,Tringa guttifer,14.1,Artificial/Terrestrial - Arable Land,No,Non-Breeding Season,Suitable
+223484923,22693225,Tringa guttifer,1.1,Forest - Boreal,Yes,Breeding Season,Suitable
+223484923,22693225,Tringa guttifer,4.4,Grassland - Temperate,Yes,Breeding Season,Suitable
+223484923,22693225,Tringa guttifer,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",No,Non-Breeding Season,Suitable
+223484923,22693225,Tringa guttifer,5.5,Wetlands (inland) - Permanent Freshwater Lakes (over 8ha),No,Non-Breeding Season,Suitable
+223484923,22693225,Tringa guttifer,12.4,Marine Intertidal - Mud Flats and Salt Flats,Yes,Non-Breeding Season,Suitable
+223484923,22693225,Tringa guttifer,12.5,Marine Intertidal - Salt Marshes (Emergent Grasses),Yes,Non-Breeding Season,Suitable
+224134662,224071357,Albizia umbrosa,3.6,Shrubland - Subtropical/Tropical Moist,,,Suitable
+224134702,224109482,Vaccinium piliferum,1.9,Forest - Subtropical/Tropical Moist Montane,,,Suitable
+226834730,37314,Myristica magnifica,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+226834730,37314,Myristica magnifica,1.8,Forest - Subtropical/Tropical Swamp,Yes,Resident,Suitable
+234075458,22715856,Pellorneum palustre,3.6,Shrubland - Subtropical/Tropical Moist,No,Resident,Suitable
+234075458,22715856,Pellorneum palustre,4.5,Grassland - Subtropical/Tropical Dry,Yes,Resident,Suitable
+234075458,22715856,Pellorneum palustre,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,Resident,Suitable
+234075458,22715856,Pellorneum palustre,5.3,Wetlands (inland) - Shrub Dominated Wetlands,No,Resident,Suitable
+234075458,22715856,Pellorneum palustre,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",No,Resident,Suitable
+239905382,239905380,Psychotria nudiflora,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+239905392,239905390,Psychotria anamallayana,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+239905442,239905440,Nothopegia travancorica,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+239905602,239905600,Ficus cupulata,1.5,Forest - Subtropical/Tropical Dry,,Resident,Suitable
+239905602,239905600,Ficus cupulata,6,"Rocky areas (eg. inland cliffs, mountain peaks)",,,Suitable
+239905632,239905630,Ehretia wightiana,1.9,Forest - Subtropical/Tropical Moist Montane,,Resident,Suitable
+239905632,239905630,Ehretia wightiana,1.6,Forest - Subtropical/Tropical Moist Lowland,,,Suitable
+239906078,239906076,Psychotria connata,1.6,Forest - Subtropical/Tropical Moist Lowland,,Resident,Suitable
+239906078,239906076,Psychotria connata,1.9,Forest - Subtropical/Tropical Moist Montane,,Resident,Suitable
+242530926,242376348,Dipcadi saxorum,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,,Resident,Suitable
+242530926,242376348,Dipcadi saxorum,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable
+244637841,22680064,Asarcornis scutulata,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),Yes,Resident,Suitable
+244637841,22680064,Asarcornis scutulata,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),Yes,Resident,Suitable
+244637841,22680064,Asarcornis scutulata,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+249695988,103874145,Montecincla jerdoni,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+249819859,103874754,Montecincla meridionalis,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+249819859,103874754,Montecincla meridionalis,3.7,Shrubland - Subtropical/Tropical High Altitude,,Resident,Marginal
+249819859,103874754,Montecincla meridionalis,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+250442182,22716795,Paradoxornis flavirostris,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,Resident,Suitable
+250442182,22716795,Paradoxornis flavirostris,5.1,Wetlands (inland) - Permanent Rivers/Streams/Creeks (includes waterfalls),No,Resident,Suitable
+250442182,22716795,Paradoxornis flavirostris,5.2,Wetlands (inland) - Seasonal/Intermittent/Irregular Rivers/Streams/Creeks,No,Resident,Suitable
+250900824,22716358,Argya longirostris,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,Resident,Suitable
+253660338,22734628,Liocichla bugunorum,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+253660338,22734628,Liocichla bugunorum,14.6,Artificial/Terrestrial - Subtropical/Tropical Heavily Degraded Former Forest,Yes,Resident,Suitable
+253660338,22734628,Liocichla bugunorum,3.7,Shrubland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+254375039,22693749,Pluvialis squatarola,13.4,Marine Coastal/Supratidal - Coastal Brackish/Saline Lagoons/Marine Lakes,No,Non-Breeding Season,Suitable
+254375039,22693749,Pluvialis squatarola,13.5,Marine Coastal/Supratidal - Coastal Freshwater Lakes,No,Non-Breeding Season,Suitable
+254375039,22693749,Pluvialis squatarola,4.1,Grassland - Tundra,Yes,Breeding Season,Suitable
+254375039,22693749,Pluvialis squatarola,12.1,Marine Intertidal - Rocky Shoreline,No,Non-Breeding Season,Suitable
+254375039,22693749,Pluvialis squatarola,12.2,"Marine Intertidal - Sandy Shoreline and/or Beaches, Sand Bars, Spits, Etc",No,Non-Breeding Season,Suitable
+254375039,22693749,Pluvialis squatarola,12.3,Marine Intertidal - Shingle and/or Pebble Shoreline and/or Beaches,No,Non-Breeding Season,Suitable
+254375039,22693749,Pluvialis squatarola,12.4,Marine Intertidal - Mud Flats and Salt Flats,Yes,Non-Breeding Season,Suitable
+254375039,22693749,Pluvialis squatarola,12.6,Marine Intertidal - Tidepools,No,Non-Breeding Season,Suitable
+254375039,22693749,Pluvialis squatarola,15.3,Artificial/Aquatic - Aquaculture Ponds,No,Non-Breeding Season,Suitable
+254375039,22693749,Pluvialis squatarola,5.5,Wetlands (inland) - Permanent Freshwater Lakes (over 8ha),No,Passage,Suitable
+254375039,22693749,Pluvialis squatarola,5.6,Wetlands (inland) - Seasonal/Intermittent Freshwater Lakes (over 8ha),No,Passage,Suitable
+254375039,22693749,Pluvialis squatarola,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),No,Passage,Suitable
+254375039,22693749,Pluvialis squatarola,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),No,Passage,Suitable
+254375039,22693749,Pluvialis squatarola,5.10,Wetlands (inland) - Tundra Wetlands (incl. pools and temporary waters from snowmelt),No,Breeding Season,Suitable
+254375039,22693749,Pluvialis squatarola,15.6,Artificial/Aquatic - Wastewater Treatment Areas,No,Passage,Suitable
+254375039,22693749,Pluvialis squatarola,15.8,Artificial/Aquatic - Seasonally Flooded Agricultural Land,No,Passage,Suitable
+254475508,254475077,Ochradenus lakhpatensis,3.5,Shrubland - Subtropical/Tropical Dry,Yes,Resident,Suitable
+256354281,22693447,Calidris subruficollis,15.8,Artificial/Aquatic - Seasonally Flooded Agricultural Land,,Passage,Marginal
+256354281,22693447,Calidris subruficollis,14.1,Artificial/Terrestrial - Arable Land,Yes,Passage,Suitable
+256354281,22693447,Calidris subruficollis,4.1,Grassland - Tundra,Yes,Breeding Season,Suitable
+256354281,22693447,Calidris subruficollis,4.5,Grassland - Subtropical/Tropical Dry,Yes,Non-Breeding Season,Suitable
+256426742,2888,Bos javanicus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+256426742,2888,Bos javanicus,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,Resident,Suitable
+256426742,2888,Bos javanicus,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+256426742,2888,Bos javanicus,1.5,Forest - Subtropical/Tropical Dry,Yes,Resident,Suitable
+256426742,2888,Bos javanicus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+256426742,2888,Bos javanicus,1.8,Forest - Subtropical/Tropical Swamp,Yes,Resident,Suitable
+257323525,22693464,Calidris falcinellus,13.4,Marine Coastal/Supratidal - Coastal Brackish/Saline Lagoons/Marine Lakes,Yes,Non-Breeding Season,Suitable
+257323525,22693464,Calidris falcinellus,13.5,Marine Coastal/Supratidal - Coastal Freshwater Lakes,No,Non-Breeding Season,Suitable
+257323525,22693464,Calidris falcinellus,15.4,Artificial/Aquatic - Salt Exploitation Sites,Yes,Non-Breeding Season,Suitable
+257323525,22693464,Calidris falcinellus,15.6,Artificial/Aquatic - Wastewater Treatment Areas,No,Non-Breeding Season,Suitable
+257323525,22693464,Calidris falcinellus,15.7,Artificial/Aquatic - Irrigated Land (includes irrigation channels),No,Passage,Suitable
+257323525,22693464,Calidris falcinellus,15.8,Artificial/Aquatic - Seasonally Flooded Agricultural Land,No,Passage,Suitable
+257323525,22693464,Calidris falcinellus,5.8,Wetlands (inland) - Seasonal/Intermittent Freshwater Marshes/Pools (under 8ha),No,Non-Breeding Season,Suitable
+257323525,22693464,Calidris falcinellus,5.10,Wetlands (inland) - Tundra Wetlands (incl. pools and temporary waters from snowmelt),Yes,Breeding Season,Suitable
+257323525,22693464,Calidris falcinellus,12.5,Marine Intertidal - Salt Marshes (Emergent Grasses),No,Non-Breeding Season,Suitable
+257323525,22693464,Calidris falcinellus,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",Yes,Breeding Season,Suitable
+257323525,22693464,Calidris falcinellus,5.4,"Wetlands (inland) - Bogs, Marshes, Swamps, Fens, Peatlands",No,Passage,Suitable
+257323525,22693464,Calidris falcinellus,5.5,Wetlands (inland) - Permanent Freshwater Lakes (over 8ha),No,Non-Breeding Season,Suitable
+257323525,22693464,Calidris falcinellus,12.4,Marine Intertidal - Mud Flats and Salt Flats,Yes,Non-Breeding Season,Suitable
+257323525,22693464,Calidris falcinellus,5.7,Wetlands (inland) - Permanent Freshwater Marshes/Pools (under 8ha),No,Non-Breeding Season,Suitable
+258108195,22685513,Belocercus longicaudus,14.3,Artificial/Terrestrial - Plantations,No,Resident,Suitable
+258108195,22685513,Belocercus longicaudus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+258108195,22685513,Belocercus longicaudus,1.7,Forest - Subtropical/Tropical Mangrove Vegetation Above High Tide Level,No,Resident,Suitable
+258108195,22685513,Belocercus longicaudus,1.8,Forest - Subtropical/Tropical Swamp,No,Resident,Suitable
+258108195,22685513,Belocercus longicaudus,14.4,Artificial/Terrestrial - Rural Gardens,,Resident,Marginal
+258108195,22685513,Belocercus longicaudus,14.6,Artificial/Terrestrial - Subtropical/Tropical Heavily Degraded Former Forest,,Resident,Marginal
+259343689,70205537,Arctonyx collaris,14.6,Artificial/Terrestrial - Subtropical/Tropical Heavily Degraded Former Forest,,Resident,Unknown
+259343689,70205537,Arctonyx collaris,2.1,Savanna - Dry,,Resident,Marginal
+259343689,70205537,Arctonyx collaris,2.2,Savanna - Moist,,Resident,Marginal
+259343689,70205537,Arctonyx collaris,3.5,Shrubland - Subtropical/Tropical Dry,,Resident,Marginal
+259343689,70205537,Arctonyx collaris,3.6,Shrubland - Subtropical/Tropical Moist,,Resident,Marginal
+259343689,70205537,Arctonyx collaris,4.5,Grassland - Subtropical/Tropical Dry,,Resident,Marginal
+259343689,70205537,Arctonyx collaris,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+259343689,70205537,Arctonyx collaris,4.6,Grassland - Subtropical/Tropical Seasonally Wet/Flooded,Yes,Resident,Suitable
+259343689,70205537,Arctonyx collaris,1.5,Forest - Subtropical/Tropical Dry,No,Resident,Suitable
+259343689,70205537,Arctonyx collaris,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+259357017,22037,Trachypithecus geei,14.3,Artificial/Terrestrial - Plantations,,Resident,Marginal
+259357017,22037,Trachypithecus geei,14.6,Artificial/Terrestrial - Subtropical/Tropical Heavily Degraded Former Forest,,Resident,Marginal
+259357017,22037,Trachypithecus geei,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+259357017,22037,Trachypithecus geei,1.4,Forest - Temperate,Yes,Resident,Suitable
+259357017,22037,Trachypithecus geei,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+259357527,22041,Trachypithecus pileatus,1.9,Forest - Subtropical/Tropical Moist Montane,Yes,Resident,Suitable
+259357527,22041,Trachypithecus pileatus,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+261429932,30864,Diospyros crumenata,1.6,Forest - Subtropical/Tropical Moist Lowland,Yes,Resident,Suitable
+266696959,15951,Panthera leo,8.1,Desert - Hot,,,Unknown
+266696959,15951,Panthera leo,8.3,Desert - Cold,,,Unknown
+266696959,15951,Panthera leo,3.7,Shrubland - Subtropical/Tropical High Altitude,,Resident,Marginal
+266696959,15951,Panthera leo,2.1,Savanna - Dry,Yes,Resident,Suitable
+266696959,15951,Panthera leo,3.5,Shrubland - Subtropical/Tropical Dry,Yes,Resident,Suitable
+266696959,15951,Panthera leo,4.5,Grassland - Subtropical/Tropical Dry,Yes,Resident,Suitable
+266696959,15951,Panthera leo,4.7,Grassland - Subtropical/Tropical High Altitude,Yes,Resident,Suitable
+266696959,15951,Panthera leo,1.5,Forest - Subtropical/Tropical Dry,Yes,Resident,Suitable
+266877470,242376417,Dipcadi ursulae,6,"Rocky areas (eg. inland cliffs, mountain peaks)",Yes,Resident,Suitable

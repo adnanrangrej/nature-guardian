@@ -1,0 +1,455 @@
+internalTaxonId,scientificName,name,language,main
+175221,Syzygium rama-varmae,Mani Kiluki,Tamil,false
+175221,Syzygium rama-varmae,Kattuchampa,Malayalam,true
+186162,Raorchestes jayarami,Jayaram's Bush Frog,English,false
+186162,Raorchestes jayarami,Jayaram's Bushfrog,English,true
+48886608,Minervarya sengupti,Sengupta's Frog,English,true
+48874314,Nyctibatrachus deveni,Deven's Night Frog,English,true
+48874474,Nyctibatrachus acanthodermis,Spinular Wrinkled Frog,English,false
+48874474,Nyctibatrachus acanthodermis,Spinular Night Frog,English,true
+48874286,Nyctibatrachus gavi,Gavi Wrinkled Frog,English,false
+48874286,Nyctibatrachus gavi,Gavi Night Frog,English,true
+48874266,Nyctibatrachus grandis,Wayanad Wrinkled Frog,English,false
+48874266,Nyctibatrachus grandis,Wayanad Night Frog,English,true
+48874250,Nyctibatrachus indraneili,Indraneil's Wrinkled Frog,English,false
+48874250,Nyctibatrachus indraneili,Indraneil's Night Frog,English,true
+48874225,Nyctibatrachus jog,Jog's Night Frog,English,true
+48874189,Nyctibatrachus pillaii,Pillai's Night Frog,English,true
+48874217,Nyctibatrachus periyar,Periyar Night Frog,English,true
+48873111,Nyctibatrachus vrijeuni,Sugantha-giri Wrinkled Fro,English,false
+48873111,Nyctibatrachus vrijeuni,VUB Night Frog,English,true
+48872923,Megophrys megacephala,Big Headed Horned Frog,English,true
+61780183,Lagerstroemia hypoleuca,Andaman Crape Myrtle,English,true
+61985348,Podophyllum hexandrum,Indian Podophyllum,English,false
+61985348,Podophyllum hexandrum,Podophyllum Resin,English,false
+61985348,Podophyllum hexandrum,Ban Kakri,Hindi,false
+61985348,Podophyllum hexandrum,Podofilo del Himalaya,Spanish; Castilian,false
+61985348,Podophyllum hexandrum,Resin de Podophylle,French,false
+61985348,Podophyllum hexandrum,Himalayan Mayapple,English,true
+61987931,Mesua ferrea,Indian Rose Chestnut,English,false
+61987931,Mesua ferrea,Nagacuram,Tamil,false
+61987931,Mesua ferrea,Nagapoovu,Malayalam,false
+61987931,Mesua ferrea,Churuli,Malayalam,true
+62038695,Citrus indica,Garuan-thai,Manipuri,false
+62038695,Citrus indica,Memang Narang,Hindi,false
+62038695,Citrus indica,Indian Wild Orange,English,true
+208598052,Amolops monticola,Cascade Frog,English,false
+208598052,Amolops monticola,Mountain Stream Frog,English,false
+208598052,Amolops monticola,Mountain Sucker Frog,English,false
+208598052,Amolops monticola,Mountain Torrent Frog,English,false
+208598052,Amolops monticola,Surpatayk,Nepali,false
+208598052,Amolops monticola,山湍蛙,Chinese,false
+208598052,Amolops monticola,Mountain Cascade Frog,English,true
+73787038,Raorchestes blandus,Anamalai Bush Frog,English,true
+73787369,Raorchestes echinatus,Spiny Bush Frog,English,true
+73788607,Hylarana flavescens,Yellowish Golden-backed Frog,English,true
+73788764,Hylarana urbis,Urban Golden-backed Frog,English,true
+73788782,Hylarana caesari,Maharashtra Golden-backed Frog,English,true
+73788833,Hylarana magna,Large Golden-backed Frog,English,true
+73959431,Micrixalus kurichiyari,Kurichiyar Dancing Frog,English,true
+73960020,Micrixalus niluvasei,Niluvasei Torrent Frog,English,false
+73960020,Micrixalus niluvasei,Niluvase Dancing Frog,English,true
+73960040,Micrixalus sairandhri,Sairandhri Torrent Frog,English,false
+73960040,Micrixalus sairandhri,Sairandhri Dancing Frog,English,true
+73961281,Micrixalus spelunca,Nilgiris Torrent Frog,English,false
+73961281,Micrixalus spelunca,Cave Dancing Frog,English,true
+73963691,Micrixalus uttaraghati,Amboli Torrent Frog,English,false
+73963691,Micrixalus uttaraghati,Northern Dancing Frog,English,true
+73964539,Micrixalus adonis,Beautiful Torrential Frog,English,false
+73964539,Micrixalus adonis,Beautiful Dancing Frog,English,true
+73965400,Micrixalus mallani,Pandimotta Torrent Fro,English,false
+73965400,Micrixalus mallani,Mallan's Dancing Frog,English,true
+73965533,Micrixalus nudis,Kerala Tropical Frog,English,false
+73965533,Micrixalus nudis,Naked Torrent Frog,English,false
+73965533,Micrixalus nudis,Naked Dancing Frog,English,true
+73967847,Micrixalus sali,Ponmudi Torrent Frog,English,false
+73967847,Micrixalus sali,Sali's Dancing Frog,English,true
+73967876,Micrixalus frigidus,Eravikulam Torrent Frog,English,false
+73967876,Micrixalus frigidus,Cold Stream Dancing Frog,English,true
+73967915,Micrixalus nigraventris,Black-bellied Torrent Frog,English,false
+73967915,Micrixalus nigraventris,Black-bellied Dancing Frog,English,true
+73971314,Micrixalus specca,Spotted Torrent Frog,English,false
+73971314,Micrixalus specca,Spotted Dancing Frog,English,true
+73972049,Micrixalus fuscus,Brown Tropical Frog,English,false
+73972049,Micrixalus fuscus,Dusky Torrent Frog,English,false
+73972049,Micrixalus fuscus,Kalakkad Dancing Frog,English,true
+73972645,Micrixalus herrei,Kallar Torrent Frog,English,false
+73972645,Micrixalus herrei,Kallar Dancing Frog,English,true
+191004,Minervarya chilapata,Chilapata White Lipped Cricket Frog,English,false
+191004,Minervarya chilapata,Chilapata Rainpool Frog,English,true
+189814,Raorchestes resplendens,Eravikulam Bush Frog,English,false
+189814,Raorchestes resplendens,Resplendent Bush Frog,English,true
+87739329,Raorchestes flaviventris,Yellow-bellied Bush Frog,English,false
+87739329,Raorchestes flaviventris,Malabar Bubble-nest Frog,English,true
+87739247,Ghatixalus magnus,Large-sized Ghat Tree Frog,English,true
+112690948,Nyctibatrachus athirappillyensis,Athirappilly Wrinkled Frog,English,false
+112690948,Nyctibatrachus athirappillyensis,Athirappilly Night Frog,English,true
+112691330,Nyctibatrachus pulivijayani,Randipath Wrinkled Frog,English,false
+112691330,Nyctibatrachus pulivijayani,Vijayan's Night Frog,English,true
+112691501,Nyctibatrachus sabarimalai,Sabarimala Wrinkled Frog,English,false
+112691501,Nyctibatrachus sabarimalai,Sabarimala Night Frog,English,true
+112691545,Nyctibatrachus webilla,Kadalar Wrinkled Frog,English,false
+112691545,Nyctibatrachus webilla,Kadalar Night Frog,English,true
+253632034,Syzygium stocksii,Kulavetti,Malayalam,false
+253632034,Syzygium stocksii,Vallamanchi,Malayalam,false
+253632034,Syzygium stocksii,Vathamkollimaram,Malayalam,false
+253632034,Syzygium stocksii,Poriyal,Malayalam,true
+31219,Myristica malabarica,Malabar Nutmeg,English,false
+31219,Myristica malabarica,Kattuchadi,Tamil,false
+31219,Myristica malabarica,Chorapali,Malayalam,true
+36652,Aglaia malabarica,Chuvanna Cheeralam,Malayalam,false
+36652,Aglaia malabarica,Chuvannakil,Malayalam,false
+33642,Elaeocarpus recurvatus,Naikotta,Malayalam,true
+117894243,Canarium strictum,Black Dammer,English,false
+117894243,Canarium strictum,Karunkungiliyam,Tamil,false
+117894243,Canarium strictum,Kunthirikkam,Malayalam,true
+31199,Syzygium occidentale,Attuchamba,Malayalam,true
+31170,Vateria macrocarpa,Vellappayin,Malayalam,false
+31170,Vateria macrocarpa,Perumpayin,Malayalam,true
+119048736,Viburnum hebanthum,Kadamba,Tamil,false
+119048736,Viburnum hebanthum,Badagu,Tamil,true
+119243084,Indirana paramakri,Suganthagiri Leaping Frog,English,false
+119243084,Indirana paramakri,Rocky-terrain Leaping Frog,English,true
+119243159,Indirana tysoni,Ranipuram Leaping Frog,English,false
+119243159,Indirana tysoni,Tyson's Leaping Frog,English,true
+119243173,Indirana yadera,Yadera Leaping Frog,English,true
+149680126,Mysticellus franki,Spotted Narrow-mouthed Frog,English,false
+149680126,Mysticellus franki,Franky’s Narrow-mouthed Frog,English,true
+149682598,Leptobrachella lateralis,Anderson's Toadfrog,English,false
+149682598,Leptobrachella lateralis,Nagaland Asian Toad,English,true
+31200,Syzygium palghatense,Sevappunjaval,Malayalam,true
+150087536,Megophrys flavipunctata,Yellow Spotted White-lipped Horned Frog,English,true
+150087712,Megophrys himalayana,Himalayan Horned Frog,English,true
+150087877,Megophrys oreocrypta,Garo White-lipped Horned Frog,English,true
+150087897,Megophrys periosa,Giant Himalayan Horned Frog,English,true
+150088659,Microhyla laterite,Laterite Narrow-mouthed Frog,English,true
+209668480,Hylarana aurantiaca,Golden Frog,English,false
+209668480,Hylarana aurantiaca,Trivandrum Frog,English,false
+209668480,Hylarana aurantiaca,Boulenger's Golden-backed Frog,English,true
+54478,Ghatophryne ornata,Black Torrent Toad,English,false
+54478,Ghatophryne ornata,Ornate Stream Toad,English,false
+54478,Ghatophryne ornata,Malabar Torrent Toad,English,true
+54584,Duttaphrynus beddomii,Agastyamalai True Toad,English,false
+54584,Duttaphrynus beddomii,Beddome's Toad,English,true
+54593,Duttaphrynus brevirostris,Rao's Pale Brown Toad,English,false
+54593,Duttaphrynus brevirostris,Short-nosed Toad,English,false
+54593,Duttaphrynus brevirostris,Kempholey Toad,English,true
+54684,Beduka koynayensis,Chrome-yellow Toad,English,false
+54684,Beduka koynayensis,Humbali Village Toad,English,false
+54684,Beduka koynayensis,Koyna Toad,English,true
+58203,Amolops chakrataensis,Dehradun Stream Frog,English,true
+58273,Minervarya keralensis,Dubois' Hill Frog,English,false
+58273,Minervarya keralensis,Kerala Wart Frog,English,false
+58273,Minervarya keralensis,Warty Frog,English,false
+58273,Minervarya keralensis,Kerala Warty Frog,English,true
+197660098,Indirana beddomii,Beddome's Frog,English,false
+197660098,Indirana beddomii,Beddome's Indian Frog,English,false
+197660098,Indirana beddomii,Beddome’s Leaping Frog,English,true
+58312,Walkerana leptodactyla,Long-toed Frog,English,false
+58312,Walkerana leptodactyla,Slender-toed Leaping Frog,English,false
+58312,Walkerana leptodactyla,Thin-limbed Frog,English,false
+58312,Walkerana leptodactyla,Boulenger's Indian Frog,English,true
+58314,Walkerana phrynoderma,Toad-skinned Frog,English,false
+58314,Walkerana phrynoderma,Warty-skinned Leaping Frog,English,false
+58314,Walkerana phrynoderma,Kerala Indian Frog,English,true
+58377,Micrixalus elegans,Elegant Dancing Frog,English,false
+58377,Micrixalus elegans,Elegant Torrent Frog,English,true
+58379,Micrixalus gadgili,Gadgil's Dancing Frog,English,false
+58379,Micrixalus gadgili,Gadgil's Torrent Frog,English,true
+58383,Micrixalus phyllophilus,Nilgiri Dancing Frog,English,false
+58383,Micrixalus phyllophilus,Pink-thighed Torrent Frog,English,false
+58383,Micrixalus phyllophilus,Nilgiri Dancing Frog,English,true
+58385,Micrixalus silvaticus,Forest Torrent Frog,English,false
+58385,Micrixalus silvaticus,Forest Dancing Frog,English,true
+58387,Micrixalus thampii,Silent Valley Dancing Frog,English,false
+58387,Micrixalus thampii,Silent Valley Torrent Frog,English,false
+58387,Micrixalus thampii,Thampi's Torrent Frog,English,true
+58395,Nyctibatrachus aliciae,Alicia's Night Frog,English,true
+58399,Nyctibatrachus karnatakaensis,Kudremukh Wrinkled Fro,English,false
+58399,Nyctibatrachus karnatakaensis,Large Wrinkled Frog,English,false
+58399,Nyctibatrachus karnatakaensis,Giant Wrinkled Frog,English,true
+58401,Nyctibatrachus major,Large Wrinkled Frog,English,false
+58401,Nyctibatrachus major,Travancore Wrinkled Frog,English,false
+58401,Nyctibatrachus major,Malabar Night Frog,English,true
+58402,Nyctibatrachus minor,Kerala Night Frog,English,false
+58402,Nyctibatrachus minor,Small Wrinkled Frog,English,true
+58403,Nyctibatrachus sanctipalustris,Brahmagiri Wrinkled Frog,English,false
+58403,Nyctibatrachus sanctipalustris,Sacred Swamp Wrinkled Frog,English,false
+58403,Nyctibatrachus sanctipalustris,Coorg Night Frog,English,true
+58404,Nyctibatrachus sylvaticus,Saklespur Wrinkled Frog,English,false
+58404,Nyctibatrachus sylvaticus,Forest Night Frog,English,true
+58571,Ingerana charlesdarwini,Darwin's Cricket Frog,English,false
+58571,Ingerana charlesdarwini,Charles Darwin's Frog,English,true
+58788,Chirixalus dudhwaensis,Dudhwa Tree Frog,English,true
+58829,Raorchestes chalazodes,Chalazodes Bubble-nest Frog,English,false
+58829,Raorchestes chalazodes,Günther's Bush Frog,English,true
+58847,Raorchestes glandulosus,Beautiful Bush Frog,English,false
+58847,Raorchestes glandulosus,Glandular Bush Frog,English,false
+58847,Raorchestes glandulosus,Rough-skinned Bush Frog,English,false
+58847,Raorchestes glandulosus,Southern Bubble-nest Frog,English,true
+58849,Raorchestes griet,Munnar Common Bush Frog,English,false
+58849,Raorchestes griet,Griet Bush Frog,English,true
+58876,Philautus namdaphaensis,Namdapha Bushfrog,English,false
+58876,Philautus namdaphaensis,Namdapha Bush Frog,English,false
+58876,Philautus namdaphaensis,Tirap Bubble-nest Frog,English,true
+58903,Raorchestes signatus,Cross-backed Nilgiri Bush Frog,English,false
+58903,Raorchestes signatus,Star-eyed Bush Frog,English,false
+58903,Raorchestes signatus,Cross-backed Bush Frog,English,true
+58926,Raorchestes tinniens,Nilgiri Bush Frog,English,false
+58926,Raorchestes tinniens,Tinkling Nilgiri Bush Frog,English,false
+58926,Raorchestes tinniens,Spotted Bush Frog,English,true
+58927,Raorchestes travancoricus,Travancore Bubble-nest Frog,English,false
+58927,Raorchestes travancoricus,Travancore Bush Frog,English,true
+58983,Rhacophorus calcadensis,Langbian Flying Frog,English,false
+58983,Rhacophorus calcadensis,Kalakkad Tree Frog,English,true
+59027,Ghatixalus variabilis,Green Frog of the Neelgherries,English,false
+59027,Ghatixalus variabilis,Green Tree Frog,English,true
+61850,Uperodon assamensis,Assam Narrowmouth Toad,English,false
+61850,Uperodon assamensis,Assamese Balloon Frog,English,true
+61885,Raorchestes nerostagona,Water Droplet Call Canopy Bush Frog,English,false
+61885,Raorchestes nerostagona,Kalpatta Yellow Bush Frog,English,true
+135879,Megophrys zunhebotoensis,Zunheboto's Horned Toad,English,true
+136045,Nyctibatrachus minimus,Miniature Wrinkled Fro,English,false
+136045,Nyctibatrachus minimus,Miniature Night Frog,English,true
+136049,Minervarya nicobariensis,Nicobar Frog,English,true
+158638,Amolops assamensis,Assam Stream Frog,English,false
+158638,Amolops assamensis,Sengupta's Cascade Frog,English,false
+158638,Amolops assamensis,Assamese Cascade Frog,English,true
+173018,Nyctibatrachus dattatreyaensis,Dattatreya Wrinkled Frog,English,false
+173018,Nyctibatrachus dattatreyaensis,Dattatreya Night Frog,English,true
+186160,Raorchestes chotta,Small Bush Frog,English,false
+186160,Raorchestes chotta,Small Bushfrog,English,true
+186161,Raorchestes coonoorensis,Coonoor Bush Frog,English,false
+186163,Raorchestes kaikatti,Kaikatti Bush Frog,English,true
+186165,Raorchestes marki,Mark's Bush Frog,English,true
+186166,Raorchestes sushili,Andiparai Shola Bush Frog,English,false
+186166,Raorchestes sushili,Sushil's Bushfrog,English,true
+187830,Raorchestes chromasynchysi,Confusing Green Bush Frog,English,false
+187830,Raorchestes chromasynchysi,Variable Bush Frog,English,false
+187830,Raorchestes chromasynchysi,Confusing Green Bushfrog,English,true
+189700,Beduka amboli,Amboli Lateritic Toad,English,true
+78521208,Nyctibatrachus kumbara,Kumbara Wrinkled Frog,English,false
+78521208,Nyctibatrachus kumbara,Kumbara Night Frog,English,true
+79080668,Megophrys oropedion,Little Meghalayan Horned Frog,English,false
+79080668,Megophrys oropedion,Shyllong Horned Toad,English,true
+79095367,Mercurana myristicapalustris,Myristica Lowland Tree Frog,English,true
+79719834,Beddomixalus bijui,Montane Foam-nest Tree Frog,English,true
+88378128,Nyctibatrachus anamallaiensis,Anamallai Night Frog,English,true
+89183211,Indirana salelkari,Netravali Leaping Frog,English,true
+121370882,Minervarya manoharani,Manoharan’s Burrowing Frog,English,true
+88369128,Micrixalus kottigeharensis,Kottigehar Bush Frog,English,false
+88369128,Micrixalus kottigeharensis,Kottigehar Dancing Frog,English,false
+88369128,Micrixalus kottigeharensis,Kottigehar Torrent Frog,English,false
+88369128,Micrixalus kottigeharensis,Kottigehar Bubble-nest Frog,English,true
+88378424,Nyctibatrachus beddomii,Beddome's Dwarf Wrinkled Frog,English,false
+88378424,Nyctibatrachus beddomii,Pygmy Wrinkled Frog,English,false
+88378424,Nyctibatrachus beddomii,Tirunvelveli's Hill Frog,English,false
+88378424,Nyctibatrachus beddomii,Beddome's Night Frog,English,true
+88378891,Nyctibatrachus deccanensis,Deccan Night Frog,English,false
+88378891,Nyctibatrachus deccanensis,Deccan Wrinkled Frog,English,false
+88378891,Nyctibatrachus deccanensis,Anamallai Night Frog,English,true
+33608,Atuna travancorica,Kallankaimaram,Malayalam,true
+169056310,Calophyllum austroindicum,Cherupunna,Malayalam,true
+169056981,Capparis rheedei,Kakkamullu,Malayalam,false
+169056981,Capparis rheedei,Kanakkareeram,Malayalam,false
+169056981,Capparis rheedei,Chenilam Badukka,Malayalam,true
+33018,Hopea glabra,Irumbagam,Malayalam,false
+33018,Hopea glabra,Kongu,Tamil,false
+33018,Hopea glabra,Puzhapongu,Malayalam,false
+33018,Hopea glabra,Ilapongu,Malayalam,true
+33022,Hopea racophloea,Karung Kongu,Tamil,false
+33022,Hopea racophloea,Nai Kambagam,Malayalam,false
+33022,Hopea racophloea,Thondupoliyan Pongu,Malayalam,false
+33022,Hopea racophloea,Naduvalippongu,Malayalam,true
+33023,Hopea utilis,Black Kongu,English,false
+33023,Hopea utilis,Karum Kongu,Tamil,false
+33023,Hopea utilis,Karakongu,Malayalam,true
+169578317,Reinwardtiodendron anamalaiense,Chembil,Malayalam,false
+169578317,Reinwardtiodendron anamalaiense,Santhanaviri,Tamil,false
+169578317,Reinwardtiodendron anamalaiense,Cheeralam,Malayalam,true
+31275,Sloanea tomentosa,XIn Ye Hou Huan Xi,Chinese,true
+176856760,Ormosia robusta,Robust Bead Tree,English,true
+22693431,Calidris ferruginea,Bécasseau cocorli,French,false
+22693431,Calidris ferruginea,كروان الماء,Arabic,false
+22693431,Calidris ferruginea,Curlew Sandpiper,English,true
+181140345,Megophrys awuh,Naga Hills Horned Frog,English,true
+181141076,Megophrys dzukou,Dzükou Valley Horned Frog,English,true
+181473105,Blythophryne beryet,Andaman Bush Toad,English,true
+181140883,Megophrys numhbumaeng,Tamenglong Horned Frog,English,true
+186884431,Pecteilis triflora,Three-flowered Pecteilis,English,true
+184539455,Crepidium aphyllum,Leafless Crepidium,English,true
+186884507,Peristylus sahanii,K.L.Sahani's Peristylus,English,true
+186884978,Eulophia obtusa,Obtuse Eulophia,English,true
+186885185,Habenaria sahyadrica,Sahyadric Habenaria,English,true
+191547129,Adelocaryum malabaricum,Kala Nisurdi,Marathi,true
+197945955,Raorchestes keirasabinae,Keira's Bush Frog,English,false
+197945955,Raorchestes keirasabinae,Keira’s Shrub Frog,English,true
+31187,Humboldtia bourdillonii,Adimundan,Malayalam,true
+33645,Dialium travancoricum,Hill Tamarind,English,false
+33645,Dialium travancoricum,Malam puli,Malayalam,true
+33647,Prioria pinnata,Ennappayin,Malayalam,false
+33647,Prioria pinnata,Kulavu,Malayalam,true
+38758,Aporosa bourdillonii,Malamvetti,Malayalam,true
+201030934,Humboldtia brunonis,Kaattashokam,Malayalam,true
+210014331,Pandanus palakkadensis,Kaitha,Malayalam,true
+38036,Syzygium caryophyllatum,Bhedshi,Konkani,false
+38036,Syzygium caryophyllatum,Hrasvajambuh,Sanskrit,false
+38036,Syzygium caryophyllatum,Karinjara,Malayalam,false
+38036,Syzygium caryophyllatum,Kunta neerale,Kannada,false
+38036,Syzygium caryophyllatum,Kuntangila,Kannada,false
+38036,Syzygium caryophyllatum,Njara,Malayalam,false
+38036,Syzygium caryophyllatum,Pottinjaval,Malayalam,false
+38036,Syzygium caryophyllatum,Ran lavang,Marathi,false
+38036,Syzygium caryophyllatum,Cherujara,Malayalam,true
+210010463,Syzygium calophyllifolium,Neerodum,Malayalam,true
+210013452,Ficus beddomei,Thavittaal,Malayalam,false
+210013452,Ficus beddomei,Chela,Malayalam,true
+210013949,Ficus dalhousiae,Kallaal,Malayalam,true
+215199522,Lepidagathis clavata,Koch,Marathi,true
+22679012,Perdicula manipurensis,Manipur Bush Quail,English,false
+22679012,Perdicula manipurensis,Manipur Bush-Quail,English,false
+22679012,Perdicula manipurensis,Manipur Bush-quail,English,true
+22679330,Syrmaticus humiae,Hume's Bar-tailed Pheasant,English,false
+22679330,Syrmaticus humiae,Mrs. Hume's Pheasant,English,false
+22679330,Syrmaticus humiae,Faisán de Hume,Spanish; Castilian,false
+22679330,Syrmaticus humiae,Mrs Hume's Pheasant,English,true
+222292291,Syzygium ponmudianum,Ponmudinjara,Malayalam,true
+31181,Buchanania barberi,Malamavu,Malayalam,true
+22693225,Tringa guttifer,Nordmann's Greenshank,English,false
+22693225,Tringa guttifer,Nordmann’s Greenshank,English,false
+22693225,Tringa guttifer,Archibebe Moteado,Spanish; Castilian,false
+22693225,Tringa guttifer,Spotted Greenshank,English,true
+22729465,Spilornis klossi,Águila Culebrera de Nicobar Mayor,Spanish; Castilian,false
+22729465,Spilornis klossi,Great Nicobar Serpent-eagle,English,true
+225970375,Madhuca balakrishnanii,Thekkan Attillipa,Malayalam,true
+37314,Myristica magnifica,Kotthapanu,Malayalam,true
+22695494,Accipiter butleri,Nicobar Shikra,English,false
+22695494,Accipiter butleri,Gavilán de Nicobar,Spanish; Castilian,false
+22695494,Accipiter butleri,Nicobar Sparrowhawk,English,true
+82031633,Sousa plumbea,Boggelrugdolfyn,Afrikaans,false
+82031633,Sousa plumbea,Dauphin à bosse,French,false
+82031633,Sousa plumbea,Dukhs,Arabic,false
+82031633,Sousa plumbea,Fesobory,Malagasy,false
+82031633,Sousa plumbea,Fesodoby,Malagasy,false
+82031633,Sousa plumbea,Fesoke Manjavany,Malagasy,false
+82031633,Sousa plumbea,Fukariyo,Gujarati,false
+82031633,Sousa plumbea,Gada reda,Marathi,false
+82031633,Sousa plumbea,Gad/Gaadha reda,Kannada,false
+82031633,Sousa plumbea,Goonu,Telugu,false
+82031633,Sousa plumbea,Kadal ongi,Malayalam,false
+82031633,Sousa plumbea,Kadal panni,Malayalam,false
+82031633,Sousa plumbea,Kushuku,Swahili,false
+82031633,Sousa plumbea,Malhar,Sindhi,false
+82031633,Sousa plumbea,Paru vedan,Hindi,false
+82031633,Sousa plumbea,Pomboo mweupe,Swahili,false
+82031633,Sousa plumbea,Pomboo nundu,Swahili,false
+82031633,Sousa plumbea,Sori vedan,Tamil,false
+82031633,Sousa plumbea,Thella thoralu,Telugu,false
+82031633,Sousa plumbea,Vella ongi,Tamil,false
+82031633,Sousa plumbea,Υβοδέλφινο του Ινδικού,"Greek, Modern (1453-)",false
+82031633,Sousa plumbea,Indian Ocean Humpback Dolphin,English,true
+33007,Dipterocarpus alatus,Chheuteal Teuk,Central Khmer,false
+33007,Dipterocarpus alatus,Dau Nuoc,Vietnamese,false
+33007,Dipterocarpus alatus,Day Rai,Vietnamese,false
+33007,Dipterocarpus alatus,Yaang Naa,Thai,false
+33007,Dipterocarpus alatus,Yang Khao,Lao,false
+22715856,Pellorneum palustre,Marsh Babbler,English,true
+239578615,Strobilanthes kunthiana,Neelakurinji,Malayalam,true
+239905380,Psychotria nudiflora,Kottappoovu,Malayalam,true
+239905440,Nothopegia travancorica,Avukarum,Malayalam,true
+239905600,Ficus cupulata,Pakar,Hindi,false
+239905600,Ficus cupulata,Akai-bat,Hindi,true
+22681585,Mulleripicus pulverulentus,Great Slaty Woodpecker,English,true
+22680064,Asarcornis scutulata,White-winged Wood Duck,English,false
+22680064,Asarcornis scutulata,Pato Almizclero Aliblanco,Spanish; Castilian,false
+22680064,Asarcornis scutulata,Pato de Jungla,Spanish; Castilian,false
+22680064,Asarcornis scutulata,White-winged Duck,English,true
+4615,Chelonia mydas,Aruanã,Portuguese,false
+4615,Chelonia mydas,Honu,Maori,false
+4615,Chelonia mydas,"Laumei, I’a Sa",Samoan,false
+4615,Chelonia mydas,Tartaruga Verde,Portuguese,false
+4615,Chelonia mydas,Tortue comestible,French,false
+4615,Chelonia mydas,Tortue franche,French,false
+4615,Chelonia mydas,Tortue verte,French,false
+4615,Chelonia mydas,Tortuga Blanca,Spanish; Castilian,false
+4615,Chelonia mydas,Tortuga Verde,Spanish; Castilian,false
+4615,Chelonia mydas,Vonu Dina,Fijian,false
+4615,Chelonia mydas,الخضراء السلحفاة,Arabic,false
+4615,Chelonia mydas,Green Turtle,English,true
+103874145,Montecincla jerdoni,Banasura Laughingthrush,English,false
+103874145,Montecincla jerdoni,Banasura Chilappan,English,true
+103874754,Montecincla meridionalis,Travancore Laughingthrush,English,false
+103874754,Montecincla meridionalis,Ashambu Chilappan,English,true
+22716795,Paradoxornis flavirostris,Black-breasted Parrotbill,English,true
+22716358,Argya longirostris,Slender-billed Babbler,English,true
+22734628,Liocichla bugunorum,Bugun Liocichla,English,true
+22693749,Pluvialis squatarola,Black-bellied Plover,English,false
+22693749,Pluvialis squatarola,Pluvier argenté,French,false
+22693749,Pluvialis squatarola,الزقزاق الرمادي,Arabic,false
+22693749,Pluvialis squatarola,Grey Plover,English,true
+15954,Panthera pardus,Al nimr,Arabic,false
+15954,Panthera pardus,Bao,Chinese,false
+15954,Panthera pardus,Léopard,French,false
+15954,Panthera pardus,Leopardo,Spanish; Castilian,false
+15954,Panthera pardus,Palang,Persian,false
+15954,Panthera pardus,Pantera,Spanish; Castilian,false
+15954,Panthera pardus,Panthère,French,false
+15954,Panthera pardus,Leopard,English,true
+22693447,Calidris subruficollis,Bécasseau roussâtre,French,false
+22693447,Calidris subruficollis,Correlimos Canelo,Spanish; Castilian,false
+22693447,Calidris subruficollis,Buff-breasted Sandpiper,English,true
+2888,Bos javanicus,Tembadau,English,false
+2888,Bos javanicus,Banteng,German,false
+2888,Bos javanicus,Taw Nwar (aka) Sai,Burmese,false
+2888,Bos javanicus,Banteng,English,true
+22693464,Calidris falcinellus,Bécasseau falcinelle,French,false
+22693464,Calidris falcinellus,الطيطوى عريضة المنقار,Arabic,false
+22693464,Calidris falcinellus,Broad-billed Sandpiper,English,true
+22685513,Belocercus longicaudus,Long-tailed Parakeet,English,true
+219,Acinonyx jubatus,Abo Shemane,Amharic,false
+219,Acinonyx jubatus,Cheeta,Hindi,false
+219,Acinonyx jubatus,Chita,Spanish; Castilian,false
+219,Acinonyx jubatus,Duma,Swahili,false
+219,Acinonyx jubatus,Fahad Sayad (الفهد الصياد),Arabic,false
+219,Acinonyx jubatus,Gepard,German,false
+219,Acinonyx jubatus,Guépard,French,false
+219,Acinonyx jubatus,Guepardo,Spanish; Castilian,false
+219,Acinonyx jubatus,Haramcad,Somali,false
+219,Acinonyx jubatus,Jagluiperd,Afrikaans,false
+219,Acinonyx jubatus,Cheetah,English,true
+70205537,Arctonyx collaris,Hog Badger,English,false
+70205537,Arctonyx collaris,Schweinsdachs,German,false
+70205537,Arctonyx collaris,Greater Hog Badger,English,true
+22037,Trachypithecus geei,Gee's Golden Langur,English,false
+22037,Trachypithecus geei,Golden Leaf Monkey,English,false
+22037,Trachypithecus geei,Entelle Dorée,French,false
+22037,Trachypithecus geei,Langur Dorado,Spanish; Castilian,false
+22037,Trachypithecus geei,Langur Doré,French,false
+22037,Trachypithecus geei,Semnopithèque De Gee,French,false
+22037,Trachypithecus geei,Semnopithèque Doré,French,false
+22037,Trachypithecus geei,Gee’s Golden Langur,English,true
+22041,Trachypithecus pileatus,Bonneted Langur,English,false
+22041,Trachypithecus pileatus,Capped Leaf Monkey,English,false
+22041,Trachypithecus pileatus,Capped Monkey,English,false
+22041,Trachypithecus pileatus,Entelle Pileuse,French,false
+22041,Trachypithecus pileatus,Langur À Capuchon,French,false
+22041,Trachypithecus pileatus,Langur Capuchino,Spanish; Castilian,false
+22041,Trachypithecus pileatus,Langur De Capa,Spanish; Castilian,false
+22041,Trachypithecus pileatus,Capped Langur,English,true
+30864,Diospyros crumenata,Karimaram,Malayalam,false
+30864,Diospyros crumenata,Karimbudan,Malayalam,true
+15951,Panthera leo,African Lion,English,false
+15951,Panthera leo,Ambessa,Amharic,false
+15951,Panthera leo,iNgwenyama,Xhosa,false
+15951,Panthera leo,Leao,Portuguese,false
+15951,Panthera leo,Leeu,Afrikaans,false
+15951,Panthera leo,León,Spanish; Castilian,false
+15951,Panthera leo,Lion,French,false
+15951,Panthera leo,Mkango,Chichewa; Chewa; Nyanja,false
+15951,Panthera leo,Ndau,Venda,false
+15951,Panthera leo,Shumba,Shona,false
+15951,Panthera leo,Simba,Swahili,false
+15951,Panthera leo,Tau,"Sotho, Southern",false
+15951,Panthera leo,Tau,Tswana,false
+15951,Panthera leo,Lion,English,true
+242376417,Dipcadi ursulae,Deepkadi,Marathi,true
