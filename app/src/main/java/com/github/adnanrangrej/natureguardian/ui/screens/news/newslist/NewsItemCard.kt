@@ -1,5 +1,6 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.news.newslist
 
+import android.util.Log
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -32,25 +33,21 @@ import com.github.adnanrangrej.natureguardian.ui.components.shimmerEffect
 import com.github.adnanrangrej.natureguardian.ui.theme.ExtendedTheme
 import com.github.adnanrangrej.natureguardian.ui.theme.NatureGuardianTheme
 import com.github.adnanrangrej.natureguardian.ui.theme.NewsCardShape
+import java.time.OffsetDateTime
+import java.time.format.DateTimeFormatter
+import java.util.Locale
 
 @Composable
 fun NewsItemCard(
-    newsItem: NewsItem,
-    modifier: Modifier = Modifier
+    newsItem: NewsItem, modifier: Modifier = Modifier
 ) {
     Card(
-        modifier = modifier
-            .fillMaxWidth(),
-        shape = NewsCardShape,
-        colors = CardDefaults.cardColors(
+        modifier = modifier.fillMaxWidth(), shape = NewsCardShape, colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.surface
-        ),
-        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+        ), elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
         Row(
-            modifier = Modifier
-                .padding(16.dp),
-            verticalAlignment = Alignment.CenterVertically
+            modifier = Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically
         ) {
             // Image Thumbnail
             NatureGuardianImages(
@@ -130,18 +127,12 @@ fun NewsItemCardShimmer(
     modifier: Modifier = Modifier
 ) {
     Card(
-        modifier = modifier
-            .fillMaxWidth(),
-        shape = NewsCardShape,
-        colors = CardDefaults.cardColors(
+        modifier = modifier.fillMaxWidth(), shape = NewsCardShape, colors = CardDefaults.cardColors(
             containerColor = MaterialTheme.colorScheme.surface
-        ),
-        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+        ), elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
         Row(
-            modifier = Modifier
-                .padding(16.dp),
-            verticalAlignment = Alignment.CenterVertically
+            modifier = Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically
         ) {
             // Image Thumbnail
             Box(
@@ -220,8 +211,11 @@ private fun NewsItemCarPreview() {
     }
 }
 
-fun formatDate(dateString: String): String {
-    // For demo purposes, returning a static readable format
-    // In a real app, use a library like java.time or a custom formatter
-    return "Mar 16, 2025" // Replace with actual parsing logic for "2025-03-16T19:50:00Z"
+fun formatDate(dateString: String): String = try {
+    val offsetDateTime = OffsetDateTime.parse(dateString)
+    val formatter = DateTimeFormatter.ofPattern("MMM dd, yyyy", Locale.getDefault())
+    offsetDateTime.format(formatter)
+} catch (e: Exception) {
+    Log.e("formatDate", "formatDate: $e")
+    dateString
 }
