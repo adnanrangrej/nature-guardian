@@ -1,4 +1,4 @@
-package com.github.adnanrangrej.natureguardian.data.model.species
+package com.github.adnanrangrej.natureguardian.data.local.entity.species
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

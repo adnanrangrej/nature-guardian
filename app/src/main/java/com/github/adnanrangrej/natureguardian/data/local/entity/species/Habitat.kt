@@ -1,4 +1,4 @@
-package com.github.adnanrangrej.natureguardian.data.model.species
+package com.github.adnanrangrej.natureguardian.data.local.entity.species
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -6,7 +6,7 @@ import androidx.room.ForeignKey
 import androidx.room.PrimaryKey
 
 @Entity(
-    tableName = "use_trade",
+    tableName = "habitat",
     foreignKeys = [ForeignKey(
         entity = Species::class,
         parentColumns = ["internal_taxon_id"],
@@ -14,10 +14,11 @@ import androidx.room.PrimaryKey
         onDelete = ForeignKey.CASCADE
     )]
 )
-data class UseTrade(
+data class Habitat(
+
     @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "use_trade_id")
-    val useTradeId: Long,
+    @ColumnInfo(name = "habitat_id")
+    val habitatId: Long,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,
@@ -25,12 +26,16 @@ data class UseTrade(
     @ColumnInfo(name = "code")
     val code: String,
 
-    @ColumnInfo(name = "use_trade_name")
-    val useTradeName: String,
+    @ColumnInfo(name = "habitat_name")
+    val habitatName: String,
 
-    @ColumnInfo(name = "international")
-    val international: Boolean?,
+    @ColumnInfo(name = "major_importance")
+    val majorImportance: Boolean?,
 
-    @ColumnInfo(name = "national")
-    val national: Boolean?
-)
+    @ColumnInfo(name = "season")
+    val season: String?,
+
+    @ColumnInfo(name = "suitability")
+    val suitability: String?,
+
+    )
