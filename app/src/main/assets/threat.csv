@@ -1,0 +1,1504 @@
+internalTaxonId,threatCode,threatName,stressCode,stressName,severity
+175221,1.2,Commercial & industrial areas,,,"Slow, Significant Declines"
+175221,1.3,Tourism & recreation areas,,,"Slow, Significant Declines"
+175221,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+175221,7.1.1,Increase in fire frequency/intensity,,,"Slow, Significant Declines"
+186162,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+186162,2.2.1,Small-holder plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+186162,1.3,Tourism & recreation areas,1.2,Ecosystem degradation,
+186162,5.3.5,Motivation Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+186162,8.1.2,Named species,2.1,Species mortality,Unknown
+186162,7.1.1,Increase in fire frequency/intensity,1.2,Ecosystem degradation,
+186162,5.1.1,Intentional use (species is the target),2.1,Species mortality,Negligible declines
+186162,11.1,Habitat shifting & alteration,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+48886608,7.2.1,Abstraction of surface water (domestic use),1.2,Ecosystem degradation,
+48886608,7.2.9,Small dams,1.2,Ecosystem degradation,
+48874314,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+48874314,8.1.2,Named species,2.1,Species mortality,Unknown
+48874314,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48874314,7.2.3,Abstraction of surface water (agricultural use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48874314,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48874474,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+48874474,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+48874474,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48874474,8.1.2,Named species,2.1,Species mortality,Unknown
+48874286,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+48874286,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48874286,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+48874286,6.1,Recreational activities,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+48874286,8.1.2,Named species,2.1,Species mortality,Unknown
+48874266,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+48874266,8.1.2,Named species,2.1,Species mortality,Unknown
+48874266,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48874266,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48874266,4.1,Roads & railroads,1.1|1.2|2.1,Ecosystem conversion|Ecosystem degradation|Species mortality,
+48874250,9.3.4,Type Unknown/Unrecorded,1.2,Ecosystem degradation,Unknown
+48874250,5.3.4,Unintentional effects: (large scale) [harvest],1.2,Ecosystem degradation,Unknown
+48874250,8.1.2,Named species,2.1,Species mortality,Unknown
+48874225,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+48874225,7.2.1,Abstraction of surface water (domestic use),1.2,Ecosystem degradation,
+48874225,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+48874225,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48874225,8.1.2,Named species,2.1,Species mortality,Unknown
+48874225,6.1,Recreational activities,2.2,Species disturbance,
+48874225,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48874189,9.1.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,
+48874189,4.1,Roads & railroads,2.1,Species mortality,
+48874189,8.1.2,Named species,2.1,Species mortality,Unknown
+48874189,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+48874189,6.1,Recreational activities,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+48874189,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+48874217,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+48874217,8.1.2,Named species,2.1,Species mortality,Unknown
+48874217,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48874217,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+48874217,6.1,Recreational activities,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+48873111,8.1.2,Named species,2.1,Species mortality,Unknown
+48873111,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48873111,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+48873111,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+48873111,4.1,Roads & railroads,1.1|1.2|2.1,Ecosystem conversion|Ecosystem degradation|Species mortality,
+48872923,9.1.2,Run-off,1.2,Ecosystem degradation,Unknown
+48872923,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+48872923,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+48872923,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+177756483,2.2.1,Small-holder plantations,,,
+177756483,5.3.1,Intentional use: (subsistence/small scale) [harvest],,,
+177756483,2.1.2,Small-holder farming,,,
+208598052,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+208598052,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+208598052,7.2.11,Dams (size unknown),1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+208598052,5.3.4,Unintentional effects: (large scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+208598052,6.3,Work & other activities,1.2,Ecosystem degradation,
+208598052,5.1.1,Intentional use (species is the target),2.1,Species mortality,
+73786986,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73787038,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73787038,8.1.2,Named species,2.1,Species mortality,Unknown
+73787038,2.2.1,Small-holder plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73787369,9.4,Garbage & solid waste,1.2,Ecosystem degradation,Unknown
+73787369,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+73787369,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+73787369,11.1,Habitat shifting & alteration,1.2|2.1,Ecosystem degradation|Species mortality,Unknown
+73788607,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73788607,4.1,Roads & railroads,2.1,Species mortality,
+73788607,7.2.9,Small dams,2.2,Species disturbance,
+73788607,8.1.2,Named species,2.1,Species mortality,Unknown
+73788607,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73788764,4.1,Roads & railroads,2.1,Species mortality,
+73788764,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73788764,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+73788764,8.1.2,Named species,2.1,Species mortality,Unknown
+73788764,7.3,Other ecosystem modifications,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73788782,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73788782,4.1,Roads & railroads,2.1|2.2,Species mortality|Species disturbance,
+73788782,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73788782,7.2.9,Small dams,1.1,Ecosystem conversion,
+73788782,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73788782,8.1.2,Named species,2.1,Species mortality,Unknown
+73788782,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73788782,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+73788782,11.5,Other impacts,2.2|2.3.7,Species disturbance|Reduced reproductive success,
+73788833,11.5,Other impacts,2.2|2.3.7,Species disturbance|Reduced reproductive success,
+73788833,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73788833,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73788833,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+73788833,8.1.2,Named species,2.1,Species mortality,
+73788833,4.1,Roads & railroads,2.1,Species mortality,
+73959431,9.2.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,
+73959431,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73959431,8.1.2,Named species,2.1,Species mortality,Unknown
+73959431,7.2.3,Abstraction of surface water (agricultural use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73959431,7.2.9,Small dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73959431,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+73960020,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73960020,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+73960020,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73960020,7.2.9,Small dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73960020,11.4,Storms & flooding,1.2|2.1,Ecosystem degradation|Species mortality,
+73960020,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+73960020,8.1.2,Named species,2.1,Species mortality,Unknown
+73960020,9.2.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,
+73960040,9.2.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,
+73960040,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73960040,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+73960040,8.1.2,Named species,2.1,Species mortality,Unknown
+73960040,7.2.3,Abstraction of surface water (agricultural use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73960040,7.2.9,Small dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73961281,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73961281,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+73961281,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+73961281,1.3,Tourism & recreation areas,1.1,Ecosystem conversion,
+73961281,7.2.1,Abstraction of surface water (domestic use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73961281,7.2.3,Abstraction of surface water (agricultural use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73961281,9.1.1,Sewage,1.2,Ecosystem degradation,
+73961281,8.1.2,Named species,2.1,Species mortality,Unknown
+73963691,2.1.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73963691,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73963691,8.1.2,Named species,2.1,Species mortality,Unknown
+73963691,3.2,Mining & quarrying,2.2,Species disturbance,
+73963691,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73963691,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73963691,7.2.3,Abstraction of surface water (agricultural use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73963691,7.2.9,Small dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73963691,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+73963691,4.1,Roads & railroads,2.1|2.2,Species mortality|Species disturbance,
+73964539,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73964539,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+73964539,8.1.2,Named species,2.1,Species mortality,Unknown
+73964539,7.2.9,Small dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73964539,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73964539,11.1,Habitat shifting & alteration,1.2,Ecosystem degradation,
+73964539,11.5,Other impacts,2.2|2.3.7,Species disturbance|Reduced reproductive success,
+73965400,7.2.3,Abstraction of surface water (agricultural use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73965400,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73965400,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73965400,11.5,Other impacts,2.2|2.3.7,Species disturbance|Reduced reproductive success,
+73965400,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73965400,8.1.2,Named species,2.1,Species mortality,Unknown
+73965533,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73965533,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+73965533,8.1.2,Named species,2.1,Species mortality,Unknown
+73967847,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73967847,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+73967847,11.1,Habitat shifting & alteration,1.2,Ecosystem degradation,
+73967847,8.1.2,Named species,2.1,Species mortality,Unknown
+73967847,6.1,Recreational activities,2.2,Species disturbance,
+73967847,7.2.3,Abstraction of surface water (agricultural use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73967847,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73967876,9.2.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,
+73967876,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73967876,7.2.3,Abstraction of surface water (agricultural use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73967876,7.2.9,Small dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73967876,8.1.2,Named species,2.1,Species mortality,Unknown
+73967876,6.1,Recreational activities,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+73967876,11.4,Storms & flooding,2.3.7,Reduced reproductive success,
+73967915,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+73967915,7.2.3,Abstraction of surface water (agricultural use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73967915,7.2.9,Small dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73967915,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+73967915,8.1.2,Named species,2.1,Species mortality,Unknown
+73967915,7.3,Other ecosystem modifications,1.2,Ecosystem degradation,
+73971314,9.2.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,
+73971314,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73971314,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+73971314,11.4,Storms & flooding,1.2,Ecosystem degradation,
+73971314,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+73971314,8.1.2,Named species,2.1,Species mortality,Unknown
+73971314,11.5,Other impacts,2.2|2.3.7,Species disturbance|Reduced reproductive success,
+73971314,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+73972049,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73972049,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73972049,7.2.11,Dams (size unknown),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73972049,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73972049,4.1,Roads & railroads,1.2,Ecosystem degradation,
+73972049,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+73972049,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+73972049,8.1.2,Named species,2.1,Species mortality,Unknown
+73972645,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+73972645,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+73972645,8.1.2,Named species,2.1,Species mortality,Unknown
+73972645,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+73972645,11.5,Other impacts,2.2|2.3.7,Species disturbance|Reduced reproductive success,
+73972645,11.1,Habitat shifting & alteration,1.2,Ecosystem degradation,
+191004,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+191004,5.3.4,Unintentional effects: (large scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+191004,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+191004,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+189814,8.1.2,Named species,2.1,Species mortality,
+189814,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+189814,7.1.1,Increase in fire frequency/intensity,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+87739329,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+87739247,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+87739247,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+87739247,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+87739247,4.1,Roads & railroads,1.2|2.1,Ecosystem degradation|Species mortality,
+87739247,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+87739247,8.2.2,Named species,2.1,Species mortality,Unknown
+112690948,6.1,Recreational activities,2.2,Species disturbance,Unknown
+112690948,8.1.2,Named species,2.1,Species mortality,Unknown
+112690948,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+112690948,3.3,Renewable energy,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+112691330,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+112691330,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+112691330,6.1,Recreational activities,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+112691330,8.1.2,Named species,2.1,Species mortality,Unknown
+112691501,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+112691501,8.1.2,Named species,2.1,Species mortality,Unknown
+112691501,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+112691501,6.1,Recreational activities,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+112691545,6.3,Work & other activities,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+112691545,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+112691545,8.1.2,Named species,2.1,Species mortality,Unknown
+112691545,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+112691545,9.4,Garbage & solid waste,1.2,Ecosystem degradation,Unknown
+112691545,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+112691545,1.3,Tourism & recreation areas,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,Unknown
+36652,1.1,Housing & urban areas,,,Causing/Could cause fluctuations
+36652,5.3.1,Intentional use: (subsistence/small scale) [harvest],,,Causing/Could cause fluctuations
+36652,8.2,Problematic native species/diseases,,,"Slow, Significant Declines"
+31199,7.2.10,Large dams,,,Rapid Declines
+31199,7.2.9,Small dams,,,Rapid Declines
+31199,11.4,Storms & flooding,2.1|2.2,Species mortality|Species disturbance,Rapid Declines
+38821,7.2.10,Large dams,,,"Slow, Significant Declines"
+38821,2.2.2,Agro-industry plantations,,,Rapid Declines
+38821,8.2.1,Unspecified species,,,
+31170,7.2.10,Large dams,,,Very Rapid Declines
+31170,2.1.3,Agro-industry farming,,,"Slow, Significant Declines"
+31170,5.3.1,Intentional use: (subsistence/small scale) [harvest],,,Causing/Could cause fluctuations
+31170,5.3.2,Intentional use: (large scale) [harvest],,,Very Rapid Declines
+119243084,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+119243084,8.1.2,Named species,2.1,Species mortality,Unknown
+119243084,7.3,Other ecosystem modifications,2.2,Species disturbance,
+119243084,11.2,Droughts,2.1|2.2,Species mortality|Species disturbance,
+119243159,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+119243159,6.3,Work & other activities,2.1,Species mortality,
+119243159,8.1.2,Named species,2.1,Species mortality,Unknown
+119243159,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+119243159,5.2.2,Unintentional effects (species is not the target),1.2|2.2,Ecosystem degradation|Species disturbance,
+119243159,11.2,Droughts,1.2,Ecosystem degradation,
+119243173,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,Unknown
+119243173,8.1.2,Named species,2.1,Species mortality,Unknown
+119243173,7.3,Other ecosystem modifications,2.2,Species disturbance,
+119243173,11.5,Other impacts,2.3.7,Reduced reproductive success,
+119243173,4.1,Roads & railroads,2.1,Species mortality,
+31220,2.3.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+31220,5.3.5,Motivation Unknown/Unrecorded,1.2,Ecosystem degradation,
+31220,2.1.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+31220,7.1.3,Trend Unknown/Unrecorded,1.2,Ecosystem degradation,
+33497,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+33497,2.3.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+33497,5.3.5,Motivation Unknown/Unrecorded,1.2,Ecosystem degradation,
+33497,2.1.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+62565,2.1.3,Agro-industry farming,,,
+62565,2.1.2,Small-holder farming,,,
+62565,2.2.2,Agro-industry plantations,,,
+62565,2.2.1,Small-holder plantations,,,
+144052276,2.1.3,Agro-industry farming,,,
+144052276,2.1.2,Small-holder farming,,,
+144052276,2.2.2,Agro-industry plantations,,,
+144052276,2.2.1,Small-holder plantations,,,
+144053300,11.4,Storms & flooding,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+144053300,1.3,Tourism & recreation areas,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+144056383,2.1.3,Agro-industry farming,,,
+144056383,2.1.2,Small-holder farming,,,
+144056383,2.2.2,Agro-industry plantations,,,
+144056383,2.2.1,Small-holder plantations,,,
+145290519,2.1.3,Agro-industry farming,,,
+145290519,2.1.2,Small-holder farming,,,
+145290519,2.2.2,Agro-industry plantations,,,
+145290519,2.2.1,Small-holder plantations,,,
+145290519,3.2,Mining & quarrying,,,
+145301615,2.1.3,Agro-industry farming,,,
+145301615,2.1.2,Small-holder farming,,,
+145301615,2.2.2,Agro-industry plantations,,,
+145301615,2.2.1,Small-holder plantations,,,
+145301728,2.1.3,Agro-industry farming,,,
+145301728,2.1.2,Small-holder farming,,,
+145301728,2.2.2,Agro-industry plantations,,,
+145301728,2.2.1,Small-holder plantations,,,
+145301965,2.1.3,Agro-industry farming,,,
+145301965,2.1.2,Small-holder farming,,,
+145301965,2.2.2,Agro-industry plantations,,,
+145301965,2.2.1,Small-holder plantations,,,
+145310645,2.1.3,Agro-industry farming,,,
+145310645,2.1.2,Small-holder farming,,,
+145310645,2.2.2,Agro-industry plantations,,,
+145310645,2.2.1,Small-holder plantations,,,
+145311979,2.1.3,Agro-industry farming,,,
+145311979,2.1.2,Small-holder farming,,,
+145311979,2.2.2,Agro-industry plantations,,,
+145311979,2.2.1,Small-holder plantations,,,
+145344026,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],,,
+145344026,2.1.1,Shifting agriculture,,,
+145404323,2.1.3,Agro-industry farming,,,
+145404323,2.1.2,Small-holder farming,,,
+145404323,2.2.2,Agro-industry plantations,,,
+145404323,2.2.1,Small-holder plantations,,,
+37611,8.2.1,Unspecified species,,,
+37611,11.4,Storms & flooding,,,
+149680126,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+149680126,11.2,Droughts,1.2,Ecosystem degradation,
+149680126,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+149680126,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+149680126,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+149680126,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+149680126,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+149680126,8.1.2,Named species,2.1,Species mortality,
+149682598,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2|1.3|2.2,Ecosystem degradation|Indirect ecosystem effects|Species disturbance,Unknown
+149682598,6.3,Work & other activities,1.2|1.3|2.2,Ecosystem degradation|Indirect ecosystem effects|Species disturbance,Unknown
+149682598,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+149682598,5.1.2,Unintentional effects (species is not the target),1.2,Ecosystem degradation,Unknown
+149682598,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+31200,2.2.2,Agro-industry plantations,,,Rapid Declines
+31200,7.1.1,Increase in fire frequency/intensity,,,Rapid Declines
+32866,7.2.10,Large dams,,,"Slow, Significant Declines"
+32866,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+32866,2.1.4,Scale Unknown/Unrecorded,,,"Slow, Significant Declines"
+32866,11.4,Storms & flooding,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Very Rapid Declines
+150087536,9.1.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,Unknown
+150087536,2.1.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087536,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087536,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+150087536,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087536,7.2.10,Large dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087536,5.1.1,Intentional use (species is the target),2.1,Species mortality,Unknown
+150087536,11.2,Droughts,1.2,Ecosystem degradation,
+150087536,11.1,Habitat shifting & alteration,1.2|2.2,Ecosystem degradation|Species disturbance,
+150087712,9.1.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,Unknown
+150087712,2.1.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087712,5.1.1,Intentional use (species is the target),2.1,Species mortality,Unknown
+150087712,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087712,7.2.10,Large dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087712,5.3.4,Unintentional effects: (large scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087877,9.1.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,Unknown
+150087877,2.1.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087877,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087877,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087897,9.1.3,Type Unknown/Unrecorded,1.1,Ecosystem conversion,Unknown
+150087897,7.2.10,Large dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150087897,2.1.1,Shifting agriculture,1.1|1.2|2.1,Ecosystem conversion|Ecosystem degradation|Species mortality,Unknown
+150087897,5.1.1,Intentional use (species is the target),2.1,Species mortality,Unknown
+150087897,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+150088659,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+150088659,2.2.1,Small-holder plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+150088659,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+150088659,11.5,Other impacts,1.2|2.1,Ecosystem degradation|Species mortality,
+150088659,6.3,Work & other activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+150088659,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+150088659,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+152958245,2.1.3,Agro-industry farming,,,
+152958245,2.1.2,Small-holder farming,,,
+152958245,2.2.2,Agro-industry plantations,,,
+152958245,2.2.1,Small-holder plantations,,,
+153115088,2.1.3,Agro-industry farming,,,
+153115088,2.1.2,Small-holder farming,,,
+153115088,2.2.2,Agro-industry plantations,,,
+153115088,2.2.1,Small-holder plantations,,,
+153116010,2.1.3,Agro-industry farming,,,
+153116010,2.1.2,Small-holder farming,,,
+153116010,2.2.2,Agro-industry plantations,,,
+153116010,2.2.1,Small-holder plantations,,,
+153116061,2.1.3,Agro-industry farming,,,
+153116061,2.1.2,Small-holder farming,,,
+153116061,2.2.2,Agro-industry plantations,,,
+153116061,2.2.1,Small-holder plantations,,,
+209668480,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+209668480,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+209668480,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+209668480,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+209668480,8.1.2,Named species,2.1,Species mortality,Unknown
+209668480,11.5,Other impacts,2.2|2.3.7,Species disturbance|Reduced reproductive success,
+157146680,11.4,Storms & flooding,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+157146680,1.3,Tourism & recreation areas,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+157150683,2.1.2,Small-holder farming,,,
+157150683,2.2.1,Small-holder plantations,,,
+157150683,3.2,Mining & quarrying,,,
+158847184,2.2.1,Small-holder plantations,,,
+158847184,2.2.2,Agro-industry plantations,,,
+158847184,2.1.2,Small-holder farming,,,
+158847184,2.1.3,Agro-industry farming,,,
+159074166,11.4,Storms & flooding,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+159074166,1.3,Tourism & recreation areas,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+159079094,2.2.1,Small-holder plantations,,,
+159079094,2.2.2,Agro-industry plantations,,,
+159079094,2.1.2,Small-holder farming,,,
+159079094,2.1.3,Agro-industry farming,,,
+159079733,2.1.3,Agro-industry farming,,,
+159079733,2.1.2,Small-holder farming,,,
+159079733,2.2.2,Agro-industry plantations,,,
+159079733,2.2.1,Small-holder plantations,,,
+159080036,2.2.1,Small-holder plantations,,,
+159080036,2.2.2,Agro-industry plantations,,,
+159080036,2.1.2,Small-holder farming,,,
+159080036,2.1.3,Agro-industry farming,,,
+159080601,2.1.3,Agro-industry farming,,,
+159080601,2.1.2,Small-holder farming,,,
+159080601,2.2.2,Agro-industry plantations,,,
+159080601,2.2.1,Small-holder plantations,,,
+159103471,11.4,Storms & flooding,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+159103471,1.3,Tourism & recreation areas,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+159104035,2.1.3,Agro-industry farming,,,
+159104035,2.1.2,Small-holder farming,,,
+159104035,2.2.1,Small-holder plantations,,,
+159104035,2.2.2,Agro-industry plantations,,,
+159121187,2.1.3,Agro-industry farming,,,
+159121187,2.1.2,Small-holder farming,,,
+159121187,2.2.2,Agro-industry plantations,,,
+159121187,2.2.1,Small-holder plantations,,,
+54478,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54478,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54478,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+54478,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54478,6.1,Recreational activities,1.2,Ecosystem degradation,
+54478,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+54478,8.2.2,Named species,2.1,Species mortality,Unknown
+54584,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54584,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54584,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54584,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+54584,6.1,Recreational activities,1.2,Ecosystem degradation,
+54584,8.1.2,Named species,2.1,Species mortality,
+54584,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54584,11.2,Droughts,1.2,Ecosystem degradation,
+54593,4.1,Roads & railroads,1.2|2.1,Ecosystem degradation|Species mortality,
+54593,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54593,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54593,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+54684,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54684,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54684,3.3,Renewable energy,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+54684,11.1,Habitat shifting & alteration,1.2|2.1,Ecosystem degradation|Species mortality,
+58203,7.2.1,Abstraction of surface water (domestic use),1.2,Ecosystem degradation,
+58203,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+58203,7.2.9,Small dams,1.2,Ecosystem degradation,
+58203,7.2.10,Large dams,1.2,Ecosystem degradation,
+58203,8.1.2,Named species,2.1,Species mortality,Unknown
+58273,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58273,9.3.3,Herbicides and pesticides,2.1|2.3.7,Species mortality|Reduced reproductive success,Unknown
+58273,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+197660098,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+197660098,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+197660098,4.1,Roads & railroads,1.2,Ecosystem degradation,
+197660098,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+197660098,11.5,Other impacts,1.2,Ecosystem degradation,
+197660098,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+197660098,11.1,Habitat shifting & alteration,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+197660098,8.1.2,Named species,2.1,Species mortality,Unknown
+58312,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58312,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58312,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58312,8.1.2,Named species,2.1,Species mortality,Unknown
+58312,7.3,Other ecosystem modifications,2.2,Species disturbance,
+58312,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+58312,11.1,Habitat shifting & alteration,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+58314,9.3.3,Herbicides and pesticides,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58314,4.1,Roads & railroads,2.1,Species mortality,Unknown
+58314,9.4,Garbage & solid waste,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58314,2.3.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58314,8.1.2,Named species,2.1,Species mortality,Unknown
+58314,11.5,Other impacts,2.3.7,Reduced reproductive success,
+58314,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+58377,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+58377,8.1.2,Named species,2.1,Species mortality,Unknown
+58377,7.2.9,Small dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58377,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58377,11.4,Storms & flooding,1.2|2.1,Ecosystem degradation|Species mortality,
+58377,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+58377,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+58379,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58379,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+58379,9.3.2,"Soil erosion, sedimentation",1.2,Ecosystem degradation,
+58379,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+58379,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+58379,8.1.2,Named species,2.1,Species mortality,Unknown
+58379,11.5,Other impacts,1.2|2.3.7,Ecosystem degradation|Reduced reproductive success,
+58379,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58379,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58379,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58379,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+58383,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58383,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+58383,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+58383,8.1.2,Named species,2.1,Species mortality,Unknown
+58383,11.3,Temperature extremes,1.2|2.1,Ecosystem degradation|Species mortality,
+58383,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58383,8.1.1,Unspecified species,1.2|2.2,Ecosystem degradation|Species disturbance,
+58385,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+58385,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+58385,7.2.9,Small dams,1.2,Ecosystem degradation,
+58385,8.1.2,Named species,2.1,Species mortality,Unknown
+58385,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58385,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58385,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58385,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+58387,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+58387,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+58387,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+58387,7.2.9,Small dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58387,9.1.1,Sewage,1.2,Ecosystem degradation,
+58387,8.1.2,Named species,2.1,Species mortality,Unknown
+58387,7.2.3,Abstraction of surface water (agricultural use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58387,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58395,4.1,Roads & railroads,2.1,Species mortality,Unknown
+58395,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+58395,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+58395,8.1.2,Named species,2.1,Species mortality,Unknown
+58395,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+58395,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,Unknown
+58399,6.1,Recreational activities,2.2,Species disturbance,Unknown
+58399,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58399,4.1,Roads & railroads,2.1,Species mortality,
+58399,8.1.2,Named species,2.1,Species mortality,
+58401,4.1,Roads & railroads,1.2,Ecosystem degradation,Unknown
+58401,6.1,Recreational activities,2.2,Species disturbance,Unknown
+58401,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58401,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58401,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58401,9.3.3,Herbicides and pesticides,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58401,7.2.11,Dams (size unknown),1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58401,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,Unknown
+58401,8.1.2,Named species,2.1,Species mortality,Unknown
+58402,9.3.2,"Soil erosion, sedimentation",1.2,Ecosystem degradation,
+58402,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+58402,4.1,Roads & railroads,2.1,Species mortality,
+58402,8.1.2,Named species,2.1,Species mortality,Unknown
+58402,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+58402,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,Unknown
+58402,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+58403,8.1.2,Named species,2.1,Species mortality,Unknown
+58403,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+58403,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58404,4.1,Roads & railroads,1.2,Ecosystem degradation,Unknown
+58404,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58404,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58404,8.1.2,Named species,2.1,Species mortality,Unknown
+58571,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,Unknown
+58571,11.2,Droughts,2.3.7,Reduced reproductive success,Unknown
+58571,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58571,8.1.2,Named species,1.2,Ecosystem degradation,Unknown
+58571,8.1.2,Named species,2.1,Species mortality,Unknown
+58571,8.1.2,Named species,2.1|2.3.2,Species mortality|Competition,Unknown
+58788,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+58788,4.1,Roads & railroads,2.1,Species mortality,
+58788,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58829,11.3,Temperature extremes,1.2,Ecosystem degradation,
+58829,8.1.2,Named species,2.1,Species mortality,Unknown
+58829,11.1,Habitat shifting & alteration,1.2|2.2,Ecosystem degradation|Species disturbance,
+58829,11.2,Droughts,1.2|2.2,Ecosystem degradation|Species disturbance,
+58829,5.2.2,Unintentional effects (species is not the target),2.1|2.2,Species mortality|Species disturbance,
+58829,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+58829,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2|2.2,Ecosystem degradation|Species disturbance,
+58847,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58847,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58847,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+58847,8.1.2,Named species,2.1,Species mortality,
+58847,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58847,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58847,7.2.11,Dams (size unknown),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58849,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58849,7.1.1,Increase in fire frequency/intensity,1.2,Ecosystem degradation,
+58849,8.1.2,Named species,2.1,Species mortality,Unknown
+58849,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58849,11.1,Habitat shifting & alteration,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+58876,8.1.2,Named species,1.2,Ecosystem degradation,
+58876,8.1.2,Named species,1.2,Ecosystem degradation,
+58876,3.1,Oil & gas drilling,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58876,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58876,12.1,Other threat,1.2,Ecosystem degradation,
+58876,2.3.2,"Small-holder grazing, ranching or farming",1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58876,5.3.4,Unintentional effects: (large scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58903,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58903,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58903,9.3.3,Herbicides and pesticides,1.1|1.2|2.3.7,Ecosystem conversion|Ecosystem degradation|Reduced reproductive success,Unknown
+58903,7.1.1,Increase in fire frequency/intensity,1.2,Ecosystem degradation,
+58903,2.2.1,Small-holder plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58903,11.3,Temperature extremes,1.2|2.3.8,Ecosystem degradation|Other,
+58903,11.5,Other impacts,1.2|2.3.7,Ecosystem degradation|Reduced reproductive success,
+58903,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58903,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+58903,11.1,Habitat shifting & alteration,1.2|2.2|2.3.7,Ecosystem degradation|Species disturbance|Reduced reproductive success,
+58926,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58926,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58926,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58926,9.3.3,Herbicides and pesticides,1.1|1.2|2.3.7,Ecosystem conversion|Ecosystem degradation|Reduced reproductive success,Unknown
+58926,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+58926,6.3,Work & other activities,2.1,Species mortality,
+58926,8.1.1,Unspecified species,2.1,Species mortality,
+58926,8.1.2,Named species,2.1,Species mortality,Unknown
+58926,2.2.1,Small-holder plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58926,10.3,Avalanches/landslides,1.2|2.1,Ecosystem degradation|Species mortality,
+58926,7.1.1,Increase in fire frequency/intensity,1.2,Ecosystem degradation,
+58926,11.3,Temperature extremes,1.2|2.3.8,Ecosystem degradation|Other,
+58926,11.5,Other impacts,1.2|2.3.7,Ecosystem degradation|Reduced reproductive success,
+58926,11.1,Habitat shifting & alteration,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+58927,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58927,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58927,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58927,8.1.2,Named species,2.1,Species mortality,Unknown
+58927,6.1,Recreational activities,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+58927,11.1,Habitat shifting & alteration,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+58927,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58927,7.1.1,Increase in fire frequency/intensity,1.2|2.1,Ecosystem degradation|Species mortality,
+58983,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58983,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+58983,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+58983,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+58983,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+58983,6.3,Work & other activities,2.1,Species mortality,
+58983,2.2.1,Small-holder plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+58983,11.1,Habitat shifting & alteration,1.2|2.3.7,Ecosystem degradation|Reduced reproductive success,
+58983,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+59027,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+59027,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+59027,5.3.5,Motivation Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+59027,2.3.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+59027,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+59027,9.4,Garbage & solid waste,2.2,Species disturbance,
+59027,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+59027,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+61850,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+61850,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+61850,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+61850,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+61885,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+61885,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+61885,7.2.11,Dams (size unknown),1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+61885,2.2.1,Small-holder plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+61885,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+61885,8.1.2,Named species,2.1,Species mortality,
+61885,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+61885,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+135879,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+135879,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,Unknown
+135879,9.1.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,Unknown
+135879,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+135879,4.1,Roads & railroads,1.2,Ecosystem degradation,
+135879,7.2.1,Abstraction of surface water (domestic use),1.2,Ecosystem degradation,
+136045,10.3,Avalanches/landslides,1.2|2.1,Ecosystem degradation|Species mortality,
+136045,11.4,Storms & flooding,1.2|2.1,Ecosystem degradation|Species mortality,
+136045,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+136045,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+136045,8.1.2,Named species,2.1,Species mortality,Unknown
+136049,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+136049,8.1.2,Named species,2.1,Species mortality,Unknown
+136049,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+158638,2.1.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+158638,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+158638,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+158638,5.1.1,Intentional use (species is the target),2.1,Species mortality,
+173018,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+173018,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+173018,5.2.2,Unintentional effects (species is not the target),1.1,Ecosystem conversion,Unknown
+173018,11.1,Habitat shifting & alteration,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+173018,8.1.2,Named species,2.1,Species mortality,Unknown
+186160,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+186160,9.3.3,Herbicides and pesticides,1.1,Ecosystem conversion,
+186160,4.1,Roads & railroads,2.1,Species mortality,
+186160,8.1.2,Named species,2.1,Species mortality,Unknown
+186160,7.1.3,Trend Unknown/Unrecorded,2.1|2.2,Species mortality|Species disturbance,
+186160,6.3,Work & other activities,1.2,Ecosystem degradation,
+186161,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+186161,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+186161,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+186163,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+186163,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+186163,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+186165,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+186165,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+186165,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+186165,6.1,Recreational activities,2.2,Species disturbance,
+186166,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+186166,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+186166,8.1.2,Named species,2.1,Species mortality,
+186166,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+186166,9.3.3,Herbicides and pesticides,1.2|2.2,Ecosystem degradation|Species disturbance,
+187830,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+187830,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+187830,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+189700,5.3.5,Motivation Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+189700,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+189700,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+189700,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+189700,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+189700,3.3,Renewable energy,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+189700,11.1,Habitat shifting & alteration,1.2|2.1|2.3.7,Ecosystem degradation|Species mortality|Reduced reproductive success,
+189700,11.5,Other impacts,1.2|2.1|2.3.7,Ecosystem degradation|Species mortality|Reduced reproductive success,
+78521208,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+78521208,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+78521208,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+78521208,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+78521208,7.2.1,Abstraction of surface water (domestic use),1.2,Ecosystem degradation,
+78521208,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+78521208,6.1,Recreational activities,2.2,Species disturbance,
+78521208,8.1.2,Named species,2.1,Species mortality,Unknown
+79080668,9.1.1,Sewage,1.2,Ecosystem degradation,Unknown
+79080668,9.1.2,Run-off,1.2,Ecosystem degradation,Unknown
+79080668,9.1.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,Unknown
+79080668,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+79080668,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+79080668,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+79095367,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+79095367,8.1.2,Named species,2.1,Species mortality,Unknown
+79095367,11.5,Other impacts,2.2|2.3.7,Species disturbance|Reduced reproductive success,
+79095367,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+79719834,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+79719834,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+79719834,11.1,Habitat shifting & alteration,2.1|2.2,Species mortality|Species disturbance,
+79719834,8.1.2,Named species,2.1,Species mortality,Unknown
+88368304,3.3,Renewable energy,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+88368304,7.2.10,Large dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+88368304,7.2.2,Abstraction of surface water (commercial use),1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+88368304,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+88368304,9.1.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,Unknown
+88368304,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+88378128,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+88378128,6.3,Work & other activities,2.1,Species mortality,
+88378128,8.1.2,Named species,2.1,Species mortality,Unknown
+88378128,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+88378128,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+88378128,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+89183211,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+89183211,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+89183211,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+89183211,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+89183211,11.5,Other impacts,1.3|2.2,Indirect ecosystem effects|Species disturbance,
+89183211,8.2.2,Named species,2.1,Species mortality,Unknown
+121370882,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+121370882,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+121370882,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+165414176,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+165414176,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+88369128,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+88369128,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+88369128,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,
+88369128,7.2.9,Small dams,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+88369128,11.5,Other impacts,1.2,Ecosystem degradation,
+88369128,7.2.3,Abstraction of surface water (agricultural use),1.2,Ecosystem degradation,
+88369128,8.1.2,Named species,2.1,Species mortality,Unknown
+88369128,11.4,Storms & flooding,1.2|2.1,Ecosystem degradation|Species mortality,
+88369128,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+88378424,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+88378424,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+88378424,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+88378424,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+88378424,7.2.10,Large dams,1.2,Ecosystem degradation,
+88378424,8.1.2,Named species,2.1,Species mortality,Unknown
+88378424,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+88378891,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+88378891,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+88378891,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+88378891,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,Unknown
+31169,1.1,Housing & urban areas,,,Rapid Declines
+31169,2.1.3,Agro-industry farming,,,Rapid Declines
+33018,8.2.1,Unspecified species,,,"Slow, Significant Declines"
+33018,5.3.1,Intentional use: (subsistence/small scale) [harvest],,,"Slow, Significant Declines"
+33022,1.1,Housing & urban areas,,,Rapid Declines
+33022,5.3.1,Intentional use: (subsistence/small scale) [harvest],,,Rapid Declines
+33022,5.3.2,Intentional use: (large scale) [harvest],,,Rapid Declines
+33022,8.2,Problematic native species/diseases,,,Very Rapid Declines
+33023,5.3.1,Intentional use: (subsistence/small scale) [harvest],,,Rapid Declines
+33023,5.3.2,Intentional use: (large scale) [harvest],,,Rapid Declines
+172587745,2.2.1,Small-holder plantations,,,
+172587745,2.2.2,Agro-industry plantations,,,
+172587745,2.1.2,Small-holder farming,,,
+172587745,2.1.3,Agro-industry farming,,,
+172738069,11.4,Storms & flooding,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+175597058,2.2.1,Small-holder plantations,,,
+175597058,2.2.2,Agro-industry plantations,,,
+175597058,2.1.2,Small-holder farming,,,
+175597058,2.1.3,Agro-industry farming,,,
+175655434,9.3.2,"Soil erosion, sedimentation",1.2|2.1,Ecosystem degradation|Species mortality,"Slow, Significant Declines"
+175655434,9.3.1,Nutrient loads,1.2|2.1,Ecosystem degradation|Species mortality,"Slow, Significant Declines"
+175655434,1.1,Housing & urban areas,1.1|2.1,Ecosystem conversion|Species mortality,Rapid Declines
+175655434,9.1.1,Sewage,1.2|2.1,Ecosystem degradation|Species mortality,"Slow, Significant Declines"
+175655434,9.1.2,Run-off,1.2|2.1,Ecosystem degradation|Species mortality,"Slow, Significant Declines"
+175655434,5.2.1,Intentional use (species is the target),2.1,Species mortality,Unknown
+175615495,2.2.1,Small-holder plantations,,,
+175615495,2.2.2,Agro-industry plantations,,,
+175615495,2.1.2,Small-holder farming,,,
+175615495,2.1.3,Agro-industry farming,,,
+31275,2.3.2,"Small-holder grazing, ranching or farming",,,Causing/Could cause fluctuations
+31275,1.1,Housing & urban areas,,,Causing/Could cause fluctuations
+31275,4.1,Roads & railroads,,,Causing/Could cause fluctuations
+31275,7.1.1,Increase in fire frequency/intensity,,,Causing/Could cause fluctuations
+31275,2.1.1,Shifting agriculture,,,Causing/Could cause fluctuations
+176680211,2.3.2,"Small-holder grazing, ranching or farming",,,Causing/Could cause fluctuations
+176680211,1.1,Housing & urban areas,,,Causing/Could cause fluctuations
+176680211,3.2,Mining & quarrying,,,Causing/Could cause fluctuations
+176680211,4.1,Roads & railroads,,,Causing/Could cause fluctuations
+176680211,7.1.1,Increase in fire frequency/intensity,,,Causing/Could cause fluctuations
+176680211,2.1.1,Shifting agriculture,,,Causing/Could cause fluctuations
+176856760,2.3.2,"Small-holder grazing, ranching or farming",,,Causing/Could cause fluctuations
+176856760,1.1,Housing & urban areas,,,Causing/Could cause fluctuations
+176856760,3.2,Mining & quarrying,,,Causing/Could cause fluctuations
+176856760,4.1,Roads & railroads,,,"Slow, Significant Declines"
+176856760,2.1.1,Shifting agriculture,,,"Slow, Significant Declines"
+176856760,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],,,Causing/Could cause fluctuations
+176856760,7.1.1,Increase in fire frequency/intensity,,,Causing/Could cause fluctuations
+176857958,2.3.2,"Small-holder grazing, ranching or farming",,,Rapid Declines
+176857958,1.2,Commercial & industrial areas,,,Causing/Could cause fluctuations
+176857958,2.1.1,Shifting agriculture,,,"Slow, Significant Declines"
+176857958,2.1.3,Agro-industry farming,,,Causing/Could cause fluctuations
+176857958,4.1,Roads & railroads,,,Causing/Could cause fluctuations
+176857958,7.1.3,Trend Unknown/Unrecorded,,,Causing/Could cause fluctuations
+176857958,5.3.1,Intentional use: (subsistence/small scale) [harvest],,,
+176857958,3.2,Mining & quarrying,,,Unknown
+177962982,1.1,Housing & urban areas,1.1,Ecosystem conversion,Very Rapid Declines
+177962982,1.2,Commercial & industrial areas,1.1,Ecosystem conversion,Rapid Declines
+177962982,1.3,Tourism & recreation areas,1.1,Ecosystem conversion,Rapid Declines
+181140345,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+181140345,11.1,Habitat shifting & alteration,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+181140345,7.2.1,Abstraction of surface water (domestic use),1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+181141076,9.4,Garbage & solid waste,1.2,Ecosystem degradation,
+181141076,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,
+181141076,11.1,Habitat shifting & alteration,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+181473105,8.1.2,Named species,1.2,Ecosystem degradation,Unknown
+181473105,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+181473105,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+181473105,8.1.2,Named species,2.1,Species mortality,Unknown
+181473105,8.1.2,Named species,2.1|2.3.2,Species mortality|Competition,Unknown
+181140883,7.2.1,Abstraction of surface water (domestic use),1.2,Ecosystem degradation,
+181140883,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+181140883,11.1,Habitat shifting & alteration,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,
+186884431,4.1,Roads & railroads,1.1|1.2|2.1,Ecosystem conversion|Ecosystem degradation|Species mortality,Rapid Declines
+186884431,5.3.1,Intentional use: (subsistence/small scale) [harvest],1.2|2.1,Ecosystem degradation|Species mortality,"Slow, Significant Declines"
+184539455,5.3.1,Intentional use: (subsistence/small scale) [harvest],2.1,Species mortality,Unknown
+184539455,5.3.2,Intentional use: (large scale) [harvest],2.1,Species mortality,Unknown
+184539455,7.2.11,Dams (size unknown),1.1|1.2|2.1,Ecosystem conversion|Ecosystem degradation|Species mortality,Unknown
+186884507,4.1,Roads & railroads,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+186884978,6.3,Work & other activities,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Rapid Declines
+186884978,2.1.2,Small-holder farming,1.1|1.2|2.1,Ecosystem conversion|Ecosystem degradation|Species mortality,Rapid Declines
+186884978,2.3.2,"Small-holder grazing, ranching or farming",1.2,Ecosystem degradation,Unknown
+186884978,3.2,Mining & quarrying,1.2,Ecosystem degradation,Unknown
+186301014,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+186301014,6.1,Recreational activities,1.2,Ecosystem degradation,Unknown
+191546628,1.3,Tourism & recreation areas,1.1|2.1,Ecosystem conversion|Species mortality,Very Rapid Declines
+191546628,4.1,Roads & railroads,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Very Rapid Declines
+191547129,7.3,Other ecosystem modifications,1.2|2.2,Ecosystem degradation|Species disturbance,"Slow, Significant Declines"
+191547129,1.3,Tourism & recreation areas,1.2|2.2,Ecosystem degradation|Species disturbance,Rapid Declines
+191547129,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,"Slow, Significant Declines"
+191681904,5.2.1,Intentional use (species is the target),2.1|2.2,Species mortality|Species disturbance,Rapid Declines
+191681904,4.1,Roads & railroads,1.2,Ecosystem degradation,Rapid Declines
+191681904,6.1,Recreational activities,1.2,Ecosystem degradation,Negligible declines
+168904,3.2,Mining & quarrying,1.1|2.1,Ecosystem conversion|Species mortality,Very Rapid Declines
+168904,1.2,Commercial & industrial areas,1.1|2.1,Ecosystem conversion|Species mortality,Very Rapid Declines
+168904,12.1,Other threat,1.1|1.2|1.3|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Indirect ecosystem effects|Species mortality|Species disturbance,"Slow, Significant Declines"
+168904,9.3.1,Nutrient loads,1.2|2.1,Ecosystem degradation|Species mortality,"Slow, Significant Declines"
+168904,9.3.2,"Soil erosion, sedimentation",1.2|2.1,Ecosystem degradation|Species mortality,"Slow, Significant Declines"
+168904,1.3,Tourism & recreation areas,1.1|2.1,Ecosystem conversion|Species mortality,Very Rapid Declines
+168904,9.1.1,Sewage,1.2|2.1,Ecosystem degradation|Species mortality,"Slow, Significant Declines"
+168904,5.2.1,Intentional use (species is the target),2.1,Species mortality,Unknown
+175218,9.3.1,Nutrient loads,1.1|1.2|1.3|2.2,Ecosystem conversion|Ecosystem degradation|Indirect ecosystem effects|Species disturbance,Rapid Declines
+175218,7.2.9,Small dams,1.2|2.2,Ecosystem degradation|Species disturbance,Rapid Declines
+175218,9.3.3,Herbicides and pesticides,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Very Rapid Declines
+175218,5.2.1,Intentional use (species is the target),2.1,Species mortality,Unknown
+197945955,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+197945955,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+197945955,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+197945955,2.2.1,Small-holder plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+197945955,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+33645,2.1.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+33645,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+33645,7.3,Other ecosystem modifications,1.2,Ecosystem degradation,
+33645,5.3.4,Unintentional effects: (large scale) [harvest],,,
+33645,8.2,Problematic native species/diseases,,,
+33645,8.2.1,Unspecified species,,,
+33647,1.2,Commercial & industrial areas,,,"Slow, Significant Declines"
+33647,7.2.10,Large dams,,,Rapid Declines
+33647,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+33647,1.3,Tourism & recreation areas,,,"Slow, Significant Declines"
+38758,2.1.1,Shifting agriculture,,,
+201031081,10.3,Avalanches/landslides,,,Rapid Declines
+202532388,2.2.1,Small-holder plantations,,,
+202532388,2.2.2,Agro-industry plantations,,,
+202532388,1.1,Housing & urban areas,,,
+202532388,4.1,Roads & railroads,,,
+202532388,2.1.2,Small-holder farming,,,
+202532388,2.1.3,Agro-industry farming,,,
+208974595,1.1,Housing & urban areas,1.2|2.2|2.3.7,Ecosystem degradation|Species disturbance|Reduced reproductive success,"Slow, Significant Declines"
+210010463,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+210010463,8.1.2,Named species,,,
+210010463,8.1.2,Named species,,,
+210013452,1.1,Housing & urban areas,,,Causing/Could cause fluctuations
+210013452,1.2,Commercial & industrial areas,,,Rapid Declines
+210013452,1.3,Tourism & recreation areas,,,"Slow, Significant Declines"
+210013452,3.2,Mining & quarrying,,,"Slow, Significant Declines"
+210013452,4.1,Roads & railroads,,,"Slow, Significant Declines"
+210013452,5.3.4,Unintentional effects: (large scale) [harvest],,,Rapid Declines
+210013545,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+210013545,1.3,Tourism & recreation areas,,,"Slow, Significant Declines"
+210013545,7.2.10,Large dams,,,"Slow, Significant Declines"
+210013949,7.2.10,Large dams,,,Rapid Declines
+210013949,2.2.2,Agro-industry plantations,,,Rapid Declines
+210013949,5.3.2,Intentional use: (large scale) [harvest],2.1|2.2,Species mortality|Species disturbance,Unknown
+215199522,1.3,Tourism & recreation areas,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+215199522,7.1.1,Increase in fire frequency/intensity,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+215199522,7.3,Other ecosystem modifications,1.2|2.2,Ecosystem degradation|Species disturbance,Very Rapid Declines
+215199522,3.2,Mining & quarrying,1.1|1.2|2.1,Ecosystem conversion|Ecosystem degradation|Species mortality,Rapid Declines
+215199522,4.1,Roads & railroads,1.2,Ecosystem degradation,Causing/Could cause fluctuations
+22679330,5.1.1,Intentional use (species is the target),2.1,Species mortality,"Slow, Significant Declines"
+22679330,2.2.3,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22679330,1.2,Commercial & industrial areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22679330,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22679330,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22679330,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+222291660,7.1.1,Increase in fire frequency/intensity,,,"Slow, Significant Declines"
+222291660,6.1,Recreational activities,,,"Slow, Significant Declines"
+222291715,7.2.10,Large dams,,,"Slow, Significant Declines"
+222291715,2.1.3,Agro-industry farming,,,Rapid Declines
+222292291,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+222292291,1.3,Tourism & recreation areas,,,"Slow, Significant Declines"
+222292291,7.1.3,Trend Unknown/Unrecorded,,,"Slow, Significant Declines"
+31181,1.1,Housing & urban areas,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+31181,1.2,Commercial & industrial areas,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+31181,4.1,Roads & railroads,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+22729465,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,Unknown
+22729465,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22729465,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22729465,1.3,Tourism & recreation areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+225970375,1.1,Housing & urban areas,,,"Slow, Significant Declines"
+225970375,2.1.2,Small-holder farming,,,"Slow, Significant Declines"
+22695494,5.1.4,Motivation Unknown/Unrecorded,2.1,Species mortality,Unknown
+22695494,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22695494,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22695494,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+82031633,9.2.1,Oil spills,1.2,Ecosystem degradation,"Slow, Significant Declines"
+82031633,9.2.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,Unknown
+82031633,1.1,Housing & urban areas,1.2,Ecosystem degradation,Rapid Declines
+82031633,1.2,Commercial & industrial areas,1.2,Ecosystem degradation,Rapid Declines
+82031633,4.3,Shipping lanes,,,Negligible declines
+82031633,5.4.3,Unintentional effects: (subsistence/small scale) [harvest],2.1|2.2,Species mortality|Species disturbance,Rapid Declines
+82031633,5.4.4,Unintentional effects: (large scale) [harvest],2.1|2.2,Species mortality|Species disturbance,"Slow, Significant Declines"
+82031633,9.1.2,Run-off,1.2,Ecosystem degradation,"Slow, Significant Declines"
+82031633,9.1.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,Negligible declines
+82031633,9.4,Garbage & solid waste,1.2,Ecosystem degradation,"Slow, Significant Declines"
+33007,5.2.1,Intentional use (species is the target),2.1,Species mortality,Rapid Declines
+33007,5.3.1,Intentional use: (subsistence/small scale) [harvest],2.1,Species mortality,Rapid Declines
+33007,8.3,Introduced genetic material,2.3.1,Hybridisation,Unknown
+33007,2.1.2,Small-holder farming,1.1|1.2|2.1,Ecosystem conversion|Ecosystem degradation|Species mortality,Rapid Declines
+239579056,2.2.3,Scale Unknown/Unrecorded,1.1,Ecosystem conversion,"Slow, Significant Declines"
+239579056,7.2.10,Large dams,1.3,Indirect ecosystem effects,"Slow, Significant Declines"
+239579056,5.3.4,Unintentional effects: (large scale) [harvest],1.2,Ecosystem degradation,"Slow, Significant Declines"
+239579056,2.1.3,Agro-industry farming,1.1,Ecosystem conversion,"Slow, Significant Declines"
+239579056,7.1.2,Supression in fire frequency/intensity,2.1,Species mortality,Rapid Declines
+22681585,5.1.1,Intentional use (species is the target),2.1,Species mortality,Negligible declines
+22681585,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,Rapid Declines
+22681585,5.3.4,Unintentional effects: (large scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,Rapid Declines
+22681585,3.3,Renewable energy,1.1,Ecosystem conversion,"Slow, Significant Declines"
+22681585,2.1.1,Shifting agriculture,1.1,Ecosystem conversion,"Slow, Significant Declines"
+22681585,2.2.1,Small-holder plantations,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22681585,2.1.2,Small-holder farming,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22681585,2.1.3,Agro-industry farming,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22681585,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Rapid Declines
+4615,5.4.1,Intentional use: (subsistence/small scale) [harvest],2.1,Species mortality,
+4615,5.4.4,Unintentional effects: (large scale) [harvest],2.1,Species mortality,
+4615,1.3,Tourism & recreation areas,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,
+61985348,5.2.1,Intentional use (species is the target),2.1|2.2,Species mortality|Species disturbance,Rapid Declines
+61985348,8.2.1,Unspecified species,2.2,Species disturbance,Unknown
+61985348,11.1,Habitat shifting & alteration,1.2|1.3|2.2,Ecosystem degradation|Indirect ecosystem effects|Species disturbance,Unknown
+61985348,11.3,Temperature extremes,1.2|1.3|2.2,Ecosystem degradation|Indirect ecosystem effects|Species disturbance,Unknown
+61985348,2.3.1,Nomadic grazing,1.2|1.3|2.2,Ecosystem degradation|Indirect ecosystem effects|Species disturbance,"Slow, Significant Declines"
+61985348,2.3.2,"Small-holder grazing, ranching or farming",1.2|1.3|2.2,Ecosystem degradation|Indirect ecosystem effects|Species disturbance,"Slow, Significant Declines"
+61985348,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2|1.3|2.1|2.2,Ecosystem degradation|Indirect ecosystem effects|Species mortality|Species disturbance,Unknown
+61987623,2.2.1,Small-holder plantations,,,
+61987623,2.2.2,Agro-industry plantations,,,
+61987623,2.1.2,Small-holder farming,,,
+61987623,2.1.3,Agro-industry farming,,,
+253632034,9.3.2,"Soil erosion, sedimentation",,,"Slow, Significant Declines"
+253632034,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+253632034,1.1,Housing & urban areas,,,
+253632034,1.2,Commercial & industrial areas,,,
+33642,1.2,Commercial & industrial areas,,,"Slow, Significant Declines"
+33642,1.3,Tourism & recreation areas,,,Causing/Could cause fluctuations
+33642,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+33642,7.1.1,Increase in fire frequency/intensity,,,"Slow, Significant Declines"
+129335824,2.2.1,Small-holder plantations,,,
+129335824,2.2.2,Agro-industry plantations,,,
+129335824,2.1.2,Small-holder farming,,,
+129335824,2.1.3,Agro-industry farming,,,
+153112765,2.2.1,Small-holder plantations,,,
+153112765,2.2.2,Agro-industry plantations,,,
+153112765,2.1.2,Small-holder farming,,,
+153112765,2.1.3,Agro-industry farming,,,
+155993997,2.2.2,Agro-industry plantations,,,
+155993997,1.1,Housing & urban areas,,,
+155993997,4.1,Roads & railroads,,,
+155993997,1.3,Tourism & recreation areas,,,
+155993997,2.1.3,Agro-industry farming,,,
+172580995,2.1.2,Small-holder farming,,,
+172580995,2.2.2,Agro-industry plantations,,,
+172580995,2.2.1,Small-holder plantations,,,
+172580995,1.1,Housing & urban areas,,,
+31185,2.1.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+31185,2.3.4,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+31185,5.3.5,Motivation Unknown/Unrecorded,1.2,Ecosystem degradation,
+177944137,2.1.2,Small-holder farming,,,
+177944137,2.3.2,"Small-holder grazing, ranching or farming",,,
+177944137,1.1,Housing & urban areas,,,
+177944137,4.1,Roads & railroads,,,
+179054974,2.1.1,Shifting agriculture,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+179207814,2.1.1,Shifting agriculture,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+176848640,1.1,Housing & urban areas,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+176848640,2.1.1,Shifting agriculture,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Unknown
+187022603,4.1,Roads & railroads,1.2|2.1,Ecosystem degradation|Species mortality,Unknown
+187022663,3.2,Mining & quarrying,1.2,Ecosystem degradation,Rapid Declines
+187022663,1.3,Tourism & recreation areas,1.2,Ecosystem degradation,Rapid Declines
+187024265,6.1,Recreational activities,1.2,Ecosystem degradation,Rapid Declines
+187025460,1.3,Tourism & recreation areas,1.2,Ecosystem degradation,Rapid Declines
+191547570,5.2.1,Intentional use (species is the target),2.1,Species mortality,Unknown
+202483877,2.2.1,Small-holder plantations,,,
+202483877,2.2.2,Agro-industry plantations,,,
+202483877,2.1.2,Small-holder farming,,,
+202483877,2.1.3,Agro-industry farming,,,
+202483996,2.2.1,Small-holder plantations,,,
+202483996,2.2.2,Agro-industry plantations,,,
+202483996,2.1.2,Small-holder farming,,,
+202483996,2.1.3,Agro-industry farming,,,
+202484066,2.2.2,Agro-industry plantations,,,
+202484066,2.1.3,Agro-industry farming,,,
+202484066,1.1,Housing & urban areas,,,
+202536352,2.2.1,Small-holder plantations,,,
+202536352,2.2.2,Agro-industry plantations,,,
+202536352,1.1,Housing & urban areas,,,
+202536352,4.1,Roads & railroads,,,
+202536352,1.3,Tourism & recreation areas,,,
+202536352,2.1.2,Small-holder farming,,,
+202536352,2.1.3,Agro-industry farming,,,
+202732050,1.1,Housing & urban areas,,,
+202732050,4.1,Roads & railroads,,,
+206837366,1.1,Housing & urban areas,,,
+206837366,4.1,Roads & railroads,,,
+206837366,1.3,Tourism & recreation areas,,,
+38036,1.1,Housing & urban areas,,,"Slow, Significant Declines"
+38036,2.1.2,Small-holder farming,,,"Slow, Significant Declines"
+38036,8.2,Problematic native species/diseases,,,"Slow, Significant Declines"
+38036,6.3,Work & other activities,,,"Slow, Significant Declines"
+211716588,2.2.1,Small-holder plantations,,,
+211716588,2.2.2,Agro-industry plantations,,,
+211716588,1.1,Housing & urban areas,,,
+211716588,4.1,Roads & railroads,,,
+211716588,2.1.2,Small-holder farming,,,
+211716588,2.1.3,Agro-industry farming,,,
+213352738,2.2.1,Small-holder plantations,,,
+213352738,2.2.2,Agro-industry plantations,,,
+213352738,1.1,Housing & urban areas,,,
+213352738,4.1,Roads & railroads,,,
+213352738,1.3,Tourism & recreation areas,,,
+213352738,2.1.2,Small-holder farming,,,
+213352738,2.1.3,Agro-industry farming,,,
+200533196,2.2.1,Small-holder plantations,,,
+200533196,2.2.2,Agro-industry plantations,,,
+200533196,1.1,Housing & urban areas,,,
+200533196,4.1,Roads & railroads,,,
+200533196,1.3,Tourism & recreation areas,,,
+200533196,2.1.2,Small-holder farming,,,
+200533196,2.1.3,Agro-industry farming,,,
+220761693,2.2.1,Small-holder plantations,,,
+220761693,2.2.2,Agro-industry plantations,,,
+220761693,1.1,Housing & urban areas,,,
+220761693,4.1,Roads & railroads,,,
+220761693,1.3,Tourism & recreation areas,,,
+220761693,2.1.2,Small-holder farming,,,
+220761693,2.1.3,Agro-industry farming,,,
+224100285,2.2.1,Small-holder plantations,,,
+224100285,2.2.2,Agro-industry plantations,,,
+224100285,1.1,Housing & urban areas,,,
+224100285,4.1,Roads & railroads,,,
+224100285,1.3,Tourism & recreation areas,,,
+224100285,2.1.2,Small-holder farming,,,
+224100285,2.1.3,Agro-industry farming,,,
+224088253,2.2.1,Small-holder plantations,,,
+224088253,2.2.2,Agro-industry plantations,,,
+224088253,2.1.2,Small-holder farming,,,
+224088253,2.1.3,Agro-industry farming,,,
+224106293,2.2.1,Small-holder plantations,,,
+224106293,2.1.2,Small-holder farming,,,
+224106293,1.1,Housing & urban areas,,,
+224101293,2.2.2,Agro-industry plantations,,,
+224101293,2.1.3,Agro-industry farming,,,
+224085585,2.2.1,Small-holder plantations,,,
+224085585,2.2.2,Agro-industry plantations,,,
+224085585,2.1.2,Small-holder farming,,,
+224085585,2.1.3,Agro-industry farming,,,
+224071631,2.2.1,Small-holder plantations,,,
+224071631,2.2.2,Agro-industry plantations,,,
+224071631,2.1.2,Small-holder farming,,,
+224071631,2.1.3,Agro-industry farming,,,
+224101709,2.2.1,Small-holder plantations,,,
+224101709,2.1.2,Small-holder farming,,,
+224101709,5.3.5,Motivation Unknown/Unrecorded,,,
+226499453,9.4,Garbage & solid waste,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,Causing/Could cause fluctuations
+226499453,10.3,Avalanches/landslides,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Causing/Could cause fluctuations
+226499453,4.1,Roads & railroads,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,"Slow, Significant Declines"
+226499453,6.1,Recreational activities,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+226499453,2.1.3,Agro-industry farming,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,Unknown
+226499453,1.3,Tourism & recreation areas,1.1|1.2|1.3|2.2,Ecosystem conversion|Ecosystem degradation|Indirect ecosystem effects|Species disturbance,Negligible declines
+228007161,1.3,Tourism & recreation areas,,,Causing/Could cause fluctuations
+228007161,7.1.3,Trend Unknown/Unrecorded,,,Rapid Declines
+228007161,11.3,Temperature extremes,,,"Slow, Significant Declines"
+228007161,2.1.1,Shifting agriculture,,,Unknown
+228007388,11.1,Habitat shifting & alteration,2.2,Species disturbance,Causing/Could cause fluctuations
+228007388,1.3,Tourism & recreation areas,,,Causing/Could cause fluctuations
+228007388,2.1.3,Agro-industry farming,,,"Slow, Significant Declines"
+228007388,5.3.5,Motivation Unknown/Unrecorded,,,Rapid Declines
+228007388,1.1,Housing & urban areas,,,
+228007388,4.1,Roads & railroads,,,
+228007388,7.1.1,Increase in fire frequency/intensity,,,
+228007388,7.2.11,Dams (size unknown),,,
+239578615,2.2.3,Scale Unknown/Unrecorded,,,"Slow, Significant Declines"
+239578615,2.1.3,Agro-industry farming,,,"Slow, Significant Declines"
+239578615,7.1.2,Supression in fire frequency/intensity,,,Negligible declines
+239578615,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+239578975,2.2.3,Scale Unknown/Unrecorded,,,"Slow, Significant Declines"
+239578975,1.3,Tourism & recreation areas,,,"Slow, Significant Declines"
+239578975,5.3.4,Unintentional effects: (large scale) [harvest],,,"Slow, Significant Declines"
+239578975,7.1.2,Supression in fire frequency/intensity,,,"Slow, Significant Declines"
+239578975,2.1.3,Agro-industry farming,,,"Slow, Significant Declines"
+239578975,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+239855551,2.1.4,Scale Unknown/Unrecorded,,,
+239855551,7.1.1,Increase in fire frequency/intensity,,,
+247297998,1.2,Commercial & industrial areas,1.2,Ecosystem degradation,Rapid Declines
+247297998,1.3,Tourism & recreation areas,1.2,Ecosystem degradation,"Slow, Significant Declines"
+247297998,2.1.3,Agro-industry farming,1.2|2.1,Ecosystem degradation|Species mortality,Very Rapid Declines
+247297998,1.1,Housing & urban areas,1.2|2.2,Ecosystem degradation|Species disturbance,Rapid Declines
+254095810,2.1.2,Small-holder farming,1.1,Ecosystem conversion,"Slow, Significant Declines"
+254095810,1.1,Housing & urban areas,1.1|1.2|2.1,Ecosystem conversion|Ecosystem degradation|Species mortality,Very Rapid Declines
+254095810,1.3,Tourism & recreation areas,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Very Rapid Declines
+254095810,2.3.2,"Small-holder grazing, ranching or farming",2.1,Species mortality,"Slow, Significant Declines"
+254095810,5.2.1,Intentional use (species is the target),2.1,Species mortality,"Slow, Significant Declines"
+254095810,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,Negligible declines
+254095865,2.1.2,Small-holder farming,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Very Rapid Declines
+254095865,2.3.2,"Small-holder grazing, ranching or farming",2.1,Species mortality,Rapid Declines
+15954,7.1.1,Increase in fire frequency/intensity,1.2,Ecosystem degradation,
+15954,5.1.1,Intentional use (species is the target),2.1,Species mortality,
+15954,5.1.2,Unintentional effects (species is not the target),2.1,Species mortality,
+15954,2.3.2,"Small-holder grazing, ranching or farming",1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+15954,2.2.1,Small-holder plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+15954,2.3.3,"Agro-industry grazing, ranching or farming",1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+15954,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+15954,5.3.4,Unintentional effects: (large scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+15954,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+15954,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+15954,5.1.3,Persecution/control,2.1,Species mortality,
+15954,4.1,Roads & railroads,2.1,Species mortality,
+15954,7.3,Other ecosystem modifications,1.2,Ecosystem degradation,
+15954,6.2,"War, civil unrest & military exercises",2.2,Species disturbance,
+15954,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+15954,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+15954,7.2.11,Dams (size unknown),1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+15954,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+15954,2.3.1,Nomadic grazing,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+219,11.2,Droughts,1.2,Ecosystem degradation,Rapid Declines
+219,11.1,Habitat shifting & alteration,1.2,Ecosystem degradation,"Slow, Significant Declines"
+219,6.2,"War, civil unrest & military exercises",1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+219,8.1.1,Unspecified species,1.2,Ecosystem degradation,Negligible declines
+219,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+219,6.1,Recreational activities,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Negligible declines
+219,2.1.1,Shifting agriculture,1.1|2.1|2.2,Ecosystem conversion|Species mortality|Species disturbance,Rapid Declines
+219,2.1.3,Agro-industry farming,1.1|2.1|2.2,Ecosystem conversion|Species mortality|Species disturbance,Rapid Declines
+219,1.2,Commercial & industrial areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+219,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,"Slow, Significant Declines"
+219,5.1.1,Intentional use (species is the target),1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+219,7.1.1,Increase in fire frequency/intensity,1.2|2.2,Ecosystem degradation|Species disturbance,Negligible declines
+219,3.2,Mining & quarrying,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+219,7.2.9,Small dams,1.2|2.2,Ecosystem degradation|Species disturbance,Rapid Declines
+219,2.3.1,Nomadic grazing,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+219,2.3.2,"Small-holder grazing, ranching or farming",1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+219,2.3.3,"Agro-industry grazing, ranching or farming",1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+219,4.1,Roads & railroads,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,"Slow, Significant Declines"
+219,5.1.3,Persecution/control,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+219,2.1.2,Small-holder farming,1.1|2.1|2.2,Ecosystem conversion|Species mortality|Species disturbance,Rapid Declines
+219,5.1.2,Unintentional effects (species is not the target),1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+219,1.3,Tourism & recreation areas,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,Unknown
+219,3.1,Oil & gas drilling,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+219,4.2,Utility & service lines,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,"Slow, Significant Declines"
+61780183,1.1,Housing & urban areas,,,
+61780183,4.1,Roads & railroads,,,
+61780183,1.2,Commercial & industrial areas,,,
+61987931,2.1.3,Agro-industry farming,,,"Slow, Significant Declines"
+61987931,2.2.3,Scale Unknown/Unrecorded,,,"Slow, Significant Declines"
+61987931,5.3.4,Unintentional effects: (large scale) [harvest],,,"Slow, Significant Declines"
+61987931,7.2.10,Large dams,,,"Slow, Significant Declines"
+61987931,5.3.1,Intentional use: (subsistence/small scale) [harvest],,,
+61987931,5.3.2,Intentional use: (large scale) [harvest],,,
+62038695,5.3.1,Intentional use: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,
+62038695,5.2.1,Intentional use (species is the target),1.1|2.1,Ecosystem conversion|Species mortality,Causing/Could cause fluctuations
+62038695,2.3.2,"Small-holder grazing, ranching or farming",1.1|1.2|2.1,Ecosystem conversion|Ecosystem degradation|Species mortality,Causing/Could cause fluctuations
+31219,7.2.10,Large dams,,,"Slow, Significant Declines"
+31219,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+31219,1.1,Housing & urban areas,,,"Slow, Significant Declines"
+31219,4.1,Roads & railroads,,,"Slow, Significant Declines"
+31219,2.1.3,Agro-industry farming,,,"Slow, Significant Declines"
+117894243,5.3.4,Unintentional effects: (large scale) [harvest],,,"Slow, Significant Declines"
+117894243,5.2.1,Intentional use (species is the target),,,
+117894243,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+117894243,7.2.10,Large dams,,,"Slow, Significant Declines"
+119048736,8.1.2,Named species,,,"Slow, Significant Declines"
+150213910,2.2.1,Small-holder plantations,,,
+150213910,4.1,Roads & railroads,,,
+150213910,1.3,Tourism & recreation areas,,,
+150213910,2.1.2,Small-holder farming,,,
+150215092,2.2.1,Small-holder plantations,,,
+150215092,4.1,Roads & railroads,,,
+150215092,1.3,Tourism & recreation areas,,,
+150215092,2.1.2,Small-holder farming,,,
+159051467,2.1.3,Agro-industry farming,,,
+159051467,4.1,Roads & railroads,,,
+33608,2.2.3,Scale Unknown/Unrecorded,,,"Slow, Significant Declines"
+33608,5.3.4,Unintentional effects: (large scale) [harvest],,,"Slow, Significant Declines"
+33608,7.2.10,Large dams,,,"Slow, Significant Declines"
+169056310,7.2.10,Large dams,,,"Slow, Significant Declines"
+169056310,4.1,Roads & railroads,,,
+169056310,5.3.4,Unintentional effects: (large scale) [harvest],,,"Slow, Significant Declines"
+169056310,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+169056310,2.1.3,Agro-industry farming,,,"Slow, Significant Declines"
+169056377,7.2.10,Large dams,,,"Slow, Significant Declines"
+169056981,7.2.10,Large dams,,,"Slow, Significant Declines"
+169056981,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+169056981,1.1,Housing & urban areas,,,"Slow, Significant Declines"
+169056981,2.1.3,Agro-industry farming,,,"Slow, Significant Declines"
+169056981,7.1.3,Trend Unknown/Unrecorded,,,"Slow, Significant Declines"
+169578317,2.2.3,Scale Unknown/Unrecorded,,,"Slow, Significant Declines"
+169578317,7.2.10,Large dams,,,"Slow, Significant Declines"
+169578317,2.1.4,Scale Unknown/Unrecorded,,,
+169578317,4.1,Roads & railroads,,,
+177944393,2.2.1,Small-holder plantations,,,
+177944393,2.2.2,Agro-industry plantations,,,
+177944393,2.1.2,Small-holder farming,,,
+177944393,2.1.3,Agro-industry farming,,,
+177944393,1.1,Housing & urban areas,,,
+177944393,4.1,Roads & railroads,,,
+177944393,5.3.5,Motivation Unknown/Unrecorded,,,
+22693431,5.1.1,Intentional use (species is the target),2.1,Species mortality,Unknown
+22693431,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Negligible declines
+22693431,7.2.4,Abstraction of surface water (unknown use),1.2,Ecosystem degradation,Unknown
+22693431,7.2.11,Dams (size unknown),1.2,Ecosystem degradation,Unknown
+22693431,1.2,Commercial & industrial areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22693431,7.2.2,Abstraction of surface water (commercial use),1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+22693431,5.4.3,Unintentional effects: (subsistence/small scale) [harvest],1.3,Indirect ecosystem effects,Unknown
+22693431,5.4.4,Unintentional effects: (large scale) [harvest],1.3,Indirect ecosystem effects,Unknown
+22693431,8.1.2,Named species,2.1,Species mortality,Unknown
+22693431,2.4.2,Industrial aquaculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22693431,11.1,Habitat shifting & alteration,1.2|1.3|2.3.7,Ecosystem degradation|Indirect ecosystem effects|Reduced reproductive success,Unknown
+22693431,8.5.2,Named species,2.1,Species mortality,Rapid Declines
+22693431,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22693431,6.1,Recreational activities,2.2,Species disturbance,Unknown
+22693431,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22693431,9.2.1,Oil spills,1.2|2.2,Ecosystem degradation|Species disturbance,Negligible declines
+22693431,9.3.3,Herbicides and pesticides,1.2|2.2,Ecosystem degradation|Species disturbance,Negligible declines
+22693431,8.1.2,Named species,1.1|2.2,Ecosystem conversion|Species disturbance,"Slow, Significant Declines"
+31187,2.2.3,Scale Unknown/Unrecorded,,,"Slow, Significant Declines"
+31187,5.3.4,Unintentional effects: (large scale) [harvest],,,"Slow, Significant Declines"
+31187,7.1.2,Supression in fire frequency/intensity,,,"Slow, Significant Declines"
+31187,7.2.10,Large dams,,,"Slow, Significant Declines"
+201030934,7.2.10,Large dams,,,"Slow, Significant Declines"
+201030934,2.2.2,Agro-industry plantations,,,"Slow, Significant Declines"
+201030934,1.1,Housing & urban areas,,,"Slow, Significant Declines"
+201030934,2.1.3,Agro-industry farming,,,"Slow, Significant Declines"
+201030934,7.1.3,Trend Unknown/Unrecorded,,,"Slow, Significant Declines"
+210014331,1.1,Housing & urban areas,,,Rapid Declines
+210014331,2.1.2,Small-holder farming,,,Rapid Declines
+210014331,2.3.2,"Small-holder grazing, ranching or farming",,,Rapid Declines
+30891,2.2.3,Scale Unknown/Unrecorded,,,"Slow, Significant Declines"
+30891,2.1.3,Agro-industry farming,,,"Slow, Significant Declines"
+30891,5.3.4,Unintentional effects: (large scale) [harvest],,,"Slow, Significant Declines"
+30891,7.1.2,Supression in fire frequency/intensity,,,"Slow, Significant Declines"
+30891,7.2.10,Large dams,,,"Slow, Significant Declines"
+30891,3.2,Mining & quarrying,,,"Slow, Significant Declines"
+22679012,5.1.1,Intentional use (species is the target),2.1,Species mortality,Unknown
+22679012,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22679012,2.3.2,"Small-holder grazing, ranching or farming",1.1|1.2|1.3|2.2,Ecosystem conversion|Ecosystem degradation|Indirect ecosystem effects|Species disturbance,Unknown
+22679012,7.1.3,Trend Unknown/Unrecorded,1.2|1.3|2.1|2.2|2.3.7,Ecosystem degradation|Indirect ecosystem effects|Species mortality|Species disturbance|Reduced reproductive success,Unknown
+22693225,1.1,Housing & urban areas,1.1,Ecosystem conversion,Unknown
+22693225,9.2.1,Oil spills,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Unknown
+22693225,9.3.2,"Soil erosion, sedimentation",1.2,Ecosystem degradation,Unknown
+22693225,9.3.3,Herbicides and pesticides,1.2,Ecosystem degradation,Unknown
+22693225,9.4,Garbage & solid waste,1.2|2.1,Ecosystem degradation|Species mortality,Unknown
+22693225,11.1,Habitat shifting & alteration,1.1|2.3.7,Ecosystem conversion|Reduced reproductive success,Unknown
+22693225,6.1,Recreational activities,2.2,Species disturbance,Negligible declines
+22693225,7.1.1,Increase in fire frequency/intensity,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22693225,2.1.3,Agro-industry farming,1.2,Ecosystem degradation,Negligible declines
+22693225,5.3.4,Unintentional effects: (large scale) [harvest],1.2,Ecosystem degradation,Negligible declines
+22693225,2.2.2,Agro-industry plantations,1.2,Ecosystem degradation,Negligible declines
+22693225,2.4.1,Subsistence/artisinal aquaculture,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22693225,2.4.2,Industrial aquaculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22693225,5.1.1,Intentional use (species is the target),2.1|2.3.7,Species mortality|Reduced reproductive success,"Slow, Significant Declines"
+22693225,1.2,Commercial & industrial areas,1.1,Ecosystem conversion,Unknown
+22693225,3.1,Oil & gas drilling,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22693225,3.3,Renewable energy,2.1,Species mortality,Unknown
+22693225,9.1.1,Sewage,1.2,Ecosystem degradation,Unknown
+22693225,7.2.11,Dams (size unknown),1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22693225,2.1.2,Small-holder farming,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22693225,8.1.2,Named species,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22693225,8.5.1,Unspecified species,2.1,Species mortality,Unknown
+224071357,2.2.1,Small-holder plantations,,,
+224071357,2.2.2,Agro-industry plantations,,,
+224071357,2.1.2,Small-holder farming,,,
+224071357,2.1.3,Agro-industry farming,,,
+224109482,2.2.1,Small-holder plantations,,,
+224109482,4.1,Roads & railroads,,,
+224109482,1.3,Tourism & recreation areas,,,
+224109482,2.1.2,Small-holder farming,,,
+37314,2.2.3,Scale Unknown/Unrecorded,,,"Slow, Significant Declines"
+37314,7.2.10,Large dams,,,"Slow, Significant Declines"
+22715856,11.4,Storms & flooding,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22715856,5.2.2,Unintentional effects (species is not the target),1.2,Ecosystem degradation,"Slow, Significant Declines"
+22715856,7.1.3,Trend Unknown/Unrecorded,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22715856,2.3.2,"Small-holder grazing, ranching or farming",1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22715856,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22715856,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22715856,2.3.3,"Agro-industry grazing, ranching or farming",1.2,Ecosystem degradation,"Slow, Significant Declines"
+22715856,2.1.2,Small-holder farming,1.2,Ecosystem degradation,"Slow, Significant Declines"
+239905380,4.1,Roads & railroads,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,Causing/Could cause fluctuations
+239905380,6.1,Recreational activities,,,
+239905390,2.1.2,Small-holder farming,1.2|2.2,Ecosystem degradation|Species disturbance,"Slow, Significant Declines"
+239905390,4.1,Roads & railroads,1.2|2.1,Ecosystem degradation|Species mortality,"Slow, Significant Declines"
+239905390,1.2,Commercial & industrial areas,,,
+239905440,2.1.4,Scale Unknown/Unrecorded,,,
+239905440,1.1,Housing & urban areas,,,
+239905600,4.1,Roads & railroads,1.1|2.2,Ecosystem conversion|Species disturbance,
+239905600,10.3,Avalanches/landslides,1.2|2.2,Ecosystem degradation|Species disturbance,
+239905630,1.3,Tourism & recreation areas,1.2|2.2,Ecosystem degradation|Species disturbance,Causing/Could cause fluctuations
+239905630,4.1,Roads & railroads,,,
+239906076,1.2,Commercial & industrial areas,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,"Slow, Significant Declines"
+239906076,2.1.1,Shifting agriculture,1.1|2.2,Ecosystem conversion|Species disturbance,"Slow, Significant Declines"
+239906076,3.3,Renewable energy,,,
+242376348,1.1,Housing & urban areas,2.2,Species disturbance,"Slow, Significant Declines"
+242376348,1.3,Tourism & recreation areas,1.2|2.2,Ecosystem degradation|Species disturbance,"Slow, Significant Declines"
+242376348,2.1.2,Small-holder farming,1.1,Ecosystem conversion,Causing/Could cause fluctuations
+242376348,2.3.2,"Small-holder grazing, ranching or farming",1.1,Ecosystem conversion,Negligible declines
+242376348,6.1,Recreational activities,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,"Slow, Significant Declines"
+22680064,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,"Slow, Significant Declines"
+22680064,5.1.1,Intentional use (species is the target),2.1,Species mortality,"Slow, Significant Declines"
+22680064,9.3.2,"Soil erosion, sedimentation",1.2,Ecosystem degradation,"Slow, Significant Declines"
+22680064,11.1,Habitat shifting & alteration,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22680064,5.2.2,Unintentional effects (species is not the target),1.2,Ecosystem degradation,Negligible declines
+22680064,5.3.4,Unintentional effects: (large scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,Rapid Declines
+22680064,8.1.1,Unspecified species,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22680064,3.1,Oil & gas drilling,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22680064,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22680064,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Rapid Declines
+22680064,1.3,Tourism & recreation areas,1.2|2.2,Ecosystem degradation|Species disturbance,Negligible declines
+22680064,6.1,Recreational activities,2.2,Species disturbance,Negligible declines
+103874145,2.2.2,Agro-industry plantations,1.2,Ecosystem degradation,Negligible declines
+103874145,11.1,Habitat shifting & alteration,1.2|1.3,Ecosystem degradation|Indirect ecosystem effects,Unknown
+103874145,8.1.1,Unspecified species,1.2,Ecosystem degradation,Unknown
+103874145,7.1.1,Increase in fire frequency/intensity,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+103874145,6.1,Recreational activities,1.2,Ecosystem degradation,Negligible declines
+103874754,5.2.2,Unintentional effects (species is not the target),1.2,Ecosystem degradation,"Slow, Significant Declines"
+103874754,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,"Slow, Significant Declines"
+103874754,2.3.2,"Small-holder grazing, ranching or farming",1.1|1.2,Ecosystem conversion|Ecosystem degradation,Negligible declines
+103874754,11.1,Habitat shifting & alteration,1.2|1.3,Ecosystem degradation|Indirect ecosystem effects,Unknown
+22716795,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22716795,2.3.2,"Small-holder grazing, ranching or farming",1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22716795,2.3.3,"Agro-industry grazing, ranching or farming",1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22716795,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22716795,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22716795,11.4,Storms & flooding,1.2|1.3,Ecosystem degradation|Indirect ecosystem effects,Unknown
+22716795,5.2.2,Unintentional effects (species is not the target),1.2|2.2,Ecosystem degradation|Species disturbance,"Slow, Significant Declines"
+22716795,7.1.1,Increase in fire frequency/intensity,1.2|2.2,Ecosystem degradation|Species disturbance,"Slow, Significant Declines"
+22716358,7.1.3,Trend Unknown/Unrecorded,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22716358,5.2.2,Unintentional effects (species is not the target),1.2,Ecosystem degradation,"Slow, Significant Declines"
+22716358,7.3,Other ecosystem modifications,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22716358,8.1.1,Unspecified species,1.2,Ecosystem degradation,Unknown
+22716358,8.1.2,Named species,1.2,Ecosystem degradation,Unknown
+22716358,8.1.2,Named species,1.2,Ecosystem degradation,Unknown
+22716358,8.1.2,Named species,1.2,Ecosystem degradation,Unknown
+22716358,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22716358,2.3.2,"Small-holder grazing, ranching or farming",1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22716358,2.3.3,"Agro-industry grazing, ranching or farming",1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22716358,7.2.11,Dams (size unknown),1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22734628,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,Unknown
+22734628,4.1,Roads & railroads,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,Unknown
+22693749,8.1.2,Named species,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22693749,9.2.3,Type Unknown/Unrecorded,1.2,Ecosystem degradation,Unknown
+22693749,11.1,Habitat shifting & alteration,1.2|2.3.7,Ecosystem degradation|Reduced reproductive success,Unknown
+22693749,6.3,Work & other activities,2.2,Species disturbance,Unknown
+22693749,1.1,Housing & urban areas,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,Unknown
+22693749,2.4.1,Subsistence/artisinal aquaculture,1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+22693749,5.1.2,Unintentional effects (species is not the target),2.1,Species mortality,Unknown
+22693749,3.3,Renewable energy,1.2|2.1,Ecosystem degradation|Species mortality,Unknown
+22693749,9.1.1,Sewage,1.2,Ecosystem degradation,Unknown
+22693749,1.2,Commercial & industrial areas,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,Unknown
+22693749,2.4.2,Industrial aquaculture,1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+22693749,5.1.1,Intentional use (species is the target),2.1,Species mortality,Unknown
+22693749,5.4.3,Unintentional effects: (subsistence/small scale) [harvest],1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+22693749,3.1,Oil & gas drilling,1.2,Ecosystem degradation,Unknown
+22693749,6.1,Recreational activities,2.2,Species disturbance,Unknown
+254475077,3.2,Mining & quarrying,1.2|2.2,Ecosystem degradation|Species disturbance,"Slow, Significant Declines"
+254475077,3.3,Renewable energy,1.2|2.2,Ecosystem degradation|Species disturbance,Negligible declines
+254475077,4.1,Roads & railroads,1.2,Ecosystem degradation,"Slow, Significant Declines"
+254475077,8.1.2,Named species,1.2|2.3.2,Ecosystem degradation|Competition,Negligible declines
+22693447,5.1.1,Intentional use (species is the target),2.1,Species mortality,Very Rapid Declines
+22693447,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Rapid Declines
+22693447,11.1,Habitat shifting & alteration,1.2|1.3,Ecosystem degradation|Indirect ecosystem effects,Unknown
+22693447,9.3.3,Herbicides and pesticides,1.2|2.1|2.3.7,Ecosystem degradation|Species mortality|Reduced reproductive success,Unknown
+22693447,11.4,Storms & flooding,2.3.7,Reduced reproductive success,Unknown
+2888,8.2.2,Named species,2.1,Species mortality,
+2888,8.1.2,Named species,1.2,Ecosystem degradation,
+2888,8.1.2,Named species,1.2,Ecosystem degradation,
+2888,5.1.1,Intentional use (species is the target),2.1,Species mortality,Very Rapid Declines
+2888,5.3.5,Motivation Unknown/Unrecorded,1.1|1.2|2.1|2.2,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance,Very Rapid Declines
+2888,2.1.1,Shifting agriculture,1.1|1.2|2.1|2.2|2.3.8,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance|Other,Very Rapid Declines
+2888,8.1.1,Unspecified species,2.3.1,Hybridisation,"Slow, Significant Declines"
+2888,8.1.2,Named species,2.3.1,Hybridisation,"Slow, Significant Declines"
+2888,2.3.1,Nomadic grazing,1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+2888,2.2.2,Agro-industry plantations,1.1|1.2|2.1|2.2|2.3.8,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance|Other,Very Rapid Declines
+2888,2.3.2,"Small-holder grazing, ranching or farming",1.1|1.2,Ecosystem conversion|Ecosystem degradation,
+2888,2.1.3,Agro-industry farming,1.1|1.2|2.1|2.2|2.3.8,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance|Other,Very Rapid Declines
+2888,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Negligible declines
+2888,2.1.2,Small-holder farming,1.1|1.2|2.1|2.2|2.3.8,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance|Other,Very Rapid Declines
+2888,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Rapid Declines
+2888,4.1,Roads & railroads,1.1|1.2|2.1|2.2|2.3.8,Ecosystem conversion|Ecosystem degradation|Species mortality|Species disturbance|Other,Very Rapid Declines
+2888,8.1.2,Named species,2.3.1|2.3.8,Hybridisation|Other,
+22693464,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22693464,1.2,Commercial & industrial areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22693464,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22693464,3.3,Renewable energy,1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Unknown
+22693464,2.4.3,Scale Unknown/Unrecorded,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22693464,3.1,Oil & gas drilling,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22693464,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22693464,5.4.3,Unintentional effects: (subsistence/small scale) [harvest],1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+22693464,5.4.4,Unintentional effects: (large scale) [harvest],1.2|2.1,Ecosystem degradation|Species mortality,Unknown
+22693464,5.1.2,Unintentional effects (species is not the target),2.1,Species mortality,Unknown
+22693464,5.1.1,Intentional use (species is the target),2.1,Species mortality,Unknown
+22693464,6.1,Recreational activities,2.2,Species disturbance,Unknown
+22693464,8.1.2,Named species,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Unknown
+22693464,9.3.4,Type Unknown/Unrecorded,1.2|2.1,Ecosystem degradation|Species mortality,Unknown
+22685513,5.3.4,Unintentional effects: (large scale) [harvest],1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22685513,2.1.2,Small-holder farming,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22685513,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22685513,5.1.1,Intentional use (species is the target),2.1|2.2,Species mortality|Species disturbance,Unknown
+22685513,5.1.3,Persecution/control,2.1,Species mortality,Unknown
+22685513,2.2.1,Small-holder plantations,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22685513,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+70205537,5.2.2,Unintentional effects (species is not the target),1.2,Ecosystem degradation,"Slow, Significant Declines"
+70205537,4.1,Roads & railroads,1.1,Ecosystem conversion,"Slow, Significant Declines"
+70205537,7.2.9,Small dams,1.1,Ecosystem conversion,"Slow, Significant Declines"
+70205537,7.2.10,Large dams,1.1,Ecosystem conversion,"Slow, Significant Declines"
+70205537,5.3.3,Unintentional effects: (subsistence/small scale) [harvest],1.2,Ecosystem degradation,"Slow, Significant Declines"
+70205537,5.3.4,Unintentional effects: (large scale) [harvest],1.2,Ecosystem degradation,"Slow, Significant Declines"
+70205537,2.1.3,Agro-industry farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+70205537,5.1.1,Intentional use (species is the target),2.1,Species mortality,Rapid Declines
+70205537,5.1.2,Unintentional effects (species is not the target),2.1,Species mortality,Rapid Declines
+70205537,1.2,Commercial & industrial areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Negligible declines
+70205537,3.3,Renewable energy,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+70205537,2.2.1,Small-holder plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+70205537,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+70205537,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+70205537,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+70205537,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,Negligible declines
+70205537,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22037,4.2,Utility & service lines,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22037,5.2.4,Motivation Unknown/Unrecorded,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22037,5.3.5,Motivation Unknown/Unrecorded,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22037,6.3,Work & other activities,2.2,Species disturbance,"Slow, Significant Declines"
+22037,2.3.2,"Small-holder grazing, ranching or farming",1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22037,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22037,3.2,Mining & quarrying,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22037,4.1,Roads & railroads,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22037,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22041,5.3.5,Motivation Unknown/Unrecorded,1.2,Ecosystem degradation,"Slow, Significant Declines"
+22041,2.2.2,Agro-industry plantations,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22041,1.1,Housing & urban areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22041,2.1.1,Shifting agriculture,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+22041,2.1.2,Small-holder farming,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+30864,2.2.2,Agro-industry plantations,,,Rapid Declines
+30864,2.1.1,Shifting agriculture,,,Rapid Declines
+30864,7.2.10,Large dams,,,Rapid Declines
+15951,5.1.3,Persecution/control,2.1,Species mortality,"Slow, Significant Declines"
+15951,8.2,Problematic native species/diseases,2.3.8,Other,Unknown
+15951,9.3.4,Type Unknown/Unrecorded,1.2,Ecosystem degradation,Unknown
+15951,2.1.2,Small-holder farming,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,Unknown
+15951,5.1.2,Unintentional effects (species is not the target),2.1,Species mortality,"Slow, Significant Declines"
+15951,5.1.1,Intentional use (species is the target),2.1,Species mortality,"Slow, Significant Declines"
+15951,1.1,Housing & urban areas,1.1|2.2,Ecosystem conversion|Species disturbance,Rapid Declines
+15951,5.3.5,Motivation Unknown/Unrecorded,1.2|2.2,Ecosystem degradation|Species disturbance,Unknown
+15951,2.1.1,Shifting agriculture,1.1|2.2,Ecosystem conversion|Species disturbance,Unknown
+15951,2.3.1,Nomadic grazing,1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,Negligible declines
+15951,2.3.2,"Small-holder grazing, ranching or farming",1.1|1.2|2.2,Ecosystem conversion|Ecosystem degradation|Species disturbance,Negligible declines
+15951,6.2,"War, civil unrest & military exercises",1.2|2.1|2.2,Ecosystem degradation|Species mortality|Species disturbance,Rapid Declines
+242376417,1.2,Commercial & industrial areas,1.1|1.2,Ecosystem conversion|Ecosystem degradation,"Slow, Significant Declines"
+242376417,10.3,Avalanches/landslides,1.2|2.1,Ecosystem degradation|Species mortality,Rapid Declines
+242376417,1.3,Tourism & recreation areas,1.2|2.1,Ecosystem degradation|Species mortality,Causing/Could cause fluctuations
+242376417,6.1,Recreational activities,1.2|2.2,Ecosystem degradation|Species disturbance,Causing/Could cause fluctuations
