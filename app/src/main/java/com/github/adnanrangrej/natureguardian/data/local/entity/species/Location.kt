@@ -19,7 +19,7 @@ import androidx.room.PrimaryKey
 data class Location(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "location_id")
-    val locationId: Long,
+    val locationId: Long = 0,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,

@@ -20,7 +20,7 @@ data class Habitat(
 
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "habitat_id")
-    val habitatId: Long,
+    val habitatId: Long = 0,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,

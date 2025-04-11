@@ -19,7 +19,7 @@ import androidx.room.PrimaryKey
 data class SpeciesImage(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "image_id")
-    val imageId: Long,
+    val imageId: Long = 0,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,

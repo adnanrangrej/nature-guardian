@@ -19,7 +19,7 @@ import androidx.room.PrimaryKey
 data class Threat(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "threat_id")
-    val threatId: Long,
+    val threatId: Long = 0,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,

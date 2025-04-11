@@ -19,7 +19,7 @@ import androidx.room.PrimaryKey
 data class ConservationAction(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "conservation_action_id")
-    val conservationActionId: Long,
+    val conservationActionId: Long = 0,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,

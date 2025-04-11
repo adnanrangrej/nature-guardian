@@ -19,7 +19,7 @@ import androidx.room.PrimaryKey
 data class UseTrade(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "use_trade_id")
-    val useTradeId: Long,
+    val useTradeId: Long = 0,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,
