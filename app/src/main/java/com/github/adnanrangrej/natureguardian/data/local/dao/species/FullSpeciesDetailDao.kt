@@ -1,10 +1,12 @@
 package com.github.adnanrangrej.natureguardian.data.local.dao.species
 
+import androidx.room.Dao
 import androidx.room.Query
 import androidx.room.Transaction
 import com.github.adnanrangrej.natureguardian.data.local.entity.species.FullSpeciesDetails
 import kotlinx.coroutines.flow.Flow
 
+@Dao
 interface FullSpeciesDetailDao {
 
     @Transaction

@@ -1,5 +1,6 @@
 package com.github.adnanrangrej.natureguardian.data.local.dao.species
 
+import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
@@ -8,6 +9,7 @@ import androidx.room.Update
 import com.github.adnanrangrej.natureguardian.data.local.entity.species.Species
 import kotlinx.coroutines.flow.Flow
 
+@Dao
 interface SpeciesDao {
 
     // Basic CRUD operations
