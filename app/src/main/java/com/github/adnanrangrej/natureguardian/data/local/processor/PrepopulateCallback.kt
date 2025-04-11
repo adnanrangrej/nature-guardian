@@ -88,12 +88,12 @@ class PrepopulateCallback @Inject constructor(
                 ) { row ->
                     SpeciesDetail(
                         speciesId = row[0].toLong(),
-                        description = row[1],
-                        conservationActionsDescription = row[2],
-                        habitatDescription = row[3],
-                        useTradeDescription = row[4],
-                        threatsDescription = row[5],
-                        populationDescription = row[6]
+                        description = row[1].parseFromHtml(),
+                        conservationActionsDescription = row[2].parseFromHtml(),
+                        habitatDescription = row[3].parseFromHtml(),
+                        useTradeDescription = row[4].parseFromHtml(),
+                        threatsDescription = row[5].parseFromHtml(),
+                        populationDescription = row[6].parseFromHtml()
                     )
                 }
 
