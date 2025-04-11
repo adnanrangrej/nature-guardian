@@ -10,13 +10,25 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.lifecycle.lifecycleScope
 import com.github.adnanrangrej.natureguardian.ui.theme.NatureGuardianTheme
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
 class NatureGuardianActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        var isPrepopulated = false
+        lifecycleScope.launch {
+            delay(3500L)
+            isPrepopulated = true
+        }
+        installSplashScreen().setKeepOnScreenCondition {
+            !isPrepopulated
+        }
         // Request permission for notifications on launch
         requestNotificationPermission()
 
