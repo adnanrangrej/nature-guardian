@@ -37,19 +37,21 @@ fun <T> parseCsvFile(
                 try {
                     results.add(mapRow(it))
                 } catch (e: Exception) {
-                    Log.e("PrepopulateCallback", "Error mapping row: ${it.joinToString(",")}", e)
+                    Log.e("parseCsvFile", "Error mapping row: ${it.joinToString(",")}", e)
                 }
             }
         }
     } catch (e: CsvException) {
-        Log.e("PrepopulateCallback", "CSV Parsing error for file: $filePath", e)
+        Log.e("ParseCsvFile", "CSV Parsing error for file: $filePath", e)
+        throw e
     } catch (e: Exception) {
-        Log.e("PrepopulateCallback", "Error reading file: $filePath", e)
+        Log.e("ParseCsvFile", "Error reading file: $filePath", e)
+        throw e
     } finally {
         try {
             reader?.close()
         } catch (e: Exception) {
-            Log.e("PrepopulateCallback", "Error closing CSVReader", e)
+            Log.e("ParseCsvFile", "Error closing CSVReader", e)
         }
     }
     return results
