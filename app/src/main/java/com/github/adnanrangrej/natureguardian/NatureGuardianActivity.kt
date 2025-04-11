@@ -12,23 +12,37 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.lifecycle.lifecycleScope
+import com.github.adnanrangrej.natureguardian.data.local.preferences.PrefsHelper
 import com.github.adnanrangrej.natureguardian.ui.theme.NatureGuardianTheme
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.delay
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class NatureGuardianActivity : ComponentActivity() {
+    @Inject
+    lateinit var prefsHelper: PrefsHelper
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        val splashScreen = installSplashScreen()
+
         var isPrepopulated = false
+        splashScreen.setKeepOnScreenCondition { !isPrepopulated }
+
         lifecycleScope.launch {
-            delay(3500L)
-            isPrepopulated = true
+            withContext(Dispatchers.IO) {
+                try {
+                    prefsHelper.checkAndPrepopulateDatabase()
+                } catch (e: Exception) {
+                    Log.e("NatureGuardianActivity", "Error during prepopulation", e)
+                }
+                isPrepopulated = prefsHelper.checkIfPrepopulatedDatabase()
+                Log.d("Splash", "Setting isPrepopulated = $isPrepopulated")
+            }
         }
-        installSplashScreen().setKeepOnScreenCondition {
-            !isPrepopulated
-        }
+
         // Request permission for notifications on launch
         requestNotificationPermission()
 
