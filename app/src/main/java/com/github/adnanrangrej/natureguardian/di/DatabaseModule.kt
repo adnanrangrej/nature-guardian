@@ -3,13 +3,11 @@ package com.github.adnanrangrej.natureguardian.di
 import android.content.Context
 import androidx.room.Room
 import com.github.adnanrangrej.natureguardian.data.local.NatureGuardianDatabase
-import com.github.adnanrangrej.natureguardian.data.local.processor.PrepopulateCallback
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
-import javax.inject.Provider
 import javax.inject.Singleton
 
 @Module
@@ -20,7 +18,6 @@ object DatabaseModule {
     @Singleton
     fun provideDatabase(
         @ApplicationContext context: Context,
-        callback: PrepopulateCallback
     ): NatureGuardianDatabase {
         return Room.databaseBuilder(
             context,
@@ -28,19 +25,8 @@ object DatabaseModule {
             "nature_guardian_database"
         )
             .fallbackToDestructiveMigration(true)
-            .addCallback(callback)
             .build()
     }
-
-    @Provides
-    @Singleton
-    fun providePrepopulateCallback(
-        @ApplicationContext context: Context,
-        databaseProvider: Provider<NatureGuardianDatabase>
-    ) = PrepopulateCallback(
-        context = context,
-        databaseProvider = databaseProvider
-    )
 
     @Provides
     @Singleton
