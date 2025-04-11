@@ -106,9 +106,9 @@ class PrepopulateCallback @Inject constructor(
                 ) { row ->
                     CommonName(
                         speciesId = row[0].toLong(),
-                        commonName = row[2],
-                        language = row[3],
-                        isMain = row[4].toBoolean()
+                        commonName = row[1],
+                        language = row[2],
+                        isMain = row[3].toBoolean()
                     )
                 }
 
@@ -147,7 +147,11 @@ class PrepopulateCallback @Inject constructor(
 
                 // Parse and insert location data
                 Log.d("PrepopulateCallback", "Starting to parse and insert location data.....")
-                parseAndInsert("location.csv", true, locationDao::insertLocationList) { row ->
+                parseAndInsert(
+                    "species_location.csv",
+                    true,
+                    locationDao::insertLocationList
+                ) { row ->
                     Location(
                         speciesId = row[0].toLong(),
                         latitude = row[1].toDouble(),
