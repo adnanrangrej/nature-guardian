@@ -17,4 +17,8 @@ interface FullSpeciesDetailDao {
     @Query("SELECT * FROM species")
     fun getAllFullSpeciesDetails(): Flow<List<FullSpeciesDetails>>
 
+    @Transaction
+    @Query("SELECT * FROM species WHERE is_bookmarked = 1")
+    fun getBookmarkedFullSpeciesDetails(): Flow<List<FullSpeciesDetails>>
+
 }
