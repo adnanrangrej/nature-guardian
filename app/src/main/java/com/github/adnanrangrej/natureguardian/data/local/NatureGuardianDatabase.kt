@@ -12,28 +12,28 @@ import com.github.adnanrangrej.natureguardian.data.local.dao.species.SpeciesDeta
 import com.github.adnanrangrej.natureguardian.data.local.dao.species.SpeciesImageDao
 import com.github.adnanrangrej.natureguardian.data.local.dao.species.ThreatDao
 import com.github.adnanrangrej.natureguardian.data.local.dao.species.UseTradeDao
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.CommonName
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.ConservationAction
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.Habitat
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.Location
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.Species
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesDetail
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesImage
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.Threat
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.UseTrade
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.CommonNameEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.ConservationActionEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.HabitatEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.LocationEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesDetailEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesImageEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.ThreatEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.UseTradeEntity
 
 @Database(
     entities = [
         // Species entity
-        Species::class,
-        SpeciesDetail::class,
-        CommonName::class,
-        ConservationAction::class,
-        Habitat::class,
-        Location::class,
-        Threat::class,
-        UseTrade::class,
-        SpeciesImage::class
+        SpeciesEntity::class,
+        SpeciesDetailEntity::class,
+        CommonNameEntity::class,
+        ConservationActionEntity::class,
+        HabitatEntity::class,
+        LocationEntity::class,
+        ThreatEntity::class,
+        UseTradeEntity::class,
+        SpeciesImageEntity::class
     ],
     version = 1,
     exportSchema = false,

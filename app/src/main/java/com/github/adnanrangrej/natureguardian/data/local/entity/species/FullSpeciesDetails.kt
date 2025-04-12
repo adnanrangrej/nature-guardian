@@ -7,53 +7,53 @@ import androidx.room.Relation
 data class FullSpeciesDetails(
 
     @Embedded
-    val species: Species,
+    val species: SpeciesEntity,
 
     @Relation(
         parentColumn = "internal_taxon_id",
         entityColumn = "species_id"
     )
-    val details: SpeciesDetail?,
+    val details: SpeciesDetailEntity?,
 
     @Relation(
         parentColumn = "internal_taxon_id",
         entityColumn = "species_id"
     )
-    val commonNames: List<CommonName>,
+    val commonNames: List<CommonNameEntity>,
 
     @Relation(
         parentColumn = "internal_taxon_id",
         entityColumn = "species_id"
     )
-    val conservationActions: List<ConservationAction>,
+    val conservationActions: List<ConservationActionEntity>,
 
     @Relation(
         parentColumn = "internal_taxon_id",
         entityColumn = "species_id"
     )
-    val habitats: List<Habitat>,
+    val habitats: List<HabitatEntity>,
 
     @Relation(
         parentColumn = "internal_taxon_id",
         entityColumn = "species_id"
     )
-    val locations: List<Location>,
+    val locations: List<LocationEntity>,
 
     @Relation(
         parentColumn = "internal_taxon_id",
         entityColumn = "species_id"
     )
-    val threats: List<Threat>,
+    val threats: List<ThreatEntity>,
 
     @Relation(
         parentColumn = "internal_taxon_id",
         entityColumn = "species_id"
     )
-    val useTrade: List<UseTrade>,
+    val useTrade: List<UseTradeEntity>,
 
     @Relation(
         parentColumn = "internal_taxon_id",
         entityColumn = "species_id"
     )
-    val images: List<SpeciesImage>
+    val images: List<SpeciesImageEntity>
 )

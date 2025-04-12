@@ -7,23 +7,36 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 
 @Entity(
-    tableName = "species_image",
+    tableName = "habitat",
     foreignKeys = [ForeignKey(
-        entity = Species::class,
+        entity = SpeciesEntity::class,
         parentColumns = ["internal_taxon_id"],
         childColumns = ["species_id"],
         onDelete = ForeignKey.CASCADE
     )],
     indices = [Index("species_id")]
 )
-data class SpeciesImage(
+data class HabitatEntity(
+
     @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "image_id")
-    val imageId: Long = 0,
+    @ColumnInfo(name = "habitat_id")
+    val habitatId: Long = 0,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,
 
-    @ColumnInfo(name = "image_url")
-    val imageUrl: String
+    @ColumnInfo(name = "code")
+    val code: String,
+
+    @ColumnInfo(name = "habitat_name")
+    val habitatName: String,
+
+    @ColumnInfo(name = "major_importance")
+    val majorImportance: Boolean?,
+
+    @ColumnInfo(name = "season")
+    val season: String?,
+
+    @ColumnInfo(name = "suitability")
+    val suitability: String?
 )

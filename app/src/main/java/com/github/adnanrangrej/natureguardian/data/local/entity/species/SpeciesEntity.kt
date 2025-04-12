@@ -9,7 +9,7 @@ import androidx.room.PrimaryKey
     tableName = "species",
     indices = [Index(value = ["scientific_name"], unique = true)]
 )
-data class Species(
+data class SpeciesEntity(
     @PrimaryKey
     @ColumnInfo(name = "internal_taxon_id")
     val internalTaxonId: Long,
@@ -52,4 +52,7 @@ data class Species(
 
     @ColumnInfo(name = "has_image")
     val hasImage: Boolean,
+
+    @ColumnInfo(name = "is_bookmarked")
+    val isBookmarked: Boolean = false,
 )

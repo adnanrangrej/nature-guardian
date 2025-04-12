@@ -7,30 +7,26 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 
 @Entity(
-    tableName = "common_name",
+    tableName = "conservation_action",
     foreignKeys = [ForeignKey(
-        entity = Species::class,
+        entity = SpeciesEntity::class,
         parentColumns = ["internal_taxon_id"],
         childColumns = ["species_id"],
         onDelete = ForeignKey.CASCADE
     )],
     indices = [Index("species_id")]
 )
-data class CommonName(
+data class ConservationActionEntity(
     @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "common_name_id")
-    val commonNameId: Long = 0,
+    @ColumnInfo(name = "conservation_action_id")
+    val conservationActionId: Long = 0,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,
 
-    @ColumnInfo(name = "common_name")
-    val commonName: String,
+    @ColumnInfo(name = "code")
+    val code: String,
 
-    @ColumnInfo(name = "language")
-    val language: String?,
-
-    @ColumnInfo(name = "is_main")
-    val isMain: Boolean
+    @ColumnInfo(name = "action_name")
+    val actionName: String
 )
-

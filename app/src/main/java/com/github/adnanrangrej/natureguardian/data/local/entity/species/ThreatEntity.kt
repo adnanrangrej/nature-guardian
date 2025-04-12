@@ -7,19 +7,19 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 
 @Entity(
-    tableName = "conservation_action",
+    tableName = "threat",
     foreignKeys = [ForeignKey(
-        entity = Species::class,
+        entity = SpeciesEntity::class,
         parentColumns = ["internal_taxon_id"],
         childColumns = ["species_id"],
         onDelete = ForeignKey.CASCADE
     )],
     indices = [Index("species_id")]
 )
-data class ConservationAction(
+data class ThreatEntity(
     @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "conservation_action_id")
-    val conservationActionId: Long = 0,
+    @ColumnInfo(name = "threat_id")
+    val threatId: Long = 0,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,
@@ -27,6 +27,15 @@ data class ConservationAction(
     @ColumnInfo(name = "code")
     val code: String,
 
-    @ColumnInfo(name = "action_name")
-    val actionName: String
+    @ColumnInfo(name = "threat_name")
+    val threatName: String,
+
+    @ColumnInfo(name = "stress_code")
+    val stressCode: String?,
+
+    @ColumnInfo(name = "stress_name")
+    val stressName: String?,
+
+    @ColumnInfo(name = "severity")
+    val severity: String?,
 )

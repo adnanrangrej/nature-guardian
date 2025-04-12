@@ -9,14 +9,14 @@ import androidx.room.PrimaryKey
 @Entity(
     tableName = "species_detail",
     foreignKeys = [ForeignKey(
-        entity = Species::class,
+        entity = SpeciesEntity::class,
         parentColumns = ["internal_taxon_id"],
         childColumns = ["species_id"],
         onDelete = ForeignKey.CASCADE
     )],
     indices = [Index("species_id")]
 )
-data class SpeciesDetail(
+data class SpeciesDetailEntity(
     @PrimaryKey
     @ColumnInfo(name = "species_id")
     val speciesId: Long,
@@ -37,6 +37,5 @@ data class SpeciesDetail(
     val threatsDescription: String?,
 
     @ColumnInfo(name = "population_description")
-    val populationDescription: String?,
-
-    )
+    val populationDescription: String?
+)

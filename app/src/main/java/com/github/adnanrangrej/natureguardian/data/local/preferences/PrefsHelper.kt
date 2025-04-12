@@ -5,15 +5,15 @@ import android.util.Log
 import androidx.core.content.edit
 import androidx.room.withTransaction
 import com.github.adnanrangrej.natureguardian.data.local.NatureGuardianDatabase
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.CommonName
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.ConservationAction
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.Habitat
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.Location
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.Species
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesDetail
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesImage
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.Threat
-import com.github.adnanrangrej.natureguardian.data.local.entity.species.UseTrade
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.CommonNameEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.ConservationActionEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.HabitatEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.LocationEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesDetailEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesImageEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.ThreatEntity
+import com.github.adnanrangrej.natureguardian.data.local.entity.species.UseTradeEntity
 import com.github.adnanrangrej.natureguardian.data.local.processor.parseCsvFile
 import com.github.adnanrangrej.natureguardian.data.local.processor.parseFromHtml
 import javax.inject.Inject
@@ -56,7 +56,7 @@ class PrefsHelper @Inject constructor(
                 // Parse and insert species data
                 Log.d("PrefsHelper", "Starting to parse and insert species data.....")
                 parseAndInsert("species.csv", true, speciesDao::insertSpeciesList) { row ->
-                    Species(
+                    SpeciesEntity(
                         internalTaxonId = row[0].toLong(),
                         scientificName = row[1],
                         redlistCategory = row[2],
@@ -84,7 +84,7 @@ class PrefsHelper @Inject constructor(
                     true,
                     speciesDetailDao::insertSpeciesDetailList
                 ) { row ->
-                    SpeciesDetail(
+                    SpeciesDetailEntity(
                         speciesId = row[0].toLong(),
                         description = row[1].parseFromHtml(),
                         conservationActionsDescription = row[2].parseFromHtml(),
@@ -105,7 +105,7 @@ class PrefsHelper @Inject constructor(
                     true,
                     commonNameDao::insertCommonNameList
                 ) { row ->
-                    CommonName(
+                    CommonNameEntity(
                         speciesId = row[0].toLong(),
                         commonName = row[1],
                         language = row[2],
@@ -123,7 +123,7 @@ class PrefsHelper @Inject constructor(
                     true,
                     conservationActionDao::insertConservationActionList
                 ) { row ->
-                    ConservationAction(
+                    ConservationActionEntity(
                         speciesId = row[0].toLong(),
                         code = row[1],
                         actionName = row[2]
@@ -136,7 +136,7 @@ class PrefsHelper @Inject constructor(
                     val majorImportance = row.getOrNull(3)?.let {
                         it.isNotBlank() && it.lowercase() == "yes"
                     }
-                    Habitat(
+                    HabitatEntity(
                         speciesId = row[0].toLong(),
                         code = row[1],
                         habitatName = row[2],
@@ -153,7 +153,7 @@ class PrefsHelper @Inject constructor(
                     true,
                     locationDao::insertLocationList
                 ) { row ->
-                    Location(
+                    LocationEntity(
                         speciesId = row[0].toLong(),
                         latitude = row[1].toDouble(),
                         longitude = row[2].toDouble()
@@ -163,7 +163,7 @@ class PrefsHelper @Inject constructor(
                 // Parse and insert threat data
                 Log.d("PrefsHelper", "Starting to parse and insert threat data.....")
                 parseAndInsert("threat.csv", true, threatDao::insertThreatList) { row ->
-                    Threat(
+                    ThreatEntity(
                         speciesId = row[0].toLong(),
                         code = row[1],
                         threatName = row[2],
@@ -176,7 +176,7 @@ class PrefsHelper @Inject constructor(
                 // Parse and insert use trade data
                 Log.d("PrefsHelper", "Starting to parse and insert use trade data.....")
                 parseAndInsert("use_trade.csv", true, useTradeDao::insertUseTradeList) { row ->
-                    UseTrade(
+                    UseTradeEntity(
                         speciesId = row[0].toLong(),
                         code = row[1],
                         useTradeName = row[2],
@@ -195,7 +195,7 @@ class PrefsHelper @Inject constructor(
                     true,
                     speciesImageDao::insertSpeciesImageList
                 ) { row ->
-                    SpeciesImage(
+                    SpeciesImageEntity(
                         speciesId = row[0].toLong(),
                         imageUrl = row[1]
                     )

@@ -7,20 +7,19 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 
 @Entity(
-    tableName = "habitat",
+    tableName = "use_trade",
     foreignKeys = [ForeignKey(
-        entity = Species::class,
+        entity = SpeciesEntity::class,
         parentColumns = ["internal_taxon_id"],
         childColumns = ["species_id"],
         onDelete = ForeignKey.CASCADE
     )],
     indices = [Index("species_id")]
 )
-data class Habitat(
-
+data class UseTradeEntity(
     @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "habitat_id")
-    val habitatId: Long = 0,
+    @ColumnInfo(name = "use_trade_id")
+    val useTradeId: Long = 0,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,
@@ -28,16 +27,12 @@ data class Habitat(
     @ColumnInfo(name = "code")
     val code: String,
 
-    @ColumnInfo(name = "habitat_name")
-    val habitatName: String,
+    @ColumnInfo(name = "use_trade_name")
+    val useTradeName: String,
 
-    @ColumnInfo(name = "major_importance")
-    val majorImportance: Boolean?,
+    @ColumnInfo(name = "international")
+    val international: Boolean?,
 
-    @ColumnInfo(name = "season")
-    val season: String?,
-
-    @ColumnInfo(name = "suitability")
-    val suitability: String?,
-
-    )
+    @ColumnInfo(name = "national")
+    val national: Boolean?
+)

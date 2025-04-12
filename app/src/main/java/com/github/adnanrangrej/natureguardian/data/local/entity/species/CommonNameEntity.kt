@@ -7,32 +7,30 @@ import androidx.room.Index
 import androidx.room.PrimaryKey
 
 @Entity(
-    tableName = "use_trade",
+    tableName = "common_name",
     foreignKeys = [ForeignKey(
-        entity = Species::class,
+        entity = SpeciesEntity::class,
         parentColumns = ["internal_taxon_id"],
         childColumns = ["species_id"],
         onDelete = ForeignKey.CASCADE
     )],
     indices = [Index("species_id")]
 )
-data class UseTrade(
+data class CommonNameEntity(
     @PrimaryKey(autoGenerate = true)
-    @ColumnInfo(name = "use_trade_id")
-    val useTradeId: Long = 0,
+    @ColumnInfo(name = "common_name_id")
+    val commonNameId: Long = 0,
 
     @ColumnInfo(name = "species_id")
     val speciesId: Long,
 
-    @ColumnInfo(name = "code")
-    val code: String,
+    @ColumnInfo(name = "common_name")
+    val commonName: String,
 
-    @ColumnInfo(name = "use_trade_name")
-    val useTradeName: String,
+    @ColumnInfo(name = "language")
+    val language: String?,
 
-    @ColumnInfo(name = "international")
-    val international: Boolean?,
-
-    @ColumnInfo(name = "national")
-    val national: Boolean?
+    @ColumnInfo(name = "is_main")
+    val isMain: Boolean
 )
+
