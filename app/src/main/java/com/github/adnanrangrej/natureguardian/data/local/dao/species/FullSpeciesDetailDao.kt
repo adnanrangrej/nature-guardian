@@ -21,4 +21,7 @@ interface FullSpeciesDetailDao {
     @Query("SELECT * FROM species WHERE is_bookmarked = 1")
     fun getBookmarkedFullSpeciesDetails(): Flow<List<FullSpeciesDetails>>
 
+    @Query("UPDATE species SET is_bookmarked = :isBookmarked WHERE internal_taxon_id = :internalTaxonId")
+    suspend fun bookmarkSpecies(internalTaxonId: Long, isBookmarked: Boolean)
+
 }
