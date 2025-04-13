@@ -1,15 +1,14 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.news.newsdetail
 
+import android.util.Log
+import androidx.compose.runtime.State
+import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.github.adnanrangrej.natureguardian.domain.usecase.news.GetNewsItemUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
@@ -20,13 +19,11 @@ class NewsDetailViewModel @Inject constructor(
     savedStateHandle: SavedStateHandle
 ) : ViewModel() {
     private val timestamp: String = checkNotNull(savedStateHandle["timestamp"])
-    private val _uiState = MutableStateFlow<NewsDetailsUiState>(NewsDetailsUiState.Loading)
-    val uiState: StateFlow<NewsDetailsUiState> = _uiState.asStateFlow()
+    private val _uiState = mutableStateOf<NewsDetailsUiState>(NewsDetailsUiState.Loading)
+    val uiState: State<NewsDetailsUiState> = _uiState
 
     init {
-        viewModelScope.launch {
-            loadNewsItem()
-        }
+        loadNewsItem()
     }
 
     fun loadNewsItem() {
@@ -35,13 +32,10 @@ class NewsDetailViewModel @Inject constructor(
                 val result = withContext(Dispatchers.IO) {
                     getNewsItemUseCase(timestamp)
                 }
-                _uiState.update {
-                    NewsDetailsUiState.Success(result)
-                }
+                _uiState.value = NewsDetailsUiState.Success(result)
             } catch (e: Exception) {
-                _uiState.update {
-                    NewsDetailsUiState.Error
-                }
+                Log.e("NewsDetailViewModel", "Error loading news item", e)
+                _uiState.value = NewsDetailsUiState.Error
             }
         }
     }

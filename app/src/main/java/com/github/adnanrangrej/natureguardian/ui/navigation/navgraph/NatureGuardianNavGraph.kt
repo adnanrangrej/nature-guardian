@@ -16,9 +16,9 @@ import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianBottom
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianTopAppBar
 import com.github.adnanrangrej.natureguardian.ui.navigation.destination.NatureGuardianScreen
 import com.github.adnanrangrej.natureguardian.ui.screens.news.newsdetail.NewsDetailScreen
-import com.github.adnanrangrej.natureguardian.ui.screens.news.newslist.NewsScreen
+import com.github.adnanrangrej.natureguardian.ui.screens.news.newslist.NewsListScreen
 import com.github.adnanrangrej.natureguardian.ui.screens.profile.ProfileScreen
-import com.github.adnanrangrej.natureguardian.ui.screens.species.SpeciesScreen
+import com.github.adnanrangrej.natureguardian.ui.screens.species.specieslist.SpeciesListScreen
 
 @Composable
 fun NatureGuardianNavGraph(
@@ -63,11 +63,11 @@ fun NatureGuardianNavGraph(
         ) {
 
             composable(route = NatureGuardianScreen.SpeciesList.route) {
-                SpeciesScreen()
+                SpeciesListScreen()
             }
 
             composable(route = NatureGuardianScreen.NewsList.route) {
-                NewsScreen(navigateToNewsDetail = { timestamp ->
+                NewsListScreen(navigateToNewsDetail = { timestamp ->
                     navController.navigate(NatureGuardianScreen.NewsDetail.createRoute(timestamp))
                 })
             }
