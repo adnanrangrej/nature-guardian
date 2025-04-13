@@ -1,6 +1,7 @@
 package com.github.adnanrangrej.natureguardian.di
 
 import com.github.adnanrangrej.natureguardian.data.local.dao.species.FullSpeciesDetailDao
+import com.github.adnanrangrej.natureguardian.data.local.dao.species.SpeciesDao
 import com.github.adnanrangrej.natureguardian.data.remote.api.news.NewsApiService
 import com.github.adnanrangrej.natureguardian.data.repository.NewsRepositoryImpl
 import com.github.adnanrangrej.natureguardian.data.repository.SpeciesRepositoryImpl
@@ -25,7 +26,10 @@ object RepositoryModule {
 
     @Provides
     @Singleton
-    fun provideSpeciesRepository(fullSpeciesDetailDao: FullSpeciesDetailDao): SpeciesRepository {
-        return SpeciesRepositoryImpl(fullSpeciesDetailDao)
+    fun provideSpeciesRepository(
+        fullSpeciesDetailDao: FullSpeciesDetailDao,
+        speciesDao: SpeciesDao
+    ): SpeciesRepository {
+        return SpeciesRepositoryImpl(fullSpeciesDetailDao, speciesDao)
     }
 }
