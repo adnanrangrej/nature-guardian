@@ -2,8 +2,11 @@ package com.github.adnanrangrej.natureguardian.ui.components
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.List
+import androidx.compose.material.icons.automirrored.outlined.List
+import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.outlined.AccountCircle
+import androidx.compose.material.icons.outlined.Home
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
@@ -22,38 +25,48 @@ fun NatureGuardianBottomNavBar(
     val currentRoute = backStackEntry?.destination?.route
 
 
-    val items = listOf(
+    val bottomNavItems = listOf(
         BottomNavItem(
             natureGuardianScreen = NatureGuardianScreen.SpeciesList,
-            icon = Icons.Default.Home,
+            selectedIcon = Icons.Filled.Home,
+            unselectedIcon = Icons.Outlined.Home,
             label = "Species"
         ),
         BottomNavItem(
             natureGuardianScreen = NatureGuardianScreen.NewsList,
-            icon = Icons.AutoMirrored.Default.List,
+            selectedIcon = Icons.AutoMirrored.Filled.List,
+            unselectedIcon = Icons.AutoMirrored.Outlined.List,
             label = "News"
         ),
         BottomNavItem(
             natureGuardianScreen = NatureGuardianScreen.Profile,
-            icon = Icons.Default.Person,
+            selectedIcon = Icons.Filled.AccountCircle,
+            unselectedIcon = Icons.Outlined.AccountCircle,
             label = "Profile"
         ),
     )
 
     NavigationBar {
-        items.forEach { item ->
+        bottomNavItems.forEach { item ->
             NavigationBarItem(
                 selected = item.natureGuardianScreen.route == currentRoute,
                 onClick = {
-                    if (item.natureGuardianScreen.route != currentRoute){
+                    if (item.natureGuardianScreen.route != currentRoute) {
                         navController.navigate(item.natureGuardianScreen.route)
                     }
                 },
                 icon = {
-                    Icon(
-                        imageVector = item.icon,
-                        contentDescription = item.label
-                    )
+                    if (item.natureGuardianScreen.route == currentRoute) {
+                        Icon(
+                            imageVector = item.selectedIcon,
+                            contentDescription = item.label
+                        )
+                    } else {
+                        Icon(
+                            imageVector = item.unselectedIcon,
+                            contentDescription = item.label
+                        )
+                    }
                 }
             )
 
