@@ -8,15 +8,15 @@ import com.github.adnanrangrej.natureguardian.R
 import com.github.adnanrangrej.natureguardian.ui.components.ErrorScreen
 
 @Composable
-fun NewsBody(
-    uiState: NewsScreenUiState,
+fun NewsListBody(
+    uiState: NewsListScreenUiState,
     onItemClick: (String) -> Unit,
     modifier: Modifier = Modifier,
     retryAction: () -> Unit,
     fetchMoreNews: () -> Unit
 ) {
     when (uiState) {
-        is NewsScreenUiState.Success -> {
+        is NewsListScreenUiState.Success -> {
             NewsItemList(
                 newsItems = uiState.newsResponse.items,
                 onItemClick = { onItemClick(it.publishedAt) },
@@ -27,7 +27,7 @@ fun NewsBody(
                 fetchMoreNews = { if (!uiState.isLoadingMore) fetchMoreNews() })
         }
 
-        is NewsScreenUiState.Error -> {
+        is NewsListScreenUiState.Error -> {
             ErrorScreen(
                 modifier = modifier,
                 retryAction = retryAction,
@@ -35,7 +35,7 @@ fun NewsBody(
             )
         }
 
-        is NewsScreenUiState.Loading -> {
+        is NewsListScreenUiState.Loading -> {
             NewsItemListShimmer(modifier = modifier)
         }
     }
