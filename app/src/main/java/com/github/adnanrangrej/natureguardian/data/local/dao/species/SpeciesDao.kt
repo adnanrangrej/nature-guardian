@@ -22,6 +22,9 @@ interface SpeciesDao {
     @Update
     suspend fun updateSpecies(species: SpeciesEntity)
 
+    @Query("UPDATE species SET is_bookmarked = :isBookmarked WHERE internal_taxon_id = :internalTaxonId")
+    suspend fun bookmarkSpecies(internalTaxonId: Long, isBookmarked: Boolean)
+
     @Delete
     suspend fun deleteSpecies(species: SpeciesEntity)
 
@@ -30,5 +33,8 @@ interface SpeciesDao {
 
     @Query("SELECT * FROM species")
     fun getAllSpecies(): Flow<List<SpeciesEntity>>
+
+    @Query("SELECT * FROM species WHERE is_bookmarked = 1")
+    fun getAllBookmarkedSpecies(): Flow<List<SpeciesEntity>>
 
 }
