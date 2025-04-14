@@ -46,7 +46,6 @@ fun NatureGuardianNavGraph(
         topBar = {
             if (currentScreen?.showTopBar == true) {
                 NatureGuardianTopAppBar(
-                    title = currentScreen.title,
                     canNavigate = currentScreen.canNavigateBack,
                     navigateUp = { navController.navigateUp() }
                 )
