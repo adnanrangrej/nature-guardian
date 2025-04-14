@@ -1,5 +1,6 @@
 package com.github.adnanrangrej.natureguardian.ui.components
 
+import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.runtime.Composable
@@ -20,11 +21,13 @@ import com.github.adnanrangrej.natureguardian.ui.theme.NatureGuardianTheme
 @Composable
 fun NatureGuardianImages(
     url: String,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    contentScale: ContentScale = ContentScale.Crop,
+    @DrawableRes placeholder: Int = R.drawable.ic_broken_image
 ) {
     val painter = rememberAsyncImagePainter(
         model = ImageRequest.Builder(context = LocalContext.current)
-            .data(url)
+            .data(url.ifEmpty { null })
             .crossfade(true)
             .build()
     )
@@ -34,18 +37,18 @@ fun NatureGuardianImages(
     when (state.value) {
         AsyncImagePainter.State.Empty -> {
             Image(
-                painter = painterResource(R.drawable.ic_broken_image),
+                painter = painterResource(placeholder),
                 contentDescription = stringResource(R.string.empty_image),
-                contentScale = ContentScale.Crop,
+                contentScale = contentScale,
                 modifier = modifier
             )
         }
 
         is AsyncImagePainter.State.Error -> {
             Image(
-                painter = painterResource(R.drawable.ic_broken_image),
+                painter = painterResource(placeholder),
                 contentDescription = stringResource(R.string.error_loading_image),
-                contentScale = ContentScale.Crop,
+                contentScale = contentScale,
                 modifier = modifier
             )
         }
@@ -58,7 +61,7 @@ fun NatureGuardianImages(
             Image(
                 painter = painter,
                 contentDescription = stringResource(R.string.success_image),
-                contentScale = ContentScale.Crop,
+                contentScale = contentScale,
                 modifier = modifier
             )
         }
