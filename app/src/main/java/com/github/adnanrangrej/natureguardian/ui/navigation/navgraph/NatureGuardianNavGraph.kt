@@ -1,5 +1,7 @@
 package com.github.adnanrangrej.natureguardian.ui.navigation.navgraph
 
+import androidx.compose.animation.EnterTransition
+import androidx.compose.animation.ExitTransition
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
@@ -18,6 +20,7 @@ import com.github.adnanrangrej.natureguardian.ui.navigation.destination.NatureGu
 import com.github.adnanrangrej.natureguardian.ui.screens.news.newsdetail.NewsDetailScreen
 import com.github.adnanrangrej.natureguardian.ui.screens.news.newslist.NewsListScreen
 import com.github.adnanrangrej.natureguardian.ui.screens.profile.ProfileScreen
+import com.github.adnanrangrej.natureguardian.ui.screens.species.speciesdetail.SpeciesDetailScreen
 import com.github.adnanrangrej.natureguardian.ui.screens.species.specieslist.SpeciesListScreen
 
 @Composable
@@ -59,11 +62,28 @@ fun NatureGuardianNavGraph(
         NavHost(
             navController = navController,
             startDestination = NatureGuardianScreen.SpeciesList.route,
-            modifier = Modifier.padding(innerPadding)
+            modifier = Modifier.padding(innerPadding),
+            enterTransition = { EnterTransition.None },
+            exitTransition = { ExitTransition.None }
         ) {
 
             composable(route = NatureGuardianScreen.SpeciesList.route) {
-                SpeciesListScreen()
+                SpeciesListScreen(
+                    navigateToSpeciesDetail = { internalTaxonId ->
+                        navController.navigate(
+                            NatureGuardianScreen.SpeciesDetail.createRoute(internalTaxonId)
+                        )
+                    }
+                )
+            }
+
+            composable(
+                route = NatureGuardianScreen.SpeciesDetail.route, arguments = listOf(
+                    navArgument("internal_taxon_id") {
+                        type = NavType.LongType
+                    }
+                )) {
+                SpeciesDetailScreen()
             }
 
             composable(route = NatureGuardianScreen.NewsList.route) {
