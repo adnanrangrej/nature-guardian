@@ -42,7 +42,8 @@ fun NewsItemList(
     ) {
         items(newsItems) { newsItem ->
             NewsItemCard(
-                newsItem = newsItem, modifier = Modifier.clickable { onItemClick(newsItem) })
+                newsItem = newsItem, modifier = Modifier.clickable { onItemClick(newsItem) }
+            )
         }
         item {
             if (isLoadingMore) {

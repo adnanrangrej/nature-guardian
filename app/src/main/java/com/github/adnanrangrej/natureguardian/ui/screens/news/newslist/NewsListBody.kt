@@ -21,7 +21,7 @@ fun NewsListBody(
                 newsItems = uiState.newsResponse.items,
                 onItemClick = { onItemClick(it.publishedAt) },
                 modifier = modifier,
-                contentPadding = PaddingValues(8.dp),
+                contentPadding = PaddingValues(all = 8.dp),
                 isLoadingMore = uiState.isLoadingMore,
                 loadMoreError = uiState.loadMoreError,
                 fetchMoreNews = { if (!uiState.isLoadingMore) fetchMoreNews() })

@@ -42,9 +42,11 @@ fun NewsItemCard(
     newsItem: NewsItem, modifier: Modifier = Modifier
 ) {
     Card(
-        modifier = modifier.fillMaxWidth(), shape = NewsCardShape, colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surface
-        ), elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(8.dp),
+        shape = NewsCardShape,
+        elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
     ) {
         Row(
             modifier = Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically
@@ -67,7 +69,6 @@ fun NewsItemCard(
                 Text(
                     text = newsItem.title,
                     style = typography.titleMedium,
-                    color = MaterialTheme.colorScheme.onSurface,
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis
                 )
@@ -91,7 +92,6 @@ fun NewsItemCard(
                     Icon(
                         imageVector = Icons.Default.AccessTime,
                         contentDescription = "Published At",
-                        tint = MaterialTheme.colorScheme.onSurfaceVariant,
                         modifier = Modifier.size(16.dp)
                     )
 
@@ -100,19 +100,17 @@ fun NewsItemCard(
                     Text(
                         text = formatDate(newsItem.publishedAt),
                         style = typography.labelMedium,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis
                     )
                 }
 
-                // Optional Description
+
                 if (newsItem.description.isNotEmpty()) {
                     Spacer(modifier = Modifier.height(8.dp))
                     Text(
                         text = newsItem.description,
                         style = typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onSurface,
                         maxLines = 2,
                         overflow = TextOverflow.Ellipsis
                     )
