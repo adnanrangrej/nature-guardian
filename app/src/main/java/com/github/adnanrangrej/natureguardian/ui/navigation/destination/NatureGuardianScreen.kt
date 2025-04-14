@@ -11,13 +11,13 @@ sealed class NatureGuardianScreen(
         NatureGuardianScreen(route = "species", title = "Species", showTopBar = true, showBottomBar = true, canNavigateBack = false)
 
     object SpeciesDetail : NatureGuardianScreen(
-        route = "species/{scientific_name}",
+        route = "species/{internal_taxon_id}",
         title = "Species",
         showTopBar = true,
         showBottomBar = false,
         canNavigateBack = true
     ) {
-        fun createRoute(scientificName: String) = "species/$scientificName"
+        fun createRoute(internalTaxonId: Long) = "species/$internalTaxonId"
     }
 
     object NewsList :
