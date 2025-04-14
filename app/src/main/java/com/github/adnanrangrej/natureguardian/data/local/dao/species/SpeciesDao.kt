@@ -7,7 +7,6 @@ import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Update
 import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesEntity
-import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface SpeciesDao {
@@ -27,14 +26,5 @@ interface SpeciesDao {
 
     @Delete
     suspend fun deleteSpecies(species: SpeciesEntity)
-
-    @Query("SELECT * FROM species WHERE internal_taxon_id = :internalTaxonId")
-    fun getSpeciesById(internalTaxonId: Long): Flow<SpeciesEntity?>
-
-    @Query("SELECT * FROM species")
-    fun getAllSpecies(): Flow<List<SpeciesEntity>>
-
-    @Query("SELECT * FROM species WHERE is_bookmarked = 1")
-    fun getAllBookmarkedSpecies(): Flow<List<SpeciesEntity>>
 
 }
