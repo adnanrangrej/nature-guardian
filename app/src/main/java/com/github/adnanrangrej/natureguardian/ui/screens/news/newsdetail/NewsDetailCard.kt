@@ -124,7 +124,7 @@ fun NewsDetailCardShimmer(modifier: Modifier = Modifier) {
         item {
             Box(
                 modifier = Modifier
-                    .height(36.dp)
+                    .height(36.dp * 2)
                     .fillMaxWidth()
                     .shimmerEffect()
             )
@@ -168,7 +168,7 @@ fun NewsDetailCardShimmer(modifier: Modifier = Modifier) {
         item {
             Box(
                 modifier = Modifier
-                    .height(20.dp)
+                    .height(20.dp * 5)
                     .fillMaxWidth()
                     .shimmerEffect()
             )
