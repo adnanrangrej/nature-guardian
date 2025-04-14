@@ -26,8 +26,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.github.adnanrangrej.natureguardian.R
 import com.github.adnanrangrej.natureguardian.domain.model.species.CommonName
 import com.github.adnanrangrej.natureguardian.domain.model.species.ConservationAction
@@ -62,11 +64,11 @@ fun SpeciesListCard(
             url = imageUrl ?: "",
             modifier = Modifier
                 .fillMaxWidth()
-                .aspectRatio(4f / 3f)
+                .aspectRatio(1f)
                 .padding(16.dp)
-                .clip(RoundedCornerShape(8.dp)),
+                .clip(RoundedCornerShape(topStart = 12.dp, topEnd = 12.dp)),
             placeholder = getDrawableResourceId(species.species.className),
-            contentScale = ContentScale.Fit
+            contentScale = ContentScale.Crop
         )
 
         Spacer(Modifier.height(16.dp))
@@ -74,16 +76,20 @@ fun SpeciesListCard(
 
         // Species Details
         Column(
-            modifier = Modifier.padding(16.dp),
+            modifier = Modifier.padding(start = 16.dp, end = 16.dp, bottom = 16.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             Text(
                 text = commonName ?: species.species.scientificName,
-                style = MaterialTheme.typography.titleMedium
+                style = MaterialTheme.typography.titleMedium.copy(fontSize = 14.sp),
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
             )
             Text(
                 text = species.species.scientificName,
-                style = MaterialTheme.typography.bodyMedium
+                style = MaterialTheme.typography.bodyMedium.copy(fontSize = 12.sp),
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
             )
 
             Row {
@@ -93,7 +99,10 @@ fun SpeciesListCard(
                         Box(
                             modifier = Modifier
                                 .size(8.dp)
-                                .background(MaterialTheme.colorScheme.onSurface, CircleShape)
+                                .background(
+                                    getStatusColor(species.species.redlistCategory),
+                                    CircleShape
+                                )
                         )
                     },
                     label = {
@@ -104,7 +113,8 @@ fun SpeciesListCard(
                     },
                     shape = RoundedCornerShape(8.dp),
                     colors = SuggestionChipDefaults.suggestionChipColors(
-                        containerColor = getStatusColor(species.species.redlistCategory)
+                        containerColor = getStatusColor(species.species.redlistCategory).copy(alpha = 0.15f),
+                        labelColor = getStatusColor(species.species.redlistCategory)
                     )
                 )
             }
@@ -286,6 +296,8 @@ fun getDrawableResourceId(className: String): Int {
         "AMPHIBIA" -> R.drawable.amphibian_outlined
         "AVES" -> R.drawable.bird_placeholder
         "MAMMALIA" -> R.drawable.mammals_outlined
+        "REPTILIA" -> R.drawable.reptile_outlined
+        "MAGNOLIOPSIDA", "LILIOPSIDA" -> R.drawable.plant_outlined
         else -> R.drawable.ic_broken_image
     }
 }
