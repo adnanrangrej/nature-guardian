@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">NatureGuardian</string>
+    <string name="app_tagline">Explore India\'s Biodiversity</string>
     <string name="error_loading_image">Error Loading Image</string>
     <string name="empty_image">Empty Image</string>
     <string name="success_image">News Image</string>
