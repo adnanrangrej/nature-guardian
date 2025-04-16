@@ -15,6 +15,7 @@ import androidx.core.net.toUri
 import com.github.adnanrangrej.natureguardian.R
 import com.github.adnanrangrej.natureguardian.domain.model.news.NewsItem
 import com.github.adnanrangrej.natureguardian.ui.components.ErrorScreen
+import com.github.adnanrangrej.natureguardian.ui.theme.ButtonShape
 import com.github.adnanrangrej.natureguardian.ui.theme.NatureGuardianTheme
 
 @Composable
@@ -27,7 +28,11 @@ fun NewsDetailBody(
 
     when (uiState) {
         is NewsDetailsUiState.Error -> {
-            ErrorScreen(modifier = modifier, retryAction = onRetryClicked, errorMessage = R.string.error_loading_news)
+            ErrorScreen(
+                modifier = modifier,
+                retryAction = onRetryClicked,
+                errorMessage = R.string.error_loading_news
+            )
         }
 
         is NewsDetailsUiState.Loading -> {
@@ -49,7 +54,8 @@ fun NewsDetailBody(
                         onClick = {
                             val intent = Intent(Intent.ACTION_VIEW, uiState.newsItem.url.toUri())
                             context.startActivity(intent)
-                        }
+                        },
+                        shape = ButtonShape
                     ) {
                         Text(text = stringResource(R.string.click_here_to_read_full_news))
                     }
