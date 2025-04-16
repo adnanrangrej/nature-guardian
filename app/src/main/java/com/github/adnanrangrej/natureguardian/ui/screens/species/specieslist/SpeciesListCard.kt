@@ -24,17 +24,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.github.adnanrangrej.natureguardian.R
 import com.github.adnanrangrej.natureguardian.domain.model.species.DetailedSpecies
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianImages
-import com.github.adnanrangrej.natureguardian.ui.components.getFakeSpecies
 import com.github.adnanrangrej.natureguardian.ui.components.shimmerEffect
+import com.github.adnanrangrej.natureguardian.ui.screens.species.getDrawableResourceId
+import com.github.adnanrangrej.natureguardian.ui.screens.species.getFakeSpecies
+import com.github.adnanrangrej.natureguardian.ui.screens.species.getStatusColor
 import com.github.adnanrangrej.natureguardian.ui.theme.NatureGuardianTheme
 import com.github.adnanrangrej.natureguardian.ui.theme.SpeciesCardShape
 
@@ -192,23 +192,3 @@ private fun SpeciesListCardShimmerPreview() {
     }
 }
 
-
-fun getStatusColor(status: String): Color {
-    return when (status) {
-        "Critically Endangered" -> Color(0xFFFF0000)
-        "Endangered" -> Color(0xFFFFA500)
-        "Vulnerable" -> Color(0xFFFFFF00)
-        else -> Color(0xFF808080)
-    }
-}
-
-fun getDrawableResourceId(className: String): Int {
-    return when (className) {
-        "AMPHIBIA" -> R.drawable.amphibian_outlined
-        "AVES" -> R.drawable.bird_placeholder
-        "MAMMALIA" -> R.drawable.mammals_outlined
-        "REPTILIA" -> R.drawable.reptile_outlined
-        "MAGNOLIOPSIDA", "LILIOPSIDA" -> R.drawable.plant_outlined
-        else -> R.drawable.ic_broken_image
-    }
-}
