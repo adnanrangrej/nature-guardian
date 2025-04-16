@@ -31,17 +31,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.github.adnanrangrej.natureguardian.R
-import com.github.adnanrangrej.natureguardian.domain.model.species.CommonName
-import com.github.adnanrangrej.natureguardian.domain.model.species.ConservationAction
 import com.github.adnanrangrej.natureguardian.domain.model.species.DetailedSpecies
-import com.github.adnanrangrej.natureguardian.domain.model.species.Habitat
-import com.github.adnanrangrej.natureguardian.domain.model.species.Location
-import com.github.adnanrangrej.natureguardian.domain.model.species.Species
-import com.github.adnanrangrej.natureguardian.domain.model.species.SpeciesDetail
-import com.github.adnanrangrej.natureguardian.domain.model.species.SpeciesImage
-import com.github.adnanrangrej.natureguardian.domain.model.species.Threat
-import com.github.adnanrangrej.natureguardian.domain.model.species.UseTrade
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianImages
+import com.github.adnanrangrej.natureguardian.ui.components.getFakeSpecies
 import com.github.adnanrangrej.natureguardian.ui.components.shimmerEffect
 import com.github.adnanrangrej.natureguardian.ui.theme.NatureGuardianTheme
 import com.github.adnanrangrej.natureguardian.ui.theme.SpeciesCardShape
@@ -168,87 +160,6 @@ fun SpeciesListCardShimmer(modifier: Modifier = Modifier) {
             )
         }
     }
-}
-
-fun getFakeSpecies(): DetailedSpecies {
-    val species = Species(
-        internalTaxonId = 12345,
-        scientificName = "Imaginary Species",
-        redlistCategory = "Endangered", // Least Concern
-        redlistCriteria = "N/A",
-        kingdomName = "Animalia",
-        phylumName = "Chordata",
-        className = "MAMMALIA",
-        orderName = "Primates",
-        familyName = "Hominidae",
-        genusName = "Homo",
-        speciesEpithet = "sapiens",
-        doi = "10.0000/fake-doi-12345",
-        populationTrend = "Stable",
-        hasImage = true,
-        isBookmarked = false
-    )
-
-    val details = SpeciesDetail(
-        speciesId = 12345,
-        description = "A completely fictional species created for testing purposes.  It is said to have unique adaptations.",
-        conservationActionsDescription = "Protect its imaginary habitat and reduce pollution.",
-        habitatDescription = "Lives in the lush, imaginary forests of Fantasia.",
-        useTradeDescription = "No known use or trade.",
-        threatsDescription = "Habitat loss due to encroaching imaginationlessness.",
-        populationDescription = "Estimated to be around 1,000,000 individuals."
-    )
-
-    val commonNames = listOf(
-        CommonName(1, 12345, "Fake Creature", "en", true),
-        CommonName(2, 12345, "Imaginario", "es", false),
-        CommonName(3, 12345, "Fabelwesen", "de", false)
-    )
-
-    val conservationActions = listOf(
-        ConservationAction(101, 12345, "PA", "Protected Area Establishment"),
-        ConservationAction(102, 12345, "CC", "Climate Change Mitigation"),
-        ConservationAction(103, 12345, "RA", "Research and Awareness")
-    )
-
-    val habitats = listOf(
-        Habitat(201, 12345, "TF", "Tropical Forest", true, "Year-round", "Optimal"),
-        Habitat(202, 12345, "MG", "Montane Grassland", false, "Summer", "Suitable")
-    )
-
-    val locations = listOf(
-        Location(301, 12345, 25.0, 120.0),
-        Location(302, 12345, -10.0, 140.0),
-        Location(303, 12345, 50.0, -70.0)
-    )
-
-    val threats = listOf(
-        Threat(401, 12345, "HL", "Habitat Loss", "UD", "Urban Development", "High"),
-        Threat(402, 12345, "CC", "Climate Change", "DR", "Drought", "Medium"),
-        Threat(403, 12345, "PO", "Pollution", "WA", "Water Pollution", "Low")
-    )
-
-    val useTrade = listOf(
-        UseTrade(501, 12345, "NU", "Non-use", false, false),
-        UseTrade(502, 12345, "RS", "Research", true, true)
-    )
-
-    val images = listOf(
-        SpeciesImage(601, 12345, "https://example.com/image1.jpg"), // Replace with actual URLs
-        SpeciesImage(602, 12345, "https://example.com/image2.jpg")
-    )
-
-    return DetailedSpecies(
-        species,
-        details,
-        commonNames,
-        conservationActions,
-        habitats,
-        locations,
-        threats,
-        useTrade,
-        images
-    )
 }
 
 @Preview(showBackground = true)
