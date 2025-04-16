@@ -82,7 +82,7 @@ fun NatureGuardianNavGraph(
                         type = NavType.LongType
                     }
                 )) {
-                SpeciesDetailScreen()
+                SpeciesDetailScreen(navigateUp = { navController.navigateUp() })
             }
 
             composable(route = NatureGuardianScreen.NewsList.route) {
