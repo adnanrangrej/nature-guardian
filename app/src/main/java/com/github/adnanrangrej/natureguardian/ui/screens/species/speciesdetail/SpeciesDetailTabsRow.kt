@@ -7,7 +7,6 @@ import androidx.compose.material3.TabRow
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 
@@ -21,8 +20,6 @@ fun SpeciesDetailTabsRow(
     TabRow(
         selectedTabIndex = pagerState.currentPage,
         modifier = modifier,
-        containerColor = Color.Transparent,
-        contentColor = MaterialTheme.colorScheme.onSurface,
         indicator = { },
         divider = { }
     ) {
