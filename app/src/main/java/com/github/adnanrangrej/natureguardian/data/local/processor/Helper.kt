@@ -2,15 +2,10 @@ package com.github.adnanrangrej.natureguardian.data.local.processor
 
 import android.content.Context
 import android.util.Log
-import androidx.core.text.HtmlCompat
 import com.opencsv.CSVReader
 import com.opencsv.CSVReaderBuilder
 import com.opencsv.exceptions.CsvException
 import java.io.InputStreamReader
-
-fun String.parseFromHtml(): String {
-    return HtmlCompat.fromHtml(this, HtmlCompat.FROM_HTML_MODE_LEGACY).toString()
-}
 
 fun <T> parseCsvFile(
     filePath: String,
