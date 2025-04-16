@@ -15,7 +15,6 @@ import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesI
 import com.github.adnanrangrej.natureguardian.data.local.entity.species.ThreatEntity
 import com.github.adnanrangrej.natureguardian.data.local.entity.species.UseTradeEntity
 import com.github.adnanrangrej.natureguardian.data.local.processor.parseCsvFile
-import com.github.adnanrangrej.natureguardian.data.local.processor.parseFromHtml
 import javax.inject.Inject
 
 class PrefsHelper @Inject constructor(
@@ -86,12 +85,12 @@ class PrefsHelper @Inject constructor(
                 ) { row ->
                     SpeciesDetailEntity(
                         speciesId = row[0].toLong(),
-                        description = row[1].parseFromHtml(),
-                        conservationActionsDescription = row[2].parseFromHtml(),
-                        habitatDescription = row[3].parseFromHtml(),
-                        useTradeDescription = row[4].parseFromHtml(),
-                        threatsDescription = row[5].parseFromHtml(),
-                        populationDescription = row[6].parseFromHtml()
+                        description = row[1],
+                        conservationActionsDescription = row[2],
+                        habitatDescription = row[3],
+                        useTradeDescription = row[4],
+                        threatsDescription = row[5],
+                        populationDescription = row[6]
                     )
                 }
 
