@@ -1,5 +1,7 @@
-package com.github.adnanrangrej.natureguardian.ui.components
+package com.github.adnanrangrej.natureguardian.ui.screens.species
 
+import androidx.compose.ui.graphics.Color
+import com.github.adnanrangrej.natureguardian.R
 import com.github.adnanrangrej.natureguardian.domain.model.species.CommonName
 import com.github.adnanrangrej.natureguardian.domain.model.species.ConservationAction
 import com.github.adnanrangrej.natureguardian.domain.model.species.DetailedSpecies
@@ -118,4 +120,24 @@ fun getFakeSpecies(): DetailedSpecies {
         useTrade,
         images
     )
+}
+
+fun getStatusColor(status: String): Color {
+    return when (status) {
+        "Critically Endangered" -> Color(0xFFFF0000)
+        "Endangered" -> Color(0xFFFFA500)
+        "Vulnerable" -> Color(0xFFFFFF00)
+        else -> Color(0xFF808080)
+    }
+}
+
+fun getDrawableResourceId(className: String): Int {
+    return when (className) {
+        "AMPHIBIA" -> R.drawable.amphibian_outlined
+        "AVES" -> R.drawable.bird_placeholder
+        "MAMMALIA" -> R.drawable.mammals_outlined
+        "REPTILIA" -> R.drawable.reptile_outlined
+        "MAGNOLIOPSIDA", "LILIOPSIDA" -> R.drawable.plant_outlined
+        else -> R.drawable.ic_broken_image
+    }
 }
