@@ -13,7 +13,7 @@ sealed class NatureGuardianScreen(
     object SpeciesDetail : NatureGuardianScreen(
         route = "species/{internal_taxon_id}",
         title = "Species",
-        showTopBar = true,
+        showTopBar = false,
         showBottomBar = false,
         canNavigateBack = true
     ) {
