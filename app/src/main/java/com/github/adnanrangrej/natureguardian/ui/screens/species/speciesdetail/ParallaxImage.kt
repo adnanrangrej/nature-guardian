@@ -8,9 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyListState
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.SuggestionChip
@@ -99,16 +97,6 @@ fun ParallaxImage(
             Row {
                 SuggestionChip(
                     onClick = {},
-                    icon = {
-                        Box(
-                            modifier = Modifier
-                                .size(8.dp)
-                                .background(
-                                    statusColor,
-                                    CircleShape
-                                )
-                        )
-                    },
                     label = {
                         Text(
                             text = redListCategory,
@@ -117,8 +105,8 @@ fun ParallaxImage(
                     },
                     shape = RoundedCornerShape(8.dp),
                     colors = SuggestionChipDefaults.suggestionChipColors(
-                        containerColor = statusColor.copy(alpha = 0.15f),
-                        labelColor = statusColor
+                        containerColor = statusColor,
+                        labelColor = Color.White
                     )
                 )
             }

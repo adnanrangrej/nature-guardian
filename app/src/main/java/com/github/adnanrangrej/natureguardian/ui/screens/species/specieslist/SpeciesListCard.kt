@@ -1,6 +1,5 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.species.specieslist
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -11,8 +10,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -24,11 +21,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.github.adnanrangrej.natureguardian.domain.model.species.DetailedSpecies
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianImages
 import com.github.adnanrangrej.natureguardian.ui.components.shimmerEffect
@@ -73,13 +70,13 @@ fun SpeciesListCard(
         ) {
             Text(
                 text = commonName ?: species.species.scientificName,
-                style = MaterialTheme.typography.titleMedium.copy(fontSize = 14.sp),
+                style = MaterialTheme.typography.titleLarge,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
             )
             Text(
                 text = species.species.scientificName,
-                style = MaterialTheme.typography.bodyMedium.copy(fontSize = 12.sp),
+                style = MaterialTheme.typography.labelLarge,
                 maxLines = 1,
                 overflow = TextOverflow.Ellipsis,
             )
@@ -87,26 +84,16 @@ fun SpeciesListCard(
             Row {
                 SuggestionChip(
                     onClick = {},
-                    icon = {
-                        Box(
-                            modifier = Modifier
-                                .size(8.dp)
-                                .background(
-                                    getStatusColor(species.species.redlistCategory),
-                                    CircleShape
-                                )
-                        )
-                    },
                     label = {
                         Text(
                             text = species.species.redlistCategory,
-                            style = MaterialTheme.typography.labelSmall
+                            style = MaterialTheme.typography.labelLarge
                         )
                     },
                     shape = RoundedCornerShape(8.dp),
                     colors = SuggestionChipDefaults.suggestionChipColors(
-                        containerColor = getStatusColor(species.species.redlistCategory).copy(alpha = 0.15f),
-                        labelColor = getStatusColor(species.species.redlistCategory)
+                        containerColor = getStatusColor(species.species.redlistCategory),
+                        labelColor = Color.White
                     )
                 )
             }
@@ -167,7 +154,7 @@ fun SpeciesListCardShimmer(modifier: Modifier = Modifier) {
 fun SpeciesListCardPreview(modifier: Modifier = Modifier) {
 
     NatureGuardianTheme(
-        darkTheme = true
+        darkTheme = false
     ) {
         Column(
             modifier = Modifier.fillMaxSize(),
