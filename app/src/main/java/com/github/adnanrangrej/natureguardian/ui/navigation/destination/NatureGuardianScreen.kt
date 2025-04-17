@@ -7,8 +7,23 @@ sealed class NatureGuardianScreen(
     val showBottomBar: Boolean = true,
     val canNavigateBack: Boolean,
 ) {
+    object SplashScreen :
+        NatureGuardianScreen(
+            route = "splash",
+            title = "Splash",
+            showTopBar = false,
+            showBottomBar = false,
+            canNavigateBack = false
+        )
+
     object SpeciesList :
-        NatureGuardianScreen(route = "species", title = "Species", showTopBar = true, showBottomBar = true, canNavigateBack = false)
+        NatureGuardianScreen(
+            route = "species",
+            title = "Species",
+            showTopBar = true,
+            showBottomBar = true,
+            canNavigateBack = false
+        )
 
     object SpeciesDetail : NatureGuardianScreen(
         route = "species/{internal_taxon_id}",
@@ -21,7 +36,13 @@ sealed class NatureGuardianScreen(
     }
 
     object NewsList :
-        NatureGuardianScreen(route = "news", title = "News", showTopBar = true, showBottomBar = true, canNavigateBack = false)
+        NatureGuardianScreen(
+            route = "news",
+            title = "News",
+            showTopBar = true,
+            showBottomBar = true,
+            canNavigateBack = false
+        )
 
     object NewsDetail : NatureGuardianScreen(
         route = "news/{timestamp}",
@@ -44,5 +65,11 @@ sealed class NatureGuardianScreen(
     }
 
     object Profile :
-        NatureGuardianScreen(route = "profile", title = "Profile", showTopBar = true, showBottomBar = true, canNavigateBack = false)
+        NatureGuardianScreen(
+            route = "profile",
+            title = "Profile",
+            showTopBar = true,
+            showBottomBar = true,
+            canNavigateBack = false
+        )
 }

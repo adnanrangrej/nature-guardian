@@ -22,6 +22,7 @@ import com.github.adnanrangrej.natureguardian.ui.screens.news.newslist.NewsListS
 import com.github.adnanrangrej.natureguardian.ui.screens.profile.ProfileScreen
 import com.github.adnanrangrej.natureguardian.ui.screens.species.speciesdetail.SpeciesDetailScreen
 import com.github.adnanrangrej.natureguardian.ui.screens.species.specieslist.SpeciesListScreen
+import com.github.adnanrangrej.natureguardian.ui.screens.splashscreen.NatureGuardianSplashScreen
 
 @Composable
 fun NatureGuardianNavGraph(
@@ -38,6 +39,7 @@ fun NatureGuardianNavGraph(
         currentRoute == NatureGuardianScreen.SpeciesList.route -> NatureGuardianScreen.SpeciesList
         currentRoute == NatureGuardianScreen.NewsList.route -> NatureGuardianScreen.NewsList
         currentRoute == NatureGuardianScreen.Profile.route -> NatureGuardianScreen.Profile
+        currentRoute == NatureGuardianScreen.SplashScreen.route -> NatureGuardianScreen.SplashScreen
         else -> null
     }
 
@@ -60,11 +62,22 @@ fun NatureGuardianNavGraph(
     ) { innerPadding ->
         NavHost(
             navController = navController,
-            startDestination = NatureGuardianScreen.SpeciesList.route,
+            startDestination = NatureGuardianScreen.SplashScreen.route,
             modifier = Modifier.padding(innerPadding),
             enterTransition = { EnterTransition.None },
             exitTransition = { ExitTransition.None }
         ) {
+            composable(route = NatureGuardianScreen.SplashScreen.route) {
+                NatureGuardianSplashScreen(
+                    navigateToHomeScreen = {
+                        navController.navigate(NatureGuardianScreen.SpeciesList.route) {
+                            popUpTo(NatureGuardianScreen.SplashScreen.route) {
+                                inclusive = true
+                            }
+                        }
+                    }
+                )
+            }
 
             composable(route = NatureGuardianScreen.SpeciesList.route) {
                 SpeciesListScreen(

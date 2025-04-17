@@ -39,6 +39,14 @@ class PrefsHelper @Inject constructor(
         }
     }
 
+    fun isNotificationAsked(): Boolean {
+        return prefs.getBoolean("notification_permission_asked", false)
+    }
+
+    fun setNotificationAsked(value: Boolean) {
+        prefs.edit { putBoolean("notification_permission_asked", value) }
+    }
+
     private suspend fun prePopulateData() {
         try {
             val commonNameDao = database.commonNameDao()
