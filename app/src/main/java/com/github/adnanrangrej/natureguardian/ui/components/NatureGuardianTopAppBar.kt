@@ -25,7 +25,10 @@ fun NatureGuardianTopAppBar(
     TopAppBar(
         title = {
             Column {
-                Text(text = stringResource(R.string.app_name))
+                Text(
+                    text = stringResource(R.string.app_name),
+                    style = MaterialTheme.typography.titleLarge
+                )
                 Text(
                     text = stringResource(R.string.app_tagline),
                     style = MaterialTheme.typography.bodySmall
