@@ -125,7 +125,7 @@ fun getFakeSpecies(): DetailedSpecies {
 fun getStatusColor(status: String): Color {
     return when (status) {
         "Critically Endangered" -> Color(0xFFFF0000)
-        "Endangered" -> Color(0xFFFFA500)
+        "Endangered" -> Color(0xFFE77169)
         "Vulnerable" -> Color(0xFFF5CC90)
         else -> Color(0xFF808080)
     }
