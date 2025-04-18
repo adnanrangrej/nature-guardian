@@ -52,7 +52,6 @@ fun NatureGuardianNavGraph(
                     navigateUp = { navController.navigateUp() }
                 )
             }
-
         },
         bottomBar = {
             if (currentScreen?.showBottomBar == true) {
@@ -95,7 +94,7 @@ fun NatureGuardianNavGraph(
                         type = NavType.LongType
                     }
                 )) {
-                SpeciesDetailScreen(navigateUp = { navController.navigateUp() })
+                SpeciesDetailScreen(onNavigateUp = { navController.navigateUp() })
             }
 
             composable(route = NatureGuardianScreen.NewsList.route) {
