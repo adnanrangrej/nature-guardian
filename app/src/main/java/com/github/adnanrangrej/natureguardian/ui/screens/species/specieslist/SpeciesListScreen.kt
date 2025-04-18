@@ -3,6 +3,7 @@ package com.github.adnanrangrej.natureguardian.ui.screens.species.specieslist
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Build
+import android.widget.Toast
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -36,6 +37,12 @@ fun SpeciesListScreen(
         NotificationPermissionDialog(
             onDismiss = {
                 viewModel.onNotificationDialogHandled()
+                // Show Toast
+                Toast.makeText(
+                    context,
+                    "Notification Permission Denied. Please enable it from app settings.",
+                    Toast.LENGTH_LONG
+                ).show()
             },
             onConfirm = {
                 viewModel.onNotificationDialogHandled()
