@@ -5,7 +5,9 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.github.adnanrangrej.natureguardian.domain.model.species.DetailedSpecies
 import com.github.adnanrangrej.natureguardian.domain.usecase.species.GetSpeciesByIdUseCase
+import com.github.adnanrangrej.natureguardian.ui.screens.species.speciesdetail.geminichat.ChatBotUiState
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch
@@ -32,6 +34,8 @@ class SpeciesDetailViewModel @Inject constructor(
                 started = SharingStarted.WhileSubscribed(5_000),
                 initialValue = SpeciesDetailUiState.Loading
             )
+    private val _chatUiState = MutableStateFlow<ChatBotUiState>(ChatBotUiState.Loading)
+    val chatUiState: StateFlow<ChatBotUiState> = _chatUiState
 
     fun getCommonName(detailedSpecies: DetailedSpecies): String? {
         val mainName = detailedSpecies.commonNames.find {

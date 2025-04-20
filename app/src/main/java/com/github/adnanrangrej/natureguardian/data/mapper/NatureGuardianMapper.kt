@@ -10,6 +10,7 @@ import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesE
 import com.github.adnanrangrej.natureguardian.data.local.entity.species.SpeciesImageEntity
 import com.github.adnanrangrej.natureguardian.data.local.entity.species.ThreatEntity
 import com.github.adnanrangrej.natureguardian.data.local.entity.species.UseTradeEntity
+import com.github.adnanrangrej.natureguardian.data.remote.model.chatbot.ChatBotResponse
 import com.github.adnanrangrej.natureguardian.data.remote.model.news.Content
 import com.github.adnanrangrej.natureguardian.data.remote.model.news.Description
 import com.github.adnanrangrej.natureguardian.data.remote.model.news.Id
@@ -21,6 +22,7 @@ import com.github.adnanrangrej.natureguardian.data.remote.model.news.SourceName
 import com.github.adnanrangrej.natureguardian.data.remote.model.news.SourceUrl
 import com.github.adnanrangrej.natureguardian.data.remote.model.news.Title
 import com.github.adnanrangrej.natureguardian.data.remote.model.news.Url
+import com.github.adnanrangrej.natureguardian.domain.model.chatbot.ChatBotMessage
 import com.github.adnanrangrej.natureguardian.domain.model.news.NewsItem
 import com.github.adnanrangrej.natureguardian.domain.model.news.NewsResponse
 import com.github.adnanrangrej.natureguardian.domain.model.species.CommonName
@@ -158,4 +160,13 @@ fun FullSpeciesDetails.toDetailedSpecies(): DetailedSpecies = DetailedSpecies(
     threats = threats.map { it.toThreat() },
     useTrade = useTrade.map { it.toUseTrade() },
     images = images.map { it.toSpeciesImage() }
+)
+
+fun ChatBotResponse.toChatBotMessage(): ChatBotMessage = ChatBotMessage(
+    statusCode = statusCode,
+    requestId = requestId,
+    isError = body.isError,
+    errorMessage = body.error,
+    responseText = body.response?.text,
+    role = body.response?.role
 )
