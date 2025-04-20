@@ -6,10 +6,8 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
-import android.os.Build
 import android.util.Log
 import androidx.annotation.ColorRes
-import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
 import androidx.core.net.toUri
 import coil3.ImageLoader
@@ -54,10 +52,8 @@ class NotificationRepositoryImpl(
 
         // Create notification channel for Android O and above
         val notificationManager = context.getSystemService(NotificationManager::class.java)
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val channel = createNotificationChannel(channelId, channelName, channelDescription)
-            notificationManager?.createNotificationChannel(channel)
-        }
+        val channel = createNotificationChannel(channelId, channelName, channelDescription)
+        notificationManager?.createNotificationChannel(channel)
         Log.d("NotificationRepository", "Notification created")
 
         notificationManager?.notify(notificationId, notification.build())
@@ -123,7 +119,6 @@ class NotificationRepositoryImpl(
             .setAutoCancel(true)
     }
 
-    @RequiresApi(Build.VERSION_CODES.O)
     private fun createNotificationChannel(
         channelId: String,
         channelName: String,
