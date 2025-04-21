@@ -9,5 +9,6 @@
     <string name="back">Back</string>
     <string name="error_loading_more_news">Failed to load more news. Please check your internet connection.</string>
     <string name="click_here_to_read_full_news">Click here to read full news</string>
-    <string name="db_error">Error occurred while accessing the database.</string>">
+    <string name="db_error">Error occurred while accessing the database.</string>
+    <string name="chat_error_message">Failed to load chat. Please check your internet connection.</string>
 </resources>
