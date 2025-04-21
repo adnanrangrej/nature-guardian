@@ -4,6 +4,6 @@ import com.github.adnanrangrej.natureguardian.domain.repository.ChatBotRepositor
 import javax.inject.Inject
 
 class InitializeChatBotUseCase @Inject constructor(private val chatBotRepository: ChatBotRepository) {
-    suspend operator fun invoke(initialPrompt: String) =
-        chatBotRepository.initializeChatBot(initialPrompt)
+    suspend operator fun invoke(initialPrompt: String, sys: String) =
+        chatBotRepository.initializeChatBot(initialPrompt, sys)
 }
