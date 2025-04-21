@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.rounded.Description
 import androidx.compose.material.icons.rounded.Terrain
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -24,10 +25,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.github.adnanrangrej.natureguardian.domain.model.species.DetailedSpecies
 import com.github.adnanrangrej.natureguardian.domain.model.species.Habitat
 import com.github.adnanrangrej.natureguardian.ui.components.AnimatedInfoCard
+import dev.jeziellago.compose.markdowntext.MarkdownText
 
 @Composable
 fun SpeciesDetailHabitatTab(species: DetailedSpecies) {
@@ -52,6 +55,19 @@ fun SpeciesDetailHabitatTab(species: DetailedSpecies) {
                     }
                 }
             }
+        }
+
+        AnimatedInfoCard(
+            title = "Habitat Description",
+            icon = Icons.Rounded.Description
+        ) {
+            MarkdownText(
+                markdown = species.details?.habitatDescription
+                    ?: "No habitat description available",
+                style = MaterialTheme.typography.bodyLarge.copy(
+                    textAlign = TextAlign.Justify
+                )
+            )
         }
     }
 }
