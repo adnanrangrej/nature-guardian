@@ -2,8 +2,8 @@
 agp = "8.9.1"
 awsLambdaJavaCore = "1.2.3"
 coilCompose = "3.1.0"
+composeMarkdown = "0.5.7"
 converterGson = "2.11.0"
-coreSplashscreen = "1.0.1"
 dotenvKotlin = "6.5.1"
 dynamodbJvm = "1.4.46"
 firebaseBom = "33.12.0"
@@ -33,7 +33,6 @@ roomRuntime = "2.7.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
 androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
@@ -43,6 +42,7 @@ androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "
 aws-lambda-java-core = { module = "com.amazonaws:aws-lambda-java-core", version.ref = "awsLambdaJavaCore" }
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
 coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coilCompose" }
+compose-markdown = { module = "com.github.jeziellago:compose-markdown", version.ref = "composeMarkdown" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 dotenv-kotlin = { module = "io.github.cdimascio:dotenv-kotlin", version.ref = "dotenvKotlin" }
 dynamodb-jvm = { module = "aws.sdk.kotlin:dynamodb-jvm", version.ref = "dynamodbJvm" }
