@@ -26,6 +26,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.github.adnanrangrej.natureguardian.ui.screens.species.speciesdetail.chatbot.ChatWindow
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -35,6 +36,7 @@ fun SpeciesDetailScreen(
 ) {
     val uiState = viewModel.uiState.collectAsState()
     var isChatOpen by rememberSaveable { mutableStateOf(false) }
+    val chatBotUiState by viewModel.chatBotUiState
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -62,7 +64,10 @@ fun SpeciesDetailScreen(
                 .padding(end = 16.dp, bottom = 16.dp)
         ) {
             FloatingActionButton(
-                onClick = { isChatOpen = true }
+                onClick = {
+                    isChatOpen = true
+                    viewModel.initializeChatBot()
+                }
             ) {
                 Icon(imageVector = Icons.Filled.AutoAwesome, contentDescription = "Chat")
             }
@@ -75,7 +80,12 @@ fun SpeciesDetailScreen(
                 .align(Alignment.BottomCenter)
                 .padding(end = 16.dp, bottom = 16.dp, start = 16.dp)
         ) {
-            ChatPopup(onClose = { isChatOpen = false })
+            ChatWindow(
+                uiState = chatBotUiState,
+                onMessageSent = viewModel::getChatBotResponse,
+                onClose = { isChatOpen = false },
+                onRetry = viewModel::regenerateResponse
+            )
         }
     }
 }

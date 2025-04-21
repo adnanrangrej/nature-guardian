@@ -55,7 +55,8 @@ fun SpeciesDetailCard(
                 scientificName = species.species.scientificName,
                 commonName = commonName ?: species.species.scientificName,
                 redListCategory = species.species.redlistCategory,
-                className = species.species.className
+                className = species.species.className,
+                doi = species.species.doi
             )
         }
 
