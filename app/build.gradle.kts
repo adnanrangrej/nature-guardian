@@ -44,6 +44,9 @@ android {
 repositories {
     google()       // For Android dependencies
     mavenCentral() // General dependencies
+    maven {
+        setUrl("https://jitpack.io")
+    }
 }
 dependencies {
 
@@ -94,8 +97,8 @@ dependencies {
     // OpenCSV
     implementation(libs.opencsv)
 
-    // Splash Screen
-    implementation(libs.androidx.core.splashscreen)
+    // Markdown Text
+    implementation(libs.compose.markdown)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
