@@ -5,5 +5,5 @@ import com.github.adnanrangrej.natureguardian.domain.model.chatbot.ChatBotReques
 
 interface ChatBotRepository {
     suspend fun getChatBotResponse(request: ChatBotRequest): ChatBotMessage
-    suspend fun initializeChatBot(initialPrompt: String): ChatBotMessage
+    suspend fun initializeChatBot(initialPrompt: String, systemInstruction: String): ChatBotMessage
 }

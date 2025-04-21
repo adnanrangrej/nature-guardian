@@ -13,7 +13,14 @@ class ChatBotRepositoryImpl @Inject constructor(
     override suspend fun getChatBotResponse(request: ChatBotRequest): ChatBotMessage =
         chatBotApiService.getChatBotResponse(request).toChatBotMessage()
 
-    override suspend fun initializeChatBot(initialPrompt: String): ChatBotMessage =
-        chatBotApiService.getChatBotResponse(ChatBotRequest(prompt = initialPrompt))
-            .toChatBotMessage()
+    override suspend fun initializeChatBot(
+        initialPrompt: String,
+        systemInstruction: String
+    ): ChatBotMessage =
+        chatBotApiService.getChatBotResponse(
+            ChatBotRequest(
+                prompt = initialPrompt,
+                systemInstruction = systemInstruction
+            )
+        ).toChatBotMessage()
 }
