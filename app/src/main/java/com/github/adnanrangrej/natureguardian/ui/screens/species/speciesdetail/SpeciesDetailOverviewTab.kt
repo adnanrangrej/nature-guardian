@@ -18,9 +18,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.core.text.HtmlCompat
 import com.github.adnanrangrej.natureguardian.domain.model.species.DetailedSpecies
 import com.github.adnanrangrej.natureguardian.ui.components.AnimatedInfoCard
+import dev.jeziellago.compose.markdowntext.MarkdownText
 
 @Composable
 fun SpeciesDetailOverviewTab(
@@ -39,15 +39,11 @@ fun SpeciesDetailOverviewTab(
             title = "Description",
             icon = Icons.Rounded.Description
         ) {
-            val description =
-                HtmlCompat.fromHtml(
-                    species.details?.description ?: "No description available",
-                    HtmlCompat.FROM_HTML_MODE_LEGACY
-                )
-            Text(
-                text = description.toString(),
-                style = MaterialTheme.typography.bodyLarge,
-                textAlign = TextAlign.Justify
+            MarkdownText(
+                markdown = species.details?.description ?: "No description available",
+                style = MaterialTheme.typography.bodyLarge.copy(
+                    textAlign = TextAlign.Justify
+                ),
             )
         }
 
