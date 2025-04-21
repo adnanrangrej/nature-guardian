@@ -1,5 +1,8 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.species.speciesdetail
 
+import android.content.ActivityNotFoundException
+import android.content.Intent
+import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -10,6 +13,10 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.OpenInNew
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.SuggestionChip
 import androidx.compose.material3.SuggestionChipDefaults
@@ -21,9 +28,11 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import androidx.core.net.toUri
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianImages
 import com.github.adnanrangrej.natureguardian.ui.screens.species.getDrawableResourceId
 import com.github.adnanrangrej.natureguardian.ui.screens.species.getStatusColor
@@ -36,8 +45,10 @@ fun ParallaxImage(
     scientificName: String,
     commonName: String,
     redListCategory: String,
-    className: String
+    className: String,
+    doi: String
 ) {
+    val context = LocalContext.current
     val statusColor = getStatusColor(redListCategory)
     val placeholder = getDrawableResourceId(className)
     Box(
@@ -54,6 +65,33 @@ fun ParallaxImage(
             contentScale = ContentScale.Crop,
             placeholder = placeholder
         )
+        IconButton(
+            onClick = {
+                if (doi.isBlank()) return@IconButton
+                val intent = Intent(Intent.ACTION_VIEW, doi.toUri())
+                try {
+                    context.startActivity(intent)
+                } catch (e: ActivityNotFoundException) {
+                    Toast.makeText(
+                        context,
+                        "Cannot open link: No browser found.",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    println("Error opening URL with Intent: ${e.localizedMessage}")
+                } catch (e: Exception) {
+                    Toast.makeText(context, "Error opening link.", Toast.LENGTH_SHORT).show()
+                    println("Error opening URL with Intent: ${e.localizedMessage}")
+                }
+            },
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+                .padding(16.dp)
+        ) {
+            Icon(
+                imageVector = Icons.AutoMirrored.Filled.OpenInNew,
+                contentDescription = "Open in browser"
+            )
+        }
 
         // Dark gradient scrim for better text visibility
         Box(
