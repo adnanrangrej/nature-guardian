@@ -1,5 +1,5 @@
 [versions]
-agp = "8.9.1"
+agp = "8.9.2"
 awsLambdaJavaCore = "1.2.3"
 coilCompose = "3.1.0"
 composeMarkdown = "0.5.7"
@@ -18,7 +18,7 @@ junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.10.1"
-composeBom = "2025.04.00"
+composeBom = "2025.04.01"
 jetbrainsKotlinJvm = "2.1.10"
 materialIconsExtended = "1.7.8"
 navigationCompose = "2.8.9"
@@ -29,7 +29,7 @@ gmsGoogleservices = "4.4.2"
 firebaseMessaging = "24.1.1"
 daggerHiltAndroid = "2.55"
 ksp = "2.1.10-1.0.29"
-roomRuntime = "2.7.0"
+roomRuntime = "2.7.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
