@@ -64,6 +64,7 @@ dependencies {
     implementation(libs.firebase.analytics)
     implementation(libs.firebase.messaging)
     implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
 
     // Retrofit
     implementation(libs.retrofit)
