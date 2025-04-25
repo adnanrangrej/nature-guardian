@@ -7,6 +7,24 @@ sealed class NatureGuardianScreen(
     val showBottomBar: Boolean = true,
     val canNavigateBack: Boolean,
 ) {
+    object Login :
+        NatureGuardianScreen(
+            route = "login",
+            title = "Login",
+            showTopBar = false,
+            showBottomBar = false,
+            canNavigateBack = false
+        )
+
+    object Signup :
+        NatureGuardianScreen(
+            route = "signup",
+            title = "Signup",
+            showTopBar = false,
+            showBottomBar = false,
+            canNavigateBack = false
+        )
+
     object SplashScreen :
         NatureGuardianScreen(
             route = "splash",
@@ -72,4 +90,21 @@ sealed class NatureGuardianScreen(
             showBottomBar = true,
             canNavigateBack = false
         )
+
+    companion object {
+        fun find(currentRoute: String?): NatureGuardianScreen? {
+            return when {
+                currentRoute?.startsWith("species/") == true -> SpeciesDetail
+                currentRoute?.startsWith("news/") == true -> NewsDetail
+                currentRoute?.startsWith("map/") == true -> Map
+                currentRoute == SpeciesList.route -> SpeciesList
+                currentRoute == NewsList.route -> NewsList
+                currentRoute == Profile.route -> Profile
+                currentRoute == SplashScreen.route -> SplashScreen
+                currentRoute == Login.route -> Login
+                currentRoute == Signup.route -> Signup
+                else -> null
+            }
+        }
+    }
 }
