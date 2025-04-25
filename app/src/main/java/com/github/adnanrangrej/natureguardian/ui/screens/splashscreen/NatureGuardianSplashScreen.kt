@@ -30,10 +30,12 @@ import kotlinx.coroutines.delay
 @Composable
 fun NatureGuardianSplashScreen(
     navigateToHomeScreen: () -> Unit = {},
+    navigateToLoginScreen: () -> Unit = {},
     viewModel: SplashScreenViewModel = hiltViewModel()
 ) {
     var isMinTimePassed by remember { mutableStateOf(false) }
     val isPrepopulated = viewModel.isPrepopulated.collectAsState()
+    val isLoggedIn = viewModel.isLoggedIn.collectAsState()
 
 
     LaunchedEffect(true) {
@@ -47,7 +49,12 @@ fun NatureGuardianSplashScreen(
         println("Launched Effect - Navigation Check: isDataReady=$isPrepopulated, isMinTimePassed=$isMinTimePassed")
         if (isPrepopulated.value && isMinTimePassed) {
             println("Conditions met. Navigating now.")
-            navigateToHomeScreen()
+            if (isLoggedIn.value) {
+                navigateToHomeScreen()
+            } else {
+                navigateToLoginScreen()
+            }
+
         } else {
             println("Waiting for conditions: DataReady=$isPrepopulated, MinTimePassed=$isMinTimePassed")
         }
