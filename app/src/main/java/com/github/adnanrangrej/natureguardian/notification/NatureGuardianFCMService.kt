@@ -2,6 +2,7 @@ package com.github.adnanrangrej.natureguardian.notification
 
 import android.util.Log
 import com.github.adnanrangrej.natureguardian.domain.model.notification.TokenRequest
+import com.github.adnanrangrej.natureguardian.domain.usecase.auth.GetCurrentUserUseCase
 import com.github.adnanrangrej.natureguardian.domain.usecase.notification.LoadBitmapFromUrlUseCase
 import com.github.adnanrangrej.natureguardian.domain.usecase.notification.ParseNotificationDataUseCase
 import com.github.adnanrangrej.natureguardian.domain.usecase.notification.RegisterDeviceUseCase
@@ -33,6 +34,9 @@ class NatureGuardianFCMService : FirebaseMessagingService() {
     @Inject
     lateinit var showNotificationUseCase: ShowNotificationUseCase
 
+    @Inject
+    lateinit var getCurrentUserUseCase: GetCurrentUserUseCase
+
     override fun onNewToken(token: String) {
         super.onNewToken(token)
         Log.d("NatureGuardianFCMService", "New token: $token")
@@ -53,6 +57,11 @@ class NatureGuardianFCMService : FirebaseMessagingService() {
         super.onMessageReceived(remoteMessage)
         // full data payload
         Log.d("NatureGuardianFCMService", "message received: ${remoteMessage.data}")
+
+        if (getCurrentUserUseCase() == null) {
+            Log.d("NatureGuardianFCMService", "User is not logged in")
+            return
+        }
 
         // Json string in the default field
         val outerJsonString = remoteMessage.data["default"]
