@@ -134,7 +134,7 @@ class NotificationRepositoryImpl(
     }
 
     private fun createPendingIntent(timestamp: String): PendingIntent {
-        val uri = "natureguardian://news/$timestamp".toUri()
+        val uri = "natureguardian://news_screen/$timestamp".toUri()
         val intent = Intent(context, NatureGuardianActivity::class.java).apply {
             flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             data = uri
