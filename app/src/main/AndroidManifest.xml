@@ -42,7 +42,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
 
                 <data
-                    android:host="news"
+                    android:host="news_screen"
                     android:scheme="natureguardian" />
             </intent-filter>
         </activity>
