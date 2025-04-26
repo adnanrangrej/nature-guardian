@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material.icons.filled.Mail
@@ -234,7 +235,7 @@ fun SignUpScreenBody(
             ) {
                 Box(contentAlignment = Alignment.Center) {
                     if (isLoading) {
-                        CircularProgressIndicator()
+                        CircularProgressIndicator(modifier = Modifier.size(24.dp))
                     } else {
                         Text("Create Account")
                     }
