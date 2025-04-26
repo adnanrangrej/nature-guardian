@@ -8,7 +8,9 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.github.adnanrangrej.natureguardian.ui.navigation.destination.NatureGuardianGraph
-import com.github.adnanrangrej.natureguardian.ui.navigation.destination.NatureGuardianScreen
+import com.github.adnanrangrej.natureguardian.ui.navigation.destination.splash.SplashNavigation
+import com.github.adnanrangrej.natureguardian.ui.navigation.navgraph.auth.authNavGraph
+import com.github.adnanrangrej.natureguardian.ui.navigation.navgraph.main.mainNavGraphGraph
 import com.github.adnanrangrej.natureguardian.ui.screens.splashscreen.NatureGuardianSplashScreen
 
 @Composable
@@ -18,39 +20,37 @@ fun RootNavGraph(
 ) {
     NavHost(
         navController = navController,
-        startDestination = NatureGuardianScreen.SplashScreen.route,
+        startDestination = SplashNavigation.Splash.route,
         route = NatureGuardianGraph.ROOT,
         enterTransition = { EnterTransition.None },
         exitTransition = { ExitTransition.None },
         modifier = modifier
     ) {
-        composable(route = NatureGuardianScreen.SplashScreen.route) {
+        composable(route = SplashNavigation.Splash.route) {
             NatureGuardianSplashScreen(
                 navigateToHomeScreen = {
                     navController.navigate(NatureGuardianGraph.MAIN) {
-                        popUpTo(NatureGuardianScreen.SplashScreen.route) {
+                        popUpTo(SplashNavigation.Splash.route) {
                             inclusive = true
                         }
-                        launchSingleTop = true
                     }
                 },
                 navigateToLoginScreen = {
                     navController.navigate(NatureGuardianGraph.AUTHENTICATION) {
-                        popUpTo(NatureGuardianScreen.SplashScreen.route) {
+                        popUpTo(SplashNavigation.Splash.route) {
                             inclusive = true
                         }
-                        launchSingleTop = true
                     }
                 }
             )
         }
 
-        authNavGraph(
-            navController = navController,
-            route = NatureGuardianGraph.AUTHENTICATION,
-            onLoginSuccess = {
-                navController.navigate(NatureGuardianGraph.MAIN) {
-                    popUpTo(NatureGuardianGraph.AUTHENTICATION) {
+        mainNavGraphGraph(
+            navHostController = navController,
+            route = NatureGuardianGraph.MAIN,
+            onLogout = {
+                navController.navigate(NatureGuardianGraph.AUTHENTICATION) {
+                    popUpTo(NatureGuardianGraph.MAIN) {
                         inclusive = true
                     }
                     launchSingleTop = true
@@ -58,12 +58,12 @@ fun RootNavGraph(
             }
         )
 
-        mainNavGraph(
+        authNavGraph(
             navController = navController,
-            route = NatureGuardianGraph.MAIN,
-            onLogout = {
-                navController.navigate(NatureGuardianGraph.AUTHENTICATION) {
-                    popUpTo(NatureGuardianGraph.MAIN) {
+            route = NatureGuardianGraph.AUTHENTICATION,
+            onLoginSuccess = {
+                navController.navigate(NatureGuardianGraph.MAIN) {
+                    popUpTo(NatureGuardianGraph.AUTHENTICATION) {
                         inclusive = true
                     }
                     launchSingleTop = true
