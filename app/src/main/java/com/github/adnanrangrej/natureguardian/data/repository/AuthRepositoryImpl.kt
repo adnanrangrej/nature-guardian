@@ -4,6 +4,7 @@ import com.github.adnanrangrej.natureguardian.domain.model.auth.AuthResult
 import com.github.adnanrangrej.natureguardian.domain.model.profile.User
 import com.github.adnanrangrej.natureguardian.domain.repository.AuthRepository
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuthException
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 import com.google.firebase.auth.FirebaseAuthUserCollisionException
 import com.google.firebase.auth.FirebaseUser
@@ -55,9 +56,20 @@ class AuthRepositoryImpl @Inject constructor(
             } catch (e: Exception) {
                 // login failure
                 val errorMessage = when (e) {
-                    is FirebaseAuthInvalidCredentialsException -> "Invalid email or password"
+                    is FirebaseAuthInvalidCredentialsException -> "Invalid email or password."
+                    is FirebaseAuthUserCollisionException -> "This email is already registered."
+                    is FirebaseAuthException -> {
+                        when (e.errorCode) {
+                            "ERROR_USER_DISABLED" -> "This user account has been disabled."
+                            "ERROR_USER_NOT_FOUND" -> "No user found with this email."
+                            "ERROR_WRONG_PASSWORD" -> "Incorrect password entered."
+                            "ERROR_TOO_MANY_REQUESTS" -> "Too many login attempts. Try again later."
+                            else -> "Authentication failed: ${e.localizedMessage}"
+                        }
+                    }
+
                     is IllegalStateException -> e.message ?: "Login failed unexpectedly."
-                    else -> e.message ?: "Unknown login error."
+                    else -> e.localizedMessage ?: "Unknown login error occurred."
                 }
                 emit(AuthResult.Error(errorMessage))
             }
@@ -94,8 +106,17 @@ class AuthRepositoryImpl @Inject constructor(
                 val errorMessage = when (e) {
                     is FirebaseAuthUserCollisionException -> "This email address is already in use."
                     is FirebaseAuthInvalidCredentialsException -> "Invalid email format or weak password."
+                    is FirebaseAuthException -> {
+                        when (e.errorCode) {
+                            "ERROR_WEAK_PASSWORD" -> "The password is too weak. Use a stronger password."
+                            "ERROR_EMAIL_ALREADY_IN_USE" -> "An account already exists with this email."
+                            "ERROR_OPERATION_NOT_ALLOWED" -> "Sign-up is currently disabled. Please try later."
+                            else -> "Authentication failed: ${e.localizedMessage}"
+                        }
+                    }
+
                     is IllegalStateException -> e.message ?: "Signup failed unexpectedly."
-                    else -> e.message ?: "Unknown signup error."
+                    else -> e.localizedMessage ?: "Unknown signup error occurred."
                 }
                 emit(AuthResult.Error(errorMessage))
             }
