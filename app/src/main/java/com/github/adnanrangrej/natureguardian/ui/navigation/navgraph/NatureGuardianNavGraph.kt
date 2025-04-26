@@ -9,7 +9,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavHostController
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianBottomNavBar
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianTopAppBar
-import com.github.adnanrangrej.natureguardian.ui.navigation.destination.NatureGuardianScreen
+import com.github.adnanrangrej.natureguardian.ui.navigation.Helper
 
 @Composable
 fun NatureGuardianNavGraph(
@@ -19,7 +19,7 @@ fun NatureGuardianNavGraph(
     val currentRoute = backStackEntry?.destination?.route
 
     // Find the current screen based on the route
-    val currentScreen = NatureGuardianScreen.find(currentRoute)
+    val currentScreen = Helper.findScreenByRoute(currentRoute)
 
     Scaffold(
         topBar = {
