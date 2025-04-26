@@ -15,31 +15,32 @@ import androidx.compose.runtime.getValue
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavHostController
 import com.github.adnanrangrej.natureguardian.ui.navigation.destination.BottomNavItem
-import com.github.adnanrangrej.natureguardian.ui.navigation.destination.NatureGuardianScreen
+import com.github.adnanrangrej.natureguardian.ui.navigation.destination.NatureGuardianGraph
+import com.github.adnanrangrej.natureguardian.ui.navigation.destination.main.MainGraph
 
 @Composable
 fun NatureGuardianBottomNavBar(
     navController: NavHostController
 ) {
     val backStackEntry by navController.currentBackStackEntryFlow.collectAsStateWithLifecycle(null)
-    val currentRoute = backStackEntry?.destination?.route
+    val currentDestination = backStackEntry?.destination
 
 
     val bottomNavItems = listOf(
         BottomNavItem(
-            natureGuardianScreen = NatureGuardianScreen.SpeciesList,
+            graphRoute = MainGraph.SPECIES,
             selectedIcon = Icons.Filled.Home,
             unselectedIcon = Icons.Outlined.Home,
             label = "Species"
         ),
         BottomNavItem(
-            natureGuardianScreen = NatureGuardianScreen.NewsList,
+            graphRoute = MainGraph.NEWS,
             selectedIcon = Icons.AutoMirrored.Filled.List,
             unselectedIcon = Icons.AutoMirrored.Outlined.List,
             label = "News"
         ),
         BottomNavItem(
-            natureGuardianScreen = NatureGuardianScreen.Profile,
+            graphRoute = MainGraph.PROFILE,
             selectedIcon = Icons.Filled.AccountCircle,
             unselectedIcon = Icons.Outlined.AccountCircle,
             label = "Profile"
@@ -49,27 +50,23 @@ fun NatureGuardianBottomNavBar(
     NavigationBar {
         bottomNavItems.forEach { item ->
             NavigationBarItem(
-                selected = item.natureGuardianScreen.route == currentRoute,
+                selected = currentDestination?.parent?.route == item.graphRoute,
                 onClick = {
-                    if (item.natureGuardianScreen.route != currentRoute) {
-                        navController.navigate(item.natureGuardianScreen.route)
+                    navController.navigate(item.graphRoute) {
+                        popUpTo(NatureGuardianGraph.MAIN) {
+                            saveState = true
+                        }
+                        launchSingleTop = true
+                        restoreState = true
                     }
                 },
                 icon = {
-                    if (item.natureGuardianScreen.route == currentRoute) {
-                        Icon(
-                            imageVector = item.selectedIcon,
-                            contentDescription = item.label
-                        )
-                    } else {
-                        Icon(
-                            imageVector = item.unselectedIcon,
-                            contentDescription = item.label
-                        )
-                    }
+                    Icon(
+                        imageVector = if (currentDestination?.parent?.route == item.graphRoute) item.selectedIcon else item.unselectedIcon,
+                        contentDescription = item.label
+                    )
                 }
             )
-
         }
     }
 }
