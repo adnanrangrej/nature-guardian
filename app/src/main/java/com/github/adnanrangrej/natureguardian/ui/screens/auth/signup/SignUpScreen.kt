@@ -4,26 +4,31 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.github.adnanrangrej.natureguardian.ui.screens.auth.AuthViewModel
 
 @Composable
 fun SignUpScreen(
-    viewModel: AuthViewModel = hiltViewModel(),
+    viewModel: SignUpViewModel = hiltViewModel(),
     navigateToLogin: () -> Unit,
     navigateToHome: () -> Unit
 ) {
-    val uiState = viewModel.uiState.collectAsState()
+    val uiState = viewModel.uiState
     val snackbarHostState = remember { SnackbarHostState() }
+
     SignUpScreenBody(
         modifier = Modifier.fillMaxSize(),
+        signUpUiState = uiState.value,
         onSignUpClick = viewModel::signUp,
         onLoginClick = navigateToLogin,
-        onContinueAsGuestClick = {},
-        isLoading = uiState.value.isLoading,
+        onContinueAsGuestClick = { },
+        onNameChange = viewModel::onNameChange,
+        onEmailChange = viewModel::onEmailChange,
+        onPasswordChange = viewModel::onPasswordChange,
+        onConfirmPasswordChange = viewModel::onConfirmPasswordChange,
+        onPasswordVisibilityChange = viewModel::onPasswordVisibilityChange,
+        onConfirmPasswordVisibilityChange = viewModel::onConfirmPasswordVisibilityChange,
         snackbarHostState = snackbarHostState
     )
 
@@ -38,5 +43,4 @@ fun SignUpScreen(
             snackbarHostState.showSnackbar(it)
         }
     }
-
 }
