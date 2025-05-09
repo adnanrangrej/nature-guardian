@@ -116,8 +116,8 @@ class SignUpViewModel @Inject constructor(
             isInputValid = checkFormValidity(
                 name = _uiState.value.name,
                 emailError = _uiState.value.emailError,
-                passwordError = _uiState.value.passwordError, // Keep existing password error
-                confirmPasswordError = confirmPasswordError // Use new value
+                passwordError = _uiState.value.passwordError,
+                confirmPasswordError = confirmPasswordError
             )
         )
     }
@@ -135,6 +135,8 @@ class SignUpViewModel @Inject constructor(
     }
 
     fun signUp() {
+
+        _uiState.value = _uiState.value.copy(errorMessage = null)
         // Perform a final check on the current state before proceeding
         val currentState = _uiState.value
         val name = currentState.name
