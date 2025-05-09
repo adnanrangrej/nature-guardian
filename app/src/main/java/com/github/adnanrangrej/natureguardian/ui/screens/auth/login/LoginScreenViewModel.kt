@@ -75,6 +75,10 @@ class LoginScreenViewModel @Inject constructor(
 
     fun login() {
         viewModelScope.launch {
+
+            _uiState.value = _uiState.value.copy(
+                errorMessage = null
+            )
             loginUseCase(_uiState.value.email, _uiState.value.password).collect { result ->
                 when (result) {
                     is AuthResult.Error -> {
