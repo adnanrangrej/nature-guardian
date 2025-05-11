@@ -4,9 +4,8 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
@@ -28,7 +27,6 @@ fun ProfileScreenBody(
     onEditProfileClick: () -> Unit = {},
     onLogoutClick: () -> Unit = {}
 ) {
-
     when (uiState) {
         is ProfileResult.Loading -> {
             Box(modifier) {
@@ -38,31 +36,49 @@ fun ProfileScreenBody(
 
         is ProfileResult.Success -> {
             Column(
-                modifier = modifier.padding(16.dp),
+                modifier = modifier
+                    .padding(horizontal = 24.dp, vertical = 16.dp),
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Center
+                verticalArrangement = Arrangement.spacedBy(20.dp)
             ) {
                 ProfileImage(
                     modifier = Modifier
-                        .size(200.dp)
+                        .size(160.dp)
                         .clip(CircleShape),
-                    image = uiState.user.profileImageUrl ?: "",
+                    image = uiState.user.profileImageUrl.orEmpty(),
                     contentDescription = "Profile Image"
                 )
-                Spacer(Modifier.height(32.dp))
-                Text(text = uiState.user.name, style = MaterialTheme.typography.headlineMedium)
-                Text(text = uiState.user.email, style = MaterialTheme.typography.bodyMedium)
-                Spacer(Modifier.height(16.dp))
+
+                Text(
+                    text = uiState.user.name,
+                    style = MaterialTheme.typography.headlineSmall
+                )
+
+                Text(
+                    text = uiState.user.email,
+                    style = MaterialTheme.typography.bodyMedium
+                )
+
                 ProfileScreenBottom(
-                    bio = uiState.user.bio ?: "",
+                    bio = uiState.user.bio.orEmpty(),
                     createdAt = uiState.user.createdAt
                 )
-                Spacer(Modifier.height(16.dp))
-                Row(modifier = Modifier.fillMaxWidth()) {
-                    Button(onClick = onEditProfileClick, modifier = Modifier.weight(1f)) {
-                        Text("Edit Profile")
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(12.dp)
+                ) {
+                    Button(
+                        onClick = onEditProfileClick,
+                        modifier = Modifier.weight(1f)
+                    ) {
+                        Text("Edit")
                     }
-                    Button(onClick = onLogoutClick, modifier = Modifier.weight(1f)) {
+
+                    Button(
+                        onClick = onLogoutClick,
+                        modifier = Modifier.weight(1f)
+                    ) {
                         Text("Logout")
                     }
                 }
@@ -70,7 +86,9 @@ fun ProfileScreenBody(
         }
 
         is ProfileResult.Error -> {
-            Text(text = uiState.error)
+            Box(modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                Text(text = uiState.error)
+            }
         }
     }
 }

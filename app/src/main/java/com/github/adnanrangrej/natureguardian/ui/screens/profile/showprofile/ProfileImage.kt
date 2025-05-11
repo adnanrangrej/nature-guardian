@@ -1,7 +1,5 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.profile.showprofile
 
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
@@ -14,15 +12,11 @@ fun ProfileImage(
     image: String,
     contentDescription: String = "Profile Image"
 ) {
-    Box(
-        modifier = modifier
-    ) {
-        NatureGuardianImages(
-            url = image,
-            modifier = Modifier.fillMaxSize(),
-            placeholder = R.drawable.ic_profile_placeholder,
-            contentDescription = contentDescription,
-            contentScale = ContentScale.Crop
-        )
-    }
+    NatureGuardianImages(
+        url = image,
+        modifier = modifier,
+        placeholder = R.drawable.ic_profile_placeholder,
+        contentDescription = contentDescription,
+        contentScale = ContentScale.Crop
+    )
 }

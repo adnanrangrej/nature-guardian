@@ -1,9 +1,9 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.profile.showprofile
 
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -18,20 +18,24 @@ fun ProfileScreenBottom(
     bio: String = "",
     createdAt: Long = 0L
 ) {
-    Box(modifier = modifier) {
-        Column(
-            verticalArrangement = Arrangement.spacedBy(16.dp)
-        ) {
+    Column(
+        modifier = modifier,
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        if (bio.isNotBlank()) {
             Text(
                 text = bio,
-                minLines = 3,
+                minLines = 2,
                 maxLines = 5
             )
-            HorizontalDivider()
-            Text(
-                text = "Joined ${getFormattedCreatedAt(createdAt)}"
-            )
         }
+
+        HorizontalDivider()
+
+        Text(
+            text = "Joined ${getFormattedCreatedAt(createdAt)}",
+            style = MaterialTheme.typography.bodySmall
+        )
     }
 }
 
