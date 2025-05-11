@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.github.adnanrangrej.natureguardian.domain.model.profile.User
@@ -31,7 +32,6 @@ fun EditProfileBody(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-
         EditProfileScreenImage(
             modifier = Modifier
                 .size(200.dp)
@@ -43,29 +43,37 @@ fun EditProfileBody(
 
         Spacer(Modifier.height(32.dp))
 
-        Text(text = uiState.userDetail.name)
-
-        Spacer(Modifier.height(16.dp))
 
         EditProfileBottom(
             name = uiState.userDetail.name,
             bio = uiState.userDetail.bio ?: "",
             onNameChange = { onValueChange(uiState.userDetail.copy(name = it)) },
             onBioChange = { onValueChange(uiState.userDetail.copy(bio = it)) },
-            isLoading = uiState.isSavingProfile
+            isLoading = uiState.isSavingProfile || uiState.isLoadingProfile
         )
 
         Spacer(Modifier.height(16.dp))
 
+
+        uiState.errorMessage?.let { error ->
+            Text(
+                text = error,
+                color = Color.Red,
+                modifier = Modifier.padding(8.dp)
+            )
+        }
+
+
         Button(
             onClick = onSaveClick,
-            enabled = uiState.isEntryValid && !uiState.isSavingProfile,
+            enabled = uiState.isEntryValid && !uiState.isSavingProfile && !uiState.isLoadingProfile,
             modifier = Modifier.size(width = 250.dp, height = 50.dp)
         ) {
             Text("Save")
         }
     }
 }
+
 
 @Preview(showBackground = true)
 @Composable
