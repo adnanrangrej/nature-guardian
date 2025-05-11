@@ -69,7 +69,8 @@ class EditProfileViewModel @Inject constructor(
     fun updateUiState(userDetail: User) {
         _uiState.value = _uiState.value.copy(
             userDetail = userDetail,
-            isEntryValid = validateInput(userDetail)
+            isEntryValid = validateInput(userDetail),
+            errorMessage = null
         )
     }
 
