@@ -1,23 +1,28 @@
 package com.github.adnanrangrej.natureguardian.data.repository
 
+import com.cloudinary.Cloudinary
 import com.github.adnanrangrej.natureguardian.domain.model.profile.ProfileResult
 import com.github.adnanrangrej.natureguardian.domain.model.profile.User
 import com.github.adnanrangrej.natureguardian.domain.repository.ProfileRepository
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.SetOptions.merge
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.tasks.await
+import kotlinx.coroutines.withContext
+import java.io.File
 import javax.inject.Inject
 
 private const val USERS_COLLECTION = "users"
 
 class ProfileRepositoryImpl @Inject constructor(
     private val firestore: FirebaseFirestore,
-    private val auth: FirebaseAuth
+    private val auth: FirebaseAuth,
+    private val cloudinary: Cloudinary
 ) : ProfileRepository {
     override fun getUserProfile(): Flow<ProfileResult> {
         return callbackFlow {
@@ -87,4 +92,14 @@ class ProfileRepositoryImpl @Inject constructor(
         }
     }
 
+    override suspend fun uploadProfileImage(file: File): String? = withContext(Dispatchers.IO) {
+        try {
+            val imageResult =
+                cloudinary.uploader().upload(file, mapOf("folder" to "profile_images"))
+            return@withContext imageResult["secure_url"] as String?
+        } catch (e: Exception) {
+            e.printStackTrace()
+            return@withContext null
+        }
+    }
 }
