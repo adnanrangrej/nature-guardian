@@ -23,7 +23,8 @@ fun NatureGuardianImages(
     url: String,
     modifier: Modifier = Modifier,
     contentScale: ContentScale = ContentScale.Crop,
-    @DrawableRes placeholder: Int = R.drawable.ic_broken_image
+    @DrawableRes placeholder: Int = R.drawable.ic_broken_image,
+    contentDescription: String = stringResource(R.string.success_image)
 ) {
     val painter = rememberAsyncImagePainter(
         model = ImageRequest.Builder(context = LocalContext.current)
@@ -60,7 +61,7 @@ fun NatureGuardianImages(
         is AsyncImagePainter.State.Success -> {
             Image(
                 painter = painter,
-                contentDescription = stringResource(R.string.success_image),
+                contentDescription = contentDescription,
                 contentScale = contentScale,
                 modifier = modifier
             )
