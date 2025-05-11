@@ -1,6 +1,7 @@
 [versions]
 agp = "8.10.0"
 awsLambdaJavaCore = "1.2.3"
+cloudinaryAndroidVersion = "3.0.2"
 coilCompose = "3.1.0"
 composeMarkdown = "0.5.7"
 converterGson = "2.11.0"
@@ -42,6 +43,7 @@ androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref =
 androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 aws-lambda-java-core = { module = "com.amazonaws:aws-lambda-java-core", version.ref = "awsLambdaJavaCore" }
+cloudinary-cloudinary-android = { module = "com.cloudinary:cloudinary-android", version.ref = "cloudinaryAndroidVersion" }
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
 coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coilCompose" }
 compose-markdown = { module = "com.github.jeziellago:compose-markdown", version.ref = "composeMarkdown" }
@@ -80,5 +82,5 @@ kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "ko
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
 johnrengelman-shadow = { id = "com.github.johnrengelman.shadow", version.ref = "johnrengelmanshadow" }
 gms-google-services = { id = "com.google.gms.google-services", version.ref = "gmsGoogleservices" }
-dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "daggerHiltAndroid"}
-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
+dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "daggerHiltAndroid" }
+devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }

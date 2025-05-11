@@ -102,6 +102,9 @@ dependencies {
     // Markdown Text
     implementation(libs.compose.markdown)
 
+    // Cloudinary
+    implementation(libs.cloudinary.cloudinary.android)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
