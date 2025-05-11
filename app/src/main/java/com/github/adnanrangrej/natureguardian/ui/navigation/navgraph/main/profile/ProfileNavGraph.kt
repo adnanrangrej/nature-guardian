@@ -6,7 +6,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.composable
 import androidx.navigation.navigation
 import com.github.adnanrangrej.natureguardian.ui.navigation.destination.main.profile.ProfileNavigation
-import com.github.adnanrangrej.natureguardian.ui.screens.profile.EditProfileScreen
+import com.github.adnanrangrej.natureguardian.ui.screens.profile.editprofile.EditProfileScreen
 import com.github.adnanrangrej.natureguardian.ui.screens.profile.showprofile.ProfileScreen
 
 fun NavController.navigateToProfile() {
@@ -45,6 +45,6 @@ fun NavGraphBuilder.editProfileScreenRoute(navigateToProfile: () -> Unit) {
     composable(
         route = ProfileNavigation.EditProfile.route
     ) {
-        EditProfileScreen(onSaveChangesClick = navigateToProfile)
+        EditProfileScreen(navigateProfile = navigateToProfile)
     }
 }
