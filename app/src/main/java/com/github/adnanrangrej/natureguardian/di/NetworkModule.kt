@@ -1,6 +1,10 @@
 package com.github.adnanrangrej.natureguardian.di
 
+import com.cloudinary.Cloudinary
 import com.github.adnanrangrej.natureguardian.Utils.getBackendBaseUrl
+import com.github.adnanrangrej.natureguardian.Utils.getCloudinaryApiKey
+import com.github.adnanrangrej.natureguardian.Utils.getCloudinaryApiSecret
+import com.github.adnanrangrej.natureguardian.Utils.getCloudinaryCloudName
 import com.github.adnanrangrej.natureguardian.data.remote.api.chatbot.ChatBotApiService
 import com.github.adnanrangrej.natureguardian.data.remote.api.news.NewsApiService
 import com.github.adnanrangrej.natureguardian.data.remote.api.notification.BackendApiService
@@ -46,5 +50,15 @@ object NetworkModule {
     @Named("chatbot")
     fun provideChatBotApiService(@Named("backend") retrofit: Retrofit): ChatBotApiService {
         return retrofit.create(ChatBotApiService::class.java)
+    }
+
+    @Provides
+    @Singleton
+    fun provideCloudinary(): Cloudinary {
+        val config = HashMap<String, String>()
+        config["cloud_name"] = getCloudinaryCloudName()
+        config["api_key"] = getCloudinaryApiKey()
+        config["api_secret"] = getCloudinaryApiSecret()
+        return Cloudinary(config)
     }
 }
