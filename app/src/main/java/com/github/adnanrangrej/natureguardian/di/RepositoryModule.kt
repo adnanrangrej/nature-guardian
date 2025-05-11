@@ -1,5 +1,6 @@
 package com.github.adnanrangrej.natureguardian.di
 
+import com.cloudinary.Cloudinary
 import com.github.adnanrangrej.natureguardian.data.local.dao.species.FullSpeciesDetailDao
 import com.github.adnanrangrej.natureguardian.data.local.dao.species.SpeciesDao
 import com.github.adnanrangrej.natureguardian.data.remote.api.chatbot.ChatBotApiService
@@ -61,8 +62,9 @@ object RepositoryModule {
     @Singleton
     fun provideProfileRepository(
         firestore: FirebaseFirestore,
-        auth: FirebaseAuth
+        auth: FirebaseAuth,
+        cloudinary: Cloudinary
     ): ProfileRepository {
-        return ProfileRepositoryImpl(firestore, auth)
+        return ProfileRepositoryImpl(firestore, auth, cloudinary)
     }
 }
