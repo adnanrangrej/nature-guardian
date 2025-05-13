@@ -105,6 +105,9 @@ dependencies {
     // Cloudinary
     implementation(libs.cloudinary.cloudinary.android)
 
+    // Google Maps
+    implementation(libs.maps.compose)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
