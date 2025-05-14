@@ -24,6 +24,7 @@ fun SpeciesListScreen(
     val uiState = viewModel.uiState.collectAsState()
     val showDialog by viewModel.showNotificationDialog.collectAsState()
     val query by viewModel.query.collectAsState()
+    val filterChip by viewModel.selectedSpeciesClass.collectAsState()
     val context = LocalContext.current
 
     SpeciesListBody(
@@ -33,7 +34,9 @@ fun SpeciesListScreen(
         getCommonName = viewModel::getCommonName,
         getImageUrl = viewModel::getMainUrl,
         query = query,
-        onQueryChange = viewModel::onQueryChange
+        onQueryChange = viewModel::onQueryChange,
+        filterChips = filterChip,
+        onSpeciesClassSelected = viewModel::onSpeciesClassSelected
     )
 
     if (showDialog) {
