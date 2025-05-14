@@ -16,3 +16,4 @@ rootProject.name = "NatureGuardian"
 include(":app")
 include(":backend")
 include(":apigateway")
+include(":cloudinarysignaturegenerator")
