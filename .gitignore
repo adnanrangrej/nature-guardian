@@ -21,3 +21,5 @@ GoogleService-Info.plist
 
 .env
 env
+
+secrets.properties
