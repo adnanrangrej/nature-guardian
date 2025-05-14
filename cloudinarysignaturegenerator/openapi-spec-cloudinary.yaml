@@ -1,0 +1,50 @@
+swagger: '2.0'
+info:
+  title: Cloudinary Signature API (Kotlin v1)
+  description: API to generate Cloudinary upload signatures using Kotlin Function
+  version: '1.0.0'
+schemes:
+  - https # Enforce HTTPS
+produces:
+  - application/json
+
+# Define the security mechanism: API Key in the 'x-api-key' header
+securityDefinitions:
+  api_key_header: # You can name this definition anything
+    type: apiKey
+    name: x-api-key # This is the actual header name your app will send
+    in: header
+
+paths:
+  /v1/generate-signature: # This will be the path your app calls on the Gateway URL
+    post:
+      summary: Generates a Cloudinary signature
+      operationId: generateCloudinarySignatureKotlinOp
+      security:
+        - api_key_header: [ ] # Apply the API key security defined above to this path
+      x-google-backend:
+        # IMPORTANT: Replace with the Trigger URL of your deployed Kotlin Cloud Function
+        address: https://us-central1-nature-guardian-fed3b.cloudfunctions.net/generateCloudinarySignatureKotlin
+        # For Gen2 functions that are private (--no-allow-unauthenticated),
+        # API Gateway needs a service account with 'Cloud Functions Invoker' role
+        # to call the function. This is specified when creating the API Config.
+      responses:
+        '200':
+          description: Signature successfully generated
+          schema:
+            type: object
+            properties:
+              signature:
+                type: string
+              timestamp:
+                type: integer
+              api_key: # This is the Cloudinary API Key (not the Gateway key)
+                type: string
+        '401':
+          description: Unauthorized (Missing or invalid API Gateway API key)
+        '403':
+          description: Forbidden (API Gateway API key valid, but other issues)
+        '405':
+          description: Method Not Allowed (e.g., used GET instead of POST)
+        '500':
+          description: Internal Server Error (Cloud Function or API Gateway issue)
