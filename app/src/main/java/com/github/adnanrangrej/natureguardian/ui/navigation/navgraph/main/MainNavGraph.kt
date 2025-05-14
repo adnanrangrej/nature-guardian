@@ -3,9 +3,11 @@ package com.github.adnanrangrej.natureguardian.ui.navigation.navgraph.main
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import androidx.navigation.navigation
+import com.github.adnanrangrej.natureguardian.ui.navigation.destination.main.MainGraph.LOCATION
 import com.github.adnanrangrej.natureguardian.ui.navigation.destination.main.MainGraph.NEWS
 import com.github.adnanrangrej.natureguardian.ui.navigation.destination.main.MainGraph.PROFILE
 import com.github.adnanrangrej.natureguardian.ui.navigation.destination.main.MainGraph.SPECIES
+import com.github.adnanrangrej.natureguardian.ui.navigation.navgraph.main.location.speciesLocationNavGraph
 import com.github.adnanrangrej.natureguardian.ui.navigation.navgraph.main.news.newsNavGraph
 import com.github.adnanrangrej.natureguardian.ui.navigation.navgraph.main.profile.profileNavGraph
 import com.github.adnanrangrej.natureguardian.ui.navigation.navgraph.main.species.speciesNavGraph
@@ -33,6 +35,10 @@ fun NavGraphBuilder.mainNavGraphGraph(
             navController = navHostController,
             route = PROFILE,
             onLogout = onLogout
+        )
+
+        speciesLocationNavGraph(
+            route = LOCATION
         )
     }
 }
