@@ -8,11 +8,14 @@ import com.github.adnanrangrej.natureguardian.domain.model.species.DetailedSpeci
 import com.github.adnanrangrej.natureguardian.domain.usecase.species.GetAllSpeciesUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.debounce
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
@@ -31,21 +34,38 @@ class SpeciesListViewModel @Inject constructor(
     private val _query = MutableStateFlow("")
     val query: StateFlow<String> = _query
 
+    private val _selectedSpeciesClass =
+        MutableStateFlow<SpeciesFilterChips?>(SpeciesFilterChips.Mammal)
+    val selectedSpeciesClass: StateFlow<SpeciesFilterChips?> = _selectedSpeciesClass
+
+    @OptIn(FlowPreview::class)
     val uiState: StateFlow<SpeciesListUiState> =
-        getAllSpeciesUseCase()
-            .flowOn(Dispatchers.IO)
-            .combine(_query) { speciesList, query ->
-                val filteredSpecies = if (query.isEmpty()) {
-                    speciesList
-                } else {
-                    speciesList.filter { species ->
-                        species.commonNames.any {
-                            it.commonName.contains(query, ignoreCase = true)
-                        } || species.species.scientificName.contains(query, ignoreCase = true)
+        combine(
+            getAllSpeciesUseCase().flowOn(Dispatchers.IO),
+            _query.debounce(300L).distinctUntilChanged(),
+            _selectedSpeciesClass
+        ) { speciesList, query, selectedSpeciesClass ->
+            val classFilteredList = if (selectedSpeciesClass == null) {
+                speciesList
+            } else {
+                speciesList.filter { species ->
+                    species.species.className in selectedSpeciesClass.classNames
+                }
+            }
+
+            val finalList = if (query.isEmpty()) {
+                classFilteredList
+            } else {
+                classFilteredList.filter { species ->
+                    species.species.scientificName.contains(query, ignoreCase = true)
+                            || species.commonNames.any { commonName ->
+                        commonName.commonName.contains(query, ignoreCase = true)
                     }
                 }
-                SpeciesListUiState.Success(filteredSpecies) as SpeciesListUiState
             }
+
+            SpeciesListUiState.Success(finalList) as SpeciesListUiState
+        }
             .catch { throwable ->
                 emit(SpeciesListUiState.Error(throwable.message ?: "Unknown Error Occurred"))
             }
@@ -63,6 +83,16 @@ class SpeciesListViewModel @Inject constructor(
     fun onQueryChange(query: String) {
         _query.update {
             query
+        }
+    }
+
+    fun onSpeciesClassSelected(speciesFilterChips: SpeciesFilterChips) {
+        _selectedSpeciesClass.update {
+            if (it == speciesFilterChips) {
+                null
+            } else {
+                speciesFilterChips
+            }
         }
     }
 
