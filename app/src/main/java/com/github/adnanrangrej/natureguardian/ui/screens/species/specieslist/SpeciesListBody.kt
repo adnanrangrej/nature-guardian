@@ -44,7 +44,7 @@ fun SpeciesListBody(
                 )
 
                 SpeciesList(
-                    modifier = modifier,
+                    modifier = Modifier.weight(1f),
                     species = uiState.speciesList,
                     onSpeciesClick = { onSpeciesClick(it.species.internalTaxonId) },
                     commonName = getCommonName,
