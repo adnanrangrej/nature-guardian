@@ -5,6 +5,7 @@ import com.github.adnanrangrej.natureguardian.data.local.dao.species.FullSpecies
 import com.github.adnanrangrej.natureguardian.data.local.dao.species.SpeciesDao
 import com.github.adnanrangrej.natureguardian.data.remote.api.chatbot.ChatBotApiService
 import com.github.adnanrangrej.natureguardian.data.remote.api.news.NewsApiService
+import com.github.adnanrangrej.natureguardian.data.remote.api.profile.UploadImageApiService
 import com.github.adnanrangrej.natureguardian.data.repository.AuthRepositoryImpl
 import com.github.adnanrangrej.natureguardian.data.repository.ChatBotRepositoryImpl
 import com.github.adnanrangrej.natureguardian.data.repository.NewsRepositoryImpl
@@ -63,8 +64,9 @@ object RepositoryModule {
     fun provideProfileRepository(
         firestore: FirebaseFirestore,
         auth: FirebaseAuth,
+        @Named("signature") imageApiService: UploadImageApiService,
         cloudinary: Cloudinary
     ): ProfileRepository {
-        return ProfileRepositoryImpl(firestore, auth, cloudinary)
+        return ProfileRepositoryImpl(firestore, auth, imageApiService, cloudinary)
     }
 }
