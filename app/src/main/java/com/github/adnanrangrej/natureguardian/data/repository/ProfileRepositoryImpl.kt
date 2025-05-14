@@ -1,6 +1,7 @@
 package com.github.adnanrangrej.natureguardian.data.repository
 
 import com.cloudinary.Cloudinary
+import com.github.adnanrangrej.natureguardian.data.remote.api.profile.UploadImageApiService
 import com.github.adnanrangrej.natureguardian.domain.model.profile.ProfileResult
 import com.github.adnanrangrej.natureguardian.domain.model.profile.User
 import com.github.adnanrangrej.natureguardian.domain.repository.ProfileRepository
@@ -22,6 +23,7 @@ private const val USERS_COLLECTION = "users"
 class ProfileRepositoryImpl @Inject constructor(
     private val firestore: FirebaseFirestore,
     private val auth: FirebaseAuth,
+    private val apiService: UploadImageApiService,
     private val cloudinary: Cloudinary
 ) : ProfileRepository {
     override fun getUserProfile(): Flow<ProfileResult> {
@@ -93,9 +95,19 @@ class ProfileRepositoryImpl @Inject constructor(
     }
 
     override suspend fun uploadProfileImage(file: File): String? = withContext(Dispatchers.IO) {
+        val signatureResponse = apiService.generateSignature()
+        val signature = signatureResponse.signature
+        val timestamp = signatureResponse.timestamp
+        val apiKey = signatureResponse.apiKey
+
+        val uploadOptions = HashMap<String, Any>()
+        uploadOptions["folder"] = "profile_images"
+        uploadOptions["signature"] = signature
+        uploadOptions["timestamp"] = timestamp
+        uploadOptions["api_key"] = apiKey
         try {
             val imageResult =
-                cloudinary.uploader().upload(file, mapOf("folder" to "profile_images"))
+                cloudinary.uploader().upload(file, uploadOptions)
             return@withContext imageResult["secure_url"] as String?
         } catch (e: Exception) {
             e.printStackTrace()
