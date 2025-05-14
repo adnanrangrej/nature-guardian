@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.gms.google.services)
     alias(libs.plugins.devtools.ksp)
     alias(libs.plugins.dagger.hilt.android)
+    id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
 }
 
 android {
@@ -39,6 +40,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 repositories {
@@ -47,6 +49,10 @@ repositories {
     maven {
         setUrl("https://jitpack.io")
     }
+}
+secrets {
+    propertiesFileName = "secrets.properties"
+    defaultPropertiesFileName = "local.defaults.properties"
 }
 dependencies {
 
@@ -74,9 +80,6 @@ dependencies {
     implementation(libs.hilt.android)
     ksp(libs.hilt.android.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
-
-    // to load dotenv file
-    implementation(libs.dotenv.kotlin)
 
     // Gson
     implementation(libs.gson)
