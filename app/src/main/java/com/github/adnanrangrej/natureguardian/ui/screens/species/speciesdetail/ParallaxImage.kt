@@ -4,6 +4,7 @@ import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.widget.Toast
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -12,14 +13,11 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyListState
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.OpenInNew
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.SuggestionChip
-import androidx.compose.material3.SuggestionChipDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -33,9 +31,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
+import com.github.adnanrangrej.natureguardian.ui.components.ConservationStatusChip
 import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianImages
 import com.github.adnanrangrej.natureguardian.ui.screens.species.getDrawableResourceId
-import com.github.adnanrangrej.natureguardian.ui.screens.species.getStatusColor
 
 @Composable
 fun ParallaxImage(
@@ -49,7 +47,6 @@ fun ParallaxImage(
     doi: String
 ) {
     val context = LocalContext.current
-    val statusColor = getStatusColor(redListCategory)
     val placeholder = getDrawableResourceId(className)
     Box(
         modifier = Modifier
@@ -132,21 +129,11 @@ fun ParallaxImage(
             )
 
             // Status chip
-            Row {
-                SuggestionChip(
-                    onClick = {},
-                    label = {
-                        Text(
-                            text = redListCategory,
-                            style = MaterialTheme.typography.labelSmall
-                        )
-                    },
-                    shape = RoundedCornerShape(8.dp),
-                    colors = SuggestionChipDefaults.suggestionChipColors(
-                        containerColor = statusColor,
-                        labelColor = Color.White
-                    )
-                )
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                ConservationStatusChip(redlistCategory = redListCategory)
             }
         }
     }
