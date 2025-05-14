@@ -2,12 +2,14 @@
 agp = "8.10.0"
 awsLambdaJavaCore = "1.2.3"
 cloudinaryAndroidVersion = "3.0.2"
+cloudinaryHttp5 = "2.2.0"
 coilCompose = "3.1.0"
 composeMarkdown = "0.5.7"
 converterGson = "2.11.0"
 dotenvKotlin = "6.5.1"
 dynamodbJvm = "1.4.80"
 firebaseBom = "33.13.0"
+functionsFrameworkApi = "1.1.4"
 gson = "2.13.1"
 hiltAndroid = "2.56.2"
 hiltAndroidCompiler = "2.56.2"
@@ -45,6 +47,8 @@ androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRunt
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 aws-lambda-java-core = { module = "com.amazonaws:aws-lambda-java-core", version.ref = "awsLambdaJavaCore" }
 cloudinary-cloudinary-android = { module = "com.cloudinary:cloudinary-android", version.ref = "cloudinaryAndroidVersion" }
+cloudinary-core = { module = "com.cloudinary:cloudinary-core", version.ref = "cloudinaryHttp5" }
+cloudinary-http5 = { module = "com.cloudinary:cloudinary-http5", version.ref = "cloudinaryHttp5" }
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
 coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coilCompose" }
 compose-markdown = { module = "com.github.jeziellago:compose-markdown", version.ref = "composeMarkdown" }
@@ -53,6 +57,7 @@ dotenv-kotlin = { module = "io.github.cdimascio:dotenv-kotlin", version.ref = "d
 dynamodb-jvm = { module = "aws.sdk.kotlin:dynamodb-jvm", version.ref = "dynamodbJvm" }
 firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+functions-framework-api = { module = "com.google.cloud.functions:functions-framework-api", version.ref = "functionsFrameworkApi" }
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
