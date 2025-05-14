@@ -110,6 +110,7 @@ dependencies {
 
     // Google Maps
     implementation(libs.maps.compose)
+    implementation(libs.maps.compose.utils)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
