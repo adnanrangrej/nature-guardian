@@ -38,7 +38,8 @@ fun NavGraphBuilder.mainNavGraphGraph(
         )
 
         speciesLocationNavGraph(
-            route = LOCATION
+            route = LOCATION,
+            navController = navHostController
         )
     }
 }
