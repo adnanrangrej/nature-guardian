@@ -1,5 +1,7 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.species
 
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import com.github.adnanrangrej.natureguardian.R
 import com.github.adnanrangrej.natureguardian.domain.model.species.CommonName
@@ -122,12 +124,13 @@ fun getFakeSpecies(): DetailedSpecies {
     )
 }
 
+@Composable
 fun getStatusColor(status: String): Color {
     return when (status) {
-        "Critically Endangered" -> Color(0xFFFF0000)
-        "Endangered" -> Color(0xFFE77169)
-        "Vulnerable" -> Color(0xFFF5CC90)
-        else -> Color(0xFF808080)
+        "Critically Endangered" -> MaterialTheme.colorScheme.error
+        "Endangered" -> MaterialTheme.colorScheme.error.copy(alpha = 0.8f)
+        "Vulnerable" -> MaterialTheme.colorScheme.tertiary
+        else -> MaterialTheme.colorScheme.secondary
     }
 }
 
