@@ -5,8 +5,10 @@ import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.automirrored.outlined.List
 import androidx.compose.material.icons.filled.AccountCircle
 import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Map
 import androidx.compose.material.icons.outlined.AccountCircle
 import androidx.compose.material.icons.outlined.Home
+import androidx.compose.material.icons.outlined.Map
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
@@ -32,6 +34,12 @@ fun NatureGuardianBottomNavBar(
             selectedIcon = Icons.Filled.Home,
             unselectedIcon = Icons.Outlined.Home,
             label = "Species"
+        ),
+        BottomNavItem(
+            graphRoute = MainGraph.LOCATION,
+            selectedIcon = Icons.Filled.Map,
+            unselectedIcon = Icons.Outlined.Map,
+            label = "Species Distribution"
         ),
         BottomNavItem(
             graphRoute = MainGraph.NEWS,
