@@ -1,6 +1,7 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.profile.editprofile
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
@@ -8,6 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -69,7 +71,13 @@ fun EditProfileBody(
             enabled = uiState.isEntryValid && !uiState.isSavingProfile && !uiState.isLoadingProfile,
             modifier = Modifier.size(width = 250.dp, height = 50.dp)
         ) {
-            Text("Save")
+            Box(contentAlignment = Alignment.Center) {
+                if (uiState.isSavingProfile) {
+                    CircularProgressIndicator(modifier = Modifier.size(24.dp))
+                } else {
+                    Text("Save")
+                }
+            }
         }
     }
 }
