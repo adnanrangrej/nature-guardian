@@ -17,7 +17,9 @@ fun SpeciesListBody(
     getCommonName: (DetailedSpecies) -> String?,
     getImageUrl: (DetailedSpecies) -> String?,
     query: String,
-    onQueryChange: (String) -> Unit
+    onQueryChange: (String) -> Unit,
+    filterChips: SpeciesFilterChips?,
+    onSpeciesClassSelected: (SpeciesFilterChips) -> Unit
 ) {
     when (uiState) {
         is SpeciesListUiState.Error -> {
@@ -42,7 +44,11 @@ fun SpeciesListBody(
                     onQueryChange = onQueryChange,
                     placeHolderText = "Search species..."
                 )
-
+                SpeciesFilterChipsRow(
+                    modifier = Modifier.fillMaxWidth(),
+                    selectedSpeciesClass = filterChips,
+                    onSpeciesClassSelected = onSpeciesClassSelected
+                )
                 SpeciesList(
                     modifier = Modifier.weight(1f),
                     species = uiState.speciesList,
