@@ -1,10 +1,10 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.species.specieslist
 
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.lazy.grid.GridCells
-import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
-import androidx.compose.foundation.lazy.grid.items
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
@@ -18,20 +18,17 @@ fun SpeciesList(
     commonName: (DetailedSpecies) -> String?,
     imageUrl: (DetailedSpecies) -> String?
 ) {
-    LazyVerticalGrid(
-        columns = GridCells.Fixed(2),
-        contentPadding = PaddingValues(all = 8.dp),
+    LazyColumn(
+        contentPadding = PaddingValues(16.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
         modifier = modifier
     ) {
-        items(
-            items = species,
-            key = { species -> species.species.internalTaxonId }
-        ) {
+        items(items = species, key = { it.species.internalTaxonId }) { species ->
             SpeciesListCard(
-                modifier = Modifier.clickable { onSpeciesClick(it) },
-                species = it,
-                imageUrl = imageUrl(it),
-                commonName = commonName(it),
+                modifier = Modifier.clickable { onSpeciesClick(species) },
+                species = species,
+                imageUrl = imageUrl(species),
+                commonName = commonName(species)
             )
         }
     }
@@ -39,9 +36,9 @@ fun SpeciesList(
 
 @Composable
 fun SpeciesListShimmer(modifier: Modifier = Modifier) {
-    LazyVerticalGrid(
-        columns = GridCells.Fixed(2),
-        contentPadding = PaddingValues(all = 8.dp),
+    LazyColumn(
+        contentPadding = PaddingValues(16.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp),
         modifier = modifier
     ) {
         items(20) {
