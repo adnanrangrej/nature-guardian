@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/apigateway" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/backend" />
+            <option value="$PROJECT_DIR$/cloudinarysignaturegenerator" />
           </set>
         </option>
       </GradleProjectSettings>
