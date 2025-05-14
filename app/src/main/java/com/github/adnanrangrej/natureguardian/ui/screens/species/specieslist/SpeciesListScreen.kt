@@ -23,6 +23,7 @@ fun SpeciesListScreen(
 ) {
     val uiState = viewModel.uiState.collectAsState()
     val showDialog by viewModel.showNotificationDialog.collectAsState()
+    val query by viewModel.query.collectAsState()
     val context = LocalContext.current
 
     SpeciesListBody(
@@ -31,6 +32,8 @@ fun SpeciesListScreen(
         modifier = Modifier.fillMaxSize(),
         getCommonName = viewModel::getCommonName,
         getImageUrl = viewModel::getMainUrl,
+        query = query,
+        onQueryChange = viewModel::onQueryChange
     )
 
     if (showDialog) {

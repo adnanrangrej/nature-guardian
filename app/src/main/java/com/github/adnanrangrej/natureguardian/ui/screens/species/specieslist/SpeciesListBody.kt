@@ -1,10 +1,13 @@
 package com.github.adnanrangrej.natureguardian.ui.screens.species.specieslist
 
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.github.adnanrangrej.natureguardian.R
 import com.github.adnanrangrej.natureguardian.domain.model.species.DetailedSpecies
 import com.github.adnanrangrej.natureguardian.ui.components.ErrorScreen
+import com.github.adnanrangrej.natureguardian.ui.components.NatureGuardianSearchBar
 
 @Composable
 fun SpeciesListBody(
@@ -13,6 +16,8 @@ fun SpeciesListBody(
     modifier: Modifier = Modifier,
     getCommonName: (DetailedSpecies) -> String?,
     getImageUrl: (DetailedSpecies) -> String?,
+    query: String,
+    onQueryChange: (String) -> Unit
 ) {
     when (uiState) {
         is SpeciesListUiState.Error -> {
@@ -28,13 +33,24 @@ fun SpeciesListBody(
         }
 
         is SpeciesListUiState.Success -> {
-            SpeciesList(
-                modifier = modifier,
-                species = uiState.speciesList,
-                onSpeciesClick = { onSpeciesClick(it.species.internalTaxonId) },
-                commonName = getCommonName,
-                imageUrl = getImageUrl
-            )
+            Column(
+                modifier = modifier
+            ) {
+                NatureGuardianSearchBar(
+                    modifier = Modifier.fillMaxWidth(),
+                    query = query,
+                    onQueryChange = onQueryChange,
+                    placeHolderText = "Search species..."
+                )
+
+                SpeciesList(
+                    modifier = modifier,
+                    species = uiState.speciesList,
+                    onSpeciesClick = { onSpeciesClick(it.species.internalTaxonId) },
+                    commonName = getCommonName,
+                    imageUrl = getImageUrl
+                )
+            }
         }
     }
 }

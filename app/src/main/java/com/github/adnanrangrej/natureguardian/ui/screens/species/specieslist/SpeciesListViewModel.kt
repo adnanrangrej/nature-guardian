@@ -12,8 +12,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.flowOn
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
@@ -28,11 +28,23 @@ class SpeciesListViewModel @Inject constructor(
     private val _showNotificationDialog = MutableStateFlow<Boolean>(false)
     val showNotificationDialog: StateFlow<Boolean> = _showNotificationDialog
 
+    private val _query = MutableStateFlow("")
+    val query: StateFlow<String> = _query
+
     val uiState: StateFlow<SpeciesListUiState> =
         getAllSpeciesUseCase()
             .flowOn(Dispatchers.IO)
-            .map { speciesList ->
-                SpeciesListUiState.Success(speciesList) as SpeciesListUiState
+            .combine(_query) { speciesList, query ->
+                val filteredSpecies = if (query.isEmpty()) {
+                    speciesList
+                } else {
+                    speciesList.filter { species ->
+                        species.commonNames.any {
+                            it.commonName.contains(query, ignoreCase = true)
+                        } || species.species.scientificName.contains(query, ignoreCase = true)
+                    }
+                }
+                SpeciesListUiState.Success(filteredSpecies) as SpeciesListUiState
             }
             .catch { throwable ->
                 emit(SpeciesListUiState.Error(throwable.message ?: "Unknown Error Occurred"))
@@ -47,6 +59,12 @@ class SpeciesListViewModel @Inject constructor(
         checkIfShouldAskNotification()
     }
 
+
+    fun onQueryChange(query: String) {
+        _query.update {
+            query
+        }
+    }
 
     fun getCommonName(detailedSpecies: DetailedSpecies): String? {
         val mainName = detailedSpecies.commonNames.find {
