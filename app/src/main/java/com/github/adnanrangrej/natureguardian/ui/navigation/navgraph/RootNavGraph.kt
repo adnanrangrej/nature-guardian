@@ -1,7 +1,5 @@
 package com.github.adnanrangrej.natureguardian.ui.navigation.navgraph
 
-import androidx.compose.animation.EnterTransition
-import androidx.compose.animation.ExitTransition
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
@@ -22,8 +20,6 @@ fun RootNavGraph(
         navController = navController,
         startDestination = SplashNavigation.Splash.route,
         route = NatureGuardianGraph.ROOT,
-        enterTransition = { EnterTransition.None },
-        exitTransition = { ExitTransition.None },
         modifier = modifier
     ) {
         composable(route = SplashNavigation.Splash.route) {
