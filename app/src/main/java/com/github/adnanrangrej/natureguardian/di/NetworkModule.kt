@@ -2,12 +2,12 @@ package com.github.adnanrangrej.natureguardian.di
 
 import com.cloudinary.Cloudinary
 import com.github.adnanrangrej.natureguardian.Utils.getBackendBaseUrl
-import com.github.adnanrangrej.natureguardian.Utils.getCloudinaryApiKey
-import com.github.adnanrangrej.natureguardian.Utils.getCloudinaryApiSecret
+import com.github.adnanrangrej.natureguardian.Utils.getCloudinaryBackendUrl
 import com.github.adnanrangrej.natureguardian.Utils.getCloudinaryCloudName
 import com.github.adnanrangrej.natureguardian.data.remote.api.chatbot.ChatBotApiService
 import com.github.adnanrangrej.natureguardian.data.remote.api.news.NewsApiService
 import com.github.adnanrangrej.natureguardian.data.remote.api.notification.BackendApiService
+import com.github.adnanrangrej.natureguardian.data.remote.api.profile.UploadImageApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -27,6 +27,16 @@ object NetworkModule {
     fun provideRetrofit(): Retrofit {
         return Retrofit.Builder()
             .baseUrl(getBackendBaseUrl())
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+    }
+
+    @Provides
+    @Singleton
+    @Named("cloudinary")
+    fun provideCloudinaryRetrofit(): Retrofit {
+        return Retrofit.Builder()
+            .baseUrl(getCloudinaryBackendUrl())
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
@@ -54,11 +64,17 @@ object NetworkModule {
 
     @Provides
     @Singleton
+    @Named("signature")
+    fun provideSignatureApiService(@Named("cloudinary") retrofit: Retrofit): UploadImageApiService {
+        return retrofit.create(UploadImageApiService::class.java)
+    }
+
+    @Provides
+    @Singleton
     fun provideCloudinary(): Cloudinary {
         val config = HashMap<String, String>()
         config["cloud_name"] = getCloudinaryCloudName()
-        config["api_key"] = getCloudinaryApiKey()
-        config["api_secret"] = getCloudinaryApiSecret()
         return Cloudinary(config)
     }
+
 }
