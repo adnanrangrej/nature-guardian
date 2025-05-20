@@ -6,7 +6,6 @@ cloudinaryHttp5 = "2.2.0"
 coilCompose = "3.2.0"
 composeMarkdown = "0.5.7"
 converterGson = "3.0.0"
-dotenvKotlin = "6.5.1"
 dynamodbJvm = "1.4.87"
 firebaseBom = "33.13.0"
 functionsFrameworkApi = "1.1.4"
@@ -55,7 +54,6 @@ coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCo
 coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coilCompose" }
 compose-markdown = { module = "com.github.jeziellago:compose-markdown", version.ref = "composeMarkdown" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
-dotenv-kotlin = { module = "io.github.cdimascio:dotenv-kotlin", version.ref = "dotenvKotlin" }
 dynamodb-jvm = { module = "aws.sdk.kotlin:dynamodb-jvm", version.ref = "dynamodbJvm" }
 firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
 firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
