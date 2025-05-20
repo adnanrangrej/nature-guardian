@@ -22,18 +22,40 @@
 
 ---
 
-## 📸 Screenshots / Demo Video
+## 📸 Screenshots & Demo
 
-> **Note to Contributors:** Please add screenshots or a short demo video here to showcase the app's user interface and key functionalities!  
->
-> Example:  
-> ```html
-> <p align="center">
->   <img src="docs/screenshot_species_list.png" width="250" alt="Screenshot of Species List"/>
->   <img src="docs/screenshot_map_view.png" width="250" alt="Screenshot of Map View"/>
->   <img src="docs/screenshot_chatbot.png" width="250" alt="Screenshot of Chatbot"/>
-> </p>
-> ```
+Dive into **NatureGuardian** with these vibrant screenshots showcasing the app’s core features! From exploring endangered species to engaging with our AI-powered NatureBot, these glimpses highlight the seamless user experience and rich functionality. For a complete gallery, visit the [docs/screenshots/](docs/screenshots/) directory, or check out our demo video below.
+
+<div align="center">
+  <table style="border-collapse: collapse; width: 100%; max-width: 800px;">
+    <tr>
+      <td align="center" style="padding: 10px;">
+        <img src="docs/species_list_screen.jpg" width="160" alt="Species List Screen" style="border: 2px solid #4CAF50; border-radius: 8px;"/>
+        <p><strong>Species List</strong><br>Browse 200+ rare species with rich profiles.</p>
+      </td>
+      <td align="center" style="padding: 10px;">
+        <img src="docs/species_distribution_map_screen.jpg" width="160" alt="Species Map Distribution Screen" style="border: 2px solid #4CAF50; border-radius: 8px;"/>
+        <p><strong>Map View</strong><br>Visualize habitats with Google Maps clustering.</p>
+      </td>
+      <td align="center" style="padding: 10px;">
+        <img src="docs/news_list_screen.jpg" width="160" alt="News List Screen" style="border: 2px solid #4CAF50; border-radius: 8px;"/>
+        <p><strong>News Feed</strong><br>Stay updated with real-time conservation news.</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding: 10px;">
+        <img src="docs/species_detail_screen_1.jpg" width="160" alt="Species Detail Overview Screen" style="border: 2px solid #4CAF50; border-radius: 8px;"/>
+        <p><strong>Species Details</strong><br>Explore in-depth species information.</p>
+      </td>
+      <td align="center" style="padding: 10px;">
+        <img src="docs/nature_bot_success.jpg" width="160" alt="Nature Bot Chat Success Screen" style="border: 2px solid #4CAF50; border-radius: 8px;"/>
+        <p><strong>NatureBot</strong><br>Chat with our AI about wildlife conservation.</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+> 🌟 **Want to see more?** Check out the full screenshot gallery in [docs/screenshots/](docs/screenshots/), or contribute your own screenshots and videos to enhance this section! See [Contributing](#-contributing) for details.
 
 ---
 
