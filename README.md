@@ -33,11 +33,17 @@
 </p>
 -->
 
-You can also download the **demo APK** here (for testing without publishing):  
-[📥 natureguardian-demo.apk](./app-debug.apk)
-
 ---
 
+## 📦 Demo APK
+
+You can try out the app by downloading the demo APK here:
+
+👉 [Download APK](https://github.com/YOUR_USERNAME/nature-guardian/releases/download/v1.0-demo/app-release.apk)
+
+⚠️ Make sure to allow installation from unknown sources on your device.
+
+---
 
 
 ## 🏗️ Project Structure
