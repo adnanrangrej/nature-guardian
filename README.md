@@ -24,7 +24,7 @@
 
 ## 📸 Screenshots & Demo
 
-Dive into **NatureGuardian** with these vibrant screenshots showcasing the app’s core features! From exploring endangered species to engaging with our AI-powered NatureBot, these glimpses highlight the seamless user experience and rich functionality. For a complete gallery, visit the [docs/screenshots/](docs/screenshots/) directory, or check out our demo video below.
+Dive into **NatureGuardian** with these vibrant screenshots showcasing the app’s core features! From exploring endangered species to engaging with our AI-powered NatureBot, these glimpses highlight the seamless user experience and rich functionality. For a complete gallery, visit the [docs/screenshots/](docs/) directory, or check out our demo video below.
 
 <div align="center">
   <table style="border-collapse: collapse; width: 100%; max-width: 800px;">
@@ -55,7 +55,7 @@ Dive into **NatureGuardian** with these vibrant screenshots showcasing the app�
   </table>
 </div>
 
-> 🌟 **Want to see more?** Check out the full screenshot gallery in [docs/screenshots/](docs/screenshots/), or contribute your own screenshots and videos to enhance this section! See [Contributing](#-contributing) for details.
+> 🌟 **Want to see more?** Check out the full screenshot gallery in [docs/screenshots/](docs/), or contribute your own screenshots and videos to enhance this section! See [Contributing](#-contributing) for details.
 
 ---
 
