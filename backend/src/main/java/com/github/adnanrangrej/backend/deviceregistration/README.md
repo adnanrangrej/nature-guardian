@@ -88,11 +88,11 @@ The function expects a JSON object with the following structure:
 
 The function requires the following environment variables, configured in the AWS Lambda console or deployment configuration:
 
-| Variable                  | Description                                                                 | Example Value                                      |
-|---------------------------|-----------------------------------------------------------------------------|---------------------------------------------------|
-| `PLATFORM_APPLICATION_ARN` | ARN of the SNS Platform Application (e.g., for FCM or APNS).                | `arn:aws:sns:us-east-1:123456789012:app/GCM/YourAppName` |
-| `SNS_TOPIC_ARN`           | ARN of the SNS Topic for notifications.                                     | `arn:aws:sns:us-east-1:123456789012:YourNotificationTopic` |
-| `AWS_REGION`              | AWS region where SNS resources are located.                                 | `us-east-1`                                       |
+| Variable                   | Description                                                  | Example Value                                              |
+|----------------------------|--------------------------------------------------------------|------------------------------------------------------------|
+| `PLATFORM_APPLICATION_ARN` | ARN of the SNS Platform Application (e.g., for FCM or APNS). | `arn:aws:sns:us-east-1:123456789012:app/GCM/YourAppName`   |
+| `SNS_TOPIC_ARN`            | ARN of the SNS Topic for notifications.                      | `arn:aws:sns:us-east-1:123456789012:YourNotificationTopic` |
+| `AWS_REGION`               | AWS region where SNS resources are located.                  | `us-east-1`                                                |
 
 These are accessed in the Kotlin code using utility functions like `getPlatformApplicationArn()`, `getSnsTopicArn()`, and `getRegion()`.
 
