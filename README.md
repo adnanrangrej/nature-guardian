@@ -6,7 +6,7 @@
 
 **NatureGuardian** is a feature-rich Android app designed to raise awareness about India's rare, endangered, and threatened (RET) species. It integrates AI chat assistance, species mapping, real-time news updates, and secure media uploads—all powered by modern cloud services and serverless backends.
 
-> ⚠️ **Educational Demo & Development Project**
+> ⚠️ **Educational Demo & Development Project**  
 > This project is provided as an educational demo. The downloadable APK is for preview purposes. To build and run the project from source, or to deploy the backend services, you will need to set up and configure your own cloud credentials and API keys as outlined below.
 
 ---
@@ -24,10 +24,10 @@
 
 ## 📸 Screenshots / Demo Video
 
-> **Note to Contributors:** Please add screenshots or a short demo video here to showcase the app's user interface and key functionalities!
+> **Note to Contributors:** Please add screenshots or a short demo video here to showcase the app's user interface and key functionalities!  
 >
-> Example:
-> ```
+> Example:  
+> ```html
 > <p align="center">
 >   <img src="docs/screenshot_species_list.png" width="250" alt="Screenshot of Species List"/>
 >   <img src="docs/screenshot_map_view.png" width="250" alt="Screenshot of Map View"/>
@@ -44,9 +44,9 @@ You can try out a pre-built version of the app by downloading the demo APK from 
 👉 **[Download Demo APK (v1.0-demo)](https://github.com/adnanrangrej/nature-guardian/releases/download/v1.0-demo/app-release.apk)**
 
 **Notes for Demo APK:**
-* This APK is signed with a demo key and is intended for preview purposes only.
-* It is pre-configured to connect to the project's demonstration backend services (where applicable and available). Functionality relying on these services may be rate-limited or subject to change.
-* You may need to enable "Installation from Unknown Sources" on your Android device to install the APK.
+- This APK is signed with a demo key and is intended for preview purposes only.
+- It is pre-configured to connect to the project's demonstration backend services (where applicable and available). Functionality relying on these services may be rate-limited or subject to change.
+- You may need to enable "Installation from Unknown Sources" on your Android device to install the APK.
 
 ---
 
@@ -59,99 +59,134 @@ NatureGuardian/
 ├── apigateway/                     # AWS Lambda: API for fetching news from DynamoDB
 ├── cloudinarysignaturegenerator/   # Google Cloud Function: generates signatures for secure image uploads
 ├── naturebot/                      # Python Lambda: Google Gemini-powered AI species assistant
-└── docs/                           # (Recommended) For screenshots, architecture diagrams, etc.
+└── docs/                           # For screenshots, architecture diagrams, etc.
 ```
 
----
+### ☁️ Backend Services: Lambdas & Cloud Functions
+The backend for NatureGuardian is composed of several serverless functions:
 
-## ☁️ Lambdas & Cloud Functions
+| Name                        | Technology        | Purpose                                                                 | Path in Repository                     |
+|-----------------------------|-------------------|-------------------------------------------------------------------------|---------------------------------------|
+| NewsNotifierLambda          | Kotlin (AWS)      | Fetches GNews articles & updates DynamoDB (scheduled via EventBridge)   | `/backend/NewsNotifierLambda/`        |
+| DeviceRegisterLambda        | Kotlin (AWS)      | Registers devices to an AWS SNS topic for push notifications            | `/backend/DeviceRegisterLambda/`      |
+| NewsApiLambda               | Kotlin (AWS)      | Provides an API Gateway endpoint to fetch news from DynamoDB            | `/apigateway/NewsApiLambda/`          |
+| CloudinarySignatureFunction | Kotlin (GCP)      | Generates secure signatures for Cloudinary uploads (via Google Cloud Run) | `/cloudinarysignaturegenerator/`      |
+| NatureGuardianBotLambda     | Python (AWS)      | Powers the AI chatbot using the Google Gemini API                       | `/naturebot/`                         |
 
-| Name                              | Stack   | Purpose                                            | Path                              |
-|-----------------------------------|---------|----------------------------------------------------|-----------------------------------|
-| **NewsNotifierLambda**            | Kotlin  | Fetch GNews & update DynamoDB every 15 min         | `/backend/NewsNotifierLambda/`    |
-| **DeviceRegisterLambda**          | Kotlin  | Register devices to AWS SNS topic                  | `/backend/DeviceRegisterLambda/`  |
-| **NewsApiLambda**                 | Kotlin  | API to fetch news from DynamoDB                    | `/apigateway/NewsApiLambda/`      |
-| **CloudinarySignatureFunction**   | Kotlin  | Sign Cloudinary uploads via Google Cloud Run       | `/cloudinarysignaturegenerator/`  |
-| **NatureGuardianBotLambda**       | Python  | Gemini API chatbot for species queries             | `/naturebot/`                     |
-
-> Each folder contains its own `README.md` with setup & deployment steps.
-
----
-
-## 🚀 Technologies Used
-
-- **Android**: Jetpack Compose, Kotlin  
-- **Local DB**: Room (CSV import)  
-- **Maps**: Google Maps SDK + Marker Clustering  
-- **AI**: Google Gemini API (Python Lambda)  
-- **News**: GNews API, AWS Lambda, DynamoDB, EventBridge  
-- **Notifications**: AWS SNS, Firebase Cloud Messaging  
-- **Auth & Storage**: Firebase Auth, Firestore  
-- **Media**: Cloudinary (signed uploads) via Google Cloud Run  
+> Each backend service folder contains its own `README.md` with detailed setup, deployment, and configuration instructions.
 
 ---
 
-## 🛠️ Setup Instructions
+## 🚀 Technologies & Libraries Used
 
-> This demo requires you to configure **your own** cloud resources and API keys.
-
-1. **Firebase**  
-   - Place `google-services.json` in `app/`  
-   - Enable Auth & Firestore
-
-2. **Google Maps**  
-   - Create `secrets.properties` in `app/`:  
-     ```properties
-     MAPS_API_KEY=YOUR_GOOGLE_MAPS_KEY
-     ```
-
-3. **AWS**  
-   - Deploy Lambdas in `backend/` & `apigateway/`  
-   - Set up:
-     - DynamoDB table for news
-     - SNS topic for notifications
-     - API Gateway endpoints
-     - EventBridge rule (15 min) for NewsNotifierLambda
-
-4. **Google Cloud**  
-   - Deploy Cloud Run service from `cloudinarysignaturegenerator/`  
-   - Secure with Cloud IAM or API Gateway
-
-5. **Python Lambda**  
-   - Zip and deploy `/naturebot/` to AWS Lambda  
-   - Set environment var `GEMINI_API_KEY` in its configuration
+- **Android UI**: Jetpack Compose
+- **Language**: Kotlin
+- **Local Database**: Android Room (with CSV data import)
+- **Mapping**: Google Maps SDK for Android, Jetpack Maps Compose, Marker Clustering
+- **AI Chatbot**: Google Gemini API (via Python Lambda)
+- **News Aggregation**: GNews API, AWS Lambda, Amazon DynamoDB, Amazon EventBridge (for scheduling)
+- **Push Notifications**: AWS SNS, Firebase Cloud Messaging (FCM)
+- **Authentication**: Firebase Authentication
+- **User Data Storage**: Firebase Firestore (for user profiles, etc.)
+- **Media Uploads**: Cloudinary (for image storage, with signed uploads via Google Cloud Run)
+- **Networking**: Retrofit, OkHttp
+- **Dependency Injection**: Hilt (Dagger)
+- **Image Loading**: Coil
+- **Navigation**: Jetpack Navigation Compose
+- **Secrets Management**: Secrets Gradle Plugin for Android
 
 ---
 
-## 📂 Lambda & Function READMEs
+## 🛠️ Setup Instructions (For Building from Source)
 
-For setup, deployment, and configuration of individual Lambdas:
+To build and run the NatureGuardian Android app from source, or to deploy your own backend, you'll need to configure your own cloud resources and API keys.
 
-- /backend/README.md
-- /apigateway/README.md
-- /cloudinarysignaturegenerator/README.md
-- /naturebot/README.md
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/adnanrangrej/nature-guardian.git
+   cd nature-guardian
+   ```
+
+2. **Android App Setup (`app/` directory)**:
+
+   a. **Firebase**:
+   - Go to the [Firebase Console](https://console.firebase.google.com/) and create a new Android project.
+   - Register your app with the package name `com.github.adnanrangrej.natureguardian` (or your own if you change it).
+   - Download the `google-services.json` file and place it in the `app/` directory of the cloned project.
+   - Enable Firebase Authentication (e.g., Email/Password sign-in).
+   - Enable Cloud Firestore and set up basic security rules.
+
+   b. **Secrets Configuration (`app/secrets.properties`)**:
+   The Android app uses the Secrets Gradle Plugin to manage API keys. Create a file named `secrets.properties` in the `app/` directory with the following keys (replace `YOUR_..._KEY` with your actual values):
+
+   ```properties
+   MAPS_API_KEY=YOUR_Maps_API_KEY
+   BACKEND_BASE_URL=YOUR_DEPLOYED_NEWS_API_GATEWAY_ENDPOINT_URL
+   CLOUDINARY_CLOUD_NAME=YOUR_CLOUDINARY_CLOUD_NAME
+   CLOUDINARY_BACKEND_URL=YOUR_DEPLOYED_CLOUDINARY_SIGNATURE_FUNCTION_URL
+   CLOUDINARY_BACKEND_URL_API_KEY=YOUR_CLOUDINARY_SIGNATURE_FUNCTION_API_KEY_IF_ANY
+   # Note: The GEMINI_API_KEY for the NatureBot is configured in its Python Lambda environment, not here.
+   ```
+
+   - `MAPS_API_KEY`: Your API key for the Google Maps SDK for Android.
+   - `BACKEND_BASE_URL`: The base URL of your deployed News API Lambda (via API Gateway).
+   - `CLOUDINARY_CLOUD_NAME`: Your Cloudinary account's cloud name.
+   - `CLOUDINARY_BACKEND_URL`: The URL of your deployed Cloudinary Signature Generator function (e.g., on Google Cloud Run).
+   - `CLOUDINARY_BACKEND_URL_API_KEY`: An API key if you've secured your signature generation endpoint.
+
+   Ensure this `secrets.properties` file is **not** committed to your version control (it should be in `.gitignore`).
+
+   c. **Build the App**:
+   Open the project in Android Studio, let Gradle sync, and then build and run on an emulator or device.
+
+3. **Backend Services Setup**:
+
+   For each service in the `backend/`, `apigateway/`, `cloudinarysignaturegenerator/`, and `naturebot/` directories:
+   - Navigate into the respective directory.
+   - Follow the instructions in its `README.md` file for setup, configuration (including API keys like `GEMINI_API_KEY` for `naturebot`), and deployment to AWS or Google Cloud.
+   - You will need to set up:
+     - **AWS**: DynamoDB table (for news), SNS topic (for notifications), API Gateway endpoints, IAM roles, and an EventBridge rule (e.g., 15-minute schedule for `NewsNotifierLambda`).
+     - **Google Cloud**: A Cloud Run service for the Cloudinary signature generator (secure it appropriately).
+     - **Cloudinary**: A Cloudinary account.
+     - **Google Gemini**: An API key for the NatureBot.
 
 ---
 
-## 🙋 Limitations
+## 📂 Detailed Backend READMEs
 
-- Not published to Play Store (no package signing)  
-- Requires private keys & billing-enabled cloud accounts  
-- Designed for **educational/demo** use only  
+For specific setup, deployment, and configuration of individual backend services, please refer to their dedicated README files:
+
+- `backend/README.md`
+- `apigateway/README.md`
+- `cloudinarysignaturegenerator/README.md`
+- `naturebot/README.md`
+
+---
+
+## 🙋 Known Limitations & Considerations
+
+- **Demo APK Signing**: The provided demo APK is signed with a temporary demonstration key, not a production Play Store key.
+- **Backend Costs**: Deploying the backend services will require accounts with AWS and Google Cloud, which may incur costs based on usage.
+- **Educational Focus**: This project is primarily for educational and demonstration purposes. While comprehensive, it may not cover all production-level hardening or optimization aspects.
+- **API Key Security**: Always handle your API keys and cloud credentials securely. Do not commit them to your repository.
 
 ---
 
 ## 🤝 Contributing
 
-1. Fork the repo  
-2. Create a feature branch (`git checkout -b feature/XYZ`)  
-3. Commit your changes (`git commit -m "Add XYZ"`)  
-4. Push to the branch (`git push origin feature/XYZ`)  
-5. Open a Pull Request
+Contributions are welcome! If you'd like to improve NatureGuardian:
+
+1. Fork the repository.
+2. Create a new feature branch (`git checkout -b feature/YourAmazingFeature`).
+3. Commit your changes (`git commit -m "Add YourAmazingFeature"`).
+4. Push to the branch (`git push origin feature/YourAmazingFeature`).
+5. Open a Pull Socialism6. Please ensure your code adheres to the existing style and that any new backend components also include a `README.md` for setup.
 
 ---
 
 ## 📄 License
 
-MIT © 2025 Adnan Rangrej 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+MIT © 2025 Adnan Rangrej
