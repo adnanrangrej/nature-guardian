@@ -39,7 +39,7 @@
 
 You can try out the app by downloading the demo APK here:
 
-👉 [Download APK](https://github.com/YOUR_USERNAME/nature-guardian/releases/download/v1.0-demo/app-release.apk)
+👉 [Download APK](https://github.com/adnanrangrej/nature-guardian/releases/download/v1.0-demo/app-release.apk)
 
 ⚠️ Make sure to allow installation from unknown sources on your device.
 
