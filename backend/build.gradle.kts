@@ -16,8 +16,6 @@ repositories {
     mavenCentral() // Common for Java/Kotlin dependencies
 }
 dependencies {
-    // to load dotenv file
-    implementation(libs.dotenv.kotlin)
 
     // aws lambda
     implementation(libs.aws.lambda.java.core)
