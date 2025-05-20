@@ -65,13 +65,13 @@ NatureGuardian/
 ### ☁️ Backend Services: Lambdas & Cloud Functions
 The backend for NatureGuardian is composed of several serverless functions:
 
-| Name                        | Technology        | Purpose                                                                 | Path in Repository                     |
-|-----------------------------|-------------------|-------------------------------------------------------------------------|---------------------------------------|
-| NewsNotifierLambda          | Kotlin (AWS)      | Fetches GNews articles & updates DynamoDB (scheduled via EventBridge)   | `/backend/NewsNotifierLambda/`        |
-| DeviceRegisterLambda        | Kotlin (AWS)      | Registers devices to an AWS SNS topic for push notifications            | `/backend/DeviceRegisterLambda/`      |
-| NewsApiLambda               | Kotlin (AWS)      | Provides an API Gateway endpoint to fetch news from DynamoDB            | `/apigateway/NewsApiLambda/`          |
-| CloudinarySignatureFunction | Kotlin (GCP)      | Generates secure signatures for Cloudinary uploads (via Google Cloud Run) | `/cloudinarysignaturegenerator/`      |
-| NatureGuardianBotLambda     | Python (AWS)      | Powers the AI chatbot using the Google Gemini API                       | `/naturebot/`                         |
+| Name                        | Technology   | Purpose                                                                   | Path in Repository               |
+|-----------------------------|--------------|---------------------------------------------------------------------------|----------------------------------|
+| NewsNotifierLambda          | Kotlin (AWS) | Fetches GNews articles & updates DynamoDB (scheduled via EventBridge)     | `/backend/NewsNotifierLambda/`   |
+| DeviceRegisterLambda        | Kotlin (AWS) | Registers devices to an AWS SNS topic for push notifications              | `/backend/DeviceRegisterLambda/` |
+| NewsApiLambda               | Kotlin (AWS) | Provides an API Gateway endpoint to fetch news from DynamoDB              | `/apigateway/NewsApiLambda/`     |
+| CloudinarySignatureFunction | Kotlin (GCP) | Generates secure signatures for Cloudinary uploads (via Google Cloud Run) | `/cloudinarysignaturegenerator/` |
+| NatureGuardianBotLambda     | Python (AWS) | Powers the AI chatbot using the Google Gemini API                         | `/naturebot/`                    |
 
 > Each backend service folder contains its own `README.md` with detailed setup, deployment, and configuration instructions.
 
