@@ -189,4 +189,4 @@ Contributions are welcome! If you'd like to improve NatureGuardian:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-MIT © 2025 Adnan Rangrej
+MIT © 2025 Md Adnan
