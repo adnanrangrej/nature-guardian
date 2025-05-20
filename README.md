@@ -34,7 +34,7 @@
 -->
 
 You can also download the **demo APK** here (for testing without publishing):  
-[📥 natureguardian-demo.apk](./natureguardian-demo.apk)
+[📥 natureguardian-demo.apk](./app-debug.apk)
 
 ---
 
