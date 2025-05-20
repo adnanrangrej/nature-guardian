@@ -22,13 +22,29 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        create("demoRelease") {
+            storeFile = file("demo-release-key.keystore")
+            storePassword = "HAHAHA@##189aaa"
+            keyAlias = "demoKeyAlias"
+            keyPassword = "HAHAHA@##189aaa"
+        }
+    }
+
     buildTypes {
         release {
+            signingConfig = signingConfigs.getByName("demoRelease")
+            isDebuggable = false
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+        }
+
+        debug {
+            isMinifyEnabled = false
+            isDebuggable = true
         }
     }
     compileOptions {
