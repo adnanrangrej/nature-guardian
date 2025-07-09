@@ -1,7 +1,7 @@
 [versions]
 agp = "8.11.0"
 awsLambdaJavaCore = "1.3.0"
-cloudinaryAndroid = "2.8.0"
+cloudinaryAndroid = "3.0.2"
 cloudinaryHttp5 = "2.3.0"
 coilCompose = "3.2.0"
 composeMarkdown = "0.5.7"
