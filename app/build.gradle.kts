@@ -48,16 +48,16 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-    kotlinOptions {
-        jvmTarget = "11"
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     buildFeatures {
         compose = true
         buildConfig = true
     }
+}
+kotlin {
+    jvmToolchain(17)
 }
 repositories {
     google()       // For Android dependencies
@@ -122,7 +122,7 @@ dependencies {
     implementation(libs.compose.markdown)
 
     // Cloudinary
-    implementation(libs.cloudinary.cloudinary.android)
+    implementation(libs.cloudinary.android)
 
     // Google Maps
     implementation(libs.maps.compose)
