@@ -23,7 +23,7 @@ class EditProfileViewModel @Inject constructor(
     private val getUserProfileUseCase: GetUserProfileUseCase,
     private val updateUserProfileUseCase: UpdateUserProfileUseCase,
     private val uploadProfileImageUseCase: UploadProfileImageUseCase,
-    @ApplicationContext private val context: Context
+    @param:ApplicationContext private val context: Context
 ) : ViewModel() {
 
     private val _uiState = mutableStateOf(EditProfileUiState())
